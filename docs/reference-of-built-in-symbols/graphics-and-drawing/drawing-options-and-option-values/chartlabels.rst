@@ -1,0 +1,15 @@
+ChartLabels
+===========
+
+`WMA link <https://reference.wolfram.com/language/ref/ChartLabels.html>`_
+
+
+:code:`ChartLabels`
+    is a charting option that specifies what labels should be used for chart           elements.
+
+
+
+
+
+>>> PieChart[{30, 20, 10}, ChartLabels -> {Dogs, Cats, Fish}]
+  = -Graphics-

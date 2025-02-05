@@ -1,0 +1,17 @@
+RightTeeVector
+==============
+
+`WML link <https://reference.wolfram.com/language/ref/RightTeeVector.html>`_
+
+
+:code:`RightTeeVector[:math:`x`, :math:`y`, ...]`
+    displays :math:`x` ⥛ :math:`y` ⥛ ...
+
+
+
+
+
+>>> RightTeeVector[x, y, z]
+  = x ⥛ y ⥛ z
+>>> a \[RightTeeVector] b
+  = a ⥛ b

@@ -1,0 +1,49 @@
+Plus
+====
+
+`Addition <https://en.wikipedia.org/wiki/Addition>`_ (`SymPy <https://docs.sympy.org/latest/modules/core.html#id48>`_, `WMA <https://reference.wolfram.com/language/ref/Plus.html>`_)
+
+
+:code:`Plus` [:math:`a`, :math:`b`, ...]
+    same as
+
+:math:`a` + :math:`b` + ...
+    represents the sum of the terms :math:`a`, :math:`b`, ...
+
+
+
+
+
+>>> 1 + 2
+  = 3
+
+:code:`Plus`  performs basic simplification of terms:
+
+>>> a + b + a
+  = 2 a + b
+>>> a + a + 3 * a
+  = 5 a
+>>> a + b + 4.5 + a + b + a + 2 + 1.5 b
+  = 6.5 + 3 a + 3.5 b
+
+Apply :code:`Plus`  on a list to sum up its elements:
+
+>>> Plus @@ {2, 4, 6}
+  = 12
+
+The sum of the first 1000 integers:
+
+>>> Plus @@ Range[1000]
+  = 500500
+
+:code:`Plus`  has default value 0:
+
+>>> DefaultValues[Plus]
+  = {HoldPattern[Default[Plus]] :> 0}
+>>> a /. n_. + x_ :> {n, x}
+  = {0, a}
+
+The sum of 2 red circles and 3 red circles is...
+
+>>> 2 Graphics[{Red,Disk[]}] + 3 Graphics[{Red,Disk[]}]
+  = 5 -Graphics-

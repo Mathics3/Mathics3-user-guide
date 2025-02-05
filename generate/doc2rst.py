@@ -17,6 +17,7 @@ The information for this comes from:
 
 import os
 import os.path as osp
+import shutil
 import subprocess
 import sys
 from argparse import ArgumentParser
@@ -29,6 +30,7 @@ from mathics.core.definitions import Definitions
 from mathics.core.load_builtin import import_and_load_builtins
 from mathics.doc.utils import load_doctest_data
 from mathics.eval.pymathics import PyMathicsLoadException, eval_LoadModule
+from mathics.settings import DOC_DIR 
 from mpmath import __version__ as mpmathVersion
 from numpy import __version__ as NumPyVersion
 from rst_doc import RsTMathicsMainDocumentation
@@ -133,7 +135,16 @@ def process_doc_element(
     content = title + "\n" + "=" * len(title) + "\n\n"
 
     if hasattr(doc_element, "doc") and doc_element.doc is not None:
-        content += doc_element.doc.rst(doc_data)
+        doc_content = doc_element.doc.rst(doc_data)
+        images = [line for line in doc_content.split("\n") if line.startswith(".. image:: ")]
+        images = [line[11:].strip() for line in images]
+        for image_fn in images:
+            print(image_fn)
+            img_path, fn = osp.split(image_fn)
+            print(image_fn, "->",osp.join(path, fn))
+            shutil.copy(image_fn, osp.join(path, fn))
+            doc_content = doc_content.replace(image_fn, fn)
+        content += doc_content
 
     if children:
         content += "\n\n"
@@ -183,7 +194,7 @@ def write_rst(
     content += "\n\n"
     content += ".. toctree::\n    :maxdepth: 2\n\n    "
     content += "\n    ".join(child[1][len_curr_path:] for child in parts)
-    content += "\n    ".join(child[1][len_curr_path:] for child in appendices)
+    content += "\n    "+"\n    ".join(child[1][len_curr_path:] for child in appendices)
     content += "\n\n"
 
     with open(osp.join(DOC_RST_DIR, "index.rst"), "w") as outfile:

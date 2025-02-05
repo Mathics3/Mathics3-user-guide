@@ -54,3 +54,8 @@ html_theme = "alabaster"
 # html_static_path = ['_static']
 
 smartquotes = True
+
+latex_engine = 'xelatex'
+latex_elements = {
+    'input_enc': r'\usepackage[utf8]{inputenc}',
+}

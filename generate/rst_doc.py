@@ -1,4 +1,6 @@
+
 import re
+import os.path as osp
 from typing import Callable, Optional, Sequence
 
 from mathics.doc.doc_entries import (
@@ -36,6 +38,8 @@ from mathics.doc.structure import (
     Documentation,
     MathicsMainDocumentation,
 )
+from mathics.settings import DOC_DIR
+
 
 ITALIC_RE = re.compile(r"(?s)<(?P<tag>i)>(?P<content>.*?)</(?P=tag)>")
 
@@ -238,7 +242,9 @@ class RsTDocText(DocText):
             # TODO: consider to implement this using
             # substitutions
             src = match.group("src")
-            return """.. image:: %s\n""" % (src,)
+            result = """.. image:: %s\n""" % (osp.join(DOC_DIR,"..","latex","images", src.strip()),)
+            print("img ",result)
+            return result
 
         text, post_substitutions = pre_sub(
             IMG_RE, text, repl_img, tuple(post_substitutions)
@@ -247,7 +253,7 @@ class RsTDocText(DocText):
         # Process LaTeX equations.
         def repl_display_eq(match) -> str:
             eq = match.group(1)
-            return f"\n:math:`{eq}`\n"
+            return f"\n.. :math:`{eq}`\n"
 
         def repl_inline_eq(match) -> str:
             eq = match.group(1)
@@ -271,17 +277,24 @@ class RsTDocText(DocText):
         def repl_hypertext(match) -> str:
             tag = match.group("tag")
             content = match.group("content")
+            content = content.replace("\n", "")
             if tag == "em":
                 return f"`<{content}>`_"
 
             text = match.group("text")
+            if text is None:
+                return f"`{content} <{content}>`_"
             return f"`{text} <{content}>`_"
 
         text = HYPERTEXT_RE.sub(repl_hypertext, text)
 
         def mathics_repl(match):
             code = match.group(1)
-            return f"``{code}``"
+            lines = code.split("\n")
+            if len(lines)>1:
+                code = 4*" "+"\n    ".join(lines)
+                return ".. code-block:\n"+code
+            return f":code:`{code}` "
 
         text = MATHICS_RE.sub(mathics_repl, text)
 
@@ -293,14 +306,19 @@ class RsTDocText(DocText):
                 nonlocal last_tag
                 match_dict = match.groupdict()
                 if last_tag == "dt" == match_dict["tag"]:
-                    return 4 * " " + "same as\n" + match_dict["content"].strip() + "\n"
+                    return 4 * " " + "same as\n\n" + match_dict["content"].strip() + "\n"
                 last_tag = match_dict["tag"]
                 if last_tag == "dt":
                     return match_dict["content"].strip() + "\n"
-                return 4 * " " + match_dict["content"].strip() + "\n"
+
+                dd_content = match_dict["content"].strip()
+                lines = dd_content.split("\n")
+                if len(lines)>1:
+                    dd_content = f'\n{4*" "}'.join(line.strip() for line in lines)
+                return 4 * " " + dd_content + "\n\n"
 
             dl_text = DL_ITEM_RE.sub(repl_dd_dt, dl_text)
-            return dl_text + "\n"
+            return dl_text + "\n\n"
 
         text = DL_RE.sub(repl_dl, text)
 
@@ -332,7 +350,12 @@ class RsTDocText(DocText):
             content = match.group("content")
             content = content.strip()
             content = content.replace(r"\$", "$")
-            return ".. code-block:: console\n%s\n\n" % content
+            lines = content.split("\n")
+            if len(lines)>1:
+                content = f"\n{4*' '}"+f"\n{4*' '}".join(lines)
+                print("content:", content)
+                return ".. code-block: console%s\n\n" % content
+            return " :code:`%s` " % content
 
         text = CONSOLE_RE.sub(repl_console, text)
 

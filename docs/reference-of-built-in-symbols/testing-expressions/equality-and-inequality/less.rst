@@ -1,0 +1,25 @@
+Less
+====
+
+`WMA link <https://reference.wolfram.com/language/ref/Less.html>`_
+
+
+:code:`Less` [:math:`x`, :math:`y`] or :math:`x` < :math:`y`
+    yields :code:`True`  if :math:`x` is known to be less than :math:`y`.
+
+
+
+
+
+>>> 1 < 0
+  = False
+
+LessEqual operator can be chained:
+
+>>> 2/18 < 1/5 < Pi/10
+  = True
+
+Using less on an undefined symbol value:
+
+>>> 1 < 3 < x < 2
+  = 1 < 3 < x < 2

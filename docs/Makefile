@@ -12,7 +12,7 @@ BUILDDIR      = _build
 
 
 #: Build the html documentation
-all: rstdoc
+all:
 	$(MAKE) html
 
 #: Build the html documentation without cleaning first
@@ -36,6 +36,4 @@ clean:
 %:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-rstdoc:
-	$(PYTHON) generate/doc2rst.py
 
