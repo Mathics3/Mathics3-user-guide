@@ -1,7 +1,10 @@
 Loading and Deleting Worksheets
 ===============================
 
-<subsection title="Saving Worksheets">
+
+Saving Worksheets
+-----------------
+
 
 Worksheets exist in the browser window only and are not stored on the server, by default. To save all your queries and results, use the `<Save>`_ button which is the middle graphic of the menu bar. It looks like this:
 
@@ -10,7 +13,10 @@ Worksheets exist in the browser window only and are not stored on the server, by
 
 Depending on browser, desktop, and OS-settings, the "Ctrl+S" key combination may do the same thing.
 
-<subsection title="Loading and Deleting Worksheets">
+
+Loading and Deleting Worksheets
+-------------------------------
+
 
 Saved worksheets can be loaded or deleted using the `<File Open>`_ button which is the left-most button in the menu bar. It looks like this:
 

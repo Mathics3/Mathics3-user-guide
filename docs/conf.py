@@ -22,7 +22,7 @@ copyright = "2020-2023 The Mathics3 Team"
 author = "The Mathics3 Team"
 
 # The full version, including alpha/beta/rc tags
-release = "1.1.0"
+release = "8.0.1"
 
 
 # -- General configuration ---------------------------------------------------

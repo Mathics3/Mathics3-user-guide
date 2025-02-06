@@ -37,6 +37,8 @@ from mathics.doc.structure import (
     DocSubsection,
     Documentation,
     MathicsMainDocumentation,
+    SUBSECTION_RE,
+    SUBSECTION_END_RE,
 )
 from mathics.settings import DOC_DIR
 
@@ -231,6 +233,15 @@ class RsTDocText(DocText):
         text = text.replace(r"\'", "_SIMPLEQUOTE_")
         text = text.replace(r"\$", "_DOLARSYMBOL_")
 
+
+        def repl_subsection(match):
+            title=match.group(1)
+            title = "\n" + title + "\n" + len(title)*"-"+"\n"
+            return title
+
+        text = SUBSECTION_RE.sub(repl_subsection, text)
+        text = SUBSECTION_END_RE.sub("", text)
+        
         # We start by replacing Python code
         def repl_python(match):
             return "``python\n%s\n``\n" % match.group(1).strip()
@@ -365,6 +376,7 @@ class RsTDocText(DocText):
 
         text = ITALIC_RE.sub(repl_italic, text)
 
+        
         text = post_sub(text, post_substitutions)
         text = text.replace("_SIMPLEQUOTE_", "'")
         text = text.replace("_DOLARSYMBOL_", "$")
