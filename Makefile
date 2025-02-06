@@ -2,6 +2,9 @@ PIP ?= pip3
 RM  ?= rm
 PYTHON ?= python
 
+# Variable indicating Mathics3 Modules you have available on your system, in latex2doc option format
+MATHICS3_MODULE_OPTION ?=--load-module pymathics.trepan,pymathics.graph,pymathics.natlang
+
 #: Default target - same as "develop"
 all: user-docs
 
@@ -9,7 +12,7 @@ all: user-docs
 
 #: Build developer guide
 user-docs: setup
-	$(PYTHON) generate/doc2rst.py
+	$(PYTHON) generate/doc2rst.py $(MATHICS3_MODULE_OPTION)
 	$(MAKE) -C docs html latexpdf
 
 

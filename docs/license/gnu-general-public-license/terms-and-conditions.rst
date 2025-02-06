@@ -278,26 +278,3 @@ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY C
 If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.
 
 END OF TERMS AND CONDITIONS
-
-.. toctree::
-    :maxdepth: 2
-
-    terms-and-conditions/0-definitions.rst
-    terms-and-conditions/1-source-code.rst
-    terms-and-conditions/2-basic-permissions.rst
-    terms-and-conditions/3-protecting-users-legal-rights-from-anti-circumvention-law.rst
-    terms-and-conditions/4-conveying-verbatim-copies.rst
-    terms-and-conditions/5-conveying-modified-source-versions.rst
-    terms-and-conditions/6-conveying-non-source-forms.rst
-    terms-and-conditions/7-additional-terms.rst
-    terms-and-conditions/8-termination.rst
-    terms-and-conditions/9-acceptance-not-required-for-having-copies.rst
-    terms-and-conditions/10-automatic-licensing-of-downstream-recipients.rst
-    terms-and-conditions/11-patents.rst
-    terms-and-conditions/12-no-surrender-of-others-freedom.rst
-    terms-and-conditions/13-use-with-the-gnu-affero-general-public-license.rst
-    terms-and-conditions/14-revised-versions-of-this-license.rst
-    terms-and-conditions/15-disclaimer-of-warranty.rst
-    terms-and-conditions/16-limitation-of-liability.rst
-    terms-and-conditions/17-interpretation-of-sections-15-and-16.rst
-
