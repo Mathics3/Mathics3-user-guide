@@ -16,14 +16,26 @@ Equivalent
 
 
 >>> Equivalent[True, True, False]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 If all expressions do not evaluate to :code:`True`  or :code:`False` , :code:`Equivalent`      returns a result in symbolic form:
 
 >>> Equivalent[a, b, c]
-  = a \[Equivalent] b \[Equivalent] c
+    =
+
+:math:`a\text{$\backslash$[Equivalent]}b\text{$\backslash$[Equivalent]}c`
+
+
 
 Otherwise, :code:`Equivalent`  returns a result in DNF
 
 >>> Equivalent[a, b, True, c]
-  = a && b && c
+    =
+
+:math:`a\text{\&\&}b\text{\&\&}c`
+
+

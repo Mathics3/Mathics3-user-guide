@@ -12,6 +12,14 @@ NotSquareSupersetEqual
 
 
 >>> NotSquareSupersetEqual[x, y, z]
-  = x ⋣ y ⋣ z
+    =
+
+:math:`x \backslash\text{[NotSquareSupersetEqual]} y \backslash\text{[NotSquareSupersetEqual]} z`
+
+
 >>> a \[NotSquareSupersetEqual] b
-  = a ⋣ b
+    =
+
+:math:`a \backslash\text{[NotSquareSupersetEqual]} b`
+
+

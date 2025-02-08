@@ -12,6 +12,14 @@ RoundImplies
 
 
 >>> RoundImplies[x, y, z]
-  = x ⥰ y ⥰ z
+    =
+
+:math:`x \text{RoundImplies}[a,b] y \text{RoundImplies}[a,b] z`
+
+
 >>> a \[RoundImplies] b
-  = a ⥰ b
+    =
+
+:math:`a \text{RoundImplies}[a,b] b`
+
+

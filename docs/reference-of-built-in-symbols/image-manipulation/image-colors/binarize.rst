@@ -19,9 +19,28 @@ Binarize
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> Binarize[hedy]
-  = -Image-
+    =
+
+.. image:: tmpa3sq81jv.png
+    :align: center
+
+
+
 >>> Binarize[hedy, 0.7]
-  = -Image-
+    =
+
+.. image:: tmp43sy5k6k.png
+    :align: center
+
+
+
 >>> Binarize[hedy, {0.2, 0.6}]
-  = -Image-
+    =
+
+.. image:: tmphti99at5.png
+    :align: center
+
+
+

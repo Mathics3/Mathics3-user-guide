@@ -12,6 +12,14 @@ FileExistsQ
 
 
 >>> FileExistsQ["ExampleData/sunflowers.jpg"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> FileExistsQ["ExampleData/sunflowers.png"]
-  = False
+    =
+
+:math:`\text{False}`
+
+

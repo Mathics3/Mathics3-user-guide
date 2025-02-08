@@ -21,14 +21,38 @@ StringFreeQ
 
 
 >>> StringFreeQ["mathics", "m" ~~ __ ~~ "s"]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringFreeQ["mathics", "a" ~~ __ ~~ "m"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringFreeQ["Mathics", "MA" , IgnoreCase -> True]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringFreeQ[{"g", "a", "laxy", "universe", "sun"}, "u"]
-  = {True, True, True, False, False}
+    =
+
+:math:`\left\{\text{True},\text{True},\text{True},\text{False},\text{False}\right\}`
+
+
 >>> StringFreeQ["e" ~~ ___ ~~ "u"] /@ {"The Sun", "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"}
-  = {False, False, False, True, True, True, True, True, False}
+    =
+
+:math:`\left\{\text{False},\text{False},\text{False},\text{True},\text{True},\text{True},\text{True},\text{True},\text{False}\right\}`
+
+
 >>> StringFreeQ[{"A", "Galaxy", "Far", "Far", "Away"}, {"F" ~~ __ ~~ "r", "aw" ~~ ___}, IgnoreCase -> True]
-  = {True, True, False, False, False}
+    =
+
+:math:`\left\{\text{True},\text{True},\text{False},\text{False},\text{False}\right\}`
+
+

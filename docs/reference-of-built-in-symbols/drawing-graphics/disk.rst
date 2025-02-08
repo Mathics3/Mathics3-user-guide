@@ -24,16 +24,40 @@ Disk
 
 
 >>> Graphics[{Blue, Disk[{0, 0}, {2, 1}]}]
-  = -Graphics-
+    =
+
+.. image:: tmp2xdhgpgt.png
+    :align: center
+
+
+
 
 The outer border can be drawn using :code:`EdgeForm` :
 
 >>> Graphics[{EdgeForm[Black], Red, Disk[]}]
-  = -Graphics-
+    =
+
+.. image:: tmpq87oy_so.png
+    :align: center
+
+
+
 
 Disk can also draw sectors of circles and ellipses
 
 >>> Graphics[Disk[{0, 0}, 1, {Pi / 3, 2 Pi / 3}]]
-  = -Graphics-
+    =
+
+.. image:: tmpmzc0rln5.png
+    :align: center
+
+
+
 >>> Graphics[{Blue, Disk[{0, 0}, {1, 2}, {Pi / 3, 5 Pi / 3}]}]
-  = -Graphics-
+    =
+
+.. image:: tmpoeowg6rb.png
+    :align: center
+
+
+

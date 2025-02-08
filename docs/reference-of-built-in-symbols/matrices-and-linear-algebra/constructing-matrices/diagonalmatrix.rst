@@ -12,10 +12,14 @@ DiagonalMatrix
 
 
 >>> DiagonalMatrix[{1, 2, 3}]
-  = {{1, 0, 0}, {0, 2, 0}, {0, 0, 3}}
+    =
+
+:math:`\left\{\left\{1,0,0\right\},\left\{0,2,0\right\},\left\{0,0,3\right\}\right\}`
+
+
 >>> MatrixForm[%]
-  = 1   0   0
-    
-    0   2   0
-    
-    0   0   3
+    =
+
+:math:`\left(\begin{array}{ccc} 1 & 0 & 0\\ 0 & 2 & 0\\ 0 & 0 & 3\end{array}\right)`
+
+

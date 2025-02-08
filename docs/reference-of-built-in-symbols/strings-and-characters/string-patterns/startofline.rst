@@ -12,11 +12,25 @@ StartOfLine
 
 
 >>> StringReplace["aba\nbba\na\nab", StartOfLine ~~ "a" -> "c"]
-  = cba
-    bba
-    c
-    cb
+    =
+
+
+.. math::
+    \text{cba\newline
+    bba\newline
+    c\newline
+    cb}
+
+
+
 >>> StringSplit["abc\ndef\nhij", StartOfLine]
-  = {abc
-    , def
-    , hij}
+    =
+
+
+.. math::
+    \left\{\text{abc\newline
+    },\text{def\newline
+    },\text{hij}\right\}
+
+
+

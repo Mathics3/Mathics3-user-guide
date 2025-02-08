@@ -13,16 +13,31 @@ ClearAttributes
 
 >>> SetAttributes[f, Flat]
 
->>> Attributes[f]
-  = {Flat}
->>> ClearAttributes[f, Flat]
 
 >>> Attributes[f]
-  = {}
+    =
+
+:math:`\left\{\text{Flat}\right\}`
+
+
+>>> ClearAttributes[f, Flat]
+
+
+>>> Attributes[f]
+    =
+
+:math:`\left\{\right\}`
+
+
 
 Attributes that are not even set are simply ignored:
 
 >>> ClearAttributes[{f}, {Flat}]
 
+
 >>> Attributes[f]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+

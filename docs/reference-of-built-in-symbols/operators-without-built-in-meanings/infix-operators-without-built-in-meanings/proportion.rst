@@ -12,6 +12,14 @@ Proportion
 
 
 >>> Proportion[x, y, z]
-  = x ∷ y ∷ z
+    =
+
+:math:`x :: y :: z`
+
+
 >>> a \[Proportion] b
-  = a ∷ b
+    =
+
+:math:`a :: b`
+
+

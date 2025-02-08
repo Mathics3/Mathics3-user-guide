@@ -11,26 +11,35 @@ In
 
 
 >>> x = 1
-  = 1
+    =
+
+:math:`1`
+
+
 >>> x = x + 1
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Do[In[2], {3}]
 
+
 >>> x
-  = 5
+    =
+
+:math:`5`
+
+
 >>> In[-1]
-  = 5
+    =
+
+:math:`5`
+
+
 >>> Definition[In]
-  = Attributes[In] = {Listable, Protected}
-    
-    In[6] = Definition[In]
-    
-    In[5] = In[-1]
-    
-    In[4] = x
-    
-    In[3] = Do[In[2], {3}]
-    
-    In[2] = x = x + 1
-    
-    In[1] = x = 1
+    =
+
+:math:`\begin{array}{l} \text{Attributes}\left[\text{In}\right]=\left\{\text{Listable},\text{Protected}\right\}\\ \text{In}\left[6\right]=\text{Definition}\left[\text{In}\right]\\ \text{In}\left[5\right]=\text{In}\left[-1\right]\\ \text{In}\left[4\right]=x\\ \text{In}\left[3\right]=\text{Do}\left[\text{In}\left[2\right],\left\{3\right\}\right]\\ \text{In}\left[2\right]=x=x+1\\ \text{In}\left[1\right]=x=1\end{array}`
+
+

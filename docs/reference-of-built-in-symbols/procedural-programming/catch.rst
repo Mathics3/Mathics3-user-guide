@@ -22,18 +22,32 @@ Catch
 Exit to the enclosing :code:`Catch`  as soon as :code:`Throw`  is evaluated:
 
 >>> Catch[r; s; Throw[t]; u; v]
-  = t
+    =
+
+:math:`t`
+
+
 
 Define a function that can "throw an exception":
 
 >>> f[x_] := If[x > 12, Throw[overflow], x!]
 
 
+
 The result of :code:`Catch`  is just what is thrown by :code:`Throw` :
 
 >>> Catch[f[1] + f[15]]
-  = overflow
+    =
+
+:math:`\text{overflow}`
+
+
 >>> Catch[f[1] + f[4]]
-  = 25
+    =
+
+:math:`25`
+
+
 >>> Clear[f]
+    = `
 

@@ -12,8 +12,20 @@ QuantityUnit
 
 
 >>> QuantityUnit[Quantity["Kilogram"]]
-  = kilogram
+    =
+
+:math:`\text{kilogram}`
+
+
 >>> QuantityUnit[Quantity[10, "Meters"]]
-  = meter
+    =
+
+:math:`\text{meter}`
+
+
 >>> QuantityUnit[Quantity[{10,20}, "Meters"]]
-  = {meter, meter}
+    =
+
+:math:`\left\{\text{meter},\text{meter}\right\}`
+
+

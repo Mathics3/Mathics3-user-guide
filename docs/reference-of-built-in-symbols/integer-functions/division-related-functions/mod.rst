@@ -12,10 +12,28 @@ Mod
 
 
 >>> Mod[14, 6]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Mod[-3, 4]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> Mod[-3, -4]
-  = -3
+    =
+
+:math:`-3`
+
+
 >>> Mod[5, 0]
-  = Mod[5, 0]
+
+    Mod::divz The argument 0 should be nonzero.
+    =
+
+:math:`\text{Mod}\left[5,0\right]`
+
+

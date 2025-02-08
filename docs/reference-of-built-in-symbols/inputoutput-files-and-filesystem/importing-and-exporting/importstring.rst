@@ -19,7 +19,16 @@ ImportString
 
 >>> str = "Hello!\n    This is a testing text\n";
 
+
 >>> ImportString[str, "Elements"]
-  = {Data, Lines, Plaintext, String, Words}
+    =
+
+:math:`\left\{\text{Data},\text{Lines},\text{Plaintext},\text{String},\text{Words}\right\}`
+
+
 >>> ImportString[str, "Lines"]
-  = ...
+    =
+
+:math:`\left\{\text{Hello!},\text{    This is a testing text}\right\}`
+
+

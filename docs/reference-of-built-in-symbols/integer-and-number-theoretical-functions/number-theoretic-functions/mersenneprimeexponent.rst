@@ -12,4 +12,8 @@ MersennePrimeExponent
 
 
 >>> Table[MersennePrimeExponent[n], {n, 10}]
-  = {2, 3, 5, 7, 13, 17, 19, 31, 61, 89}
+    =
+
+:math:`\left\{2,3,5,7,13,17,19,31,61,89\right\}`
+
+

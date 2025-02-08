@@ -15,14 +15,40 @@ DirectedInfinity
 
 
 >>> DirectedInfinity[1]
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 >>> DirectedInfinity[]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 >>> DirectedInfinity[1 + I]
-  = (1 / 2 + I / 2) Sqrt[2] Infinity
+    =
+
+:math:`\left(\frac{1}{2}+\frac{I}{2}\right) \sqrt{2} \infty`
+
+
 >>> 1 / DirectedInfinity[1 + I]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> DirectedInfinity[1] + DirectedInfinity[-1]
-  = Indeterminate
+
+    Infinity::indet Indeterminate expression -Infinity + Infinity encountered.
+    =
+
+:math:`\text{Indeterminate}`
+
+
 >>> DirectedInfinity[0]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+

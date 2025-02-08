@@ -12,6 +12,14 @@ DownRightVectorBar
 
 
 >>> DownRightVectorBar[x, y, z]
-  = x ⥗ y ⥗ z
+    =
+
+:math:`x \rightharpoondown | y \rightharpoondown | z`
+
+
 >>> a \[DownRightVectorBar] b
-  = a ⥗ b
+    =
+
+:math:`a \rightharpoondown | b`
+
+

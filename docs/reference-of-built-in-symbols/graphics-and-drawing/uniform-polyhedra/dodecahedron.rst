@@ -18,4 +18,10 @@ Dodecahedron
 
 
 >>> Graphics3D[Dodecahedron[]]
-  = -Graphics3D-
+    =
+
+.. image:: tmp0mnl_fht.png
+    :align: center
+
+
+

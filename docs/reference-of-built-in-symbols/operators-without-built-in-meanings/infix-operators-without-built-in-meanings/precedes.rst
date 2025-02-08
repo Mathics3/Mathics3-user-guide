@@ -12,6 +12,14 @@ Precedes
 
 
 >>> Precedes[x, y, z]
-  = x ≺ y ≺ z
+    =
+
+:math:`x \prec y \prec z`
+
+
 >>> a \[Precedes] b
-  = a ≺ b
+    =
+
+:math:`a \prec b`
+
+

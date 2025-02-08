@@ -15,8 +15,26 @@ Lighter
 
 
 >>> Lighter[Orange, 1/4]
-  = RGBColor[1., 0.625, 0.25]
+    =
+
+.. image:: tmprdykjkle.png
+    :align: center
+
+
+
 >>> Graphics[{Lighter[Orange, 1/4], Disk[]}]
-  = -Graphics-
+    =
+
+.. image:: tmpg0nss0vw.png
+    :align: center
+
+
+
 >>> Graphics[Table[{Lighter[Orange, x], Disk[{12x, 0}]}, {x, 0, 1, 1/6}]]
-  = -Graphics-
+    =
+
+.. image:: tmpfgm5fokf.png
+    :align: center
+
+
+

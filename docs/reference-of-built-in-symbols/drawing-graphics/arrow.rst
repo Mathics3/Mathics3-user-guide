@@ -21,16 +21,51 @@ Arrow
 
 
 >>> Graphics[Arrow[{{0,0}, {1,1}}]]
-  = -Graphics-
+    =
+
+.. image:: tmpsge8n1qi.png
+    :align: center
+
+
+
 >>> Graphics[{Circle[], Arrow[{{2, 1}, {0, 0}}, 1]}]
-  = -Graphics-
+    =
+
+.. image:: tmpuinr2sfp.png
+    :align: center
+
+
+
 
 Arrows can also be drawn in 3D by giving point in three dimensions:
 
 >>> Graphics3D[Arrow[{{1, 1, -1}, {2, 2, 0}, {3, 3, -1}, {4, 4, 0}}]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpjht0xas6.png
+    :align: center
+
+
+
 
 Keeping distances may happen across multiple segments:
 
 >>> Table[Graphics[{Circle[], Arrow[Table[{Cos[phi],Sin[phi]},{phi,0,2*Pi,Pi/2}],{d, d}]}],{d,0,2,0.5}]
-  = {-Graphics-, -Graphics-, -Graphics-, -Graphics-, -Graphics-}
+    =
+
+
+.. math::
+    \left\{
+    \includegraphics[]{/tmp/tmpnofquub9.png}
+    ,
+    \includegraphics[]{/tmp/tmphojohavy.png}
+    ,
+    \includegraphics[]{/tmp/tmp74alvony.png}
+    ,
+    \includegraphics[]{/tmp/tmpw22j4lz3.png}
+    ,
+    \includegraphics[]{/tmp/tmpqw37_ogz.png}
+    \right\}
+
+
+

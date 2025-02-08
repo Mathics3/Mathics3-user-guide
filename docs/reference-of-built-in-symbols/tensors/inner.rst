@@ -13,19 +13,35 @@ Inner
 
 
 >>> Inner[f, {a, b}, {x, y}, g]
-  = g[f[a, x], f[b, y]]
+    =
+
+:math:`g\left[f\left[a,x\right],f\left[b,y\right]\right]`
+
+
 
 :code:`Inner`  can be used to compute a dot product:
 
 >>> Inner[Times, {a, b}, {c, d}, Plus] == {a, b} . {c, d}
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 The inner product of two boolean matrices:
 
 >>> Inner[And, {{False, False}, {False, True}}, {{True, False}, {True, True}}, Or]
-  = {{False, False}, {True, True}}
+    =
+
+:math:`\left\{\left\{\text{False},\text{False}\right\},\left\{\text{True},\text{True}\right\}\right\}`
+
+
 
 Inner works with tensors of any depth:
 
 >>> Inner[f, {{{a, b}}, {{c, d}}}, {{1}, {2}}, g]
-  = {{{g[f[a, 1], f[b, 2]]}}, {{g[f[c, 1], f[d, 2]]}}}
+    =
+
+:math:`\left\{\left\{\left\{g\left[f\left[a,1\right],f\left[b,2\right]\right]\right\}\right\},\left\{\left\{g\left[f\left[c,1\right],f\left[d,2\right]\right]\right\}\right\}\right\}`
+
+

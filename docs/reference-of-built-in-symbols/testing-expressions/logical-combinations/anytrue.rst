@@ -18,6 +18,14 @@ AnyTrue
 
 
 >>> AnyTrue[{1, 3, 5}, EvenQ]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> AnyTrue[{1, 4, 5}, EvenQ]
-  = True
+    =
+
+:math:`\text{True}`
+
+

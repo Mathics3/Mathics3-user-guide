@@ -12,4 +12,8 @@ Superscript
 
 
 >>> Superscript[x,3] // TeXForm
-  = x^3
+    =
+
+:math:`\text{x${}^{\wedge}$3}`
+
+

@@ -17,14 +17,26 @@ NumberDigit
 Get the 10^2 digit of a 210.345:
 
 >>> NumberDigit[210.345, 2]
-  = 2
+    =
+
+:math:`2`
+
+
 
 Get the 10^-1 digit of a 210.345:
 
 >>> NumberDigit[210.345, -1]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> BaseForm[N[Pi], 2]
-  = 11.00100100001111110_2
+    =
+
+:math:`\text{SubscriptBox}\left[\text{11.00100100001111110},\text{2}\right]`
+
+
 
 Get the 2^0 bit of the Pi:
 = 1

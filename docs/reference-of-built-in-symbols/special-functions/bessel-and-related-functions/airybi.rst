@@ -14,13 +14,31 @@ AiryBi
 Exact values:
 
 >>> AiryBi[0]
-  = 3 ^ (5 / 6) / (3 Gamma[2 / 3])
+    =
+
+:math:`\frac{3^{\frac{5}{6}}}{3 \text{Gamma}\left[\frac{2}{3}\right]}`
+
+
 
 Numeric evaluation:
 
 >>> AiryBi[0.5]
-  = 0.854277
+    =
+
+:math:`0.854277`
+
+
 >>> AiryBi[0.5 + I]
-  = 0.688145 + 0.370815 I
+    =
+
+:math:`0.688145+0.370815 I`
+
+
 >>> Plot[AiryBi[x], {x, -10, 2}]
-  = -Graphics-
+    =
+
+.. image:: tmpo3i0fx_h.png
+    :align: center
+
+
+

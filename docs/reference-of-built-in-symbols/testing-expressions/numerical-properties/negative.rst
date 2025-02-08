@@ -12,12 +12,32 @@ Negative
 
 
 >>> Negative[0]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> Negative[-3]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> Negative[10/7]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> Negative[1+2I]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> Negative[a + b]
-  = Negative[a + b]
+    =
+
+:math:`\text{Negative}\left[a+b\right]`
+
+

@@ -12,6 +12,14 @@ LowerRightArrow
 
 
 >>> LowerRightArrow[x, y, z]
-  = x ↘ y ↘ z
+    =
+
+:math:`x \searrow y \searrow z`
+
+
 >>> a \[LowerRightArrow] b
-  = a ↘ b
+    =
+
+:math:`a \searrow b`
+
+

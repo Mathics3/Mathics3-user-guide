@@ -12,4 +12,10 @@ Axis
 
 
 >>> ListLinePlot[Table[Sin[x], {x, -5, 5, 0.2}], Filling->Axis]
-  = -Graphics-
+    =
+
+.. image:: tmp8bvedwrg.png
+    :align: center
+
+
+

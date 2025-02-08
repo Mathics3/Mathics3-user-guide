@@ -12,6 +12,14 @@ NotReverseElement
 
 
 >>> NotReverseElement[x, y, z]
-  = x ∌ y ∌ z
+    =
+
+:math:`x \not{\ni} y \not{\ni} z`
+
+
 >>> a \[NotReverseElement] b
-  = a ∌ b
+    =
+
+:math:`a \not{\ni} b`
+
+

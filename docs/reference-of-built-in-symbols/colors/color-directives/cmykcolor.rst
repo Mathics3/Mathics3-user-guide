@@ -12,4 +12,10 @@ CMYKColor
 
 
 >>> Graphics[MapIndexed[{CMYKColor @@ #1, Disk[2*#2 ~Join~ {0}]} &, IdentityMatrix[4]], ImageSize->Small]
-  = -Graphics-
+    =
+
+.. image:: tmp7h5lqmj3.png
+    :align: center
+
+
+

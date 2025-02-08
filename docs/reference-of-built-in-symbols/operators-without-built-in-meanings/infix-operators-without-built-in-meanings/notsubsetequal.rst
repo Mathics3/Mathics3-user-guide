@@ -12,6 +12,14 @@ NotSubsetEqual
 
 
 >>> NotSubsetEqual[x, y, z]
-  = x ⊈ y ⊈ z
+    =
+
+:math:`x \nsubseteq y \nsubseteq z`
+
+
 >>> a \[NotSubsetEqual] b
-  = a ⊈ b
+    =
+
+:math:`a \nsubseteq b`
+
+

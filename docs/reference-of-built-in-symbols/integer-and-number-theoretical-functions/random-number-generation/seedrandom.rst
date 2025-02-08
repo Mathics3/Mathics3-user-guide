@@ -17,28 +17,56 @@ SeedRandom
 
 >>> SeedRandom[42]
 
->>> RandomInteger[100]
-  = ...
->>> RandomInteger[100]
-  = ...
->>> SeedRandom[42]
 
 >>> RandomInteger[100]
-  = ...
+    =
+
+:math:`51`
+
+
 >>> RandomInteger[100]
-  = ...
+    =
+
+:math:`92`
+
+
+>>> SeedRandom[42]
+
+
+>>> RandomInteger[100]
+    =
+
+:math:`51`
+
+
+>>> RandomInteger[100]
+    =
+
+:math:`92`
+
+
 
 String seeds are supported as well:
 
 >>> SeedRandom["Mathics"]
 
+
 >>> RandomInteger[100]
-  = ...
+    =
+
+:math:`27`
+
+
 
 Calling :code:`SeedRandom`  without arguments will seed the random
 number generator to a random state:
 
 >>> SeedRandom[]
 
+
 >>> RandomInteger[100]
-  = ...
+    =
+
+:math:`100`
+
+

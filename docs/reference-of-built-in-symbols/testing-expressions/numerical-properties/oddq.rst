@@ -12,6 +12,14 @@ OddQ
 
 
 >>> OddQ[-3]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> OddQ[0]
-  = False
+    =
+
+:math:`\text{False}`
+
+

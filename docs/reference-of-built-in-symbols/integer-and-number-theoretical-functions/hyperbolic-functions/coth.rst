@@ -12,4 +12,8 @@ Coth
 
 
 >>> Coth[0]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+

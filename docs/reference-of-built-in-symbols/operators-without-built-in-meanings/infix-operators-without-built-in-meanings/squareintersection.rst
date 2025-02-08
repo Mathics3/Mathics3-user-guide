@@ -12,6 +12,14 @@ SquareIntersection
 
 
 >>> SquareIntersection[x, y, z]
-  = x ⊓ y ⊓ z
+    =
+
+:math:`x \sqcap y \sqcap z`
+
+
 >>> a \[SquareIntersection] b
-  = a ⊓ b
+    =
+
+:math:`a \sqcap b`
+
+

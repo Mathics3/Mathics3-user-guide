@@ -20,23 +20,41 @@ Default
 Assign values to :code:`Default`  to specify default values.
 
 >>> Default[f] = 1
-  = 1
+    =
+
+:math:`1`
+
+
 >>> f[x_.] := x ^ 2
 
+
 >>> f[]
-  = 1
+    =
+
+:math:`1`
+
+
 
 Default values are stored in :code:`DefaultValues` :
 
 >>> DefaultValues[f]
-  = {HoldPattern[Default[f]] :> 1}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[\text{Default}\left[f\right]\right]\text{:>}1\right\}`
+
+
 
 You can use patterns for :math:`k` and :math:`n`:
 
 >>> Default[h, k_, n_] := {k, n}
 
 
+
 Note that the position of a parameter is relative to the pattern, not the matching expression:
 
 >>> h[] /. h[___, ___, x_., y_., ___] -> {x, y}
-  = {{3, 5}, {4, 5}}
+    =
+
+:math:`\left\{\left\{3,5\right\},\left\{4,5\right\}\right\}`
+
+

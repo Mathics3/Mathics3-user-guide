@@ -12,11 +12,23 @@ Degree
 
 
 >>> Cos[60 Degree]
-  = 1 / 2
+    =
+
+:math:`\frac{1}{2}`
+
+
 
 Degree has the value of Pi / 180
 
 >>> Degree == Pi / 180
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> N[\[Degree]] == N[Degree]
-  = True
+    =
+
+:math:`\text{True}`
+
+

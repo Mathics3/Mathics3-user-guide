@@ -19,9 +19,17 @@ Legacy function. Superseded by `RandomReal </doc/reference-of-built-in-symbols/i
 Four random numbers in the range 0..1:
 
 >>> Table[Random[], {4}]
-  = ...
+    =
+
+:math:`\left\{0.991148,0.744357,0.842815,0.727853\right\}`
+
+
 
 Eight random integers in the range 1..100:
 
 >>> Table[Random[Integer, {1, 100}], {8}]
-  = ...
+    =
+
+:math:`\left\{68,50,58,93,64,38,2,20\right\}`
+
+

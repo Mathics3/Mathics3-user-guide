@@ -16,39 +16,83 @@ Unequal
 
 
 >>> 1 != 1.
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 Comparisons can be chained:
 
 >>> 1 != 2 != 3
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> 1 != 2 != x
-  = 1 != 2 != x
+    =
+
+:math:`1\text{!=}2\text{!=}x`
+
+
 
 Strings are allowed:
 
 >>> Unequal["11", "11"]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 Comparison to mismatched types is True:
 
 >>> Unequal[11, "11"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Lists are compared based on their elements:
 
 >>> {1} != {2}
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> {1, 2} != {1, 2}
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> {a} != {a}
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> "a" != "b"
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> "a" != "a"
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 :code:`Unequal`  using an empty parameter or list, or a list with one element is True. This is the same as 'Equal".
 
 >>> {Unequal[], Unequal[x], Unequal[1]}
-  = {True, True, True}
+    =
+
+:math:`\left\{\text{True},\text{True},\text{True}\right\}`
+
+

@@ -1,7 +1,7 @@
 Bessel and Related Functions
 ============================
 
-
+See also `Chapter 10 Bessel Functions in the Digital Library of Mathematical Functions <https://dlmf.nist.gov/10>`_.
 
 .. toctree::
     :maxdepth: 2

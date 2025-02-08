@@ -12,6 +12,14 @@ DotEqual
 
 
 >>> DotEqual[x, y, z]
-  = x ≐ y ≐ z
+    =
+
+:math:`x \doteq y \doteq z`
+
+
 >>> a \[DotEqual] b
-  = a ≐ b
+    =
+
+:math:`a \doteq b`
+
+

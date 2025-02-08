@@ -12,6 +12,14 @@ GreaterFullEqual
 
 
 >>> GreaterFullEqual[x, y, z]
-  = x ≧ y ≧ z
+    =
+
+:math:`x \geqq y \geqq z`
+
+
 >>> a \[GreaterFullEqual] b
-  = a ≧ b
+    =
+
+:math:`a \geqq b`
+
+

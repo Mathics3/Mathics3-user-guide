@@ -33,14 +33,31 @@ The current date and time:
 
 >>> DateString[];
 
+
 >>> DateString[{1991, 10, 31, 0, 0}, {"Day", " ", "MonthName", " ", "Year"}]
-  = 31 October 1991
+    =
+
+:math:`\text{31 October 1991}`
+
+
 >>> DateString[{2007, 4, 15, 0}]
-  = Sun 15 Apr 2007 00:00:00
+    =
+
+:math:`\text{Sun 15 Apr 2007 00:00:00}`
+
+
 >>> DateString[{1979, 3, 14}, {"DayName", "  ", "Month", "-", "YearShort"}]
-  = Wednesday  03-79
+    =
+
+:math:`\text{Wednesday  03-79}`
+
+
 
 Non-integer values are accepted too:
 
 >>> DateString[{1991, 6, 6.5}]
-  = Thu 6 Jun 1991 12:00:00
+    =
+
+:math:`\text{Thu 6 Jun 1991 12:00:00}`
+
+

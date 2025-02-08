@@ -16,20 +16,40 @@ Decrement
 
 
 >>> a = 5; a--
-  = 5
+    =
+
+:math:`5`
+
+
 >>> a
-  = 4
+    =
+
+:math:`4`
+
+
 
 Decrement a numerical value:
 
 >>> a = 1.6; a--; a
-  = 0.6
+    =
+
+:math:`0.6`
+
+
 
 Decrement all values in a list:
 
 >>> a = {1, 3, 5}
-  = {1, 3, 5}
+    =
+
+:math:`\left\{1,3,5\right\}`
+
+
 >>> a--; a
-  = {0, 2, 4}
+    =
+
+:math:`\left\{0,2,4\right\}`
+
+
 
 Compare with `PreDecrement </doc/reference-of-built-in-symbols/assignments/in-place-binary-assignment-operator/predecrement>`_ which returns the value before updating, and `Increment </doc/reference-of-built-in-symbols/assignments/in-place-binary-assignment-operator/increment>`_ which goes the other way.

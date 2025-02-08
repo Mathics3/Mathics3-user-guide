@@ -12,6 +12,14 @@ SucceedsTilde
 
 
 >>> SucceedsTilde[x, y, z]
-  = x ≿ y ≿ z
+    =
+
+:math:`x \succsim y \succsim z`
+
+
 >>> a \[SucceedsTilde] b
-  = a ≿ b
+    =
+
+:math:`a \succsim b`
+
+

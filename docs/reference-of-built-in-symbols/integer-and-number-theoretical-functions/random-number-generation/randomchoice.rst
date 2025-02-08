@@ -31,21 +31,46 @@ Note: :code:`SeedRandom`  is used below so we get repeatable "random" numbers th
 
 >>> SeedRandom[42]
 
+
 >>> RandomChoice[{a, b, c}]
-  = {c}
+    =
+
+:math:`\left\{c\right\}`
+
+
 >>> SeedRandom[42] (* Set for repeatable randomness *)
 
+
 >>> RandomChoice[{a, b, c}, 20]
-  = {c, a, c, c, a, a, c, b, c, c, c, c, a, c, b, a, b, b, b, b}
+    =
+
+:math:`\left\{c,a,c,c,a,a,c,b,c,c,c,c,a,c,b,a,b,b,b,b\right\}`
+
+
 >>> SeedRandom[42]
+
 
 >>> RandomChoice[{"a", {1, 2}, x, {}}, 10]
-  = {x, {}, a, x, x, {}, a, a, x, {1, 2}}
+    =
+
+:math:`\left\{x,\left\{\right\},\text{a},x,x,\left\{\right\},\text{a},\text{a},x,\left\{1,2\right\}\right\}`
+
+
 >>> SeedRandom[42]
+
 
 >>> RandomChoice[{a, b, c}, {5, 2}]
-  = {{c, a}, {c, c}, {a, a}, {c, b}, {c, c}}
+    =
+
+:math:`\left\{\left\{c,a\right\},\left\{c,c\right\},\left\{a,a\right\},\left\{c,b\right\},\left\{c,c\right\}\right\}`
+
+
 >>> SeedRandom[42]
 
+
 >>> RandomChoice[{1, 100, 5} -> {a, b, c}, 20]
-  = {b, b, b, b, b, b, b, b, b, b, b, c, b, b, b, b, b, b, b, b}
+    =
+
+:math:`\left\{b,b,b,b,b,b,b,b,b,b,b,c,b,b,b,b,b,b,b,b\right\}`
+
+

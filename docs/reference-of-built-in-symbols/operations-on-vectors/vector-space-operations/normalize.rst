@@ -15,6 +15,14 @@ Normalize
 
 
 >>> Normalize[{1, 1, 1, 1}]
-  = {1 / 2, 1 / 2, 1 / 2, 1 / 2}
+    =
+
+:math:`\left\{\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2}\right\}`
+
+
 >>> Normalize[1 + I]
-  = (1 / 2 + I / 2) Sqrt[2]
+    =
+
+:math:`\left(\frac{1}{2}+\frac{I}{2}\right) \sqrt{2}`
+
+

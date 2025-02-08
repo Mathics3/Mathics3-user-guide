@@ -24,6 +24,14 @@ RandomReal
 
 
 >>> RandomReal[]
-  = ...
+    =
+
+:math:`0.635694`
+
+
 >>> RandomReal[{1, 5}]
-  = ...
+    =
+
+:math:`1.92245`
+
+

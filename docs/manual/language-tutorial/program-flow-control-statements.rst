@@ -33,18 +33,38 @@ Like most programming languages, \Mathics has common program-flow control statem
 
 
 >>> If[2 < 3, a, b]
-  = a
+    =
+
+:math:`a`
+
+
 >>> x = 3; Which[x < 2, a, x > 4, b, x < 5, c]
-  = c
+    =
+
+:math:`c`
+
+
 
 Compound statements can be entered with :code:`;` . The result of a compound expression is its last part or :code:`Null`  if it ends with a :code:`;` .
 
 >>> 1; 2; 3
-  = 3
+    =
+
+:math:`3`
+
+
 >>> 1; 2; 3;
+
 
 
 Inside :code:`For` , :code:`While` , and :code:`Do`  loops, :code:`Break[]`  exits the loop, and :code:`Continue[]`  continues to the next iteration.
 
 >>> For[i = 1, i <= 5, i++, If[i == 4, Break[]]; Print[i]]
+
+    1
+
+    2
+
+    3
+
 

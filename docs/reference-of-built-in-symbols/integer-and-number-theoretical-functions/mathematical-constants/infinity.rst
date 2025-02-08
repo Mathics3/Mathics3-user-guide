@@ -15,25 +15,49 @@ Infinity <https://en.wikipedia.org/wiki/Infinity>`_ (`SymPy <https://docs.sympy.
 :code:`Infinity`  sometimes appears as the result of a calculation:
 
 >>> Precision[1]
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 
 But :code:`Infinity`  it often used as a value in expressions:
 
 >>> 1 / Infinity
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Infinity + 100
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 
 :code:`Infinity`  often appears in sum and limit calculations:
 
 >>> Sum[1/x^2, {x, 1, Infinity}]
-  = Pi ^ 2 / 6
+    =
+
+:math:`\frac{ \pi ^2}{6}`
+
+
 >>> Limit[1/x, x->0]
-  = -Infinity
+    =
+
+:math:`-\infty`
+
+
 
 However, :code:`Infinity`  a shorthand for :code:`DirectedInfinity[1]` :
 
 >>> FullForm[Infinity]
-  = DirectedInfinity[1]
+    =
+
+:math:`\text{DirectedInfinity}\left[1\right]`
+
+
 
 See also `:code:`DirectedInfinity`  </doc/reference-of-built-in-symbols/mathematical-functions/directedinfinity/>`_.

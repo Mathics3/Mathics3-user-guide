@@ -12,6 +12,14 @@ PlusMinus
 
 
 >>> PlusMinus[x, y, z]
-  = x ± y ± z
+    =
+
+:math:`x \pm y \pm z`
+
+
 >>> a \[PlusMinus] b
-  = a ± b
+    =
+
+:math:`a \pm b`
+
+

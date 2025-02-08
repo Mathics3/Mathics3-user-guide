@@ -12,6 +12,14 @@ Through
 
 
 >>> Through[f[g][x]]
-  = f[g[x]]
+    =
+
+:math:`f\left[g\left[x\right]\right]`
+
+
 >>> Through[p[f, g][x]]
-  = p[f[x], g[x]]
+    =
+
+:math:`p\left[f\left[x\right],g\left[x\right]\right]`
+
+

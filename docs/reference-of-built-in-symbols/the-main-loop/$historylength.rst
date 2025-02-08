@@ -11,18 +11,44 @@ $HistoryLength
 
 
 >>> $HistoryLength
-  = 100
+    =
+
+:math:`100`
+
+
 >>> $HistoryLength = 1;
 
->>> 42
-  = 42
->>> %
-  = 42
->>> %%
-  = %3
->>> $HistoryLength = 0;
 
 >>> 42
-  = 42
+    =
+
+:math:`42`
+
+
 >>> %
-  = %7
+    =
+
+:math:`42`
+
+
+>>> %%
+    =
+
+:math:`\text{\%3}`
+
+
+>>> $HistoryLength = 0;
+
+
+>>> 42
+    =
+
+:math:`42`
+
+
+>>> %
+    =
+
+:math:`\text{\%7}`
+
+

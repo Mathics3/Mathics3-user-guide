@@ -20,62 +20,130 @@ Set
 :code:`Set`  can be used to give a symbol a value:
 
 >>> a = 3
-  = 3
+    =
+
+:math:`3`
+
+
 >>> a
-  = 3
+    =
+
+:math:`3`
+
+
 
 An assignment like this creates an ownvalue:
 
 >>> OwnValues[a]
-  = {HoldPattern[a] :> 3}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[a\right]\text{:>}3\right\}`
+
+
 
 You can set multiple values at once using lists:
 
 >>> {a, b, c} = {10, 2, 3}
-  = {10, 2, 3}
+    =
+
+:math:`\left\{10,2,3\right\}`
+
+
 >>> {a, b, {c, {d}}} = {1, 2, {{c1, c2}, {a}}}
-  = {1, 2, {{c1, c2}, {10}}}
+    =
+
+:math:`\left\{1,2,\left\{\left\{\text{c1},\text{c2}\right\},\left\{10\right\}\right\}\right\}`
+
+
 >>> d
-  = 10
+    =
+
+:math:`10`
+
+
 
 :code:`Set`  evaluates its right-hand side immediately and assigns it to
 the left-hand side:
 
 >>> a
-  = 1
+    =
+
+:math:`1`
+
+
 >>> x = a
-  = 1
+    =
+
+:math:`1`
+
+
 >>> a = 2
-  = 2
+    =
+
+:math:`2`
+
+
 >>> x
-  = 1
+    =
+
+:math:`1`
+
+
 
 :code:`Set`  always returns the right-hand side, which you can again use
 in an assignment:
 
 >>> a = b = c = 2;
 
+
 >>> a == b == c == 2
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 :code:`Set`  supports assignments to parts:
 
 >>> A = {{1, 2}, {3, 4}};
 
+
 >>> A[[1, 2]] = 5
-  = 5
+    =
+
+:math:`5`
+
+
 >>> A
-  = {{1, 5}, {3, 4}}
+    =
+
+:math:`\left\{\left\{1,5\right\},\left\{3,4\right\}\right\}`
+
+
 >>> A[[;;, 2]] = {6, 7}
-  = {6, 7}
+    =
+
+:math:`\left\{6,7\right\}`
+
+
 >>> A
-  = {{1, 6}, {3, 7}}
+    =
+
+:math:`\left\{\left\{1,6\right\},\left\{3,7\right\}\right\}`
+
+
 
 Set a submatrix:
 
 >>> B = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
+
 >>> B[[1;;2, 2;;-1]] = {{t, u}, {y, z}};
 
+
 >>> B
-  = {{1, t, u}, {4, y, z}, {7, 8, 9}}
+    =
+
+:math:`\left\{\left\{1,t,u\right\},\left\{4,y,z\right\},\left\{7,8,9\right\}\right\}`
+
+

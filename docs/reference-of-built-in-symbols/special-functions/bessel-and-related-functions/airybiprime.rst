@@ -15,9 +15,25 @@ AiryBiPrime
 Exact values:
 
 >>> AiryBiPrime[0]
-  = 3 ^ (1 / 6) / Gamma[1 / 3]
+    =
+
+:math:`\frac{3^{\frac{1}{6}}}{\text{Gamma}\left[\frac{1}{3}\right]}`
+
+
 
 Numeric evaluation:
 
 >>> AiryBiPrime[0.5]
-  = 0.544573
+    =
+
+:math:`0.544573`
+
+
+>>> Plot[AiryBiPrime[x], {x, -10, 2}]
+    =
+
+.. image:: tmp36y2urxr.png
+    :align: center
+
+
+

@@ -14,20 +14,36 @@ ClearAll
 
 >>> x = 2;
 
+
 >>> ClearAll[x]
 
+
 >>> x
-  = x
+    =
+
+:math:`x`
+
+
 >>> Attributes[r] = {Flat, Orderless};
+
 
 >>> ClearAll[r]
 
+
 >>> Attributes[r]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 
 :code:`ClearAll`  may not be called for :code:`Protected`  or :code:`Locked`  symbols.
 
 >>> Attributes[lock] = {Locked};
 
+
 >>> ClearAll[lock]
+
+    ClearAll::locked Symbol lock is locked.
+
 

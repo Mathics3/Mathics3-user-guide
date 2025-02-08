@@ -17,10 +17,26 @@ StringContainsQ
 
 
 >>> StringContainsQ["mathics", "m" ~~ __ ~~ "s"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringContainsQ["mathics", "a" ~~ __ ~~ "m"]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringContainsQ[{"g", "a", "laxy", "universe", "sun"}, "u"]
-  = {False, False, False, True, True}
+    =
+
+:math:`\left\{\text{False},\text{False},\text{False},\text{True},\text{True}\right\}`
+
+
 >>> StringContainsQ["e" ~~ ___ ~~ "u"] /@ {"The Sun", "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"}
-  = {True, True, True, False, False, False, False, False, True}
+    =
+
+:math:`\left\{\text{True},\text{True},\text{True},\text{False},\text{False},\text{False},\text{False},\text{False},\text{True}\right\}`
+
+

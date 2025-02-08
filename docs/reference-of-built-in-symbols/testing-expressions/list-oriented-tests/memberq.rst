@@ -12,10 +12,26 @@ MemberQ
 
 
 >>> MemberQ[{a, b, c}, b]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> MemberQ[{a, b, c}, d]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> MemberQ[{"a", b, f[x]}, _?NumericQ]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> MemberQ[_List][{{}}]
-  = True
+    =
+
+:math:`\text{True}`
+
+

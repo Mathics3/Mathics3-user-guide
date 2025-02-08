@@ -18,9 +18,28 @@ ImageReflect
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
 
+
 >>> ImageReflect[ein]
-  = -Image-
+    =
+
+.. image:: tmpd0u8xsa_.png
+    :align: center
+
+
+
 >>> ImageReflect[ein, Left]
-  = -Image-
+    =
+
+.. image:: tmp2aoj_1nb.png
+    :align: center
+
+
+
 >>> ImageReflect[ein, Left -> Top]
-  = -Image-
+    =
+
+.. image:: tmp_prc3v9d.png
+    :align: center
+
+
+

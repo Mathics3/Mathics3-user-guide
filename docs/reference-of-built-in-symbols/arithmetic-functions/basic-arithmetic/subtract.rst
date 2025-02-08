@@ -15,10 +15,26 @@ Subtract
 
 
 >>> 5 - 3
-  = 2
+    =
+
+:math:`2`
+
+
 >>> a - b // FullForm
-  = Plus[a, Times[-1, b]]
+    =
+
+:math:`\text{Plus}\left[a, \text{Times}\left[-1, b\right]\right]`
+
+
 >>> a - b - c
-  = a - b - c
+    =
+
+:math:`a-b-c`
+
+
 >>> a - (b - c)
-  = a - b + c
+    =
+
+:math:`a-b+c`
+
+

@@ -12,9 +12,17 @@ EllipticPi
 
 
 >>> EllipticPi[0.4, 0.6]
-  = 2.89281
+    =
+
+:math:`2.89281`
+
+
 
 Elliptic curves give Pi / 2 when evaluated at zero:
 
 >>> EllipticPi[0, 0]
-  = Pi / 2
+    =
+
+:math:`\frac{ \pi }{2}`
+
+

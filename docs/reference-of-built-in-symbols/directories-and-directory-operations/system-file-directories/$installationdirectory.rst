@@ -12,4 +12,8 @@ $InstallationDirectory
 
 
 >>> $InstallationDirectory
-  = ...
+    =
+
+:math:`\text{/home/mauricio/Projects/mathics-core/mathics}`
+
+

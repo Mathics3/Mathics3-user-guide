@@ -17,16 +17,32 @@ Factorial2
 The double factorial or semifactorial of a number :math:`n`, is the product of all the     integers from 1 up to n that have the same parity (odd or even) as :math:`n`.
 
 >>> 5!!
-  = 15.
+    =
+
+:math:`15.`
+
+
 >>> Factorial2[-3]
-  = -1.
+    =
+
+:math:`-1.`
+
+
 
 :code:`Factorial2`  accepts Integers, Rationals, Reals, or Complex Numbers:
 
 >>> I!! + 1
-  = 3.71713 + 0.279527 I
+    =
+
+:math:`3.71713+0.279527 I`
+
+
 
 Irrationals can be handled by using numeric approximation:
 
 >>> N[Pi!!, 6]
-  = 3.35237
+    =
+
+:math:`3.35237`
+
+

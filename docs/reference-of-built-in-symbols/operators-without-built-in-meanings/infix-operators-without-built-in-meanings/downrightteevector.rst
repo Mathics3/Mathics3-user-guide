@@ -12,6 +12,14 @@ DownRightTeeVector
 
 
 >>> DownRightTeeVector[x, y, z]
-  = x ⥟ y ⥟ z
+    =
+
+:math:`x |\rightharpoondown y |\rightharpoondown z`
+
+
 >>> a \[DownRightTeeVector] b
-  = a ⥟ b
+    =
+
+:math:`a |\rightharpoondown b`
+
+

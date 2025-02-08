@@ -13,5 +13,12 @@ ColorQuantize
 
 >>> img = Import["ExampleData/hedy.tif"];
 
+
 >>> ColorQuantize[img, 6]
-  = -Image-
+    =
+
+.. image:: tmpjufdzuvz.png
+    :align: center
+
+
+

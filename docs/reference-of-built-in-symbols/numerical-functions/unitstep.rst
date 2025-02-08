@@ -17,16 +17,34 @@ UnitStep
 Evaluation numerically:
 
 >>> UnitStep[0.7]
-  = 1
+    =
+
+:math:`1`
+
+
 
 We can use :code:`UnitStep`  on irrational numbers and infinities:
 
 >>> Map[UnitStep, {Pi, Infinity, -Infinity}]
-  = {1, 1, 0}
+    =
+
+:math:`\left\{1,1,0\right\}`
+
+
 >>> Table[UnitStep[x], {x, -3, 3}]
-  = {0, 0, 0, 1, 1, 1, 1}
+    =
+
+:math:`\left\{0,0,0,1,1,1,1\right\}`
+
+
 
 Plot in one dimension:
 
 >>> Plot[UnitStep[x], {x, -4, 4}]
-  = -Graphics-
+    =
+
+.. image:: tmp7qzx9zkg.png
+    :align: center
+
+
+

@@ -28,14 +28,42 @@ AnglePath
 
 
 >>> AnglePath[{90 Degree, 90 Degree, 90 Degree, 90 Degree}]
-  = {{0, 0}, {0, 1}, {-1, 1}, {-1, 0}, {0, 0}}
+    =
+
+:math:`\left\{\left\{0,0\right\},\left\{0,1\right\},\left\{-1,1\right\},\left\{-1,0\right\},\left\{0,0\right\}\right\}`
+
+
 >>> AnglePath[{{1, 1}, 90 Degree}, {{1, 90 Degree}, {2, 90 Degree}, {1, 90 Degree}, {2, 90 Degree}}]
-  = {{1, 1}, {0, 1}, {0, -1}, {1, -1}, {1, 1}}
+    =
+
+:math:`\left\{\left\{1,1\right\},\left\{0,1\right\},\left\{0,-1\right\},\left\{1,-1\right\},\left\{1,1\right\}\right\}`
+
+
 >>> AnglePath[{a, b}]
-  = {{0, 0}, {Cos[a], Sin[a]}, {Cos[a] + Cos[a + b], Sin[a] + Sin[a + b]}}
+    =
+
+:math:`\left\{\left\{0,0\right\},\left\{\text{Cos}\left[a\right],\text{Sin}\left[a\right]\right\},\left\{\text{Cos}\left[a\right]+\text{Cos}\left[a+b\right],\text{Sin}\left[a\right]+\text{Sin}\left[a+b\right]\right\}\right\}`
+
+
 >>> Precision[Part[AnglePath[{N[1/3, 100], N[2/3, 100]}], 2, 1]]
-  = 100.
+    =
+
+:math:`100.`
+
+
 >>> Graphics[Line[AnglePath[Table[1.7, {50}]]]]
-  = -Graphics-
+    =
+
+.. image:: tmplshpdmax.png
+    :align: center
+
+
+
 >>> Graphics[Line[AnglePath[RandomReal[{-1, 1}, {100}]]]]
-  = -Graphics-
+    =
+
+.. image:: tmppdho7v9o.png
+    :align: center
+
+
+

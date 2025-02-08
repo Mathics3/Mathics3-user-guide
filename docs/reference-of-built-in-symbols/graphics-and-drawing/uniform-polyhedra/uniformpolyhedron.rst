@@ -14,8 +14,26 @@ UniformPolyhedron
 
 
 >>> Graphics3D[UniformPolyhedron["octahedron"]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpqn94weoq.png
+    :align: center
+
+
+
 >>> Graphics3D[UniformPolyhedron["dodecahedron"]]
-  = -Graphics3D-
+    =
+
+.. image:: tmph69fzdm9.png
+    :align: center
+
+
+
 >>> Graphics3D[{"Brown", UniformPolyhedron["tetrahedron"]}]
-  = -Graphics3D-
+    =
+
+.. image:: tmpcnwp6ses.png
+    :align: center
+
+
+

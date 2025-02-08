@@ -12,10 +12,26 @@ BooleanQ
 
 
 >>> BooleanQ[True]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> BooleanQ[False]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> BooleanQ[a]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> BooleanQ[1 < 2]
-  = True
+    =
+
+:math:`\text{True}`
+
+

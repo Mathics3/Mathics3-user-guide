@@ -13,16 +13,34 @@ AppendTo
 
 >>> s = {};
 
+
 >>> AppendTo[s, 1]
-  = {1}
+    =
+
+:math:`\left\{1\right\}`
+
+
 >>> s
-  = {1}
+    =
+
+:math:`\left\{1\right\}`
+
+
 
 :code:`Append`  works on expressions with heads other than :code:`List` :
 
 >>> y = f[];
 
+
 >>> AppendTo[y, x]
-  = f[x]
+    =
+
+:math:`f\left[x\right]`
+
+
 >>> y
-  = f[x]
+    =
+
+:math:`f\left[x\right]`
+
+

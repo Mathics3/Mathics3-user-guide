@@ -10,20 +10,46 @@ $TraceEvaluation
 
 
 >>> $TraceEvaluation = True
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> a + a
-  = 2 a
+    =
+
+:math:`2 a`
+
+
 
 Setting it to :code:`False`  again recovers the normal behaviour:
 
 >>> $TraceEvaluation = False
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> $TraceEvaluation
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> a + a
-  = 2 a
+    =
+
+:math:`2 a`
+
+
 
 :code:`$TraceEvaluation`  cannot be set to a non-boolean value.
 
 >>> $TraceEvaluation = x
-  = x
+
+    $TraceEvaluation::bool x should be True or False.
+    =
+
+:math:`x`
+
+

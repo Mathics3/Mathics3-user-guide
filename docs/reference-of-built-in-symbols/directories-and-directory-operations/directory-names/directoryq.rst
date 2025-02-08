@@ -12,6 +12,14 @@ DirectoryQ
 
 
 >>> DirectoryQ["ExampleData/"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> DirectoryQ["ExampleData/MythicalSubdir/"]
-  = False
+    =
+
+:math:`\text{False}`
+
+

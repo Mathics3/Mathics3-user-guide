@@ -17,19 +17,35 @@ Select
 Get a list of even numbers up to 10:
 
 >>> Select[Range[10], EvenQ]
-  = {2, 4, 6, 8, 10}
+    =
+
+:math:`\left\{2,4,6,8,10\right\}`
+
+
 
 Find numbers that are greater than zero in a list:
 
 >>> Select[{-3, 0, 10, 3, a}, #>0&]
-  = {10, 3}
+    =
+
+:math:`\left\{10,3\right\}`
+
+
 
 Find the first number that is list greater than zero in a list:
 
 >>> Select[{-3, 0, 10, 3, a}, #>0&, 1]
-  = {10}
+    =
+
+:math:`\left\{10\right\}`
+
+
 
 :code:`Select`  works on an expression with any head:
 
 >>> Select[f[a, 2, 3], NumberQ]
-  = f[2, 3]
+    =
+
+:math:`f\left[2,3\right]`
+
+

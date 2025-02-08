@@ -12,4 +12,8 @@ $OperatingSystem
 
 
 >>> $OperatingSystem
-  = ...
+    =
+
+:math:`\text{Unix}`
+
+

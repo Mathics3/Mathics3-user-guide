@@ -12,6 +12,14 @@ DesignMatrix
 
 
 >>> DesignMatrix[{{2, 1}, {3, 4}, {5, 3}, {7, 6}}, x, x]
-  = {{1, 2}, {1, 3}, {1, 5}, {1, 7}}
+    =
+
+:math:`\left\{\left\{1,2\right\},\left\{1,3\right\},\left\{1,5\right\},\left\{1,7\right\}\right\}`
+
+
 >>> DesignMatrix[{{2, 1}, {3, 4}, {5, 3}, {7, 6}}, f[x], x]
-  = {{1, f[2]}, {1, f[3]}, {1, f[5]}, {1, f[7]}}
+    =
+
+:math:`\left\{\left\{1,f\left[2\right]\right\},\left\{1,f\left[3\right]\right\},\left\{1,f\left[5\right]\right\},\left\{1,f\left[7\right]\right\}\right\}`
+
+

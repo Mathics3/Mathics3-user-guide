@@ -22,27 +22,46 @@ You can specify how a symbol shall be formatted by assigning values to :code:`Fo
 
 >>> Format[x] = "y";
 
+
 >>> x
-  = y
+    =
+
+:math:`\text{y}`
+
+
 
 This will apply to :code:`MathMLForm` , :code:`OutputForm` , :code:`StandardForm` , :code:`TeXForm` , and :code:`TraditionalForm` .
 
 >>> x // InputForm
-  = x
+    =
+
+:math:`x`
+
+
 
 You can specify a specific form in the assignment to :code:`Format` :
 
 >>> Format[x, TeXForm] = "z";
 
+
 >>> x // TeXForm
-  = \text{z}
+    =
+
+:math:`\text{$\backslash$text\{z\}}`
+
+
 
 Special formats might not be very relevant for individual symbols, but rather for custom functions (objects):
 
 >>> Format[r[args___]] = "<an r object>";
 
+
 >>> r[1, 2, 3]
-  = <an r object>
+    =
+
+:math:`\text{<an r object>}`
+
+
 
 You can use several helper functions to format expressions:
 
@@ -64,10 +83,19 @@ You can use several helper functions to format expressions:
 
 >>> Format[r[args___]] = Infix[{args}, "~"];
 
+
 >>> r[1, 2, 3]
-  = 1 ~ 2 ~ 3
+    =
+
+:math:`1\sim{}2\sim{}3`
+
+
 >>> StringForm["`1` and `2`", n, m]
-  = n and m
+    =
+
+:math:`n\text{ and }m`
+
+
 
 There are several methods to display expressions in 2-D:
 
@@ -88,86 +116,144 @@ There are several methods to display expressions in 2-D:
 
 
 >>> Grid[{{a, b}, {c, d}}]
-  = a   b
-    
-    c   d
+    =
+
+:math:`\begin{array}{cc} a & b\\ c & d\end{array}`
+
+
 >>> Subscript[a, 1, 2] // TeXForm
-  = a_{1,2}
+    =
+
+:math:`\text{a\_\{1,2\}}`
+
+
 
 If you want even more low-level control over expression display, override :code:`MakeBoxes` :
 
 >>> MakeBoxes[b, StandardForm] = "c";
 
+
 >>> b
-  = b
+    =
+
+:math:`c`
+
+
 
 This will even apply to :code:`TeXForm` , because :code:`TeXForm`  implies :code:`StandardForm` :
 
 >>> b // TeXForm
-  = c
+    =
+
+:math:`c`
+
+
 
 Except some other form is applied first:
 
 >>> b // OutputForm // TeXForm
-  = b
+    =
+
+:math:`b`
+
+
 
 :code:`MakeBoxes`  for another form:
 
 >>> MakeBoxes[b, TeXForm] = "d";
 
+
 >>> b // TeXForm
-  = d
+    =
+
+:math:`d`
+
+
 
 You can cause a much bigger mess by overriding :code:`MakeBoxes`  than by sticking to :code:`Format` , e.g. generate invalid XML:
 
 >>> MakeBoxes[c, MathMLForm] = "<not closed";
 
+
 >>> c // MathMLForm
-  = <not closed
+    =
+
+:math:`\text{<not closed}`
+
+
 
 However, this will not affect formatting of expressions involving :code:`c` :
 
 >>> c + 1 // MathMLForm
-  = ...
+    =
+
+:math:`\text{<math display="block"><mrow><mn>1</mn> <mo>+</mo> <mi>c</mi></mrow></math>}`
+
+
 
 That's because :code:`MathMLForm`  will, when not overridden for a special case, call :code:`StandardForm`  first.
 :code:`Format`  will produce escaped output:
 
 >>> Format[d, MathMLForm] = "<not closed";
 
+
 >>> d // MathMLForm
-  = ...
+    =
+
+:math:`\text{<math display="block"><mtext>\&lt;not\&nbsp;closed</mtext></math>}`
+
+
 >>> d + 1 // MathMLForm
-  = ...
+    =
+
+:math:`\text{<math display="block"><mrow><mn>1</mn> <mo>+</mo> <mtext>\&lt;not\&nbsp;closed</mtext></mrow></math>}`
+
+
 
 For instance, you can override :code:`MakeBoxes`  to format lists in a different way:
 
 >>> MakeBoxes[{items___}, StandardForm] := RowBox[{"[", Sequence @@ Riffle[MakeBoxes /@ {items}, " "], "]"}]
 
+
 >>> {1, 2, 3}
-  = {1, 2, 3}
+    =
+
+:math:`\left[1 2 3\right]`
+
+
 >>> {1, 2, 3} // TeXForm
-  = \left[1 2 3\right]
+    = \left[1 2 3\right]`
+
 
 However, this will not be accepted as input to \Mathics anymore:
 
 >>> [1 2 3]
 
+    Syntax::sntxb Expression cannot begin with "[1 2 3]" (line 1 of "").
+
+
 >>> Clear[MakeBoxes]
+
 
 
 By the way, :code:`MakeBoxes`  is the only built-in symbol that is not protected by default:
 
 >>> Attributes[MakeBoxes]
-  = {HoldAllComplete}
+    =
+
+:math:`\left\{\text{HoldAllComplete}\right\}`
+
+
 
 :code:`MakeBoxes`  must return a valid box construct:
 
 >>> MakeBoxes[squared[args___], StandardForm] := squared[args] ^ 2
 
+
 >>> squared[1, 2]
-  = squared[1, 2]
+
 >>> squared[1, 2] // TeXForm
+    = `
 
 
 =
@@ -176,17 +262,31 @@ The desired effect can be achieved in the following way:
 
 >>> MakeBoxes[squared[args___], StandardForm] := SuperscriptBox[RowBox[{MakeBoxes[squared], "[", RowBox[Riffle[MakeBoxes[#]& /@ {args}, ","]], "]"}], 2]
 
+
 >>> squared[1, 2]
-  = squared[1, 2]
+    =
+
+:math:`\text{squared}\left[1,2\right]^2`
+
+
 >>> squared[1, 2] // TeXForm
-  = \text{squared}\left[1,2\right]^2
+    = \text{squared}\left[1,2\right]^2`
+
 
 You can view the box structure of a formatted expression using :code:`ToBoxes` :
 
 >>> ToBoxes[m + n]
-  = RowBox[{m, +, n}]
+    =
+
+:math:`\text{RowBox}\left[\left\{\text{m},\text{+},\text{n}\right\}\right]`
+
+
 
 The list elements in this :code:`RowBox`  are strings, though string delimiters are not shown in the default output form:
 
 >>> InputForm[%]
-  = RowBox[{"m", "+", "n"}]
+    =
+
+:math:`\text{RowBox}\left[\left\{\text{\`{}\`{}m''}, \text{\`{}\`{}+''}, \text{\`{}\`{}n''}\right\}\right]`
+
+

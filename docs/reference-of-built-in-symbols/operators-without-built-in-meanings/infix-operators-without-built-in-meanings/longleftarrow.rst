@@ -12,6 +12,14 @@ LongLeftArrow
 
 
 >>> LongLeftArrow[x, y, z]
-  = x ⟵ y ⟵ z
+    =
+
+:math:`x \longleftarrow y \longleftarrow z`
+
+
 >>> a \[LongLeftArrow] b
-  = a ⟵ b
+    =
+
+:math:`a \longleftarrow b`
+
+

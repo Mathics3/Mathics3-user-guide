@@ -12,6 +12,14 @@ Succeeds
 
 
 >>> Succeeds[x, y, z]
-  = x ≻ y ≻ z
+    =
+
+:math:`x \succ y \succ z`
+
+
 >>> a \[Succeeds] b
-  = a ≻ b
+    =
+
+:math:`a \succ b`
+
+

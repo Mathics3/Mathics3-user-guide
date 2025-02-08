@@ -11,8 +11,20 @@ Whitespace
 
 
 >>> StringMatchQ["\r \n", Whitespace]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringSplit["a  \n b \r\n c d", Whitespace]
-  = {a, b, c, d}
+    =
+
+:math:`\left\{\text{a},\text{b},\text{c},\text{d}\right\}`
+
+
 >>> StringReplace[" this has leading and trailing whitespace \n ", (StartOfString ~~ Whitespace) | (Whitespace ~~ EndOfString) -> ""] <> " removed" // FullForm
-  = "this has leading and trailing whitespace removed"
+    =
+
+:math:`\text{\`{}\`{}this has leading and trailing whitespace removed''}`
+
+

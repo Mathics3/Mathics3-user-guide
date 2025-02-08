@@ -1,7 +1,7 @@
 Error Function and Related Functions
 ====================================
 
-
+See also `Chapter 7 Error Functions, Dawson's and Fresnel Integrals <https://dlmf.nist.gov/7>`_.
 
 .. toctree::
     :maxdepth: 2

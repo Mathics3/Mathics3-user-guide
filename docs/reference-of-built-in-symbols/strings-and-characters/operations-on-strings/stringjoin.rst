@@ -12,13 +12,28 @@ StringJoin
 
 
 >>> StringJoin["a", "b", "c"]
-  = abc
+    =
+
+:math:`\text{abc}`
+
+
 >>> "a" <> "b" <> "c" // InputForm
-  = "abc"
+    =
+
+:math:`\text{\`{}\`{}abc''}`
+
+
 
 :code:`StringJoin`  flattens lists out:
 
 >>> StringJoin[{"a", "b"}] // InputForm
-  = "ab"
+    =
+
+:math:`\text{\`{}\`{}ab''}`
+
+
 >>> Print[StringJoin[{"Hello", " ", {"world"}}, "!"]]
+
+    Hello world!
+
 

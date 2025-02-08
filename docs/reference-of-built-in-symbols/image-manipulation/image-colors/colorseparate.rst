@@ -13,5 +13,6 @@ ColorSeparate
 
 >>> img = Import["ExampleData/hedy.tif"];
 
+
 >>> ColorSeparate[img]
-  = ...
+

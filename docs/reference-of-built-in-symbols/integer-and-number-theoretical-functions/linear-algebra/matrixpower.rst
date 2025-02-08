@@ -12,6 +12,14 @@ MatrixPower
 
 
 >>> MatrixPower[{{1, 2}, {1, 1}}, 10]
-  = {{3363, 4756}, {2378, 3363}}
+    =
+
+:math:`\left\{\left\{3363,4756\right\},\left\{2378,3363\right\}\right\}`
+
+
 >>> MatrixPower[{{1, 2}, {2, 5}}, -3]
-  = {{169, -70}, {-70, 29}}
+    =
+
+:math:`\left\{\left\{169,-70\right\},\left\{-70,29\right\}\right\}`
+
+

@@ -12,5 +12,10 @@ FormatValues
 
 >>> Format[F[x_], OutputForm]:= Subscript[x, F]
 
+
 >>> FormatValues[F]
-  = {HoldPattern[Format[Subscript[x_, F], OutputForm]] :> Subscript[x, F]}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[\text{Format}\left[F\left[\text{x\_}\right],\text{OutputForm}\right]\right]\text{:>}x_F\right\}`
+
+

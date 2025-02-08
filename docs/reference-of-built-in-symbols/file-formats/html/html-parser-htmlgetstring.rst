@@ -10,6 +10,8 @@ HTML`Parser`HTMLGetString
 
 
 >>> Head[HTML`Parser`HTMLGetString["<a></a>"]]
-  = XMLObject[Document]
+    = XMLObject[Document]`
+
 >>> Head[HTML`Parser`HTMLGetString["<a><b></a>"]]
-  = XMLObject[Document]
+    = XMLObject[Document]`
+

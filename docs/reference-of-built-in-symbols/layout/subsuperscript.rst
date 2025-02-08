@@ -12,4 +12,8 @@ Subsuperscript
 
 
 >>> Subsuperscript[a, b, c] // TeXForm
-  = a_b^c
+    =
+
+:math:`\text{a\_b${}^{\wedge}$c}`
+
+

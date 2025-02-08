@@ -11,12 +11,42 @@ DensityPlot
 
 
 >>> DensityPlot[x ^ 2 + 1 / y, {x, -1, 1}, {y, 1, 4}]
-  = -Graphics-
+    =
+
+.. image:: tmpth_sel9c.png
+    :align: center
+
+
+
 >>> DensityPlot[1 / x, {x, 0, 1}, {y, 0, 1}]
-  = -Graphics-
+    =
+
+.. image:: tmp3ftosxye.png
+    :align: center
+
+
+
 >>> DensityPlot[Sqrt[x * y], {x, -1, 1}, {y, -1, 1}]
-  = -Graphics-
+    =
+
+.. image:: tmphenc77cf.png
+    :align: center
+
+
+
 >>> DensityPlot[1/(x^2 + y^2 + 1), {x, -1, 1}, {y, -2,2}, Mesh->Full]
-  = -Graphics-
+    =
+
+.. image:: tmp_bm10okp.png
+    :align: center
+
+
+
 >>> DensityPlot[x^2 y, {x, -1, 1}, {y, -1, 1}, Mesh->All]
-  = -Graphics-
+    =
+
+.. image:: tmp_e8ela3c.png
+    :align: center
+
+
+

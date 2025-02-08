@@ -11,4 +11,8 @@ $CommandLine
 
 
 >>> $CommandLine
-  = {...}
+    =
+
+:math:`\left\{\text{mathics/docpipeline.py},\text{--output},\text{--keep-going},\text{--load-module},\text{pymathics.graph,pymathics.natlang}\right\}`
+
+

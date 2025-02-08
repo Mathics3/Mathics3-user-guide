@@ -12,8 +12,11 @@ BinaryImageQ
 
 
 >>> img = Import["ExampleData/hedy.tif"];
+    = `
 
 >>> BinaryImageQ[img]
-  = False
+    = False`
+
 >>> BinaryImageQ[Binarize[img]]
-  = ...
+    = ...`
+

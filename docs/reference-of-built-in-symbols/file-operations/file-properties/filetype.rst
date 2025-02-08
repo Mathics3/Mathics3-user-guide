@@ -12,8 +12,20 @@ FileType
 
 
 >>> FileType["ExampleData/sunflowers.jpg"]
-  = File
+    =
+
+:math:`\text{File}`
+
+
 >>> FileType["ExampleData"]
-  = Directory
+    =
+
+:math:`\text{Directory}`
+
+
 >>> FileType["ExampleData/nonexistent"]
-  = None
+    =
+
+:math:`\text{None}`
+
+

@@ -12,11 +12,23 @@ Cancel
 
 
 >>> Cancel[x / x ^ 2]
-  = 1 / x
+    =
+
+:math:`\frac{1}{x}`
+
+
 
 :code:`Cancel`  threads over sums:
 
 >>> Cancel[x / x ^ 2 + y / y ^ 2]
-  = 1 / x + 1 / y
+    =
+
+:math:`\frac{1}{x}+\frac{1}{y}`
+
+
 >>> Cancel[f[x] / x + x * f[x] / x ^ 2]
-  = 2 f[x] / x
+    =
+
+:math:`\frac{2 f\left[x\right]}{x}`
+
+

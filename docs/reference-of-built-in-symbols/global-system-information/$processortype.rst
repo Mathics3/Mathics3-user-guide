@@ -12,4 +12,8 @@ $ProcessorType
 
 
 >>> $ProcessorType
-  = ...
+    =
+
+:math:`\text{x86\_64}`
+
+

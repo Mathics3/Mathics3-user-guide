@@ -11,4 +11,8 @@ InverseErfc
 
 
 >>> InverseErfc /@ {0, 1, 2}
-  = {Infinity, 0, -Infinity}
+    =
+
+:math:`\left\{\infty ,0,-\infty \right\}`
+
+

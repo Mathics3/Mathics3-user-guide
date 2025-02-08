@@ -14,11 +14,23 @@ Alphabet
 
 
 >>> Alphabet[]
-  = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z}
+    =
+
+:math:`\left\{\text{a},\text{b},\text{c},\text{d},\text{e},\text{f},\text{g},\text{h},\text{i},\text{j},\text{k},\text{l},\text{m},\text{n},\text{o},\text{p},\text{q},\text{r},\text{s},\text{t},\text{u},\text{v},\text{w},\text{x},\text{y},\text{z}\right\}`
+
+
 >>> Alphabet["German"]
-  = {a, ä, b, c, d, e, f, g, h, i, j, k, l, m, n, o, ö, p, q, r, s, ß, t, u, ü, v, w, x, y, z}
+    =
+
+:math:`\left\{\text{a},\text{ä},\text{b},\text{c},\text{d},\text{e},\text{f},\text{g},\text{h},\text{i},\text{j},\text{k},\text{l},\text{m},\text{n},\text{o},\text{ö},\text{p},\text{q},\text{r},\text{s},\text{ß},\text{t},\text{u},\text{ü},\text{v},\text{w},\text{x},\text{y},\text{z}\right\}`
+
+
 
 Some languages are aliases. "Russian" is the same letter set as "Cyrillic"
 
 >>> Alphabet["Russian"] == Alphabet["Cyrillic"]
-  = True
+    =
+
+:math:`\text{True}`
+
+

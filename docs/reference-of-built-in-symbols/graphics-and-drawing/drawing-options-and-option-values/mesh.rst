@@ -25,10 +25,34 @@ Options include:
 
 
 >>> Plot[Sin[Cos[x^2]],{x,-4,4},Mesh->All]
-  = -Graphics-
+    =
+
+.. image:: tmpz5n4zzau.png
+    :align: center
+
+
+
 >>> Plot[Sin[x], {x,0,4 Pi}, Mesh->Full]
-  = -Graphics-
+    =
+
+.. image:: tmp4htwhd3p.png
+    :align: center
+
+
+
 >>> DensityPlot[Sin[x y], {x, -2, 2}, {y, -2, 2}, Mesh->Full]
-  = -Graphics-
+    =
+
+.. image:: tmp9jk8kcxm.png
+    :align: center
+
+
+
 >>> Plot3D[Sin[x y], {x, -2, 2}, {y, -2, 2}, Mesh->Full]
-  = -Graphics3D-
+    =
+
+.. image:: tmp3mb4v7e1.png
+    :align: center
+
+
+

@@ -12,8 +12,20 @@ FullForm
 
 
 >>> FullForm[a + b * c]
-  = Plus[a, Times[b, c]]
+    =
+
+:math:`\text{Plus}\left[a, \text{Times}\left[b, c\right]\right]`
+
+
 >>> FullForm[2/3]
-  = Rational[2, 3]
+    =
+
+:math:`\text{Rational}\left[2, 3\right]`
+
+
 >>> FullForm["A string"]
-  = "A string"
+    =
+
+:math:`\text{\`{}\`{}A string''}`
+
+

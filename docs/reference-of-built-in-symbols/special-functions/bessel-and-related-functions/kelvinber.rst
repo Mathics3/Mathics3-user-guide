@@ -14,10 +14,28 @@ KelvinBer
 
 
 >>> KelvinBer[0.5]
-  = 0.999023
+    =
+
+:math:`0.999023`
+
+
 >>> KelvinBer[1.5 + I]
-  = 1.1162 - 0.117944 I
+    =
+
+:math:`1.1162-0.117944 I`
+
+
 >>> KelvinBer[0.5, 0.25]
-  = 0.148824
+    =
+
+:math:`0.148824`
+
+
 >>> Plot[KelvinBer[x], {x, 0, 10}]
-  = -Graphics-
+    =
+
+.. image:: tmpfm7jso6l.png
+    :align: center
+
+
+

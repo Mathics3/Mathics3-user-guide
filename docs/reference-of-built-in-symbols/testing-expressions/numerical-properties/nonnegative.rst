@@ -12,4 +12,8 @@ NonNegative
 
 
 >>> {Positive[0], NonNegative[0]}
-  = {False, True}
+    =
+
+:math:`\left\{\text{False},\text{True}\right\}`
+
+

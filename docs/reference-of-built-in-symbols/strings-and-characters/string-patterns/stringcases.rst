@@ -24,20 +24,56 @@ StringCases
 
 
 >>> StringCases["axbaxxb", "a" ~~ x_ ~~ "b"]
-  = {axb}
+    =
+
+:math:`\left\{\text{axb}\right\}`
+
+
 >>> StringCases["axbaxxb", "a" ~~ x__ ~~ "b"]
-  = {axbaxxb}
+    =
+
+:math:`\left\{\text{axbaxxb}\right\}`
+
+
 >>> StringCases["axbaxxb", Shortest["a" ~~ x__ ~~ "b"]]
-  = {axb, axxb}
+    =
+
+:math:`\left\{\text{axb},\text{axxb}\right\}`
+
+
 >>> StringCases["-abc- def -uvw- xyz", Shortest["-" ~~ x__ ~~ "-"] -> x]
-  = {abc, uvw}
+    =
+
+:math:`\left\{\text{abc},\text{uvw}\right\}`
+
+
 >>> StringCases["-öhi- -abc- -.-", "-" ~~ x : WordCharacter .. ~~ "-" -> x]
-  = {öhi, abc}
+    =
+
+:math:`\left\{\text{öhi},\text{abc}\right\}`
+
+
 >>> StringCases["abc-abc xyz-uvw", Shortest[x : WordCharacter .. ~~ "-" ~~ x_] -> x]
-  = {abc}
+    =
+
+:math:`\left\{\text{abc}\right\}`
+
+
 >>> StringCases["abba", {"a" -> 10, "b" -> 20}, 2]
-  = {10, 20}
+    =
+
+:math:`\left\{10,20\right\}`
+
+
 >>> StringCases["a#ä_123", WordCharacter]
-  = {a, ä, 1, 2, 3}
+    =
+
+:math:`\left\{\text{a},\text{ä},\text{1},\text{2},\text{3}\right\}`
+
+
 >>> StringCases["a#ä_123", LetterCharacter]
-  = {a, ä}
+    =
+
+:math:`\left\{\text{a},\text{ä}\right\}`
+
+

@@ -14,19 +14,41 @@ DefaultValues
 
 
 >>> Default[f, 1] = 4
-  = 4
+    =
+
+:math:`4`
+
+
 >>> DefaultValues[f]
-  = {HoldPattern[Default[f, 1]] :> 4}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[\text{Default}\left[f,1\right]\right]\text{:>}4\right\}`
+
+
 
 You can assign values to :code:`DefaultValues` :
 
 >>> DefaultValues[g] = {Default[g] -> 3};
 
+
 >>> Default[g, 1]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> g[x_.] := {x}
 
+
 >>> g[a]
-  = {a}
+    =
+
+:math:`\left\{a\right\}`
+
+
 >>> g[]
-  = {3}
+    =
+
+:math:`\left\{3\right\}`
+
+

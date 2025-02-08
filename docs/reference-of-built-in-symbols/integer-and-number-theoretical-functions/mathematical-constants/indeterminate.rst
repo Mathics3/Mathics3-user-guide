@@ -12,6 +12,16 @@ Indeterminate
 
 
 >>> 0^0
-  = Indeterminate
+
+    Power::indet Indeterminate expression 0 ^ 0 encountered.
+    =
+
+:math:`\text{Indeterminate}`
+
+
 >>> Tan[Indeterminate]
-  = Indeterminate
+    =
+
+:math:`\text{Indeterminate}`
+
+

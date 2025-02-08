@@ -17,10 +17,18 @@ Or
 
 
 >>> False || True
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 If an expression does not evaluate to :code:`True`  or :code:`False` , :code:`Or` 
 returns a result in symbolic form:
 
 >>> a || False || b
-  = a || b
+    =
+
+:math:`a\text{$\vert$$\vert$}b`
+
+

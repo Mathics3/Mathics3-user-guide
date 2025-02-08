@@ -12,6 +12,14 @@ LessEqualGreater
 
 
 >>> LessEqualGreater[x, y, z]
-  = x ⋚ y ⋚ z
+    =
+
+:math:`x \lesseqgtr y \lesseqgtr z`
+
+
 >>> a \[LessEqualGreater] b
-  = a ⋚ b
+    =
+
+:math:`a \lesseqgtr b`
+
+

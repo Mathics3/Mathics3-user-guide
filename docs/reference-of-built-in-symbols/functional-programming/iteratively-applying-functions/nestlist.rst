@@ -12,15 +12,31 @@ NestList
 
 
 >>> NestList[f, x, 3]
-  = {x, f[x], f[f[x]], f[f[f[x]]]}
+    =
+
+:math:`\left\{x,f\left[x\right],f\left[f\left[x\right]\right],f\left[f\left[f\left[x\right]\right]\right]\right\}`
+
+
 >>> NestList[2 # &, 1, 8]
-  = {1, 2, 4, 8, 16, 32, 64, 128, 256}
+    =
+
+:math:`\left\{1,2,4,8,16,32,64,128,256\right\}`
+
+
 
 Chaos game rendition of the Sierpinski triangle:
 
 >>> vertices = {{0,0}, {1,0}, {.5, .5 Sqrt[3]}};
 
+
 >>> points = NestList[.5(vertices[[ RandomInteger[{1,3}] ]] + #) &, {0.,0.}, 500];
 
+
 >>> Graphics[Point[points], ImageSize->Small]
-  = -Graphics-
+    =
+
+.. image:: tmpik1gs43p.png
+    :align: center
+
+
+

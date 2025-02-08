@@ -18,15 +18,28 @@ Get
 
 >>> filename = $TemporaryDirectory <> "/example_file";
 
+
 >>> Put[x + y, filename]
 
+
 >>> Get[filename]
-  = x + y
+    =
+
+:math:`x+y`
+
+
 >>> filename = $TemporaryDirectory <> "/example_file";
+
 
 >>> Put[x + y, 2x^2 + 4z!, Cos[x] + I Sin[x], filename]
 
+
 >>> Get[filename]
-  = Cos[x] + I Sin[x]
+    =
+
+:math:`\text{Cos}\left[x\right]+I \text{Sin}\left[x\right]`
+
+
 >>> DeleteFile[filename]
+
 

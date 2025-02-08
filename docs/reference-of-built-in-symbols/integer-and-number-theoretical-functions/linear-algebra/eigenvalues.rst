@@ -19,13 +19,29 @@ Eigenvalues
 Numeric eigenvalues are sorted in order of decreasing absolute value:
 
 >>> Eigenvalues[{{1, 1, 0}, {1, 0, 1}, {0, 1, 1}}]
-  = {2, -1, 1}
+    =
+
+:math:`\left\{2,-1,1\right\}`
+
+
 
 Symbolic eigenvalues:
 
 >>> Eigenvalues[{{Cos[theta],Sin[theta],0},{-Sin[theta],Cos[theta],0},{0,0,1}}] // Sort
-  = {1, Cos[theta] + Sqrt[(-1 + Cos[theta]) (1 + Cos[theta])], Cos[theta] - Sqrt[(-1 + Cos[theta]) (1 + Cos[theta])]}
+    =
+
+:math:`\left\{1,\text{Cos}\left[\text{theta}\right]+\sqrt{\left(-1+\text{Cos}\left[\text{theta}\right]\right) \left(1+\text{Cos}\left[\text{theta}\right]\right)},\text{Cos}\left[\text{theta}\right]-\sqrt{\left(-1+\text{Cos}\left[\text{theta}\right]\right) \left(1+\text{Cos}\left[\text{theta}\right]\right)}\right\}`
+
+
 >>> Eigenvalues[{{7, 1}, {-4, 3}}]
-  = {5, 5}
+    =
+
+:math:`\left\{5,5\right\}`
+
+
 >>> Eigenvalues[{{7, 1}, {-4, 3}}]
-  = {5, 5}
+    =
+
+:math:`\left\{5,5\right\}`
+
+

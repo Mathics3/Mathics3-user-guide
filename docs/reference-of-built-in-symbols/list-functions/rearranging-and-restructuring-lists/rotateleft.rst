@@ -18,10 +18,26 @@ RotateLeft
 
 
 >>> RotateLeft[{1, 2, 3}]
-  = {2, 3, 1}
+    =
+
+:math:`\left\{2,3,1\right\}`
+
+
 >>> RotateLeft[Range[10], 3]
-  = {4, 5, 6, 7, 8, 9, 10, 1, 2, 3}
+    =
+
+:math:`\left\{4,5,6,7,8,9,10,1,2,3\right\}`
+
+
 >>> RotateLeft[x[a, b, c], 2]
-  = x[c, a, b]
+    =
+
+:math:`x\left[c,a,b\right]`
+
+
 >>> RotateLeft[{{a, b, c}, {d, e, f}, {g, h, i}}, {1, 2}]
-  = {{f, d, e}, {i, g, h}, {c, a, b}}
+    =
+
+:math:`\left\{\left\{f,d,e\right\},\left\{i,g,h\right\},\left\{c,a,b\right\}\right\}`
+
+

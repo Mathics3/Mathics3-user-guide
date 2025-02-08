@@ -15,11 +15,19 @@ SubValues
 
 >>> f[1][x_] := x
 
+
 >>> f[2][x_] := x ^ 2
 
+
 >>> SubValues[f]
-  = {HoldPattern[f[2][x_]] :> x ^ 2, HoldPattern[f[1][x_]] :> x}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[f\left[2\right]\left[\text{x\_}\right]\right]\text{:>}x^2,\text{HoldPattern}\left[f\left[1\right]\left[\text{x\_}\right]\right]\text{:>}x\right\}`
+
+
 >>> Definition[f]
-  = f[2][x_] = x ^ 2
-    
-    f[1][x_] = x
+    =
+
+:math:`\begin{array}{l} f\left[2\right]\left[\text{x\_}\right]=x^2\\ f\left[1\right]\left[\text{x\_}\right]=x\end{array}`
+
+

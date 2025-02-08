@@ -22,33 +22,61 @@ Function
 
 >>> f := # ^ 2 &
 
+
 >>> f[3]
-  = 9
+    = 9`
+
 >>> #^3& /@ {1, 2, 3}
-  = {1, 8, 27}
+    = {1, 8, 27}`
+
 >>> #1+#2&[4, 5]
-  = 9
+    = 9`
+
 
 You can use :code:`Function`  with named parameters:
 
 >>> Function[{x, y}, x * y][2, 3]
-  = 6
+    =
+
+:math:`6`
+
+
 
 Parameters are renamed, when necessary, to avoid confusion:
 
 >>> Function[{x}, Function[{y}, f[x, y]]][y]
-  = Function[{y$}, f[y, y$]]
+    =
+
+:math:`\text{Function}\left[\left\{\text{y\$}\right\},f\left[y,\text{y\$}\right]\right]`
+
+
 >>> Function[{y}, f[x, y]] /. x->y
-  = Function[{y}, f[y, y]]
+    =
+
+:math:`\text{Function}\left[\left\{y\right\},f\left[y,y\right]\right]`
+
+
 >>> Function[y, Function[x, y^x]][x][y]
-  = x ^ y
+    =
+
+:math:`x^y`
+
+
 >>> Function[x, Function[y, x^y]][x][y]
-  = x ^ y
+    =
+
+:math:`x^y`
+
+
 
 Slots in inner functions are not affected by outer function application:
 
 >>> g[#] & [h[#]] & [5]
-  = g[h[5]]
+    =
+
+:math:`g\left[h\left[5\right]\right]`
+
+
 
 In the evaluation process, the attributes associated with an Expression are     determined by its Head.  If the Head is also a non-atomic Expression, in general,    no Attribute is assumed. In particular, it is what happens when the head     of the expression has the form:
 
@@ -58,14 +86,24 @@ or:
 
 >>> h := Function[{x}, Hold[1+x]]
 
+
 >>> h[1 + 1]
-  = Hold[1 + 2]
+    =
+
+:math:`\text{Hold}\left[1+2\right]`
+
+
 
 Notice that :math:`Hold` in the body prevents the evaluation of :math:`1+x`, but not     the evaluation of :math:`1+1`. To avoid that evaluation, of its arguments, the Head     should have the attribute :code:`HoldAll` . This behavior can be obtained by using the     three arguments form version of this expression:
 
 >>> h:= Function[{x}, Hold[1+x], HoldAll]
 
+
 >>> h[1+1]
-  = Hold[1 + (1 + 1)]
+    =
+
+:math:`\text{Hold}\left[1+\left(1+1\right)\right]`
+
+
 
 In this case, the attribute :code:`HoldAll`  is assumed,     preventing the evaluation of the argument :math:`1+1` before passing it     to the function body.

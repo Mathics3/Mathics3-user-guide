@@ -12,6 +12,14 @@ Vee
 
 
 >>> Vee[x, y, z]
-  = x ⋁ y ⋁ z
+    =
+
+:math:`x \vee y \vee z`
+
+
 >>> a \[Vee] b
-  = a ⋁ b
+    =
+
+:math:`a \vee b`
+
+

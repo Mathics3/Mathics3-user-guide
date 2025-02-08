@@ -22,7 +22,12 @@ Here is how to use :code:`mathics.disabled_breakpoint` :
 
 >>> SetEnvironment["PYTHONBREAKPOINT" -> "mathics.disabled_breakpoint"];
 
+
 >>> Breakpoint[]
-  = Breakpoint[]
+    =
+
+:math:`\text{Breakpoint}\left[\right]`
+
+
 
 The environment variable :code:`PYTHONBREAKPOINT`  can be changed at runtime to switch     :code:`breakpoint()`  and :code:`Breakpoint[]`  behavior.

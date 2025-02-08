@@ -11,10 +11,26 @@ PythonForm
 
 
 >>> PythonForm[Infinity]
-  = math.inf
+    =
+
+:math:`\text{math.inf}`
+
+
 >>> PythonForm[Pi]
-  = sympy.pi
+    =
+
+:math:`\text{sympy.pi}`
+
+
 >>> E // PythonForm
-  = sympy.E
+    =
+
+:math:`\text{sympy.E}`
+
+
 >>> {1, 2, 3} // PythonForm
-  = [1, 2, 3]
+    =
+
+:math:`\text{[1, 2, 3]}`
+
+

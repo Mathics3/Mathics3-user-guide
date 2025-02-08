@@ -12,6 +12,14 @@ RightTee
 
 
 >>> RightTee[x, y, z]
-  = x ⊢ y ⊢ z
+    =
+
+:math:`x \vdash y \vdash z`
+
+
 >>> a \[RightTee] b
-  = a ⊢ b
+    =
+
+:math:`a \vdash b`
+
+

@@ -12,6 +12,14 @@ TildeTilde
 
 
 >>> TildeTilde[x, y, z]
-  = x ≈ y ≈ z
+    =
+
+:math:`x \approx y \approx z`
+
+
 >>> a \[TildeTilde] b
-  = a ≈ b
+    =
+
+:math:`a \approx b`
+
+

@@ -13,9 +13,21 @@ On
 
 >>> Off[Power::infy]
 
->>> 1 / 0
-  = ComplexInfinity
->>> On[Power::infy]
 
 >>> 1 / 0
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
+>>> On[Power::infy]
+
+
+>>> 1 / 0
+
+    Power::infy Infinite expression 1 / 0 encountered.
+    =
+
+:math:`\text{ComplexInfinity}`
+
+

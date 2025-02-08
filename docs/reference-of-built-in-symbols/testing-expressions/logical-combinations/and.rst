@@ -15,9 +15,17 @@ And
 
 
 >>> True && True && False
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 If an expression does not evaluate to :code:`True`  or :code:`False` , :code:`And`      returns a result in symbolic form:
 
 >>> a && b && True && c
-  = a && b && c
+    =
+
+:math:`a\text{\&\&}b\text{\&\&}c`
+
+

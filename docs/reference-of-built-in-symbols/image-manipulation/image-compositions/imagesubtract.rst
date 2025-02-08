@@ -13,7 +13,20 @@ ImageSubtract
 
 >>> i = Image[{{0, 0.5, 0.2, 0.1, 0.9}, {1.0, 0.1, 0.3, 0.8, 0.6}}];
 
+
 >>> ImageSubtract[i, 0.2]
-  = -Image-
+    =
+
+.. image:: tmpzaphahr4.png
+    :align: center
+
+
+
 >>> ImageSubtract[i, i]
-  = -Image-
+    =
+
+.. image:: tmpj671at_9.png
+    :align: center
+
+
+

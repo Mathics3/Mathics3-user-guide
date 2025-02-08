@@ -13,5 +13,12 @@ MedianFilter
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> MedianFilter[hedy, 5]
-  = -Image-
+    =
+
+.. image:: tmp7fya2rlk.png
+    :align: center
+
+
+

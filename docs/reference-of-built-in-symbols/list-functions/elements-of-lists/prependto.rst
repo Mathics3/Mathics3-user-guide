@@ -14,23 +14,44 @@ PrependTo
 Assign s to a list
 
 >>> s = {1, 2, 4, 9}
-  = {1, 2, 4, 9}
+    =
+
+:math:`\left\{1,2,4,9\right\}`
+
+
 
 Add a new value at the beginning of the list:
 
 >>> PrependTo[s, 0]
-  = {0, 1, 2, 4, 9}
+    =
+
+:math:`\left\{0,1,2,4,9\right\}`
+
+
 
 The value assigned to s has changed:
 
 >>> s
-  = {0, 1, 2, 4, 9}
+    =
+
+:math:`\left\{0,1,2,4,9\right\}`
+
+
 
 :code:`PrependTo`  works with a head other than :code:`List` :
 
 >>> y = f[a, b, c];
 
+
 >>> PrependTo[y, x]
-  = f[x, a, b, c]
+    =
+
+:math:`f\left[x,a,b,c\right]`
+
+
 >>> y
-  = f[x, a, b, c]
+    =
+
+:math:`f\left[x,a,b,c\right]`
+
+

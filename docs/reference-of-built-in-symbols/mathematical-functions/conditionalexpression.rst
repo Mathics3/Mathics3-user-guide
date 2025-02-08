@@ -12,23 +12,49 @@ ConditionalExpression
 
 
 >>> ConditionalExpression[x^2, True]
-  = x ^ 2
+    =
+
+:math:`x^2`
+
+
 >>> ConditionalExpression[x^2, False]
-  = Undefined
+    =
+
+:math:`\text{Undefined}`
+
+
 >>> f = ConditionalExpression[x^2, x>0]
-  = ConditionalExpression[x ^ 2, x > 0]
+    =
+
+:math:`\text{ConditionalExpression}\left[x^2,x>0\right]`
+
+
 >>> f /. x -> 2
-  = 4
+    =
+
+:math:`4`
+
+
 >>> f /. x -> -2
-  = Undefined
+    =
+
+:math:`\text{Undefined}`
+
+
 
 :code:`ConditionalExpression`  uses assumptions to evaluate the condition:
 
 >>> $Assumptions = x > 0;
 
+
 >>> ConditionalExpression[x ^ 2, x>0]//Simplify
-  = x ^ 2
+    =
+
+:math:`x^2`
+
+
 >>> $Assumptions = True;
+
 
 
 # >> ConditionalExpression[ConditionalExpression[s,x>a], x<b]

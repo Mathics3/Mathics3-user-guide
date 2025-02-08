@@ -29,34 +29,62 @@ Subsets
 All possible subsets (power set):
 
 >>> Subsets[{a, b, c}]
-  = {{}, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}
+    =
+
+:math:`\left\{\left\{\right\},\left\{a\right\},\left\{b\right\},\left\{c\right\},\left\{a,b\right\},\left\{a,c\right\},\left\{b,c\right\},\left\{a,b,c\right\}\right\}`
+
+
 
 All possible subsets containing up to 2 elements:
 
 >>> Subsets[{a, b, c, d}, 2]
-  = {{}, {a}, {b}, {c}, {d}, {a, b}, {a, c}, {a, d}, {b, c}, {b, d}, {c, d}}
+    =
+
+:math:`\left\{\left\{\right\},\left\{a\right\},\left\{b\right\},\left\{c\right\},\left\{d\right\},\left\{a,b\right\},\left\{a,c\right\},\left\{a,d\right\},\left\{b,c\right\},\left\{b,d\right\},\left\{c,d\right\}\right\}`
+
+
 
 Subsets containing exactly 2 elements:
 
 >>> Subsets[{a, b, c, d}, {2}]
-  = {{a, b}, {a, c}, {a, d}, {b, c}, {b, d}, {c, d}}
+    =
+
+:math:`\left\{\left\{a,b\right\},\left\{a,c\right\},\left\{a,d\right\},\left\{b,c\right\},\left\{b,d\right\},\left\{c,d\right\}\right\}`
+
+
 
 The first 5 subsets containing 3 elements:
 
 >>> Subsets[{a, b, c, d, e}, {3}, 5]
-  = {{a, b, c}, {a, b, d}, {a, b, e}, {a, c, d}, {a, c, e}}
+    =
+
+:math:`\left\{\left\{a,b,c\right\},\left\{a,b,d\right\},\left\{a,b,e\right\},\left\{a,c,d\right\},\left\{a,c,e\right\}\right\}`
+
+
 
 All subsets with even length:
 
 >>> Subsets[{a, b, c, d}, {0, 4, 2}]
-  = {{}, {a, b}, {a, c}, {a, d}, {b, c}, {b, d}, {c, d}, {a, b, c, d}}
+    =
+
+:math:`\left\{\left\{\right\},\left\{a,b\right\},\left\{a,c\right\},\left\{a,d\right\},\left\{b,c\right\},\left\{b,d\right\},\left\{c,d\right\},\left\{a,b,c,d\right\}\right\}`
+
+
 
 The 25th subset:
 
 >>> Subsets[Range[5], All, {25}]
-  = {{2, 4, 5}}
+    =
+
+:math:`\left\{\left\{2,4,5\right\}\right\}`
+
+
 
 The odd-numbered subsets of {:math:`a`,:math:`b`,:math:`c`,:math:`d`} in reverse order:
 
 >>> Subsets[{a, b, c, d}, All, {15, 1, -2}]
-  = {{b, c, d}, {a, b, d}, {c, d}, {b, c}, {a, c}, {d}, {b}, {}}
+    =
+
+:math:`\left\{\left\{b,c,d\right\},\left\{a,b,d\right\},\left\{c,d\right\},\left\{b,c\right\},\left\{a,c\right\},\left\{d\right\},\left\{b\right\},\left\{\right\}\right\}`
+
+

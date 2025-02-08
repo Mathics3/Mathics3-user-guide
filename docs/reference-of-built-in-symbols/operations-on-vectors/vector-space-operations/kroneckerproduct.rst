@@ -15,20 +15,25 @@ Show symbolically how the Kronecker product works on two two-dimensional arrays:
 
 >>> a = {{a11, a12}, {a21, a22}}; b = {{b11, b12}, {b21, b22}};
 
+
 >>> KroneckerProduct[a, b]
-  = {{a11 b11, a11 b12, a12 b11, a12 b12}, {a11 b21, a11 b22, a12 b21, a12 b22}, {a21 b11, a21 b12, a22 b11, a22 b12}, {a21 b21, a21 b22, a22 b21, a22 b22}}
+    =
+
+:math:`\left\{\left\{\text{a11} \text{b11},\text{a11} \text{b12},\text{a12} \text{b11},\text{a12} \text{b12}\right\},\left\{\text{a11} \text{b21},\text{a11} \text{b22},\text{a12} \text{b21},\text{a12} \text{b22}\right\},\left\{\text{a21} \text{b11},\text{a21} \text{b12},\text{a22} \text{b11},\text{a22} \text{b12}\right\},\left\{\text{a21} \text{b21},\text{a21} \text{b22},\text{a22} \text{b21},\text{a22} \text{b22}\right\}\right\}`
+
+
 
 Now do the same with discrete values:
 
 >>> a = {{0, 1}, {-1, 0}}; b = {{1, 2}, {3, 4}};
 
+
 >>> KroneckerProduct[a, b] // MatrixForm
-  = 0    0    1   2
-    
-     0    0    3   4
-    
-    -1   -2   0   0
-    
-    -3   -4   0   0
+    =
+
+:math:`\left(\begin{array}{cccc} 0 & 0 & 1 & 2\\ 0 & 0 & 3 & 4\\ -1 & -2 & 0 & 0\\ -3 & -4 & 0 & 0\end{array}\right)`
+
+
 >>> Clear[a, b];
+    = `
 

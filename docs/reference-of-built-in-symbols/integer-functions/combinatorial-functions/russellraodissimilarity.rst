@@ -12,4 +12,8 @@ RussellRaoDissimilarity
 
 
 >>> RussellRaoDissimilarity[{1, 0, 1, 1, 0, 1, 1}, {0, 1, 1, 0, 0, 0, 1}]
-  = 5 / 7
+    =
+
+:math:`\frac{5}{7}`
+
+

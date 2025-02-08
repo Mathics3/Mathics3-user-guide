@@ -14,19 +14,61 @@ Plot
 
 
 >>> Plot[{Sin[x], Cos[x], x / 3}, {x, -Pi, Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmpd7qjfge9.png
+    :align: center
+
+
+
 >>> Plot[Sin[x], {x, 0, 4 Pi}, PlotRange->{{0, 4 Pi}, {0, 1.5}}]
-  = -Graphics-
+    =
+
+.. image:: tmp29eu78l4.png
+    :align: center
+
+
+
 >>> Plot[Tan[x], {x, -6, 6}, Mesh->Full]
-  = -Graphics-
+    =
+
+.. image:: tmp_bt1868e.png
+    :align: center
+
+
+
 >>> Plot[x^2, {x, -1, 1}, MaxRecursion->5, Mesh->All]
-  = -Graphics-
+    =
+
+.. image:: tmptojqjytz.png
+    :align: center
+
+
+
 >>> Plot[Log[x], {x, 0, 5}, MaxRecursion->0]
-  = -Graphics-
+    =
+
+.. image:: tmpomb5j6xu.png
+    :align: center
+
+
+
 >>> Plot[Tan[x], {x, 0, 6}, Mesh->All, PlotRange->{{-1, 5}, {0, 15}}, MaxRecursion->10]
-  = -Graphics-
+    =
+
+.. image:: tmp_8xk05hq.png
+    :align: center
+
+
+
 
 A constant function:
 
 >>> Plot[3, {x, 0, 1}]
-  = -Graphics-
+    =
+
+.. image:: tmpihlyg_tt.png
+    :align: center
+
+
+

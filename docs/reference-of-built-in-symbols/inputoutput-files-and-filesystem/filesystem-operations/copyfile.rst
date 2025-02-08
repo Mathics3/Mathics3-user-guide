@@ -12,6 +12,8 @@ CopyFile
 
 
 >>> CopyFile["ExampleData/sunflowers.jpg", "MathicsSunflowers.jpg"]
-  = MathicsSunflowers.jpg
+    = MathicsSunflowers.jpg`
+
 >>> DeleteFile["MathicsSunflowers.jpg"]
+    = `
 

@@ -14,22 +14,50 @@ EditDistance
 
 
 >>> EditDistance["kitten", "kitchen"]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> EditDistance["abc", "ac"]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> EditDistance["abc", "acb"]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> EditDistance["azbc", "abxyc"]
-  = 3
+    =
+
+:math:`3`
+
+
 
 The IgnoreCase option makes EditDistance ignore the case of letters:
 
 >>> EditDistance["time", "Thyme"]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> EditDistance["time", "Thyme", IgnoreCase -> True]
-  = 2
+    =
+
+:math:`2`
+
+
 
 EditDistance also works on lists:
 
 >>> EditDistance[{1, E, 2, Pi}, {1, E, Pi, 2}]
-  = 2
+    =
+
+:math:`2`
+
+

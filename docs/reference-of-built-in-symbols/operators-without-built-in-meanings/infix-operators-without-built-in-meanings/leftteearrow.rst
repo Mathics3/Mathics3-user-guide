@@ -12,6 +12,14 @@ LeftTeeArrow
 
 
 >>> LeftTeeArrow[x, y, z]
-  = x ↤ y ↤ z
+    =
+
+:math:`x \mapsfrom y \mapsfrom z`
+
+
 >>> a \[LeftTeeArrow] b
-  = a ↤ b
+    =
+
+:math:`a \mapsfrom b`
+
+

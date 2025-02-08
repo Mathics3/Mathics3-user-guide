@@ -21,6 +21,8 @@ WordCloud
 
 
 >>> WordCloud[StringSplit[Import["ExampleData/EinsteinSzilLetter.txt", CharacterEncoding->"UTF8"]]]
-  = -Image-
+    = -Image-`
+
 >>> WordCloud[Range[50] -> ToString /@ Range[50]]
-  = -Image-
+    = -Image-`
+

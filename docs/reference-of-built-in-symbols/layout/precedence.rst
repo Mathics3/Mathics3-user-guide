@@ -12,16 +12,32 @@ on, logic, comparison, datentime, attributes and binary)
 
 
 >>> Precedence[Plus]
-  = 310.
+    =
+
+:math:`310.`
+
+
 >>> Precedence[Plus] < Precedence[Times]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Unknown symbols have precedence 670:
 
 >>> Precedence[f]
-  = 670.
+    =
+
+:math:`670.`
+
+
 
 Other expressions have precedence 1000:
 
 >>> Precedence[a + b]
-  = 1000.
+    =
+
+:math:`1000.`
+
+

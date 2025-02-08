@@ -12,13 +12,29 @@ StringMatchQ
 
 
 >>> StringMatchQ["abc", "abc"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringMatchQ["abc", "abd"]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringMatchQ["15a94xcZ6", (DigitCharacter | LetterCharacter)..]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Use StringMatchQ as an operator
 
 >>> StringMatchQ[LetterCharacter]["a"]
-  = True
+    =
+
+:math:`\text{True}`
+
+

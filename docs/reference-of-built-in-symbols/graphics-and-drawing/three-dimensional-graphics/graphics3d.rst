@@ -14,36 +14,56 @@ Graphics3D
 
 
 >>> Graphics3D[Polygon[{{0,0,0}, {0,1,1}, {1,0,0}}]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpvfoz435o.png
+    :align: center
+
+
+
 
 The :code:`Background`  option allows to set the color of the background:
 
 >>> Graphics3D[Sphere[], Background->RGBColor[.6, .7, 1.]]
-  = -Graphics3D-
+    =
+
+.. image:: tmphezv00g7.png
+    :align: center
+
+
+
 
 In :code:`TeXForm` , :code:`Graphics3D`  creates Asymptote figures:
 
 >>> Graphics3D[Sphere[]] // TeXForm
-  = 
-    \begin{asy}
-    import three;
-    import solids;
-    import tube;
-    size(6.6667cm, 6.6667cm);
-    currentprojection=perspective(2.6,-4.8,4.0);
-    currentlight=light(rgb(0.5,0.5,0.5), specular=red, (2,0,2), (2,2,2), (0,2,2));
-    // Sphere3DBox
-    draw(surface(sphere((0, 0, 0), 1)), rgb(1,1,1)+opacity(1));
-    draw(((-1,-1,-1)--(1,-1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,1,-1)--(1,1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,-1,1)--(1,-1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,1,1)--(1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,-1,-1)--(-1,1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((1,-1,-1)--(1,1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,-1,1)--(-1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((1,-1,1)--(1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,-1,-1)--(-1,-1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((1,-1,-1)--(1,-1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((-1,1,-1)--(-1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    draw(((1,1,-1)--(1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));
-    \end{asy}
+    =
+
+
+.. math::
+    \text{\newline
+    $\backslash$begin\{asy\}\newline
+    import three;\newline
+    import solids;\newline
+    import tube;\newline
+    size(6.6667cm, 6.6667cm);\newline
+    currentprojection=perspective(2.6,-4.8,4.0);\newline
+    currentlight=light(rgb(0.5,0.5,0.5), specular=red, (2,0,2), (2,2,2), (0,2,2));\newline
+    // Sphere3DBox\newline
+    draw(surface(sphere((0, 0, 0), 1)), rgb(1,1,1)+opacity(1));\newline
+    draw(((-1,-1,-1)--(1,-1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,1,-1)--(1,1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,-1,1)--(1,-1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,1,1)--(1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,-1,-1)--(-1,1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((1,-1,-1)--(1,1,-1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,-1,1)--(-1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((1,-1,1)--(1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,-1,-1)--(-1,-1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((1,-1,-1)--(1,-1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((-1,1,-1)--(-1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    draw(((1,1,-1)--(1,1,1)), rgb(0.4, 0.4, 0.4)+linewidth(1));\newline
+    $\backslash$end\{asy\}\newline
+    }
+
+
+

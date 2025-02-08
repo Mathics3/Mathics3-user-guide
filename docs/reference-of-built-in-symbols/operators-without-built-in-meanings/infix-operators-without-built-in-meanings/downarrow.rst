@@ -12,6 +12,14 @@ DownArrow
 
 
 >>> DownArrow[x, y, z]
-  = x ↓ y ↓ z
+    =
+
+:math:`x \downarrow y \downarrow z`
+
+
 >>> a \[DownArrow] b
-  = a ↓ b
+    =
+
+:math:`a \downarrow b`
+
+

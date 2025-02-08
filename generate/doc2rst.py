@@ -45,7 +45,7 @@ logfile = None
 # This information is stitched in with information comes from
 # docstrings that are loaded from load Mathics builtins and external modules.
 
-DOCTEST_LATEX_DATA_PCL = settings.DOCTEST_LATEX_DATA_PCL
+DOCTEST_RST_DATA_PCL = settings.get_doctest_latex_data_path(should_be_readable=True).replace("latex", "rst")
 
 # Output location information
 
@@ -67,9 +67,7 @@ def read_doctest_data(quiet=False) -> Optional[Dict[tuple, dict]]:
     if not quiet:
         print(f"Extracting internal doctest data for {version_string}")
     try:
-        return load_doctest_data(
-            settings.get_doctest_latex_data_path(should_be_readable=True)
-        )
+        return load_doctest_data(DOCTEST_RST_DATA_PCL)
     except KeyboardInterrupt:
         print("\nAborted.\n")
         return None
@@ -142,7 +140,11 @@ def process_doc_element(
             print(image_fn)
             img_path, fn = osp.split(image_fn)
             print(image_fn, "->",osp.join(path, fn))
-            shutil.copy(image_fn, osp.join(path, fn))
+            try:
+                shutil.copy(image_fn, osp.join(path, fn))
+            except FileNotFoundError:
+                print(image_fn, "not found")
+                
             doc_content = doc_content.replace(image_fn, fn)
         content += doc_content
 

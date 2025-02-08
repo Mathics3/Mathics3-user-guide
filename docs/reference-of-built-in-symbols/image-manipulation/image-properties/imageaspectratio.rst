@@ -13,7 +13,16 @@ ImageAspectRatio
 
 >>> img = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageAspectRatio[img]
-  = 400 / 323
+    =
+
+:math:`\frac{400}{323}`
+
+
 >>> ImageAspectRatio[Image[{{0, 1}, {1, 0}, {1, 1}}]]
-  = 3 / 2
+    =
+
+:math:`\frac{3}{2}`
+
+

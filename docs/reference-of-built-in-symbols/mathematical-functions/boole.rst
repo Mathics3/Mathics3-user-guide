@@ -12,8 +12,20 @@ Boole
 
 
 >>> Boole[2 == 2]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> Boole[7 < 5]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Boole[a == 7]
-  = Boole[a == 7]
+    =
+
+:math:`\text{Boole}\left[a\text{==}7\right]`
+
+

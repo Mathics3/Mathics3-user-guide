@@ -22,17 +22,41 @@ StringInsert
 
 
 >>> StringInsert["noting", "h", 4]
-  = nothing
+    =
+
+:math:`\text{nothing}`
+
+
 >>> StringInsert["note", "d", -1]
-  = noted
+    =
+
+:math:`\text{noted}`
+
+
 >>> StringInsert["here", "t", -5]
-  = there
+    =
+
+:math:`\text{there}`
+
+
 >>> StringInsert["adac", "he", {1, 5}]
-  = headache
+    =
+
+:math:`\text{headache}`
+
+
 >>> StringInsert[{"something", "sometimes"}, " ", 5]
-  = {some thing, some times}
+    =
+
+:math:`\left\{\text{some thing},\text{some times}\right\}`
+
+
 
 Insert dot as millar separators
 
 >>> StringInsert["1234567890123456", ".", Range[-16, -4, 3]]
-  = 1.234.567.890.123.456
+    =
+
+:math:`\text{1.234.567.890.123.456}`
+
+

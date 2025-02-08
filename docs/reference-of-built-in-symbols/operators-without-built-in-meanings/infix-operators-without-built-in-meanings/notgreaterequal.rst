@@ -12,6 +12,14 @@ NotGreaterEqual
 
 
 >>> NotGreaterEqual[x, y, z]
-  = x ≱ y ≱ z
+    =
+
+:math:`x \ngeq y \ngeq z`
+
+
 >>> a \[NotGreaterEqual] b
-  = a ≱ b
+    =
+
+:math:`a \ngeq b`
+
+

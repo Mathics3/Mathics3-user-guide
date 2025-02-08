@@ -12,6 +12,14 @@ NotSucceedsTilde
 
 
 >>> NotSucceedsTilde[x, y, z]
-  = x ⋩ y ⋩ z
+    =
+
+:math:`x \not{\succsim} y \not{\succsim} z`
+
+
 >>> a \[NotSucceedsTilde] b
-  = a ⋩ b
+    =
+
+:math:`a \not{\succsim} b`
+
+

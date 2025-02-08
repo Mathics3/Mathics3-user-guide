@@ -16,22 +16,41 @@ ReplaceRepeated
 
 
 >>> a+b+c //. c->d
-  = a + b + d
+    =
+
+:math:`a+b+d`
+
+
 >>> f = ReplaceRepeated[c->d];
 
+
 >>> f[a+b+c]
-  = a + b + d
+    =
+
+:math:`a+b+d`
+
+
 >>> Clear[f];
+
 
 
 Simplification of logarithms:
 
 >>> logrules = {Log[x_ * y_] :> Log[x] + Log[y], Log[x_ ^ y_] :> y * Log[x]};
 
+
 >>> Log[a * (b * c) ^ d ^ e * f] //. logrules
-  = Log[a] + Log[f] + (Log[b] + Log[c]) d ^ e
+    =
+
+:math:`\text{Log}\left[a\right]+\text{Log}\left[f\right]+\left(\text{Log}\left[b\right]+\text{Log}\left[c\right]\right) d^e`
+
+
 
 :code:`ReplaceAll`  just performs a single replacement:
 
 >>> Log[a * (b * c) ^ d ^ e * f] /. logrules
-  = Log[a] + Log[f (b c) ^ d ^ e]
+    =
+
+:math:`\text{Log}\left[a\right]+\text{Log}\left[f \left(b c\right)^{{d^e}}\right]`
+
+

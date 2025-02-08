@@ -12,18 +12,38 @@ CoprimeQ
 
 
 >>> CoprimeQ[7, 9]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> CoprimeQ[-4, 9]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> CoprimeQ[12, 15]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 For more than two arguments, CoprimeQ checks if any pair or arguments are coprime:
 
 >>> CoprimeQ[2, 3, 5]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 In this case, since 2 divides 4, the result is False:
 
 >>> CoprimeQ[2, 4, 5]
-  = False
+    =
+
+:math:`\text{False}`
+
+

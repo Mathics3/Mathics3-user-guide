@@ -14,12 +14,32 @@ Inequality
 
 
 >>> a < b <= c
-  = a < b && b <= c
+    =
+
+:math:`a<b\text{\&\&}b\text{<=}c`
+
+
 >>> Inequality[a, Greater, b, LessEqual, c]
-  = a > b && b <= c
+    =
+
+:math:`a>b\text{\&\&}b\text{<=}c`
+
+
 >>> 1 < 2 <= 3
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> 1 < 2 > 0
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> 1 < 2 < -1
-  = False
+    =
+
+:math:`\text{False}`
+
+

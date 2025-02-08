@@ -11,4 +11,8 @@ Quartiles
 
 
 >>> Quartiles[Range[25]]
-  = {27 / 4, 13, 77 / 4}
+    =
+
+:math:`\left\{\frac{27}{4},13,\frac{77}{4}\right\}`
+
+

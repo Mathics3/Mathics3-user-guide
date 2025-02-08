@@ -15,35 +15,61 @@ MapIndexed
 
 
 >>> MapIndexed[f, {a, b, c}]
-  = {f[a, {1}], f[b, {2}], f[c, {3}]}
+    =
+
+:math:`\left\{f\left[a,\left\{1\right\}\right],f\left[b,\left\{2\right\}\right],f\left[c,\left\{3\right\}\right]\right\}`
+
+
 
 Include heads (index 0):
 
 >>> MapIndexed[f, {a, b, c}, Heads->True]
-  = f[List, {0}][f[a, {1}], f[b, {2}], f[c, {3}]]
+    =
+
+:math:`f\left[\text{List},\left\{0\right\}\right]\left[f\left[a,\left\{1\right\}\right],f\left[b,\left\{2\right\}\right],f\left[c,\left\{3\right\}\right]\right]`
+
+
 
 Map on levels 0 through 1 (outer expression gets index :code:`{}` ):
 
 >>> MapIndexed[f, a + b + c * d, {0, 1}]
-  = f[f[a, {1}] + f[b, {2}] + f[c d, {3}], {}]
+    =
+
+:math:`f\left[f\left[a,\left\{1\right\}\right]+f\left[b,\left\{2\right\}\right]+f\left[c d,\left\{3\right\}\right],\left\{\right\}\right]`
+
+
 
 Get the positions of atoms in an expression (convert operations to :code:`List`  first
 to disable :code:`Listable`  functions):
 
 >>> expr = a + b * f[g] * c ^ e;
 
+
 >>> listified = Apply[List, expr, {0, Infinity}];
 
+
 >>> MapIndexed[#2 &, listified, {-1}]
-  = {{1}, {{2, 1}, {{2, 2, 1}}, {{2, 3, 1}, {2, 3, 2}}}}
+    =
+
+:math:`\left\{\left\{1\right\},\left\{\left\{2,1\right\},\left\{\left\{2,2,1\right\}\right\},\left\{\left\{2,3,1\right\},\left\{2,3,2\right\}\right\}\right\}\right\}`
+
+
 
 Replace the heads with their positions, too:
 
 >>> MapIndexed[#2 &, listified, {-1}, Heads -> True]
-  = {0}[{1}, {2, 0}[{2, 1}, {2, 2, 0}[{2, 2, 1}], {2, 3, 0}[{2, 3, 1}, {2, 3, 2}]]]
+    =
+
+:math:`\left\{0\right\}\left[\left\{1\right\},\left\{2,0\right\}\left[\left\{2,1\right\},\left\{2,2,0\right\}\left[\left\{2,2,1\right\}\right],\left\{2,3,0\right\}\left[\left\{2,3,1\right\},\left\{2,3,2\right\}\right]\right]\right]`
+
+
 
 The positions are given in the same format as used by :code:`Extract` .
 Thus, mapping :code:`Extract`  on the indices given by :code:`MapIndexed`  re-constructs the original expression:
 
 >>> MapIndexed[Extract[expr, #2] &, listified, {-1}, Heads -> True]
-  = a + b f[g] c ^ e
+    =
+
+:math:`a+b f\left[g\right] c^e`
+
+

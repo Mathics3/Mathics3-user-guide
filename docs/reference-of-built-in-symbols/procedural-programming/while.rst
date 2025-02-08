@@ -18,7 +18,13 @@ Compute the GCD of two numbers:
 
 >>> {a, b} = {27, 6};
 
+
 >>> While[b != 0, {a, b} = {b, Mod[a, b]}];
 
+
 >>> a
-  = 3
+    =
+
+:math:`3`
+
+

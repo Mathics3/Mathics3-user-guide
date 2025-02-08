@@ -15,6 +15,14 @@ UnitVector
 
 
 >>> UnitVector[2]
-  = {0, 1}
+    =
+
+:math:`\left\{0,1\right\}`
+
+
 >>> UnitVector[4, 3]
-  = {0, 0, 1, 0}
+    =
+
+:math:`\left\{0,0,1,0\right\}`
+
+

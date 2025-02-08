@@ -14,11 +14,17 @@ BezierFunction
 >>> f = BezierFunction[{{0, 0}, {1, 1}, {2, 0}, {3, 2}}];
 
 
+
 =
 
 >>> f[.5]
-  = {1.5, 0.625}
+    =
+
+:math:`\left\{1.5,0.625\right\}`
+
+
 >>> Clear[f];
+    = `
 
 
 =
@@ -27,4 +33,10 @@ BezierFunction
 Plotting the Bézier Function accoss a Bézier curve:
 
 >>> Module[{p={{0, 0},{1, 1},{2, -1},{4, 0}}}, Graphics[{BezierCurve[p], Red, Point[Table[BezierFunction[p][x], {x, 0, 1, 0.1}]]}]]
-  = -Graphics-
+    =
+
+.. image:: tmpm0zr3xge.png
+    :align: center
+
+
+

@@ -12,4 +12,8 @@ $RootDirectory
 
 
 >>> $RootDirectory
-  = ...
+    =
+
+:math:`\text{/}`
+
+

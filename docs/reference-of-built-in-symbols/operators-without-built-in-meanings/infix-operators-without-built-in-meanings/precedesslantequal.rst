@@ -12,6 +12,14 @@ PrecedesSlantEqual
 
 
 >>> PrecedesSlantEqual[x, y, z]
-  = x ≼ y ≼ z
+    =
+
+:math:`x \preccurlyeq y \preccurlyeq z`
+
+
 >>> a \[PrecedesSlantEqual] b
-  = a ≼ b
+    =
+
+:math:`a \preccurlyeq b`
+
+

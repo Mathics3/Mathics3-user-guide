@@ -12,8 +12,20 @@ KnownUnitQ
 
 
 >>> KnownUnitQ["Feet"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> KnownUnitQ["Foo"]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> KnownUnitQ["meter"^2/"second"]
-  = True
+    =
+
+:math:`\text{True}`
+
+

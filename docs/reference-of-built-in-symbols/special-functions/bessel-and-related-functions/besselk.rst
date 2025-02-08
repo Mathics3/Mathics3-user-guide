@@ -12,11 +12,25 @@ BesselK
 
 
 >>> BesselK[1.5, 4]
-  = 0.014347
+    =
+
+:math:`0.014347`
+
+
 >>> Plot[BesselK[0, x], {x, 0, 5}]
-  = -Graphics-
+    =
+
+.. image:: tmpdd7refjt.png
+    :align: center
+
+
+
 
 The special case of half-integer index is expanded using Rayleigh's formulas:
 
 >>> BesselK[-3/2, x]
-  = Sqrt[2] Sqrt[x] Sqrt[Pi] (E ^ (-x) / x ^ 2 + E ^ (-x) / x) / 2
+    =
+
+:math:`\frac{\sqrt{2} \sqrt{x} \sqrt{ \pi } \left(\frac{E^{-x}}{x^2}+\frac{E^{-x}}{x}\right)}{2}`
+
+

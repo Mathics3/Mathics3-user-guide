@@ -12,6 +12,14 @@ SubsetEqual
 
 
 >>> SubsetEqual[x, y, z]
-  = x ⊆ y ⊆ z
+    =
+
+:math:`x \subseteq y \subseteq z`
+
+
 >>> a \[SubsetEqual] b
-  = a ⊆ b
+    =
+
+:math:`a \subseteq b`
+
+

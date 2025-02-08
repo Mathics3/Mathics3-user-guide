@@ -12,8 +12,20 @@ Normal
 
 
 >>> Normal[Pi]
-  = Pi
+    =
+
+:math:`\pi`
+
+
 >>> Series[Exp[x], {x, 0, 5}]
-  = 1 + x + 1 / 2 x ^ 2 + 1 / 6 x ^ 3 + 1 / 24 x ^ 4 + 1 / 120 x ^ 5 + O[x] ^ 6
+    =
+
+:math:`1+x+\frac{1}{2} x^2+\frac{1}{6} x^3+\frac{1}{24} x^4+\frac{1}{120} x^5+O\left[x\right]^6`
+
+
 >>> Normal[%]
-  = 1 + x + x ^ 2 / 2 + x ^ 3 / 6 + x ^ 4 / 24 + x ^ 5 / 120
+    =
+
+:math:`1+x+\frac{x^2}{2}+\frac{x^3}{6}+\frac{x^4}{24}+\frac{x^5}{120}`
+
+

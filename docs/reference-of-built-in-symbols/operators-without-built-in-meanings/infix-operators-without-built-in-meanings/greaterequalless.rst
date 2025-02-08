@@ -12,6 +12,14 @@ GreaterEqualLess
 
 
 >>> GreaterEqualLess[x, y, z]
-  = x ⋛ y ⋛ z
+    =
+
+:math:`x a\gtreqless b y a\gtreqless b z`
+
+
 >>> a \[GreaterEqualLess] b
-  = a ⋛ b
+    =
+
+:math:`a a\gtreqless b b`
+
+

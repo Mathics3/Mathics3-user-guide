@@ -12,4 +12,8 @@ HoldComplete
 
 
 >>> Attributes[HoldComplete]
-  = {HoldAllComplete, Protected}
+    =
+
+:math:`\left\{\text{HoldAllComplete},\text{Protected}\right\}`
+
+

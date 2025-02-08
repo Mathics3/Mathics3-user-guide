@@ -15,16 +15,32 @@ Values
 
 
 >>> Values[<|a -> x, b -> y|>]
-  = {x, y}
+    =
+
+:math:`\left\{x,y\right\}`
+
+
 >>> Values[{a -> x, b -> y}]
-  = {x, y}
+    =
+
+:math:`\left\{x,y\right\}`
+
+
 
 Values automatically threads over lists:
 
 >>> Values[{<|a -> x, b -> y|>, {c -> z, {}}}]
-  = {{x, y}, {z, {}}}
+    =
+
+:math:`\left\{\left\{x,y\right\},\left\{z,\left\{\right\}\right\}\right\}`
+
+
 
 Values are listed in the order of their appearance:
 
 >>> Values[{c -> z, b -> y, a -> x}]
-  = {z, y, x}
+    =
+
+:math:`\left\{z,y,x\right\}`
+
+

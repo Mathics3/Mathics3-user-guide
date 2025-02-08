@@ -12,4 +12,8 @@ TeXForm
 
 
 >>> TeXForm[HoldForm[Sqrt[a^3]]]
-  = \sqrt{a^3}
+    =
+
+:math:`\text{$\backslash$sqrt\{a${}^{\wedge}$3\}}`
+
+

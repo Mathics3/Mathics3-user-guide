@@ -12,8 +12,17 @@ ImageChannels
 
 
 >>> ImageChannels[Image[{{0, 1}, {1, 0}}]]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> img = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageChannels[img]
-  = 3
+    =
+
+:math:`3`
+
+

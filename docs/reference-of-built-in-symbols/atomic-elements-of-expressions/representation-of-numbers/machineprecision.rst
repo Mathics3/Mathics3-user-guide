@@ -11,6 +11,14 @@ MachinePrecision
 
 
 >>> N[MachinePrecision]
-  = 15.9546
+    =
+
+:math:`15.9546`
+
+
 >>> N[MachinePrecision, 30]
-  = 15.9545897701910033463281614204
+    =
+
+:math:`15.9545897701910033463281614204`
+
+

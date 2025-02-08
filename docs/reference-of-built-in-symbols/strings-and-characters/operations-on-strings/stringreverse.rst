@@ -12,4 +12,8 @@ StringReverse
 
 
 >>> StringReverse["live"]
-  = evil
+    =
+
+:math:`\text{evil}`
+
+

@@ -12,6 +12,14 @@ CapitalDifferentialD
 
 
 >>> CapitalDifferentialD[x]
-  = ⅅx
+    =
+
+:math:`\mathbb{D} x`
+
+
 >>> \[CapitalDifferentialD]x
-  = ⅅx
+    =
+
+:math:`\text{ⅅx}`
+
+

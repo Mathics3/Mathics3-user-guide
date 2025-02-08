@@ -12,8 +12,22 @@ Log
 
 
 >>> Log[{0, 1, E, E * E, E ^ 3, E ^ x}]
-  = {-Infinity, 0, 1, 2, 3, Log[E ^ x]}
+    =
+
+:math:`\left\{-\infty ,0,1,2,3,\text{Log}\left[E^x\right]\right\}`
+
+
 >>> Log[0.]
-  = Indeterminate
+    =
+
+:math:`\text{Indeterminate}`
+
+
 >>> Plot[Log[x], {x, 0, 5}]
-  = -Graphics-
+    =
+
+.. image:: tmp85sth_9h.png
+    :align: center
+
+
+

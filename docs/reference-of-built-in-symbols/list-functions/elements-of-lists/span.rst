@@ -12,10 +12,26 @@ Span
 
 
 >>> ;; // FullForm
-  = Span[1, All]
+    =
+
+:math:`\text{Span}\left[1, \text{All}\right]`
+
+
 >>> 1;;4;;2 // FullForm
-  = Span[1, 4, 2]
+    =
+
+:math:`\text{Span}\left[1, 4, 2\right]`
+
+
 >>> 2;;-2 // FullForm
-  = Span[2, -2]
+    =
+
+:math:`\text{Span}\left[2, -2\right]`
+
+
 >>> ;;3 // FullForm
-  = Span[1, 3]
+    =
+
+:math:`\text{Span}\left[1, 3\right]`
+
+

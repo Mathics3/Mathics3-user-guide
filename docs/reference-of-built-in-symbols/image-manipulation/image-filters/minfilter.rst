@@ -13,5 +13,12 @@ MinFilter
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> MinFilter[hedy, 5]
-  = -Image-
+    =
+
+.. image:: tmpk1s14f7u.png
+    :align: center
+
+
+

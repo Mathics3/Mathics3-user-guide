@@ -13,7 +13,16 @@ ImageDimensions
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageDimensions[hedy]
-  = {646, 800}
+    =
+
+:math:`\left\{646,800\right\}`
+
+
 >>> ImageDimensions[RandomImage[1, {50, 70}]]
-  = {50, 70}
+    =
+
+:math:`\left\{50,70\right\}`
+
+

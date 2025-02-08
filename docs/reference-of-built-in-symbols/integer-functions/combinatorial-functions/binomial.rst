@@ -12,16 +12,32 @@ Binomial
 
 
 >>> Binomial[5, 3]
-  = 10
+    =
+
+:math:`10`
+
+
 
 :code:`Binomial`  supports inexact numbers:
 
 >>> Binomial[10.5,3.2]
-  = 165.286
+    =
+
+:math:`165.286`
+
+
 
 Some special cases:
 
 >>> Binomial[10, -2]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Binomial[-10.5, -3.5]
-  = 0.
+    =
+
+:math:`0.`
+
+

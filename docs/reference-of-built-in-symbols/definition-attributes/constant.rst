@@ -14,10 +14,20 @@ Constant
 Mathematical constants like :code:`E`  have attribute :code:`Constant` :
 
 >>> Attributes[E]
-  = {Constant, Protected, ReadProtected}
+    =
+
+:math:`\left\{\text{Constant},\text{Protected},\text{ReadProtected}\right\}`
+
+
 
 Constant symbols cannot be used as variables in :code:`Solve`  and
 related functions:
 
 >>> Solve[x + E == 0, E]
-  = Solve[x + E == 0, E]
+
+    Solve::ivar E is not a valid variable.
+    =
+
+:math:`\text{Solve}\left[x+E\text{==}0,E\right]`
+
+

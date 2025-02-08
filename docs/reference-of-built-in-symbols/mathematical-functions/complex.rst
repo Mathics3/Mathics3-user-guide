@@ -15,8 +15,20 @@ Complex
 
 
 >>> Head[2 + 3*I]
-  = Complex
+    =
+
+:math:`\text{Complex}`
+
+
 >>> Complex[1, 2/3]
-  = 1 + 2 I / 3
+    =
+
+:math:`1+\frac{2 I}{3}`
+
+
 >>> Abs[Complex[3, 4]]
-  = 5
+    =
+
+:math:`5`
+
+

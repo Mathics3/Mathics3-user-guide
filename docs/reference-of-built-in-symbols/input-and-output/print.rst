@@ -13,7 +13,14 @@ Print
 
 >>> Print["Hello world!"]
 
+    Hello world!
+
+
 >>> Print["The answer is ", 7 * 6, "."]
 
+    The answer is 42.
+
+
 >>> Print["-Hola\n-Qué tal?"]
+    = `
 

@@ -12,4 +12,8 @@ HexadecimalCharacter
 
 
 >>> StringMatchQ[#, HexadecimalCharacter] & /@ {"a", "1", "A", "x", "H", " ", "."}
-  = {True, True, True, False, False, False, False}
+    =
+
+:math:`\left\{\text{True},\text{True},\text{True},\text{False},\text{False},\text{False},\text{False}\right\}`
+
+

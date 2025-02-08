@@ -12,4 +12,10 @@ PlotPoints
 
 
 >>> Plot[Sin[Cos[x^2]],{x,-4,4}, PlotPoints->22]
-  = -Graphics-
+    =
+
+.. image:: tmpxqmd853r.png
+    :align: center
+
+
+

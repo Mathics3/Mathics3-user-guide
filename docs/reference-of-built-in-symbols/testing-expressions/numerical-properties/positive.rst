@@ -12,11 +12,23 @@ Positive
 
 
 >>> Positive[1]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 :code:`Positive`  returns :code:`False`  if :math:`x` is zero or a complex number:
 
 >>> Positive[0]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> Positive[1 + 2 I]
-  = False
+    =
+
+:math:`\text{False}`
+
+

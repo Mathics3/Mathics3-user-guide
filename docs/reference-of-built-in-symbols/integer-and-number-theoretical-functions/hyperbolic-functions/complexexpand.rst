@@ -17,34 +17,62 @@ ComplexExpand
 Note: we get equivalent, but different results from WMA:
 
 >>> ComplexExpand[3^(I x)]
-  = 3 ^ (-Im[x]) Re[3 ^ (I Re[x])] + I Im[3 ^ (I Re[x])] 3 ^ (-Im[x])
+    =
+
+:math:`3^{-\text{Im}\left[x\right]} \text{Re}\left[3^{I \text{Re}\left[x\right]}\right]+I \text{Im}\left[3^{I \text{Re}\left[x\right]}\right] 3^{-\text{Im}\left[x\right]}`
+
+
 
 Assume that both :math:`x` and :math:`y` and are real:
 
 >>> ComplexExpand[Sin[x + I y]]
-  = Cosh[y] Sin[x] + I Cos[x] Sinh[y]
+    =
+
+:math:`\text{Cosh}\left[y\right] \text{Sin}\left[x\right]+I \text{Cos}\left[x\right] \text{Sinh}\left[y\right]`
+
+
 
 Take :math:`x` to be complex:
 
 >>> ComplexExpand[Sin[x], x]
-  = Cosh[Im[x]] Sin[Re[x]] + I Cos[Re[x]] Sinh[Im[x]]
+    =
+
+:math:`\text{Cosh}\left[\text{Im}\left[x\right]\right] \text{Sin}\left[\text{Re}\left[x\right]\right]+I \text{Cos}\left[\text{Re}\left[x\right]\right] \text{Sinh}\left[\text{Im}\left[x\right]\right]`
+
+
 
 Polynomials:
 
 >>> ComplexExpand[Re[z^5 - 2 z^3 - z + 1], z]
-  = 1 + Re[z] ^ 5 - 2 Re[z] ^ 3 - Re[z] - 10 Im[z] ^ 2 Re[z] ^ 3 + 5 Im[z] ^ 4 Re[z] + 6 Im[z] ^ 2 Re[z]
+    =
+
+:math:`1+\text{Re}\left[z\right]^5-2 \text{Re}\left[z\right]^3-\text{Re}\left[z\right]-10 \text{Im}\left[z\right]^2 \text{Re}\left[z\right]^3+5 \text{Im}\left[z\right]^4 \text{Re}\left[z\right]+6 \text{Im}\left[z\right]^2 \text{Re}\left[z\right]`
+
+
 
 Trigonometric and hyperbolic functions
 
 >>> ComplexExpand[Cos[x + I y] + Tanh[z], {z}]
-  = Cos[x] Cosh[y] - I Sin[x] Sinh[y] + Cosh[Re[z]] Sinh[Re[z]] / (Cos[Im[z]] ^ 2 + Sinh[Re[z]] ^ 2) + I Cos[Im[z]] Sin[Im[z]] / (Cos[Im[z]] ^ 2 + Sinh[Re[z]] ^ 2)
+    =
+
+:math:`\text{Cos}\left[x\right] \text{Cosh}\left[y\right]-I \text{Sin}\left[x\right] \text{Sinh}\left[y\right]+\frac{\text{Cosh}\left[\text{Re}\left[z\right]\right] \text{Sinh}\left[\text{Re}\left[z\right]\right]}{\text{Cos}\left[\text{Im}\left[z\right]\right]^2+\text{Sinh}\left[\text{Re}\left[z\right]\right]^2}+\frac{I \text{Cos}\left[\text{Im}\left[z\right]\right] \text{Sin}\left[\text{Im}\left[z\right]\right]}{\text{Cos}\left[\text{Im}\left[z\right]\right]^2+\text{Sinh}\left[\text{Re}\left[z\right]\right]^2}`
+
+
 
 Exponential and logarithmic functions:
 
 >>> ComplexExpand[Abs[2^z Log[2 z]], z]
-  = Abs[I Arg[Re[z] + I Im[z]] + Log[4 Im[z] ^ 2 + 4 Re[z] ^ 2] / 2] 2 ^ Re[z]
+    =
+
+:math:`\text{Abs}\left[I \text{Arg}\left[\text{Re}\left[z\right]+I \text{Im}\left[z\right]\right]+\frac{\text{Log}\left[4 \text{Im}\left[z\right]^2+4 \text{Re}\left[z\right]^2\right]}{2}\right] 2^{\text{Re}\left[z\right]}`
+
+
 
 Specify that variable :math:`z` is taken to be complex:
 
 >>> ComplexExpand[Re[2 z^3 - z + 1], z]
-  = 1 - Re[z] + 2 Re[z] ^ 3 - 6 Im[z] ^ 2 Re[z]
+    =
+
+:math:`1-\text{Re}\left[z\right]+2 \text{Re}\left[z\right]^3-6 \text{Im}\left[z\right]^2 \text{Re}\left[z\right]`
+
+

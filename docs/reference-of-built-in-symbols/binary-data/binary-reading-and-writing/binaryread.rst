@@ -18,14 +18,32 @@ BinaryRead
 
 
 >>> strm = OpenWrite[BinaryFormat -> True]
-  = OutputStream[...]
+    =
+
+:math:`\text{OutputStream}\left[\text{/tmp/tmp\_\_5cpb0y},3\right]`
+
+
 >>> BinaryWrite[strm, {97, 98, 99}]
-  = OutputStream[...]
+    =
+
+:math:`\text{OutputStream}\left[\text{/tmp/tmp\_\_5cpb0y},3\right]`
+
+
 >>> Close[strm];
 
+
 >>> strm = OpenRead[%, BinaryFormat -> True]
-  = InputStream[...]
+    =
+
+:math:`\text{InputStream}\left[\text{/tmp/tmp\_\_5cpb0y},3\right]`
+
+
 >>> BinaryRead[strm, {"Character8", "Character8", "Character8"}]
-  = {a, b, c}
+    =
+
+:math:`\left\{\text{a},\text{b},\text{c}\right\}`
+
+
 >>> DeleteFile[Close[strm]];
+
 

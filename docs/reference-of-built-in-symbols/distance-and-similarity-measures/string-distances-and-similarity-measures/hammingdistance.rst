@@ -13,8 +13,20 @@ HammingDistance
 
 
 >>> HammingDistance[{1, 0, 1, 0}, {1, 0, 0, 1}]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> HammingDistance["time", "dime"]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> HammingDistance["TIME", "dime", IgnoreCase -> True]
-  = 1
+    =
+
+:math:`1`
+
+

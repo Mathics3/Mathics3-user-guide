@@ -12,6 +12,14 @@ NotTildeTilde
 
 
 >>> NotTildeTilde[x, y, z]
-  = x ≉ y ≉ z
+    =
+
+:math:`x \not{\approx} y \not{\approx} z`
+
+
 >>> a \[NotTildeTilde] b
-  = a ≉ b
+    =
+
+:math:`a \not{\approx} b`
+
+

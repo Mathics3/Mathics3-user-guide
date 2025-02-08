@@ -12,9 +12,17 @@ LetterCharacter
 
 
 >>> StringMatchQ[#, LetterCharacter] & /@ {"a", "1", "A", " ", "."}
-  = {True, False, True, False, False}
+    =
+
+:math:`\left\{\text{True},\text{False},\text{True},\text{False},\text{False}\right\}`
+
+
 
 LetterCharacter also matches unicode characters.
 
 >>> StringMatchQ["\[Lambda]", LetterCharacter]
-  = True
+    =
+
+:math:`\text{True}`
+
+

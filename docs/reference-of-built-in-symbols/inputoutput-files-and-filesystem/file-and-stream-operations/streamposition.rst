@@ -12,8 +12,20 @@ StreamPosition
 
 
 >>> stream = StringToStream["Mathics is cool!"]
-  = ...
+    =
+
+:math:`\text{InputStream}\left[\text{String},36\right]`
+
+
 >>> Read[stream, Word]
-  = Mathics
+    =
+
+:math:`\text{Mathics}`
+
+
 >>> StreamPosition[stream]
-  = 7
+    =
+
+:math:`7`
+
+

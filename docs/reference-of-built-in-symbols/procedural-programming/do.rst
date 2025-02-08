@@ -30,10 +30,37 @@ Do
 
 >>> Do[Print[i], {i, 2, 4}]
 
+    2
+
+    3
+
+    4
+
+
 >>> Do[Print[{i, j}], {i,1,2}, {j,3,5}]
+
+    {1, 3}
+
+    {1, 4}
+
+    {1, 5}
+
+    {2, 3}
+
+    {2, 4}
+
+    {2, 5}
+
 
 
 You can use :code:`Break[]`  and :code:`Continue[]`  inside :code:`Do` :
 
 >>> Do[If[i > 10, Break[], If[Mod[i, 2] == 0, Continue[]]; Print[i]], {i, 5, 20}]
+
+    5
+
+    7
+
+    9
+
 

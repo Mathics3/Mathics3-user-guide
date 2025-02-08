@@ -21,27 +21,59 @@ StringSplit
 
 
 >>> StringSplit["abc,123", ","]
-  = {abc, 123}
+    =
+
+:math:`\left\{\text{abc},\text{123}\right\}`
+
+
 
 By default any number of whitespace characters are used to at a delimiter:
 
 >>> StringSplit["  abc    123  "]
-  = {abc, 123}
+    =
+
+:math:`\left\{\text{abc},\text{123}\right\}`
+
+
 
 However if you want instead to use only a *single* character for each delimiter, use :code:`WhiteSpaceCharacter` :
 
 >>> StringSplit["  abc    123  ", WhitespaceCharacter]
-  = {, , abc, , , , 123, , }
+    =
+
+:math:`\left\{\text{},\text{},\text{abc},\text{},\text{},\text{},\text{123},\text{},\text{}\right\}`
+
+
 >>> StringSplit["abc,123.456", {",", "."}]
-  = {abc, 123, 456}
+    =
+
+:math:`\left\{\text{abc},\text{123},\text{456}\right\}`
+
+
 >>> StringSplit["a  b    c", RegularExpression[" +"]]
-  = {a, b, c}
+    =
+
+:math:`\left\{\text{a},\text{b},\text{c}\right\}`
+
+
 >>> StringSplit[{"a  b", "c  d"}, RegularExpression[" +"]]
-  = {{a, b}, {c, d}}
+    =
+
+:math:`\left\{\left\{\text{a},\text{b}\right\},\left\{\text{c},\text{d}\right\}\right\}`
+
+
 >>> StringSplit["x", "x"]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 
 Split using a delmiter that has nonzero list of 12's
 
 >>> StringSplit["12312123", "12"..]
-  = {3, 3}
+    =
+
+:math:`\left\{\text{3},\text{3}\right\}`
+
+

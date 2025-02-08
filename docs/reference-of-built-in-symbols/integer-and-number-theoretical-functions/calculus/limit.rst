@@ -18,10 +18,26 @@ Limit
 
 
 >>> Limit[x, x->2]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Limit[Sin[x] / x, x->0]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> Limit[1/x, x->0, Direction->-1]
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 >>> Limit[1/x, x->0, Direction->1]
-  = -Infinity
+    =
+
+:math:`-\infty`
+
+

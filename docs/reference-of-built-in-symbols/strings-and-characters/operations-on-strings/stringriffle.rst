@@ -18,8 +18,20 @@ StringRiffle
 
 
 >>> StringRiffle[{"a", "b", "c", "d", "e"}]
-  = a b c d e
+    =
+
+:math:`\text{a b c d e}`
+
+
 >>> StringRiffle[{"a", "b", "c", "d", "e"}, ", "]
-  = a, b, c, d, e
+    =
+
+:math:`\text{a, b, c, d, e}`
+
+
 >>> StringRiffle[{"a", "b", "c", "d", "e"}, {"(", " ", ")"}]
-  = (a b c d e)
+    =
+
+:math:`\text{(a b c d e)}`
+
+

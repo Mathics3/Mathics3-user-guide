@@ -12,9 +12,14 @@ OpenRead
 
 
 >>> OpenRead["ExampleData/EinsteinSzilLetter.txt", CharacterEncoding->"UTF8"]
-  = InputStream[...]
+    =
+
+:math:`\text{InputStream}\left[\text{ExampleData/EinsteinSzilLetter.txt},17\right]`
+
+
 
 The stream must be closed after using it to release the resource:
 
 >>> Close[%];
+
 

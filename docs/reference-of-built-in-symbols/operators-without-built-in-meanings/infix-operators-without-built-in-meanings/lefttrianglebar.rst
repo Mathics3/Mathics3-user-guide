@@ -12,6 +12,14 @@ LeftTriangleBar
 
 
 >>> LeftTriangleBar[x, y, z]
-  = x ⧏ y ⧏ z
+    =
+
+:math:`x \triangleleft | y \triangleleft | z`
+
+
 >>> a \[LeftTriangleBar] b
-  = a ⧏ b
+    =
+
+:math:`a \triangleleft | b`
+
+

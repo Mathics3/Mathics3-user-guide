@@ -13,9 +13,22 @@ Listable
 
 >>> SetAttributes[f, Listable]
 
+
 >>> f[{1, 2, 3}, {4, 5, 6}]
-  = {f[1, 4], f[2, 5], f[3, 6]}
+    =
+
+:math:`\left\{f\left[1,4\right],f\left[2,5\right],f\left[3,6\right]\right\}`
+
+
 >>> f[{1, 2, 3}, 4]
-  = {f[1, 4], f[2, 4], f[3, 4]}
+    =
+
+:math:`\left\{f\left[1,4\right],f\left[2,4\right],f\left[3,4\right]\right\}`
+
+
 >>> {{1, 2}, {3, 4}} + {5, 6}
-  = {{6, 7}, {9, 10}}
+    =
+
+:math:`\left\{\left\{6,7\right\},\left\{9,10\right\}\right\}`
+
+

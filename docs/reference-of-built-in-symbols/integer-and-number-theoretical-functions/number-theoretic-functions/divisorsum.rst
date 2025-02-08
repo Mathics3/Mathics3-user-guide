@@ -12,8 +12,16 @@ DivisorSum
 
 
 >>> DivisorSum[20, # &]
-  = 42
+    =
+
+:math:`42`
+
+
 >>> DivisorSum[20, #^2 &]
-  = 546
+    =
+
+:math:`546`
+
+
 
 See also `:code:`DivisorSigma`  </doc/reference-of-built-in-symbols/integer-and-number-theoretical-functions/number-theoretic-functions/divisorsigma/>`_ and `Divisors </doc/reference-of-built-in-symbols/integer-and-number-theoretical-functions/number-theoretic-functions/divisors/>`_.

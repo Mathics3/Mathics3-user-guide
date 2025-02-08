@@ -12,6 +12,14 @@ LeftVectorBar
 
 
 >>> LeftVectorBar[x, y, z]
-  = x ⥒ y ⥒ z
+    =
+
+:math:`x |\leftharpoonup y |\leftharpoonup z`
+
+
 >>> a \[LeftVectorBar] b
-  = a ⥒ b
+    =
+
+:math:`a |\leftharpoonup b`
+
+

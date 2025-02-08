@@ -12,4 +12,10 @@ Abort
 
 
 >>> Print["a"]; Abort[]; Print["b"]
-  = $Aborted
+
+    a
+    =
+
+:math:`\text{\$Aborted}`
+
+

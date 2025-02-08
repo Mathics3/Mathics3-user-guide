@@ -12,6 +12,14 @@ EqualTilde
 
 
 >>> EqualTilde[x, y, z]
-  = x ≂ y ≂ z
+    =
+
+:math:`x \eqsim y \eqsim z`
+
+
 >>> a \[EqualTilde] b
-  = a ≂ b
+    =
+
+:math:`a \eqsim b`
+
+

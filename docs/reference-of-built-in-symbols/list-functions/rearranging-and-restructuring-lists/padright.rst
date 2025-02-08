@@ -28,14 +28,38 @@ PadRight
 
 
 >>> PadRight[{1, 2, 3}, 5]
-  = {1, 2, 3, 0, 0}
+    =
+
+:math:`\left\{1,2,3,0,0\right\}`
+
+
 >>> PadRight[x[a, b, c], 5]
-  = x[a, b, c, 0, 0]
+    =
+
+:math:`x\left[a,b,c,0,0\right]`
+
+
 >>> PadRight[{1, 2, 3}, 2]
-  = {1, 2}
+    =
+
+:math:`\left\{1,2\right\}`
+
+
 >>> PadRight[{{}, {1, 2}, {1, 2, 3}}]
-  = {{0, 0, 0}, {1, 2, 0}, {1, 2, 3}}
+    =
+
+:math:`\left\{\left\{0,0,0\right\},\left\{1,2,0\right\},\left\{1,2,3\right\}\right\}`
+
+
 >>> PadRight[{1, 2, 3}, 10, {a, b, c}, 2]
-  = {b, c, 1, 2, 3, a, b, c, a, b}
+    =
+
+:math:`\left\{b,c,1,2,3,a,b,c,a,b\right\}`
+
+
 >>> PadRight[{{1, 2, 3}}, {5, 2}, x, 1]
-  = {{x, x}, {x, 1}, {x, x}, {x, x}, {x, x}}
+    =
+
+:math:`\left\{\left\{x,x\right\},\left\{x,1\right\},\left\{x,x\right\},\left\{x,x\right\},\left\{x,x\right\}\right\}`
+
+

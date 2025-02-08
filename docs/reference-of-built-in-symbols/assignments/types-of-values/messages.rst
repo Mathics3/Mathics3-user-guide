@@ -12,12 +12,28 @@ Messages
 
 
 >>> a::b = "foo"
-  = foo
+    =
+
+:math:`\text{foo}`
+
+
 >>> Messages[a]
-  = {HoldPattern[a::b] :> foo}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[a\text{::}\text{b}\right]\text{:>}\text{foo}\right\}`
+
+
 >>> Messages[a] = {a::c :> "bar"};
 
+
 >>> a::c // InputForm
-  = "bar"
+    =
+
+:math:`\text{\`{}\`{}bar''}`
+
+
 >>> Message[a::c]
+
+    a::c bar
+
 

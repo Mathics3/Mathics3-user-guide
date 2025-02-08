@@ -18,10 +18,26 @@ DateDifference
 
 
 >>> DateDifference[{2042, 1, 4}, {2057, 1, 1}]
-  = 5476
+    =
+
+:math:`5476`
+
+
 >>> DateDifference[{1936, 8, 14}, {2000, 12, 1}, "Year"]
-  = {64.3425, Year}
+    =
+
+:math:`\left\{64.3425,\text{Year}\right\}`
+
+
 >>> DateDifference[{2010, 6, 1}, {2015, 1, 1}, "Hour"]
-  = {40200, Hour}
+    =
+
+:math:`\left\{40200,\text{Hour}\right\}`
+
+
 >>> DateDifference[{2003, 8, 11}, {2003, 10, 19}, {"Week", "Day"}]
-  = {{9, Week}, {6, Day}}
+    =
+
+:math:`\left\{\left\{9,\text{Week}\right\},\left\{6,\text{Day}\right\}\right\}`
+
+

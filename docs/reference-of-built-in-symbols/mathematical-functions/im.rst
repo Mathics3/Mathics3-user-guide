@@ -12,6 +12,16 @@ Im
 
 
 >>> Im[3+4I]
-  = 4
+    =
+
+:math:`4`
+
+
 >>> Plot[{Sin[a], Im[E^(I a)]}, {a, 0, 2 Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmp_lafln4x.png
+    :align: center
+
+
+

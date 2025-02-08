@@ -15,13 +15,41 @@ stores just the result in :code:`Out[$Line]`  and print a formatted version show
 
 >>> $Pre := (Print["[Processing input...]"];#1)&
 
+
 >>> $Post := (Print["[Storing result...]"]; #1)&
+
+    [Processing input...]
+
+    [Storing result...]
+
 
 >>> $PrePrint := (Print["The result is:"]; {TimeUsed[], #1})&
 
->>> 2 + 2
-  = {..., 4}
->>> $Pre = .; $Post = .;  $PrePrint = .;  $ElapsedTime = .;
+    [Processing input...]
+
+    [Storing result...]
+
 
 >>> 2 + 2
-  = 4
+
+    [Processing input...]
+
+    [Storing result...]
+
+    The result is:
+    =
+
+:math:`\left\{261.137,4\right\}`
+
+
+>>> $Pre = .; $Post = .;  $PrePrint = .;  $ElapsedTime = .;
+
+    [Processing input...]
+
+
+>>> 2 + 2
+    =
+
+:math:`4`
+
+

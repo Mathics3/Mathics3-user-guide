@@ -12,6 +12,14 @@ CupCap
 
 
 >>> CupCap[x, y, z]
-  = x ≍ y ≍ z
+    =
+
+:math:`x \stackrel{\smile}{\frown} y \stackrel{\smile}{\frown} z`
+
+
 >>> a \[CupCap] b
-  = a ≍ b
+    =
+
+:math:`a \stackrel{\smile}{\frown} b`
+
+

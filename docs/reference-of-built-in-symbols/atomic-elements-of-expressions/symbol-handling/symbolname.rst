@@ -11,4 +11,8 @@ SymbolName
 
 
 >>> SymbolName[x] // InputForm
-  = "x"
+    =
+
+:math:`\text{\`{}\`{}x''}`
+
+

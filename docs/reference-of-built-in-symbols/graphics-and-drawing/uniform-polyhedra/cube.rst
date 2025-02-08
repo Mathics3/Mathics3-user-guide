@@ -18,4 +18,10 @@ Cube
 
 
 >>> Graphics3D[Cube[]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpxbivaddy.png
+    :align: center
+
+
+

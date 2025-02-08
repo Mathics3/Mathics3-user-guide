@@ -17,14 +17,32 @@ ListStepPlot
 
 
 >>> ListStepPlot[{1, 1, 2, 3, 5, 8, 13, 21}]
-  = -Graphics-
+    =
+
+.. image:: tmpnr3rl2x1.png
+    :align: center
+
+
+
 
 :code:`ListStepPlot`  accepts a superset of the Graphics options.     By default, :code:`ListStepPlot` s are joined, but that can be disabled.
 
 >>> ListStepPlot[{1, 1, 2, 3, 5, 8, 13, 21}, Joined->False]
-  = -Graphics-
+    =
+
+.. image:: tmpd153qlpo.png
+    :align: center
+
+
+
 
 The same as the first example but using a list of point as data,     and filling the plot to the x axis.
 
 >>> ListStepPlot[{{1, 1}, {3, 2}, {4, 5}, {5, 8}, {6, 13}, {7, 21}}, Filling->Axis]
-  = -Graphics-
+    =
+
+.. image:: tmpficgac99.png
+    :align: center
+
+
+

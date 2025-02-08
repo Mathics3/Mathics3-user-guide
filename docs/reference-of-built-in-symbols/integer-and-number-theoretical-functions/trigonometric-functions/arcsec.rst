@@ -12,6 +12,14 @@ Inverse secant, `arcsecant <https://en.wikipedia.org/wiki/Inverse_trigonometric_
 
 
 >>> ArcSec[1]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> ArcSec[-1]
-  = Pi
+    =
+
+:math:`\pi`
+
+

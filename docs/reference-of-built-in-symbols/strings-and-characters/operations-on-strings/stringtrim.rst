@@ -12,6 +12,14 @@ StringTrim
 
 
 >>> StringJoin["a", StringTrim["  \tb\n "], "c"]
-  = abc
+    =
+
+:math:`\text{abc}`
+
+
 >>> StringTrim["ababaxababyaabab", RegularExpression["(ab)+"]]
-  = axababya
+    =
+
+:math:`\text{axababya}`
+
+

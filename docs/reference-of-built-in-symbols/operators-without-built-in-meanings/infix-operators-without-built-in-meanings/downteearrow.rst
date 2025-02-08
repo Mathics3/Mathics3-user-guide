@@ -12,6 +12,14 @@ DownTeeArrow
 
 
 >>> DownTeeArrow[x, y, z]
-  = x ↧ y ↧ z
+    =
+
+:math:`x \bar{\downarrow} y \bar{\downarrow} z`
+
+
 >>> a \[DownTeeArrow] b
-  = a ↧ b
+    =
+
+:math:`a \bar{\downarrow} b`
+
+

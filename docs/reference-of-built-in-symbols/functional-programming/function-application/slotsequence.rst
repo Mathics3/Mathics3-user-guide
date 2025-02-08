@@ -16,8 +16,20 @@ SlotSequence
 
 
 >>> Plus[##]& [1, 2, 3]
-  = 6
+    =
+
+:math:`6`
+
+
 >>> Plus[##2]& [1, 2, 3]
-  = 5
+    =
+
+:math:`5`
+
+
 >>> FullForm[##]
-  = SlotSequence[1]
+    =
+
+:math:`\text{SlotSequence}\left[1\right]`
+
+

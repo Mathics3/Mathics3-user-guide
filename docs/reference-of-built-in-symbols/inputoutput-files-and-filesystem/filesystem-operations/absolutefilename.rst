@@ -12,4 +12,8 @@ AbsoluteFileName
 
 
 >>> AbsoluteFileName["ExampleData/sunflowers.jpg"]
-  = ...
+    =
+
+:math:`\text{/home/mauricio/Projects/mathics-core/mathics/data/ExampleData/sunflowers.jpg}`
+
+

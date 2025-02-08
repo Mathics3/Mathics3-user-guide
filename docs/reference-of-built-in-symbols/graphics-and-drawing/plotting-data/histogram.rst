@@ -12,6 +12,18 @@ Histogram
 
 
 >>> Histogram[{3, 8, 10, 100, 1000, 500, 300, 200, 10, 20, 200, 100, 200, 300, 500}]
-  = -Graphics-
+    =
+
+.. image:: tmpulvcv7rp.png
+    :align: center
+
+
+
 >>> Histogram[{{1, 2, 10, 5, 50, 20}, {90, 100, 101, 120, 80}}]
-  = -Graphics-
+    =
+
+.. image:: tmpn5slr48m.png
+    :align: center
+
+
+

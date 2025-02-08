@@ -12,6 +12,14 @@ CheckAbort
 
 
 >>> CheckAbort[Abort[]; 1, 2] + x
-  = 2 + x
+    =
+
+:math:`2+x`
+
+
 >>> CheckAbort[1, 2] + x
-  = 1 + x
+    =
+
+:math:`1+x`
+
+

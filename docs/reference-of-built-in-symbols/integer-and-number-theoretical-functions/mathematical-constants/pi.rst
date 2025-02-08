@@ -12,23 +12,43 @@ Pi
 
 
 >>> Pi
-  = Pi
+    =
+
+:math:`\pi`
+
+
 >>> N[Pi]
-  = 3.14159
+    =
+
+:math:`3.14159`
+
+
 
 Pi to a numeric precision of 20 digits:
 
 >>> N[Pi, 20]
-  = 3.1415926535897932385
+    =
+
+:math:`3.1415926535897932385`
+
+
 
 Note that the above is not the same thing as the number of digits *after* the decimal point. This may differ from similar concepts from other mathematical libraries, including those which Mathics uses!
 
 Use numpy to compute Pi to 20 digits:
 
 >>> N[Pi, 20, Method->"numpy"]
-  = 3.1415...
+    =
+
+:math:`3.1415926535897930000`
+
+
 
 "sympy" is the default method.
 
 >>> Attributes[Pi]
-  = {Constant, Protected, ReadProtected}
+    =
+
+:math:`\left\{\text{Constant},\text{Protected},\text{ReadProtected}\right\}`
+
+

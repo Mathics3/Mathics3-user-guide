@@ -12,16 +12,36 @@ Underflow
 
 
 >>> 1 / Overflow[]
-  = Underflow[]
+    =
+
+:math:`\text{Underflow}\left[\right]`
+
+
 >>> 5 * Underflow[]
-  = 5 Underflow[]
+    =
+
+:math:`5 \text{Underflow}\left[\right]`
+
+
 >>> % // N
-  = 0.
+    =
+
+:math:`0.`
+
+
 
 Underflow[] is kept symbolic in operations against integer numbers,
 but taken as 0. in numeric evaluations:
 
 >>> 1 - Underflow[]
-  = 1 - Underflow[]
+    =
+
+:math:`1-\text{Underflow}\left[\right]`
+
+
 >>> % // N
-  = 1.
+    =
+
+:math:`1.`
+
+

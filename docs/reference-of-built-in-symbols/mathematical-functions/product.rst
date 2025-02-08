@@ -21,26 +21,56 @@ Product
 
 
 >>> Product[k, {k, 1, 10}]
-  = 3628800
+    =
+
+:math:`3628800`
+
+
 >>> 10!
-  = 3628800
+    =
+
+:math:`3628800`
+
+
 >>> Product[x^k, {k, 2, 20, 2}]
-  = x ^ 110
+    =
+
+:math:`x^{110}`
+
+
 >>> Product[2 ^ i, {i, 1, n}]
-  = 2 ^ (n / 2 + n ^ 2 / 2)
+    =
+
+:math:`2^{{\frac{n}{2}+\frac{n^2}{2}}}`
+
+
 >>> Product[f[i], {i, 1, 7}]
-  = f[1] f[2] f[3] f[4] f[5] f[6] f[7]
+    =
+
+:math:`f\left[1\right] f\left[2\right] f\left[3\right] f\left[4\right] f\left[5\right] f\left[6\right] f\left[7\right]`
+
+
 
 Symbolic products involving the factorial are evaluated:
 
 >>> Product[k, {k, 3, n}]
-  = n! / 2
+    =
+
+:math:`\frac{n!}{2}`
+
+
 
 Evaluate the :math:`n`-th primorial:
 
 >>> primorial[0] = 1;
 
+
 >>> primorial[n_Integer] := Product[Prime[k], {k, 1, n}];
 
+
 >>> primorial[12]
-  = 7420738134810
+    =
+
+:math:`7420738134810`
+
+

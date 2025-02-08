@@ -12,12 +12,32 @@ LeafCount
 
 
 >>> LeafCount[1 + x + y^a]
-  = 6
+    =
+
+:math:`6`
+
+
 >>> LeafCount[f[x, y]]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> LeafCount[{1 / 3, 1 + I}]
-  = 7
+    =
+
+:math:`7`
+
+
 >>> LeafCount[Sqrt[2]]
-  = 5
+    =
+
+:math:`5`
+
+
 >>> LeafCount[100!]
-  = 1
+    =
+
+:math:`1`
+
+

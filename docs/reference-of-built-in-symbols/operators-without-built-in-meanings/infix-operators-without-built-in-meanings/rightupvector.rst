@@ -12,6 +12,14 @@ RightUpVector
 
 
 >>> RightUpVector[x, y, z]
-  = x ↾ y ↾ z
+    =
+
+:math:`x \upharpoonright y \upharpoonright z`
+
+
 >>> a \[RightUpVector] b
-  = a ↾ b
+    =
+
+:math:`a \upharpoonright b`
+
+

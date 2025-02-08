@@ -12,10 +12,26 @@ DigitQ
 
 
 >>> DigitQ["9"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> DigitQ["a"]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> DigitQ["01001101011000010111010001101000011010010110001101110011"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> DigitQ["-123456789"]
-  = False
+    =
+
+:math:`\text{False}`
+
+

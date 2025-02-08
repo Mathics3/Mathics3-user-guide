@@ -12,6 +12,14 @@ CenterDot
 
 
 >>> CenterDot[x, y, z]
-  = x · y · z
+    =
+
+:math:`x \cdot y \cdot z`
+
+
 >>> a \[CenterDot] b
-  = a · b
+    =
+
+:math:`a \cdot b`
+
+

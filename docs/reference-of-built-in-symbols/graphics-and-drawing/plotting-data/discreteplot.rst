@@ -22,18 +22,36 @@ DiscretePlot
 The number of primes for a number :math:`k`:
 
 >>> DiscretePlot[PrimePi[k], {k, 1, 100}]
-  = -Graphics-
+    =
+
+.. image:: tmp2yap1jvq.png
+    :align: center
+
+
+
 
 is about the same as :code:`Sqrt[k] * 2.5` :
 
 >>> DiscretePlot[2.5 Sqrt[k], {k, 100}]
-  = -Graphics-
+    =
+
+.. image:: tmpp2lbq9wg.png
+    :align: center
+
+
+
 
 Notice in the above that when the starting value, :math:`n_{min}`,  is 1, we can     omit it.
 
 A plot can contain several functions, using the same parameter, here :math:`x`:
 
 >>> DiscretePlot[{Sin[Pi x/20], Cos[Pi x/20]}, {x, 0, 40}]
-  = -Graphics-
+    =
+
+.. image:: tmpvcea9mpj.png
+    :align: center
+
+
+
 
 Compare with `:code:`Plot`  </doc/reference-of-built-in-symbols/graphics-and-drawing/plotting-data/plot/>`_.

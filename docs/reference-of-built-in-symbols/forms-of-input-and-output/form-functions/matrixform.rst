@@ -12,10 +12,8 @@ MatrixForm
 
 
 >>> Array[a,{4,3}]//MatrixForm
-  = a[1, 1]   a[1, 2]   a[1, 3]
-    
-    a[2, 1]   a[2, 2]   a[2, 3]
-    
-    a[3, 1]   a[3, 2]   a[3, 3]
-    
-    a[4, 1]   a[4, 2]   a[4, 3]
+    =
+
+:math:`\left(\begin{array}{ccc} a\left[1,1\right] & a\left[1,2\right] & a\left[1,3\right]\\ a\left[2,1\right] & a\left[2,2\right] & a\left[2,3\right]\\ a\left[3,1\right] & a\left[3,2\right] & a\left[3,3\right]\\ a\left[4,1\right] & a\left[4,2\right] & a\left[4,3\right]\end{array}\right)`
+
+

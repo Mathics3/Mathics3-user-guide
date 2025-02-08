@@ -15,11 +15,22 @@ Values associated with :code:`ReadProtected`  symbols cannot be seen in     :cod
 
 >>> ClearAll[p]
 
+
 >>> p = 3;
 
->>> Definition[p]
-  = p = 3
->>> SetAttributes[p, ReadProtected]
 
 >>> Definition[p]
-  = Attributes[p] = {ReadProtected}
+    =
+
+:math:`\begin{array}{l} p=3\end{array}`
+
+
+>>> SetAttributes[p, ReadProtected]
+
+
+>>> Definition[p]
+    =
+
+:math:`\begin{array}{l} \text{Attributes}\left[p\right]=\left\{\text{ReadProtected}\right\}\end{array}`
+
+

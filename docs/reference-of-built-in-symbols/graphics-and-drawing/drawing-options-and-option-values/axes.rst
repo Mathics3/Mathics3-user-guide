@@ -23,4 +23,10 @@ Axes
 
 
 >>> Graphics[Circle[], Axes -> True]
-  = -Graphics-
+    =
+
+.. image:: tmp7cvmtkd1.png
+    :align: center
+
+
+

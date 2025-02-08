@@ -12,6 +12,14 @@ DoubleUpDownArrow
 
 
 >>> DoubleUpDownArrow[x, y, z]
-  = x ⇕ y ⇕ z
+    =
+
+:math:`x \Updownarrow y \Updownarrow z`
+
+
 >>> a \[DoubleUpDownArrow] b
-  = a ⇕ b
+    =
+
+:math:`a \Updownarrow b`
+
+

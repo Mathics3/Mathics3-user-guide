@@ -26,9 +26,21 @@ Two-dimensional graphics can be created using the function :code:`Graphics`  and
 
 
 >>> Graphics[{Circle[{0, 0}, 1]}]
-  = -Graphics-
+    =
+
+.. image:: tmp6gr903ok.png
+    :align: center
+
+
+
 >>> Graphics[{Line[{{0, 0}, {0, 1}, {1, 1}, {1, -1}}], Rectangle[{0, 0}, {-1, -1}]}]
-  = -Graphics-
+    =
+
+.. image:: tmpx9fpkmdo.png
+    :align: center
+
+
+
 
 Colors can be added in the list of graphics primitives to change the drawing color. The following ways to specify colors are supported:
 
@@ -51,12 +63,24 @@ Colors can be added in the list of graphics primitives to change the drawing col
 All components range from 0 to 1. Each color function can be supplied with an additional argument specifying the desired opacity ("alpha") of the color. There are many predefined colors, such as :code:`Black` , :code:`White` , :code:`Red` , :code:`Green` , :code:`Blue` , etc.
 
 >>> Graphics[{Red, Disk[]}]
-  = -Graphics-
+    =
+
+.. image:: tmpv8b5pfpw.png
+    :align: center
+
+
+
 
 Table of hues:
 
 >>> Graphics[Table[{Hue[h, s], Disk[{12h, 8s}]}, {h, 0, 1, 1/6}, {s, 0, 1, 1/4}]]
-  = -Graphics-
+    =
+
+.. image:: tmpv66_1uai.png
+    :align: center
+
+
+
 
 Colors can be mixed and altered using the following functions:
 
@@ -74,9 +98,19 @@ Colors can be mixed and altered using the following functions:
 
 
 >>> Graphics[{Lighter[Red], Disk[]}]
-  = -Graphics-
+    =
+
+.. image:: tmpkqn21gjt.png
+    :align: center
+
+
+
 
 :code:`Graphics`  produces a :code:`GraphicsBox` :
 
 >>> Head[ToBoxes[Graphics[{Circle[]}]]]
-  = GraphicsBox
+    =
+
+:math:`\text{GraphicsBox}`
+
+

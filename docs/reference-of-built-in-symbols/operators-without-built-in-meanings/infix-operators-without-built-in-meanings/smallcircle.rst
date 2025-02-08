@@ -12,6 +12,14 @@ SmallCircle
 
 
 >>> SmallCircle[x, y, z]
-  = x ∘ y ∘ z
+    =
+
+:math:`x \circ y \circ z`
+
+
 >>> a \[SmallCircle] b
-  = a ∘ b
+    =
+
+:math:`a \circ b`
+
+

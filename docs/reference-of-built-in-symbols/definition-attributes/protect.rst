@@ -16,9 +16,18 @@ Protect
 
 >>> A = {1, 2, 3};
 
+
 >>> Protect[A]
+
 
 >>> A[[2]] = 4;
 
+    Set::wrsym Symbol A is Protected.
+
+
 >>> A
-  = {1, 2, 3}
+    =
+
+:math:`\left\{1,2,3\right\}`
+
+

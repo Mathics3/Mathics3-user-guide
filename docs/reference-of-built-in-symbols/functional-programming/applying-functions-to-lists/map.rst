@@ -15,16 +15,32 @@ Map
 
 
 >>> f /@ {1, 2, 3}
-  = {f[1], f[2], f[3]}
+    =
+
+:math:`\left\{f\left[1\right],f\left[2\right],f\left[3\right]\right\}`
+
+
 >>> #^2& /@ {1, 2, 3, 4}
-  = {1, 4, 9, 16}
+    =
+
+:math:`\left\{1,4,9,16\right\}`
+
+
 
 Map :math:`f` on the second level:
 
 >>> Map[f, {{a, b}, {c, d, e}}, {2}]
-  = {{f[a], f[b]}, {f[c], f[d], f[e]}}
+    =
+
+:math:`\left\{\left\{f\left[a\right],f\left[b\right]\right\},\left\{f\left[c\right],f\left[d\right],f\left[e\right]\right\}\right\}`
+
+
 
 Include heads:
 
 >>> Map[f, a + b + c, Heads->True]
-  = f[Plus][f[a], f[b], f[c]]
+    =
+
+:math:`f\left[\text{Plus}\right]\left[f\left[a\right],f\left[b\right],f\left[c\right]\right]`
+
+

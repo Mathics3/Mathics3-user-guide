@@ -12,4 +12,8 @@ RogersTanimotoDissimilarity
 
 
 >>> RogersTanimotoDissimilarity[{1, 0, 1, 1, 0, 1, 1}, {0, 1, 1, 0, 0, 0, 1}]
-  = 8 / 11
+    =
+
+:math:`\frac{8}{11}`
+
+

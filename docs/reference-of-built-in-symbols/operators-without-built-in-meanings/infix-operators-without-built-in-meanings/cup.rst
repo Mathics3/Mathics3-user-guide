@@ -12,6 +12,14 @@ Cup
 
 
 >>> Cup[x, y, z]
-  = x ⌣ y ⌣ z
+    =
+
+:math:`x \cup y \cup z`
+
+
 >>> a \[Cup] b
-  = a ⌣ b
+    =
+
+:math:`a \cup b`
+
+

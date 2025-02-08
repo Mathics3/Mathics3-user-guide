@@ -11,4 +11,10 @@ System`Convert`B64Dump`B64Decode
 
 
 >>> System`Convert`B64Dump`B64Decode["R!="]
-  = $Failed
+
+    System`Convert`B64Dump`B64Decode::b64invalidstr String "R!=" is not a valid b64 encoded string.
+    =
+
+:math:`\text{\$Failed}`
+
+

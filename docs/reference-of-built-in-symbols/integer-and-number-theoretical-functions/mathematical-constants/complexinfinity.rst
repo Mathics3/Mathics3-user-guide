@@ -14,18 +14,36 @@ ComplexInfinity
 ComplexInfinity can appear as the result of a computation such as dividing by zero:
 
 >>> 1 / 0
-  = ComplexInfinity
+
+    Power::infy Infinite expression 1 / 0 encountered.
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 
 But it can be used as an explicit value in an expression:
 
 >>> 1 / ComplexInfinity
-  = 0
+    =
+
+:math:`0`
+
+
 >>> ComplexInfinity * Infinity
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 
 ComplexInfinity though is a special case of DirectedInfinity:
 
 >>> FullForm[ComplexInfinity]
-  = DirectedInfinity[]
+    =
+
+:math:`\text{DirectedInfinity}\left[\right]`
+
+
 
 See also `:code:`DirectedInfinity`  </doc/reference-of-built-in-symbols/mathematical-functions/directedinfinity/>`_.

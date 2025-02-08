@@ -12,10 +12,28 @@ Exp
 
 
 >>> Exp[1]
-  = E
+    =
+
+:math:`E`
+
+
 >>> Exp[10.0]
-  = 22026.5
+    =
+
+:math:`22026.5`
+
+
 >>> Exp[x] //FullForm
-  = Power[E, x]
+    =
+
+:math:`\text{Power}\left[E, x\right]`
+
+
 >>> Plot[Exp[x], {x, 0, 3}]
-  = -Graphics-
+    =
+
+.. image:: tmpwu92_j8w.png
+    :align: center
+
+
+

@@ -12,10 +12,28 @@ MatchQ
 
 
 >>> MatchQ[123, _Integer]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> MatchQ[123, _Real]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> MatchQ[_Integer][123]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> MatchQ[3, Pattern[3]]
-  = False
+
+    Pattern::patvar First element in pattern Pattern[3] is not a valid pattern name.
+    =
+
+:math:`\text{False}`
+
+

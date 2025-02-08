@@ -12,6 +12,14 @@ Backslash
 
 
 >>> Backslash[x, y, z]
-  = x ∖ y ∖ z
+    =
+
+:math:`x \\ y \\ z`
+
+
 >>> a \[Backslash] b
-  = a ∖ b
+    =
+
+:math:`a \\ b`
+
+

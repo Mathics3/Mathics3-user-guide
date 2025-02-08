@@ -37,32 +37,68 @@ Options include:
 
 
 >>> Graphics[{Blue, Line[{{0,0}, {1,1}}]}]
-  = -Graphics-
+    =
+
+.. image:: tmpnzkb_qpz.png
+    :align: center
+
+
+
 
 :code:`Graphics`  supports :code:`PlotRange` :
 
 >>> Graphics[{Rectangle[{1, 1}]}, Axes -> True, PlotRange -> {{-2, 1.5}, {-1, 1.5}}]
-  = -Graphics-
+    =
+
+.. image:: tmpi8am_sm5.png
+    :align: center
+
+
+
 >>> Graphics[{Rectangle[],Red,Disk[{1,0}]},PlotRange->{{0,1},{0,1}}]
-  = -Graphics-
+    =
+
+.. image:: tmp3hh91l7t.png
+    :align: center
+
+
+
 
 :code:`Graphics`  produces :code:`GraphicsBox`  boxes:
 
 >>> Graphics[Rectangle[]] // ToBoxes // Head
-  = GraphicsBox
+    =
+
+:math:`\text{GraphicsBox}`
+
+
 
 The :code:`Background`  option allows to set the color of the background:
 
 >>> Graphics[{Green, Disk[]}, Background->RGBColor[.6, .7, 1.]]
-  = -Graphics-
+    =
+
+.. image:: tmplq699h7n.png
+    :align: center
+
+
+
 
 In :code:`TeXForm` , :code:`Graphics`  produces Asymptote figures:
 
 >>> Graphics[Circle[]] // TeXForm
-  = 
-    \begin{asy}
-    usepackage("amsmath");
-    size(5.869cm, 5.8333cm);
-    draw(ellipse((175,175),175,175), rgb(0, 0, 0)+linewidth(1.0667));
-    clip(box((-0.53333,0.53333), (350.53,349.47)));
-    \end{asy}
+    =
+
+
+.. math::
+    \text{\newline
+    $\backslash$begin\{asy\}\newline
+    usepackage("amsmath");\newline
+    size(5.869cm, 5.8333cm);\newline
+    draw(ellipse((175,175),175,175), rgb(0, 0, 0)+linewidth(1.0667));\newline
+    clip(box((-0.53333,0.53333), (350.53,349.47)));\newline
+    $\backslash$end\{asy\}\newline
+    }
+
+
+

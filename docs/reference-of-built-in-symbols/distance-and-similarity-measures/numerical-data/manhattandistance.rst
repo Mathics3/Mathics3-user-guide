@@ -12,6 +12,14 @@ ManhattanDistance
 
 
 >>> ManhattanDistance[-7, 5]
-  = 12
+    =
+
+:math:`12`
+
+
 >>> ManhattanDistance[{-1, -1}, {1, 1}]
-  = 4
+    =
+
+:math:`4`
+
+

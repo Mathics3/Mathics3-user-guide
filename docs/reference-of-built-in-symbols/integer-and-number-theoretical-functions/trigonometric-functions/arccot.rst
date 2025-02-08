@@ -12,6 +12,14 @@ Inverse cotangent, `arccotangent <https://en.wikipedia.org/wiki/Inverse_trigonom
 
 
 >>> ArcCot[0]
-  = Pi / 2
+    =
+
+:math:`\frac{ \pi }{2}`
+
+
 >>> ArcCot[1]
-  = Pi / 4
+    =
+
+:math:`\frac{ \pi }{4}`
+
+

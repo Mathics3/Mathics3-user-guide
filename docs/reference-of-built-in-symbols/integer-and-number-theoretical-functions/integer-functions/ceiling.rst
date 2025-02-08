@@ -12,11 +12,23 @@ Ceiling
 
 
 >>> Ceiling[1.2]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Ceiling[3/2]
-  = 2
+    =
+
+:math:`2`
+
+
 
 For complex :math:`x`, take the ceiling of real an imaginary parts.
 
 >>> Ceiling[1.3 + 0.7 I]
-  = 2 + I
+    =
+
+:math:`2+I`
+
+

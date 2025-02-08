@@ -15,8 +15,20 @@ NumberForm
 
 
 >>> NumberForm[N[Pi], 10]
-  = 3.141592654
+    =
+
+:math:`3.141592654`
+
+
 >>> NumberForm[N[Pi], {10, 6}]
-  = 3.141593
+    =
+
+:math:`3.141593`
+
+
 >>> NumberForm[N[Pi]]
-  = 3.14159
+    =
+
+:math:`3.14159`
+
+

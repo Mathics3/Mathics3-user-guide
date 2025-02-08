@@ -15,16 +15,28 @@ ReverseSort
 
 
 >>> ReverseSort[{c, b, d, a}]
-  = {d, c, b, a}
+    =
+
+:math:`\left\{d,c,b,a\right\}`
+
+
 
 You can specify a binary comparison function:
 
 >>> ReverseSort[{1, 2, 0, 3}, Less]
-  = {3, 2, 1, 0}
+    =
+
+:math:`\left\{3,2,1,0\right\}`
+
+
 
 Using :code:`Greater`  for the above, reverses the reverse sort:
 
 >>> ReverseSort[{1, 2, 0, 3}, Greater]
-  = {0, 1, 2, 3}
+    =
+
+:math:`\left\{0,1,2,3\right\}`
+
+
 
 See also `Sort </doc/reference-of-built-in-symbols/descriptive-statistics/order-statistics/sort/>`_.

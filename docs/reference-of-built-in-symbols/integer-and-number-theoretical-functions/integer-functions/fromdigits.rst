@@ -15,27 +15,59 @@ FromDigits
 
 
 >>> FromDigits["123"]
-  = 123
+    =
+
+:math:`123`
+
+
 >>> FromDigits[{1, 2, 3}]
-  = 123
+    =
+
+:math:`123`
+
+
 >>> FromDigits[{1, 0, 1}, 1000]
-  = 1000001
+    =
+
+:math:`1000001`
+
+
 
 FromDigits can handle symbolic input:
 
 >>> FromDigits[{a, b, c}, 5]
-  = c + 5 (5 a + b)
+    =
+
+:math:`c+5 \left(5 a+b\right)`
+
+
 
 Note that FromDigits does not automatically detect if you are providing a non-decimal representation:
 
 >>> FromDigits["a0"]
-  = 100
+    =
+
+:math:`100`
+
+
 >>> FromDigits["a0", 16]
-  = 160
+    =
+
+:math:`160`
+
+
 
 FromDigits on empty lists or strings returns 0:
 
 >>> FromDigits[{}]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> FromDigits[""]
-  = 0
+    =
+
+:math:`0`
+
+

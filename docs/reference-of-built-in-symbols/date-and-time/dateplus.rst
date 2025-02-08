@@ -26,9 +26,17 @@ DatePlus
 Add 73 days to Feb 5, 2010:
 
 >>> DatePlus[{2010, 2, 5}, 73]
-  = {2010, 4, 19}
+    =
+
+:math:`\left\{2010,4,19\right\}`
+
+
 
 Add 8 weeks and 1 day to March 16, 1999:
 
 >>> DatePlus[{2010, 2, 5}, {{8, "Week"}, {1, "Day"}}]
-  = {2010, 4, 3}
+    =
+
+:math:`\left\{2010,4,3\right\}`
+
+

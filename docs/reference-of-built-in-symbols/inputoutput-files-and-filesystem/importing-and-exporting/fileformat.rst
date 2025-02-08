@@ -12,8 +12,20 @@ FileFormat
 
 
 >>> FileFormat["ExampleData/sunflowers.jpg"]
-  = JPEG
+    =
+
+:math:`\text{JPEG}`
+
+
 >>> FileFormat["ExampleData/EinsteinSzilLetter.txt"]
-  = Text
+    =
+
+:math:`\text{Text}`
+
+
 >>> FileFormat["ExampleData/hedy.tif"]
-  = TIFF
+    =
+
+:math:`\text{TIFF}`
+
+

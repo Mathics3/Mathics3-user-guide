@@ -12,6 +12,14 @@ NotSubset
 
 
 >>> NotSubset[x, y, z]
-  = x ⊄ y ⊄ z
+    =
+
+:math:`x \not{\subset} y \not{\subset} z`
+
+
 >>> a \[NotSubset] b
-  = a ⊄ b
+    =
+
+:math:`a \not{\subset} b`
+
+

@@ -10,4 +10,5 @@ HTML`XMLObjectImport
 
 
 >>> Part[Import["ExampleData/PrimeMeridian.html", "XMLObject"], 2, 3, 1, 3, 2]
-  = XMLElement[title, {}, {Prime meridian - Wikipedia}]
+    = XMLElement[title, {}, {Prime meridian - Wikipedia}]`
+

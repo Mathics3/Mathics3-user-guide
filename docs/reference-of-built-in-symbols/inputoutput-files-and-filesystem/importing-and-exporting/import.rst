@@ -24,8 +24,20 @@ Import
 
 
 >>> Import["ExampleData/ExampleData.txt", "Elements"]
-  = {Data, Lines, Plaintext, String, Words}
+    =
+
+:math:`\left\{\text{Data},\text{Lines},\text{Plaintext},\text{String},\text{Words}\right\}`
+
+
 >>> Import["ExampleData/ExampleData.txt", "Lines"]
-  = ...
+    =
+
+:math:`\left\{\text{Example File Format},\text{Created by Angus},\text{0.629452	0.586355},\text{0.711009	0.687453},\text{0.246540	0.433973},\text{0.926871	0.887255},\text{0.825141	0.940900},\text{0.847035	0.127464},\text{0.054348	0.296494},\text{0.838545	0.247025},\text{0.838697	0.436220},\text{0.309496	0.833591}\right\}`
+
+
 >>> Import["ExampleData/colors.json"]
-  = {colorsArray -> {{colorName -> black, rgbValue -> (0, 0, 0), hexValue -> #000000}, {colorName -> red, rgbValue -> (255, 0, 0), hexValue -> #FF0000}, {colorName -> green, rgbValue -> (0, 255, 0), hexValue -> #00FF00}, {colorName -> blue, rgbValue -> (0, 0, 255), hexValue -> #0000FF}, {colorName -> yellow, rgbValue -> (255, 255, 0), hexValue -> #FFFF00}, {colorName -> cyan, rgbValue -> (0, 255, 255), hexValue -> #00FFFF}, {colorName -> magenta, rgbValue -> (255, 0, 255), hexValue -> #FF00FF}, {colorName -> white, rgbValue -> (255, 255, 255), hexValue -> #FFFFFF}}}
+    =
+
+:math:`\left\{\text{colorsArray}->\left\{\left\{\text{colorName}->\text{black},\text{rgbValue}->\text{(0, 0, 0)},\text{hexValue}->\text{\#000000}\right\},\left\{\text{colorName}->\text{red},\text{rgbValue}->\text{(255, 0, 0)},\text{hexValue}->\text{\#FF0000}\right\},\left\{\text{colorName}->\text{green},\text{rgbValue}->\text{(0, 255, 0)},\text{hexValue}->\text{\#00FF00}\right\},\left\{\text{colorName}->\text{blue},\text{rgbValue}->\text{(0, 0, 255)},\text{hexValue}->\text{\#0000FF}\right\},\left\{\text{colorName}->\text{yellow},\text{rgbValue}->\text{(255, 255, 0)},\text{hexValue}->\text{\#FFFF00}\right\},\left\{\text{colorName}->\text{cyan},\text{rgbValue}->\text{(0, 255, 255)},\text{hexValue}->\text{\#00FFFF}\right\},\left\{\text{colorName}->\text{magenta},\text{rgbValue}->\text{(255, 0, 255)},\text{hexValue}->\text{\#FF00FF}\right\},\left\{\text{colorName}->\text{white},\text{rgbValue}->\text{(255, 255, 255)},\text{hexValue}->\text{\#FFFFFF}\right\}\right\}\right\}`
+
+

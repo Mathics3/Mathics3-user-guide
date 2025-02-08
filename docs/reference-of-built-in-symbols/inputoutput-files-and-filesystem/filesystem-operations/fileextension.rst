@@ -12,6 +12,14 @@ FileExtension
 
 
 >>> FileExtension["file.txt"]
-  = txt
+    =
+
+:math:`\text{txt}`
+
+
 >>> FileExtension["file.tar.gz"]
-  = gz
+    =
+
+:math:`\text{gz}`
+
+

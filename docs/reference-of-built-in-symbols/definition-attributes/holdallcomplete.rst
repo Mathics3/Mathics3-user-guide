@@ -15,9 +15,19 @@ HoldAllComplete
 
 >>> SetAttributes[f, HoldAllComplete]
 
+
 >>> f[a] ^= 3;
 
+
 >>> f[a]
-  = f[a]
+    =
+
+:math:`f\left[a\right]`
+
+
 >>> f[Sequence[a, b]]
-  = f[Sequence[a, b]]
+    =
+
+:math:`f\left[\text{Sequence}\left[a,b\right]\right]`
+
+

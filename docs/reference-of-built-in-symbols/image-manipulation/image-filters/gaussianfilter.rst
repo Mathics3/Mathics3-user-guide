@@ -13,5 +13,12 @@ GaussianFilter
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> GaussianFilter[hedy, 2.5]
-  = -Image-
+    =
+
+.. image:: tmpoum6avyz.png
+    :align: center
+
+
+

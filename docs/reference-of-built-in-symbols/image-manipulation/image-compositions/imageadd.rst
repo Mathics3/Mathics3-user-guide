@@ -13,19 +13,48 @@ ImageAdd
 
 >>> i = Image[{{0, 0.5, 0.2, 0.1, 0.9}, {1.0, 0.1, 0.3, 0.8, 0.6}}];
 
+
 >>> ImageAdd[i, 0.5]
-  = -Image-
+    =
+
+.. image:: tmp00ll7yt9.png
+    :align: center
+
+
+
 >>> ImageAdd[i, i]
-  = -Image-
+    =
+
+.. image:: tmpcn1y7fex.png
+    :align: center
+
+
+
 >>> ein = Import["ExampleData/Einstein.jpg"];
+
 
 >>> noise = RandomImage[{-0.1, 0.1}, ImageDimensions[ein]];
 
+
 >>> ImageAdd[noise, ein]
-  = -Image-
+    =
+
+.. image:: tmp7o8tmwtm.png
+    :align: center
+
+
+
 >>> hedy = Import["ExampleData/hedy.tif"];
+
 
 >>> noise = RandomImage[{-0.2, 0.2}, ImageDimensions[hedy], ColorSpace -> "RGB"];
 
+
 >>> ImageAdd[noise, hedy]
-  = -Image-
+    =
+
+.. image:: tmpcdm7lobg.png
+    :align: center
+
+
+

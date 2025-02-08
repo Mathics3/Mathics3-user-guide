@@ -12,8 +12,20 @@ Denominator
 
 
 >>> Denominator[a / b]
-  = b
+    =
+
+:math:`b`
+
+
 >>> Denominator[2 / 3]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> Denominator[a + b]
-  = 1
+    =
+
+:math:`1`
+
+

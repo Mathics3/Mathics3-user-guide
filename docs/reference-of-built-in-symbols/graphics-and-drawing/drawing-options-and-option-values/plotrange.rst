@@ -27,6 +27,18 @@ PlotRange
 
 
 >>> Plot[Sin[Cos[x^2]],{x,-4,4}, PlotRange -> All]
-  = -Graphics-
+    =
+
+.. image:: tmp4nfvdiia.png
+    :align: center
+
+
+
 >>> Graphics[Disk[], PlotRange -> {{-.5, .5}, {0, 1.5}}]
-  = -Graphics-
+    =
+
+.. image:: tmpdhcwtf6c.png
+    :align: center
+
+
+

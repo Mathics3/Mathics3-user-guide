@@ -15,8 +15,22 @@ PatternTest
 
 
 >>> MatchQ[3, _Integer?(#>0&)]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> MatchQ[-3, _Integer?(#>0&)]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> MatchQ[3, Pattern[3]]
-  = False
+
+    Pattern::patvar First element in pattern Pattern[3] is not a valid pattern name.
+    =
+
+:math:`\text{False}`
+
+

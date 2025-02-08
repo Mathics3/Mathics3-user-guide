@@ -1,7 +1,7 @@
 Gamma and Related Functions
 ===========================
 
-
+See also `Chapter 5 Gamma Function in the Digital Library of Mathematical Functions <https://dlmf.nist.gov/5>`_.
 
 .. toctree::
     :maxdepth: 2

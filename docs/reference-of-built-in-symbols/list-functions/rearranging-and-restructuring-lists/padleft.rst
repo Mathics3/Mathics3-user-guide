@@ -28,14 +28,38 @@ PadLeft
 
 
 >>> PadLeft[{1, 2, 3}, 5]
-  = {0, 0, 1, 2, 3}
+    =
+
+:math:`\left\{0,0,1,2,3\right\}`
+
+
 >>> PadLeft[x[a, b, c], 5]
-  = x[0, 0, a, b, c]
+    =
+
+:math:`x\left[0,0,a,b,c\right]`
+
+
 >>> PadLeft[{1, 2, 3}, 2]
-  = {2, 3}
+    =
+
+:math:`\left\{2,3\right\}`
+
+
 >>> PadLeft[{{}, {1, 2}, {1, 2, 3}}]
-  = {{0, 0, 0}, {0, 1, 2}, {1, 2, 3}}
+    =
+
+:math:`\left\{\left\{0,0,0\right\},\left\{0,1,2\right\},\left\{1,2,3\right\}\right\}`
+
+
 >>> PadLeft[{1, 2, 3}, 10, {a, b, c}, 2]
-  = {b, c, a, b, c, 1, 2, 3, a, b}
+    =
+
+:math:`\left\{b,c,a,b,c,1,2,3,a,b\right\}`
+
+
 >>> PadLeft[{{1, 2, 3}}, {5, 2}, x, 1]
-  = {{x, x}, {x, x}, {x, x}, {3, x}, {x, x}}
+    =
+
+:math:`\left\{\left\{x,x\right\},\left\{x,x\right\},\left\{x,x\right\},\left\{3,x\right\},\left\{x,x\right\}\right\}`
+
+

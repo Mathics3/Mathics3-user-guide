@@ -15,4 +15,8 @@ MapApply
 
 
 >>> f @@@ {{a, b}, {c, d}}
-  = {f[a, b], f[c, d]}
+    =
+
+:math:`\left\{f\left[a,b\right],f\left[c,d\right]\right\}`
+
+

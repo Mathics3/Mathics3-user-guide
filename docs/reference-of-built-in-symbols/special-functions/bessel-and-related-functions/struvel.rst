@@ -11,6 +11,16 @@ StruveL
 
 
 >>> StruveL[1.5, 3.5]
-  = 4.41126
+    =
+
+:math:`4.41126`
+
+
 >>> Plot[StruveL[0, x], {x, 0, 5}]
-  = -Graphics-
+    =
+
+.. image:: tmp_7yv7c_w.png
+    :align: center
+
+
+

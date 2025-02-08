@@ -12,6 +12,14 @@ RightTriangleBar
 
 
 >>> RightTriangleBar[x, y, z]
-  = x ⧐ y ⧐ z
+    =
+
+:math:`x |\triangleright y |\triangleright z`
+
+
 >>> a \[RightTriangleBar] b
-  = a ⧐ b
+    =
+
+:math:`a |\triangleright b`
+
+

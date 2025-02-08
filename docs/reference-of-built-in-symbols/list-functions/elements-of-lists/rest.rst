@@ -14,10 +14,30 @@ Rest
 :code:`Rest[:math:`expr`]`  is equivalent to :code:`:math:`expr`[[2;;]]` .
 
 >>> Rest[{a, b, c}]
-  = {b, c}
+    =
+
+:math:`\left\{b,c\right\}`
+
+
 >>> Rest[a + b + c]
-  = b + c
+    =
+
+:math:`b+c`
+
+
 >>> Rest[x]
-  = Rest[x]
+
+    Rest::normal Nonatomic expression expected at position 1 in Rest[x].
+    =
+
+:math:`\text{Rest}\left[x\right]`
+
+
 >>> Rest[{}]
-  = Rest[{}]
+
+    Rest::norest Cannot take Rest of expression {} with length zero.
+    =
+
+:math:`\text{Rest}\left[\left\{\right\}\right]`
+
+

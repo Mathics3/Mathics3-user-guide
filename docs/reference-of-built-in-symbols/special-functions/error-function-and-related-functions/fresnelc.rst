@@ -11,6 +11,14 @@ FresnelC
 
 
 >>> FresnelC[{0, Infinity}]
-  = {0, 1 / 2}
+    =
+
+:math:`\left\{0,\frac{1}{2}\right\}`
+
+
 >>> Integrate[Cos[x^2 Pi/2], {x, 0, z}]
-  = FresnelC[z]
+    =
+
+:math:`\text{FresnelC}\left[z\right]`
+
+

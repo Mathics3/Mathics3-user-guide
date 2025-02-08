@@ -18,12 +18,32 @@ Collect
 
 
 >>> Collect[(x+y)^3, y]
-  = x ^ 3 + 3 x ^ 2 y + 3 x y ^ 2 + y ^ 3
+    =
+
+:math:`x^3+3 x^2 y+3 x y^2+y^3`
+
+
 >>> Collect[2 Sin[x z] (x+2 y^2 + Sin[y] x), y]
-  = 2 x Sin[x z] + 2 x Sin[x z] Sin[y] + 4 y ^ 2 Sin[x z]
+    =
+
+:math:`2 x \text{Sin}\left[x z\right]+2 x \text{Sin}\left[x z\right] \text{Sin}\left[y\right]+4 y^2 \text{Sin}\left[x z\right]`
+
+
 >>> Collect[3 x y+2 Sin[x z] (x+2 y^2 + x) + (x+y)^3, y]
-  = 4 x Sin[x z] + x ^ 3 + y (3 x + 3 x ^ 2) + y ^ 2 (3 x + 4 Sin[x z]) + y ^ 3
+    =
+
+:math:`4 x \text{Sin}\left[x z\right]+x^3+y \left(3 x+3 x^2\right)+y^2 \left(3 x+4 \text{Sin}\left[x z\right]\right)+y^3`
+
+
 >>> Collect[3 x y+2 Sin[x z] (x+2 y^2 + x) + (x+y)^3, {x,y}]
-  = 4 x Sin[x z] + x ^ 3 + 3 x y + 3 x ^ 2 y + 4 y ^ 2 Sin[x z] + 3 x y ^ 2 + y ^ 3
+    =
+
+:math:`4 x \text{Sin}\left[x z\right]+x^3+3 x y+3 x^2 y+4 y^2 \text{Sin}\left[x z\right]+3 x y^2+y^3`
+
+
 >>> Collect[3 x y+2 Sin[x z] (x+2 y^2 + x) + (x+y)^3, {x,y}, h]
-  = x h[4 Sin[x z]] + x ^ 3 h[1] + x y h[3] + x ^ 2 y h[3] + y ^ 2 h[4 Sin[x z]] + x y ^ 2 h[3] + y ^ 3 h[1]
+    =
+
+:math:`x h\left[4 \text{Sin}\left[x z\right]\right]+x^3 h\left[1\right]+x y h\left[3\right]+x^2 y h\left[3\right]+y^2 h\left[4 \text{Sin}\left[x z\right]\right]+x y^2 h\left[3\right]+y^3 h\left[1\right]`
+
+

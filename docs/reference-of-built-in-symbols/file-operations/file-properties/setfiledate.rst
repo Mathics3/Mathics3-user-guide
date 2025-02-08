@@ -22,9 +22,13 @@ Create a temporary file (for example purposes)
 
 >>> tmpfilename = $TemporaryDirectory <> "/tmp0";
 
+
 >>> Close[OpenWrite[tmpfilename]];
+
 
 >>> SetFileDate[tmpfilename, {2002, 1, 1, 0, 0, 0.}, "Access"];
 
+
 >>> DeleteFile[tmpfilename]
+    = `
 

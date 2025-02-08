@@ -17,13 +17,31 @@ Polygon
 A Right Triangle:
 
 >>> Graphics[Polygon[{{1,0},{0,0},{0,1}}]]
-  = -Graphics-
+    =
+
+.. image:: tmpqg122081.png
+    :align: center
+
+
+
 
 Notice that there is a line connecting from the last point to the first one.
 
 A point is an element of the polygon if a ray from the point in any direction in     the plane crosses the boundary line segments an odd number of times.
 
 >>> Graphics[Polygon[{{150,0},{121,90},{198,35},{102,35},{179,90}}]]
-  = -Graphics-
+    =
+
+.. image:: tmpi_apmr1u.png
+    :align: center
+
+
+
 >>> Graphics3D[Polygon[{{0,0,0},{0,1,1},{1,0,0}}]]
-  = -Graphics3D-
+    =
+
+.. image:: tmp50wor60b.png
+    :align: center
+
+
+

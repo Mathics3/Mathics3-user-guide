@@ -12,6 +12,14 @@ LowerLeftArrow
 
 
 >>> LowerLeftArrow[x, y, z]
-  = x ↙ y ↙ z
+    =
+
+:math:`x \swarrow y \swarrow z`
+
+
 >>> a \[LowerLeftArrow] b
-  = a ↙ b
+    =
+
+:math:`a \swarrow b`
+
+

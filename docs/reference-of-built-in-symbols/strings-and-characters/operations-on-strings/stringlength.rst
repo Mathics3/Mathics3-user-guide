@@ -12,11 +12,25 @@ StringLength
 
 
 >>> StringLength["abc"]
-  = 3
+    =
+
+:math:`3`
+
+
 
 :code:`StringLength`  is listable:
 
 >>> StringLength[{"a", "bc"}]
-  = {1, 2}
+    =
+
+:math:`\left\{1,2\right\}`
+
+
 >>> StringLength[x]
-  = StringLength[x]
+
+    StringLength::string String expected.
+    =
+
+:math:`\text{StringLength}\left[x\right]`
+
+

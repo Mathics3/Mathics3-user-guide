@@ -12,6 +12,14 @@ UpperRightArrow
 
 
 >>> UpperRightArrow[x, y, z]
-  = x ↗ y ↗ z
+    =
+
+:math:`x \nearrow y \nearrow z`
+
+
 >>> a \[UpperRightArrow] b
-  = a ↗ b
+    =
+
+:math:`a \nearrow b`
+
+

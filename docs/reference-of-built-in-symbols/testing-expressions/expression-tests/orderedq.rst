@@ -13,6 +13,14 @@ OrderedQ
 
 
 >>> OrderedQ[{a, b}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> OrderedQ[{b, a}]
-  = False
+    =
+
+:math:`\text{False}`
+
+

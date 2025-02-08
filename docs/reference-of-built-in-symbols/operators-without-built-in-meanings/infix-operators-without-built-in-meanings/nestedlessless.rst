@@ -12,6 +12,14 @@ NestedLessLess
 
 
 >>> NestedLessLess[x, y, z]
-  = x ⪡ y ⪡ z
+    =
+
+:math:`x \ll y \ll z`
+
+
 >>> a \[NestedLessLess] b
-  = a ⪡ b
+    =
+
+:math:`a \ll b`
+
+

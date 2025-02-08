@@ -12,6 +12,14 @@ NotSupersetEqual
 
 
 >>> NotSupersetEqual[x, y, z]
-  = x ⊉ y ⊉ z
+    =
+
+:math:`x \nsupseteq y \nsupseteq z`
+
+
 >>> a \[NotSupersetEqual] b
-  = a ⊉ b
+    =
+
+:math:`a \nsupseteq b`
+
+

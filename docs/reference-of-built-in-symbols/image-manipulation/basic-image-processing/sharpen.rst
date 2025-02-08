@@ -16,7 +16,20 @@ Sharpen
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> Sharpen[hedy]
-  = -Image-
+    =
+
+.. image:: tmpf2qoff09.png
+    :align: center
+
+
+
 >>> Sharpen[hedy, 5]
-  = -Image-
+    =
+
+.. image:: tmph14xyes9.png
+    :align: center
+
+
+

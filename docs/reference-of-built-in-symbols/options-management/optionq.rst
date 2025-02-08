@@ -14,25 +14,57 @@ OptionQ
 Examples of option specifications:
 
 >>> OptionQ[a -> True]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> OptionQ[a :> True]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> OptionQ[{a -> True}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> OptionQ[{a :> True}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Options lists are flattened when are applied, so
 
 >>> OptionQ[{a -> True, {b->1, "c"->2}}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> OptionQ[{a -> True, {b->1, c}}]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> OptionQ[{a -> True, F[b->1,c->2]}]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 :code:`OptionQ`  returns :code:`False`  if its argument is not a valid option
 specification:
 
 >>> OptionQ[x]
-  = False
+    =
+
+:math:`\text{False}`
+
+

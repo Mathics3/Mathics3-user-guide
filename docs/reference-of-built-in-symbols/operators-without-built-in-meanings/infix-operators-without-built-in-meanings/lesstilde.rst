@@ -12,6 +12,14 @@ LessTilde
 
 
 >>> LessTilde[x, y, z]
-  = x ≲ y ≲ z
+    =
+
+:math:`x \lesssim y \lesssim z`
+
+
 >>> a \[LessTilde] b
-  = a ≲ b
+    =
+
+:math:`a \lesssim b`
+
+

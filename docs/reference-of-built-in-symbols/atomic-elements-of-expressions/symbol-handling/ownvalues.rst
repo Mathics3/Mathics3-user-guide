@@ -12,19 +12,43 @@ OwnValues
 
 >>> x = 3;
 
+
 >>> x = 2;
 
+
 >>> OwnValues[x]
-  = {HoldPattern[x] :> 2}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[x\right]\text{:>}2\right\}`
+
+
 >>> x := y
 
->>> OwnValues[x]
-  = {HoldPattern[x] :> y}
->>> y = 5;
 
 >>> OwnValues[x]
-  = {HoldPattern[x] :> y}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[x\right]\text{:>}y\right\}`
+
+
+>>> y = 5;
+
+
+>>> OwnValues[x]
+    =
+
+:math:`\left\{\text{HoldPattern}\left[x\right]\text{:>}y\right\}`
+
+
 >>> Hold[x] /. OwnValues[x]
-  = Hold[y]
+    =
+
+:math:`\text{Hold}\left[y\right]`
+
+
 >>> Hold[x] /. OwnValues[x] // ReleaseHold
-  = 5
+    =
+
+:math:`5`
+
+

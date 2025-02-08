@@ -12,4 +12,8 @@ DateObject
 
 
 >>> DateObject[{2020, 4, 15}]
-  = [...]
+    =
+
+:math:`\left[\text{Wed 15 Apr 2020 00:00:00}\text{  GTM}-3\right]`
+
+

@@ -18,12 +18,22 @@ PreDecrement
 
 >>> a = 2;
 
+
 >>> --a
-  = 1
+    =
+
+:math:`1`
+
+
 >>> a
-  = 1
+    =
+
+:math:`1`
+
+
 
 Compare with `Decrement </doc/reference-of-built-in-symbols/assignments/in-place-binary-assignment-operator/decrement>`_ which returns the updated value, and `Increment </doc/reference-of-built-in-symbols/assignments/in-place-binary-assignment-operator/increment>`_ which goes the other way.
 
 >>> Clear[a]
+    = `
 

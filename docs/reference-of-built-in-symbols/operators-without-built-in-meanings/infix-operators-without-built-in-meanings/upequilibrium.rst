@@ -12,6 +12,14 @@ UpEquilibrium
 
 
 >>> UpEquilibrium[x, y, z]
-  = x ⥮ y ⥮ z
+    =
+
+:math:`x \upharpoonleft \downharpoonright y \upharpoonleft \downharpoonright z`
+
+
 >>> a \[UpEquilibrium] b
-  = a ⥮ b
+    =
+
+:math:`a \upharpoonleft \downharpoonright b`
+
+

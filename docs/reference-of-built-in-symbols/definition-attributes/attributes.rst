@@ -18,30 +18,64 @@ Attributes
 
 
 >>> Attributes[Plus]
-  = {Flat, Listable, NumericFunction, OneIdentity, Orderless, Protected}
+    =
+
+:math:`\left\{\text{Flat},\text{Listable},\text{NumericFunction},\text{OneIdentity},\text{Orderless},\text{Protected}\right\}`
+
+
 >>> Attributes["Plus"]
-  = {Flat, Listable, NumericFunction, OneIdentity, Orderless, Protected}
+    =
+
+:math:`\left\{\text{Flat},\text{Listable},\text{NumericFunction},\text{OneIdentity},\text{Orderless},\text{Protected}\right\}`
+
+
 
 :code:`Attributes`  always considers the head of an expression:
 
 >>> Attributes[a + b + c]
-  = {Flat, Listable, NumericFunction, OneIdentity, Orderless, Protected}
+    =
+
+:math:`\left\{\text{Flat},\text{Listable},\text{NumericFunction},\text{OneIdentity},\text{Orderless},\text{Protected}\right\}`
+
+
 
 You can assign values to :code:`Attributes`  to set attributes:
 
 >>> Attributes[f] = {Flat, Orderless}
-  = {Flat, Orderless}
+    =
+
+:math:`\left\{\text{Flat},\text{Orderless}\right\}`
+
+
 >>> f[b, f[a, c]]
-  = f[a, b, c]
+    =
+
+:math:`f\left[a,b,c\right]`
+
+
 
 Attributes must be symbols:
 
 >>> Attributes[f] := {a + b}
-  = $Failed
+
+    Attributes::sym Argument a + b at position 1 is expected to be a symbol.
+    =
+
+:math:`\text{\$Failed}`
+
+
 
 Use :code:`Symbol`  to convert strings to symbols:
 
 >>> Attributes[f] = Symbol["Listable"]
-  = Listable
+    =
+
+:math:`\text{Listable}`
+
+
 >>> Attributes[f]
-  = {Listable}
+    =
+
+:math:`\left\{\text{Listable}\right\}`
+
+

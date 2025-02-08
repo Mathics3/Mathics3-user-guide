@@ -16,11 +16,16 @@ DeleteFile
 
 >>> CopyFile["ExampleData/sunflowers.jpg", "MathicsSunflowers.jpg"];
 
+
 >>> DeleteFile["MathicsSunflowers.jpg"]
+
 
 >>> CopyFile["ExampleData/sunflowers.jpg", "MathicsSunflowers1.jpg"];
 
+
 >>> CopyFile["ExampleData/sunflowers.jpg", "MathicsSunflowers2.jpg"];
 
+
 >>> DeleteFile[{"MathicsSunflowers1.jpg", "MathicsSunflowers2.jpg"}]
+
 

@@ -14,6 +14,14 @@ Integers
 Limit a solution to integer numbers:
 
 >>> Solve[-4 - 4 x + x^4 + x^5 == 0, x, Integers]
-  = {{x -> -1}}
+    =
+
+:math:`\left\{\left\{x->-1\right\}\right\}`
+
+
 >>> Solve[x^4 == 4, x, Integers]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+

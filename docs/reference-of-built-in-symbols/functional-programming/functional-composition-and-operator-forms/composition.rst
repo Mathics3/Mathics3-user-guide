@@ -12,14 +12,38 @@ Composition
 
 
 >>> Composition[f, g][x]
-  = f[g[x]]
+    =
+
+:math:`f\left[g\left[x\right]\right]`
+
+
 >>> Composition[f, g, h][x, y, z]
-  = f[g[h[x, y, z]]]
+    =
+
+:math:`f\left[g\left[h\left[x,y,z\right]\right]\right]`
+
+
 >>> Composition[]
-  = Identity
+    =
+
+:math:`\text{Identity}`
+
+
 >>> Composition[][x]
-  = x
+    =
+
+:math:`x`
+
+
 >>> Attributes[Composition]
-  = {Flat, OneIdentity, Protected}
+    =
+
+:math:`\left\{\text{Flat},\text{OneIdentity},\text{Protected}\right\}`
+
+
 >>> Composition[f, Composition[g, h]]
-  = Composition[f, g, h]
+    =
+
+:math:`\text{Composition}\left[f,g,h\right]`
+
+

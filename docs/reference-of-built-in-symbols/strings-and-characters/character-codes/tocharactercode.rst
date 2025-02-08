@@ -16,18 +16,54 @@ ToCharacterCode
 
 
 >>> ToCharacterCode["abc"]
-  = {97, 98, 99}
+    =
+
+:math:`\left\{97,98,99\right\}`
+
+
 >>> FromCharacterCode[%]
-  = abc
+    =
+
+:math:`\text{abc}`
+
+
 >>> ToCharacterCode["\[Alpha]\[Beta]\[Gamma]"]
-  = {945, 946, 947}
+    =
+
+:math:`\left\{945,946,947\right\}`
+
+
 >>> ToCharacterCode["ä", "UTF8"]
-  = {195, 164}
+    =
+
+:math:`\left\{195,164\right\}`
+
+
 >>> ToCharacterCode["ä", "ISO8859-1"]
-  = {228}
+    =
+
+:math:`\left\{228\right\}`
+
+
 >>> ToCharacterCode[{"ab", "c"}]
-  = {{97, 98}, {99}}
+    =
+
+:math:`\left\{\left\{97,98\right\},\left\{99\right\}\right\}`
+
+
 >>> ToCharacterCode[{"ab", x}]
-  = ToCharacterCode[{ab, x}]
+
+    ToCharacterCode::strse String or list of strings expected at position 1 in ToCharacterCode[{ab, x}].
+    =
+
+:math:`\text{ToCharacterCode}\left[\left\{\text{ab},x\right\}\right]`
+
+
 >>> ListPlot[ToCharacterCode["plot this string"], Filling -> Axis]
-  = -Graphics-
+    =
+
+.. image:: tmpxcxbab_h.png
+    :align: center
+
+
+

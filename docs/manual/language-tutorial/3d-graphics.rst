@@ -17,14 +17,30 @@ Three-dimensional graphics are created using the function :code:`Graphics3D`  an
 
 
 >>> Graphics3D[Polygon[{{0,0,0}, {0,1,1}, {1,0,0}}]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpvxnn_q3t.png
+    :align: center
+
+
+
 
 Colors can also be added to three-dimensional primitives.
 
 >>> Graphics3D[{Orange, Polygon[{{0,0,0}, {1,1,1}, {1,0,0}}]}, Axes->True]
-  = -Graphics3D-
+    =
+
+.. image:: tmpyy1u5uax.png
+    :align: center
+
+
+
 
 :code:`Graphics3D`  produces a :code:`Graphics3DBox` :
 
 >>> Head[ToBoxes[Graphics3D[{Polygon[]}]]]
-  = Graphics3DBox
+    =
+
+:math:`\text{Graphics3DBox}`
+
+

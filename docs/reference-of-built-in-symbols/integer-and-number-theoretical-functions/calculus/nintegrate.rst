@@ -15,8 +15,20 @@ NIntegrate
 
 
 >>> NIntegrate[Exp[-x],{x,0,Infinity},Tolerance->1*^-6, Method->"Internal"]
-  = 1.
+    =
+
+:math:`1.`
+
+
 >>> NIntegrate[Exp[x],{x,-Infinity, 0},Tolerance->1*^-6, Method->"Internal"]
-  = 1.
+    =
+
+:math:`1.`
+
+
 >>> NIntegrate[Exp[-x^2/2.],{x,-Infinity, Infinity},Tolerance->1*^-6, Method->"Internal"]
-  = 2.5066...
+    =
+
+:math:`2.50664`
+
+

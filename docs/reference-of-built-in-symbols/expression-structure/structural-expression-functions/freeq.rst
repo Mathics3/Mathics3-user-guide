@@ -12,14 +12,38 @@ FreeQ
 
 
 >>> FreeQ[y, x]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> FreeQ[a+b+c, a+b]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> FreeQ[{1, 2, a^(a+b)}, Plus]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> FreeQ[a+b, x_+y_+z_]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> FreeQ[a+b+c, x_+y_+z_]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> FreeQ[x_+y_+z_][a+b]
-  = True
+    =
+
+:math:`\text{True}`
+
+

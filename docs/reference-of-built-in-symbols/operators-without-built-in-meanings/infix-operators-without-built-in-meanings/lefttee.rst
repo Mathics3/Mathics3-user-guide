@@ -12,6 +12,14 @@ LeftTee
 
 
 >>> LeftTee[x, y, z]
-  = x ⊣ y ⊣ z
+    =
+
+:math:`x \dashv y \dashv z`
+
+
 >>> a \[LeftTee] b
-  = a ⊣ b
+    =
+
+:math:`a \dashv b`
+
+

@@ -16,11 +16,23 @@ EulerE
 Odd-index Euler numbers are zero:
 
 >>> Table[EulerE[k], {k, 1, 9, 2}]
-  = {0, 0, 0, 0, 0}
+    =
+
+:math:`\left\{0,0,0,0,0\right\}`
+
+
 
 Even-index Euler numbers alternate in sign:
 
 >>> Table[EulerE[k], {k, 0, 8, 2}]
-  = {1, -1, 5, -61, 1385}
+    =
+
+:math:`\left\{1,-1,5,-61,1385\right\}`
+
+
 >>> EulerE[5, z]
-  = -1 / 2 + 5 z ^ 2 / 2 - 5 z ^ 4 / 2 + z ^ 5
+    =
+
+:math:`-\frac{1}{2}+\frac{5 z^2}{2}-\frac{5 z^4}{2}+z^5`
+
+

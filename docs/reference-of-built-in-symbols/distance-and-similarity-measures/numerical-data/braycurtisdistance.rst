@@ -14,6 +14,14 @@ BrayCurtisDistance
 The Bray-Curtis distance is equivalent to :code:`Total[Abs[u-v]]/Total[Abs[u+v]]` .
 
 >>> BrayCurtisDistance[-7, 5]
-  = 6
+    =
+
+:math:`6`
+
+
 >>> BrayCurtisDistance[{-1, -1}, {10, 10}]
-  = 11 / 9
+    =
+
+:math:`\frac{11}{9}`
+
+

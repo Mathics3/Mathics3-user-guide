@@ -12,13 +12,25 @@ GCD
 
 
 >>> GCD[20, 30]
-  = 10
+    =
+
+:math:`10`
+
+
 >>> GCD[10, y]
-  = GCD[10, y]
+    =
+
+:math:`\text{GCD}\left[10,y\right]`
+
+
 
 :code:`GCD`  is :code:`Listable` :
 
 >>> GCD[4, {10, 11, 12, 13, 14}]
-  = {2, 1, 4, 1, 2}
+    =
+
+:math:`\left\{2,1,4,1,2\right\}`
+
+
 
 :code:`GCD`  does not work for rational numbers and Gaussian integers yet.

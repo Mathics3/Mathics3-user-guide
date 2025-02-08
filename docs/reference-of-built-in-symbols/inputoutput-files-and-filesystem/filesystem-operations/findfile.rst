@@ -12,8 +12,20 @@ FindFile
 
 
 >>> FindFile["ExampleData/sunflowers.jpg"]
-  = ...
+    =
+
+:math:`\text{/home/mauricio/Projects/mathics-core/mathics/data/ExampleData/sunflowers.jpg}`
+
+
 >>> FindFile["VectorAnalysis`"]
-  = ...
+    =
+
+:math:`\text{/home/mauricio/Projects/mathics-core/mathics/Packages/VectorAnalysis/Kernel/init.m}`
+
+
 >>> FindFile["VectorAnalysis`VectorAnalysis`"]
-  = ...
+    =
+
+:math:`\text{/home/mauricio/Projects/mathics-core/mathics/Packages/VectorAnalysis/VectorAnalysis.m}`
+
+

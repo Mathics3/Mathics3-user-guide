@@ -12,4 +12,8 @@ $VersionNumber
 
 
 >>> $VersionNumber
-  = ...
+    =
+
+:math:`10.`
+
+

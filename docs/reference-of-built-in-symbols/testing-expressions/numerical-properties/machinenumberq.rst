@@ -14,8 +14,20 @@ MachineNumberQ
 = True
 
 >>> MachineNumberQ[3.14159265358979324]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> MachineNumberQ[1.5 + 2.3 I]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> MachineNumberQ[2.71828182845904524 + 3.14159265358979324 I]
-  = False
+    =
+
+:math:`\text{False}`
+
+

@@ -12,6 +12,14 @@ PrecedesEqual
 
 
 >>> PrecedesEqual[x, y, z]
-  = x ⪯ y ⪯ z
+    =
+
+:math:`x \preceq y \preceq z`
+
+
 >>> a \[PrecedesEqual] b
-  = a ⪯ b
+    =
+
+:math:`a \preceq b`
+
+

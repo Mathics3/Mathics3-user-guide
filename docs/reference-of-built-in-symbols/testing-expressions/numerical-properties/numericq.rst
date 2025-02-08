@@ -12,32 +12,74 @@ NumericQ
 
 
 >>> NumericQ[2]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumericQ[Sqrt[Pi]]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumberQ[Sqrt[Pi]]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 It is possible to set that a symbol is numeric or not by assign a boolean value
 to ``NumericQ``
 
 >>> NumericQ[a]=True
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumericQ[a]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumericQ[Sin[a]]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Clear and ClearAll do not restore the default value.
 
 >>> Clear[a]; NumericQ[a]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> ClearAll[a]; NumericQ[a]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumericQ[a]=False; NumericQ[a]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 NumericQ can only set to True or False
 
 >>> NumericQ[a] = 37
-  = 37
+
+    NumericQ::set Cannot set NumericQ[a] to 37; the lhs argument must be a symbol and the rhs must be True or False.
+    =
+
+:math:`37`
+
+

@@ -12,4 +12,8 @@ TimeUsed
 
 
 >>> TimeUsed[]
-  = ...
+    =
+
+:math:`84.7116`
+
+

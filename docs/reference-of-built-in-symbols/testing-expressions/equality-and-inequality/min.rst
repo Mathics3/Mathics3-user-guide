@@ -14,23 +14,47 @@ Min
 Minimum of a series of values:
 
 >>> Min[4, -8, 1]
-  = -8
+    =
+
+:math:`-8`
+
+
 >>> Min[E - Pi, Pi, E + Pi, 2 E]
-  = E - Pi
+    =
+
+:math:`E- \pi`
+
+
 
 :code:`Min`  flattens lists in its arguments:
 
 >>> Min[{1,2},3,{-3,3.5,-Infinity},{{1/2}}]
-  = -Infinity
+    =
+
+:math:`-\infty`
+
+
 
 :code:`Min`  with symbolic arguments remains in symbolic form:
 
 >>> Min[x, y]
-  = Min[x, y]
+    =
+
+:math:`\text{Min}\left[x,y\right]`
+
+
 >>> Min[5, x, -3, y, 40]
-  = Min[-3, x, y]
+    =
+
+:math:`\text{Min}\left[-3,x,y\right]`
+
+
 
 With no arguments, :code:`Min`  gives :code:`Infinity` :
 
 >>> Min[]
-  = Infinity
+    =
+
+:math:`\infty`
+
+

@@ -12,6 +12,14 @@ Diamond
 
 
 >>> Diamond[x, y, z]
-  = x ⋄ y ⋄ z
+    =
+
+:math:`x \diamond y \diamond z`
+
+
 >>> a \[Diamond] b
-  = a ⋄ b
+    =
+
+:math:`a \diamond b`
+
+

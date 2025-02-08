@@ -40,15 +40,45 @@ BarChart specific:
 A bar chart of a list of heights:
 
 >>> BarChart[{1, 4, 2}]
-  = -Graphics-
+    =
+
+.. image:: tmpjr3azakc.png
+    :align: center
+
+
+
 >>> BarChart[{1, 4, 2}, ChartStyle -> {Red, Green, Blue}]
-  = -Graphics-
+    =
+
+.. image:: tmps8iejeh2.png
+    :align: center
+
+
+
 >>> BarChart[{{1, 2, 3}, {2, 3, 4}}]
-  = -Graphics-
+    =
+
+.. image:: tmpa7m0s_dn.png
+    :align: center
+
+
+
 
 Chart several datasets with categorical labels:
 
 >>> BarChart[{{1, 2, 3}, {2, 3, 4}}, ChartLabels -> {"a", "b", "c"}]
-  = -Graphics-
+    =
+
+.. image:: tmpugh6cgpy.png
+    :align: center
+
+
+
 >>> BarChart[{{1, 5}, {3, 4}}, ChartStyle -> {{EdgeForm[Thin], White}, {EdgeForm[Thick], White}}]
-  = -Graphics-
+    =
+
+.. image:: tmpam2gvyz7.png
+    :align: center
+
+
+

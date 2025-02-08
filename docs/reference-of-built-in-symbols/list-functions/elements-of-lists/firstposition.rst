@@ -18,13 +18,29 @@ FirstPosition
 
 
 >>> FirstPosition[{a, b, a, a, b, c, b}, b]
-  = {2}
+    =
+
+:math:`\left\{2\right\}`
+
+
 >>> FirstPosition[{{a, a, b}, {b, a, a}, {a, b, a}}, b]
-  = {1, 3}
+    =
+
+:math:`\left\{1,3\right\}`
+
+
 >>> FirstPosition[{x, y, z}, b]
-  = Missing[NotFound]
+    =
+
+:math:`\text{Missing}\left[\text{NotFound}\right]`
+
+
 
 Find the first position at which x^2 to appears:
 
 >>> FirstPosition[{1 + x^2, 5, x^4, a + (1 + x^2)^2}, x^2]
-  = {1, 2}
+    =
+
+:math:`\left\{1,2\right\}`
+
+

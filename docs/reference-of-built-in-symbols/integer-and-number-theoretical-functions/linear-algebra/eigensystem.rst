@@ -12,4 +12,8 @@ Eigensystem
 
 
 >>> Eigensystem[{{1, 1, 0}, {1, 0, 1}, {0, 1, 1}}]
-  = {{2, -1, 1}, {{1, 1, 1}, {1, -2, 1}, {-1, 0, 1}}}
+    =
+
+:math:`\left\{\left\{2,-1,1\right\},\left\{\left\{1,1,1\right\},\left\{1,-2,1\right\},\left\{-1,0,1\right\}\right\}\right\}`
+
+

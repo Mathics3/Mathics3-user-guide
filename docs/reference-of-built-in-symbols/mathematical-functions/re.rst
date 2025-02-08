@@ -12,6 +12,16 @@ Re
 
 
 >>> Re[3+4I]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> Plot[{Cos[a], Re[E^(I a)]}, {a, 0, 2 Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmp5sq5mz88.png
+    :align: center
+
+
+

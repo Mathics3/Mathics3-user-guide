@@ -12,6 +12,14 @@ LeftTriangleEqual
 
 
 >>> LeftTriangleEqual[x, y, z]
-  = x ⊴ y ⊴ z
+    =
+
+:math:`x \trianglelefteq y \trianglelefteq z`
+
+
 >>> a \[LeftTriangleEqual] b
-  = a ⊴ b
+    =
+
+:math:`a \trianglelefteq b`
+
+

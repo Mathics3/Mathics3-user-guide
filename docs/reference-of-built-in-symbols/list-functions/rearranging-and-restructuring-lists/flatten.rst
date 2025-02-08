@@ -18,17 +18,41 @@ Flatten
 
 
 >>> Flatten[{{a, b}, {c, {d}, e}, {f, {g, h}}}]
-  = {a, b, c, d, e, f, g, h}
+    =
+
+:math:`\left\{a,b,c,d,e,f,g,h\right\}`
+
+
 >>> Flatten[{{a, b}, {c, {e}, e}, {f, {g, h}}}, 1]
-  = {a, b, c, {e}, e, f, {g, h}}
+    =
+
+:math:`\left\{a,b,c,\left\{e\right\},e,f,\left\{g,h\right\}\right\}`
+
+
 >>> Flatten[f[a, f[b, f[c, d]], e], Infinity, f]
-  = f[a, b, c, d, e]
+    =
+
+:math:`f\left[a,b,c,d,e\right]`
+
+
 >>> Flatten[{{a, b}, {c, d}}, {{2}, {1}}]
-  = {{a, c}, {b, d}}
+    =
+
+:math:`\left\{\left\{a,c\right\},\left\{b,d\right\}\right\}`
+
+
 >>> Flatten[{{a, b}, {c, d}}, {{1, 2}}]
-  = {a, b, c, d}
+    =
+
+:math:`\left\{a,b,c,d\right\}`
+
+
 
 Flatten also works in irregularly shaped arrays
 
 >>> Flatten[{{1, 2, 3}, {4}, {6, 7}, {8, 9, 10}}, {{2}, {1}}]
-  = {{1, 4, 6, 8}, {2, 7, 9}, {3, 10}}
+    =
+
+:math:`\left\{\left\{1,4,6,8\right\},\left\{2,7,9\right\},\left\{3,10\right\}\right\}`
+
+

@@ -19,31 +19,59 @@ Apply
 
 
 >>> f @@ {1, 2, 3}
-  = f[1, 2, 3]
+    =
+
+:math:`f\left[1,2,3\right]`
+
+
 >>> Plus @@ {1, 2, 3}
-  = 6
+    =
+
+:math:`6`
+
+
 
 The head of :math:`expr` need not be :code:`List` :
 
 >>> f @@ (a + b + c)
-  = f[a, b, c]
+    =
+
+:math:`f\left[a,b,c\right]`
+
+
 
 Apply on level 1:
 
 >>> Apply[f, {a + b, g[c, d, e * f], 3}, {1}]
-  = {f[a, b], f[c, d, e f], 3}
+    =
+
+:math:`\left\{f\left[a,b\right],f\left[c,d,e f\right],3\right\}`
+
+
 
 The default level is 0:
 
 >>> Apply[f, {a, b, c}, {0}]
-  = f[a, b, c]
+    =
+
+:math:`f\left[a,b,c\right]`
+
+
 
 Range of levels, including negative level (counting from bottom):
 
 >>> Apply[f, {{{{{a}}}}}, {2, -3}]
-  = {{f[f[{a}]]}}
+    =
+
+:math:`\left\{\left\{f\left[f\left[\left\{a\right\}\right]\right]\right\}\right\}`
+
+
 
 Convert all operations to lists:
 
 >>> Apply[List, a + b * c ^ e * f[g], {0, Infinity}]
-  = {a, {b, {g}, {c, e}}}
+    =
+
+:math:`\left\{a,\left\{b,\left\{g\right\},\left\{c,e\right\}\right\}\right\}`
+
+

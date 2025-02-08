@@ -12,6 +12,14 @@ DoubleRightTee
 
 
 >>> DoubleRightTee[x, y, z]
-  = x ⊨ y ⊨ z
+    =
+
+:math:`x \vDash y \vDash z`
+
+
 >>> a \[DoubleRightTee] b
-  = a ⊨ b
+    =
+
+:math:`a \vDash b`
+
+

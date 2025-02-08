@@ -12,6 +12,14 @@ SucceedsEqual
 
 
 >>> SucceedsEqual[x, y, z]
-  = x ⪰ y ⪰ z
+    =
+
+:math:`x \succeq y \succeq z`
+
+
 >>> a \[SucceedsEqual] b
-  = a ⪰ b
+    =
+
+:math:`a \succeq b`
+
+

@@ -12,6 +12,14 @@ RightDownVector
 
 
 >>> RightDownVector[x, y, z]
-  = x ⇂ y ⇂ z
+    =
+
+:math:`x \underline{\downharpoonright} y \underline{\downharpoonright} z`
+
+
 >>> a \[RightDownVector] b
-  = a ⇂ b
+    =
+
+:math:`a \underline{\downharpoonright} b`
+
+

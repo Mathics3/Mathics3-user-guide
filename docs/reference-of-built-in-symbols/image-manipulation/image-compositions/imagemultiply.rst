@@ -13,7 +13,20 @@ ImageMultiply
 
 >>> i = Image[{{0, 0.5, 0.2, 0.1, 0.9}, {1.0, 0.1, 0.3, 0.8, 0.6}}];
 
+
 >>> ImageMultiply[i, 0.2]
-  = -Image-
+    =
+
+.. image:: tmpiudrgl2w.png
+    :align: center
+
+
+
 >>> ImageMultiply[i, i]
-  = -Image-
+    =
+
+.. image:: tmp8fih9d5f.png
+    :align: center
+
+
+

@@ -12,6 +12,14 @@ VerticalBar
 
 
 >>> VerticalBar[x, y, z]
-  = x ❘ y ❘ z
+    =
+
+:math:`x \shortmid y \shortmid z`
+
+
 >>> a \[VerticalBar] b
-  = a ❘ b
+    =
+
+:math:`a \shortmid b`
+
+

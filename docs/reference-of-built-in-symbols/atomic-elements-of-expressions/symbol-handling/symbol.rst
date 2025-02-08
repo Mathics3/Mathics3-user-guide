@@ -11,9 +11,17 @@ Symbol
 
 
 >>> Head[x]
-  = Symbol
+    =
+
+:math:`\text{Symbol}`
+
+
 
 You can use :code:`Symbol`  to create symbols from strings:
 
 >>> Symbol["x"] + Symbol["x"]
-  = 2 x
+    =
+
+:math:`2 x`
+
+

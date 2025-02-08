@@ -12,8 +12,20 @@ EuclideanDistance
 
 
 >>> EuclideanDistance[-7, 5]
-  = 12
+    =
+
+:math:`12`
+
+
 >>> EuclideanDistance[{-1, -1}, {1, 1}]
-  = 2 Sqrt[2]
+    =
+
+:math:`2 \sqrt{2}`
+
+
 >>> EuclideanDistance[{a, b}, {c, d}]
-  = Sqrt[Abs[a - c] ^ 2 + Abs[b - d] ^ 2]
+    =
+
+:math:`\sqrt{\text{Abs}\left[a-c\right]^2+\text{Abs}\left[b-d\right]^2}`
+
+

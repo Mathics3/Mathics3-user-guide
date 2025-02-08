@@ -11,6 +11,16 @@ LightPurple
 
 
 >>> Graphics[{EdgeForm[Black], LightPurple, Disk[]}, ImageSize->Small]
-  = -Graphics-
+    =
+
+.. image:: tmp7l00u7h8.png
+    :align: center
+
+
+
 >>> LightPurple // ToBoxes
-  = StyleBox[GraphicsBox[...], ...]
+    =
+
+:math:`\text{StyleBox}\left[\text{GraphicsBox}\left[\left\{\text{EdgeForm}\left[\text{RGBColor}\left[0,0,0\right]\right],\text{RGBColor}\left[0.94,0.88,0.94\right],\text{RectangleBox}\left[\left\{0,0\right\}\right]\right\},\text{AspectRatio}->\text{Automatic},\text{Axes}->\text{False},\text{AxesStyle}->\left\{\right\},\text{Background}->\text{Automatic},\text{ImageSize}->16,\text{LabelStyle}->\left\{\right\},\text{PlotRange}->\text{Automatic},\text{PlotRangePadding}->\text{Automatic},\text{TicksStyle}->\left\{\right\}\right],\text{ImageSizeMultipliers}->\left\{1,1\right\},\text{ShowStringCharacters}->\text{True}\right]`
+
+

@@ -12,6 +12,14 @@ DifferentialD
 
 
 >>> DifferentialD[x]
-  = 𝑑x
+    =
+
+:math:`\, dx`
+
+
 >>> \[DifferentialD]x
-  = 𝑑x
+    =
+
+:math:`\, dx`
+
+

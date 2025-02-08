@@ -22,21 +22,43 @@ Reap
 
 
 >>> Reap[Sow[3]; Sow[1]]
-  = {1, {{3, 1}}}
+    =
+
+:math:`\left\{1,\left\{\left\{3,1\right\}\right\}\right\}`
+
+
 >>> Reap[Sow[2, {x, x, x}]; Sow[3, x]; Sow[4, y]; Sow[4, 1], {_Symbol, _Integer, x}, f]
-  = {4, {{f[x, {2, 2, 2, 3}], f[y, {4}]}, {f[1, {4}]}, {f[x, {2, 2, 2, 3}]}}}
+    =
+
+:math:`\left\{4,\left\{\left\{f\left[x,\left\{2,2,2,3\right\}\right],f\left[y,\left\{4\right\}\right]\right\},\left\{f\left[1,\left\{4\right\}\right]\right\},\left\{f\left[x,\left\{2,2,2,3\right\}\right]\right\}\right\}\right\}`
+
+
 
 Find the unique elements of a list, keeping their order:
 
 >>> Reap[Sow[Null, {a, a, b, d, c, a}], _, # &][[2]]
-  = {a, b, d, c}
+    =
+
+:math:`\left\{a,b,d,c\right\}`
+
+
 
 Sown values are reaped by the innermost matching :code:`Reap` :
 
 >>> Reap[Reap[Sow[a, x]; Sow[b, 1], _Symbol, Print["Inner: ", #1]&];, _, f]
-  = {Null, {f[1, {b}]}}
+
+    Inner: x
+    =
+
+:math:`\left\{\text{Null},\left\{f\left[1,\left\{b\right\}\right]\right\}\right\}`
+
+
 
 When no value is sown, an empty list is returned:
 
 >>> Reap[x]
-  = {x, {}}
+    =
+
+:math:`\left\{x,\left\{\right\}\right\}`
+
+

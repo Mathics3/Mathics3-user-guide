@@ -12,4 +12,8 @@ Compress
 
 
 >>> Compress[N[Pi, 10]]
-  = eJwz1jM0MTS1NDIzNQEADRsCNw==
+    =
+
+:math:`\text{eJwz1jM0MTS1NDIzNQEADRsCNw==}`
+
+

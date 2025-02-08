@@ -15,8 +15,26 @@ Darker
 
 
 >>> Graphics[{Darker[Red], Disk[]}]
-  = -Graphics-
+    =
+
+.. image:: tmppyxq23xv.png
+    :align: center
+
+
+
 >>> Graphics3D[{Darker[Green], Sphere[]}]
-  = -Graphics3D-
+    =
+
+.. image:: tmpisljoc87.png
+    :align: center
+
+
+
 >>> Graphics[Table[{Darker[Yellow, x], Disk[{12x, 0}]}, {x, 0, 1, 1/6}]]
-  = -Graphics-
+    =
+
+.. image:: tmpwwpgz0bh.png
+    :align: center
+
+
+

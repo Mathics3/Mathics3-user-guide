@@ -12,8 +12,20 @@ ArcSech
 
 
 >>> ArcSech[0]
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 >>> ArcSech[1]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> ArcSech[0.5]
-  = 1.31696
+    =
+
+:math:`1.31696`
+
+

@@ -17,9 +17,21 @@ ListLinePlot
 
 
 >>> ListLinePlot[Table[{n, n ^ 0.5}, {n, 10}]]
-  = -Graphics-
+    =
+
+.. image:: tmp5kpu6fgu.png
+    :align: center
+
+
+
 
 ListPlot accepts a superset of the Graphics options.
 
 >>> ListLinePlot[{{-2, -1}, {-1, -1}, {1, 3}}, Filling->Axis]
-  = -Graphics-
+    =
+
+.. image:: tmpgibr3v2w.png
+    :align: center
+
+
+

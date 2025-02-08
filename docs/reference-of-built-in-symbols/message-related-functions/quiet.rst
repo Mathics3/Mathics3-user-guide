@@ -23,19 +23,50 @@ Quiet
 Evaluate without generating messages:
 
 >>> Quiet[1/0]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 
 Same as above:
 
 >>> Quiet[1/0, All]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 >>> a::b = "Hello";
 
+
 >>> Quiet[x+x, {a::b}]
-  = 2 x
+    =
+
+:math:`2 x`
+
+
 >>> Quiet[Message[a::b]; x+x, {a::b}]
-  = 2 x
+    =
+
+:math:`2 x`
+
+
 >>> Message[a::b]; y=Quiet[Message[a::b]; x+x, {a::b}]; Message[a::b]; y
-  = 2 x
+
+    a::b Hello
+
+    a::b Hello
+    =
+
+:math:`2 x`
+
+
 >>> Quiet[x + x, {a::b}, {a::b}]
-  = Quiet[x + x, {a::b}, {a::b}]
+
+    Quiet::conflict In Quiet[x + x, {a::b}, {a::b}] the message name(s) {a::b} appear in both the list of messages to switch off and the list of messages to switch on.
+    =
+
+:math:`\text{Quiet}\left[x+x,\left\{a\text{::}\text{b}\right\},\left\{a\text{::}\text{b}\right\}\right]`
+
+

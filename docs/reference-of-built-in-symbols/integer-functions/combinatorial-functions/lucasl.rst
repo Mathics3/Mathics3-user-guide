@@ -17,8 +17,22 @@ LucasL
 A list of the first five Lucas numbers:
 
 >>> Table[LucasL[n], {n, 1, 5}]
-  = {1, 3, 4, 7, 11}
+    =
+
+:math:`\left\{1,3,4,7,11\right\}`
+
+
 >>> Series[LucasL[1/2, x], {x, 0, 5}]
-  = 1 + 1 / 4 x + 1 / 32 x ^ 2 + (-1 / 128) x ^ 3 + (-5 / 2048) x ^ 4 + 7 / 8192 x ^ 5 + O[x] ^ 6
+    =
+
+:math:`1+\frac{1}{4} x+\frac{1}{32} x^2+\left(-\frac{1}{128}\right) x^3+\left(-\frac{5}{2048}\right) x^4+\frac{7}{8192} x^5+O\left[x\right]^6`
+
+
 >>> Plot[LucasL[1/2, x], {x, -5, 5}]
-  = -Graphics-
+    =
+
+.. image:: tmp_4atu38n.png
+    :align: center
+
+
+

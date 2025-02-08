@@ -12,6 +12,14 @@ NotSucceeds
 
 
 >>> NotSucceeds[x, y, z]
-  = x ⊁ y ⊁ z
+    =
+
+:math:`x \nsucc y \nsucc z`
+
+
 >>> a \[NotSucceeds] b
-  = a ⊁ b
+    =
+
+:math:`a \nsucc b`
+
+

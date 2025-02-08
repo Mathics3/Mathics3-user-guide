@@ -14,9 +14,17 @@ O
 
 
 >>> Series[1/(1-x),{x,0,2}]
-  = 1 + x + x ^ 2 + O[x] ^ 3
+    =
+
+:math:`1+x+x^2+O\left[x\right]^3`
+
+
 
 When called alone, a `SeriesData` expression is built:
 
 >>> O[x] // FullForm
-  = SeriesData[x, 0, {}, 1, 1, 1]
+    =
+
+:math:`\text{SeriesData}\left[x, 0, \left\{\right\}, 1, 1, 1\right]`
+
+

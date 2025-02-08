@@ -12,13 +12,29 @@ WhitespaceCharacter
 
 
 >>> StringMatchQ["\n", WhitespaceCharacter]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringSplit["a\nb\r\nc\rd", WhitespaceCharacter]
-  = {a, b, , c, d}
+    =
+
+:math:`\left\{\text{a},\text{b},\text{},\text{c},\text{d}\right\}`
+
+
 
 For sequences of whitespace characters use :code:`Whitespace` :
 
 >>> StringMatchQ[" \n", WhitespaceCharacter]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringMatchQ[" \n", Whitespace]
-  = True
+    =
+
+:math:`\text{True}`
+
+

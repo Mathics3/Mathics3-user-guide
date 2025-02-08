@@ -12,8 +12,20 @@ NumberQ
 
 
 >>> NumberQ[3+I]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumberQ[5!]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> NumberQ[Pi]
-  = False
+    =
+
+:math:`\text{False}`
+
+

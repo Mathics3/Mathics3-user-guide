@@ -13,4 +13,8 @@ StringForm
 
 
 >>> StringForm["`1` bla `2` blub `` bla `2`", a, b, c]
-  = a bla b blub c bla b
+    =
+
+:math:`a\text{ bla }b\text{ blub }c\text{ bla }b`
+
+

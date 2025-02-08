@@ -22,14 +22,32 @@ Extract Image parts `WMA link <https://reference.wolfram.com/language/ref/ImageT
 Crop to the include only the upper half (244 rows) of an image:
 
 >>> alice = Import["ExampleData/MadTeaParty.gif"]; ImageTake[alice, 244]
-  = -Image-
+    =
+
+.. image:: tmpfv0fcv1b.png
+    :align: center
+
+
+
 
 Now crop to the include the lower half of that image:
 
 >>> ImageTake[alice, -244]
-  = -Image-
+    =
+
+.. image:: tmpnqs8zi4h.png
+    :align: center
+
+
+
 
 Just the text around the hat:
 
 >>> ImageTake[alice, {40, 150}, {500, 600}]
-  = -Image-
+    =
+
+.. image:: tmpg6g4i3u8.png
+    :align: center
+
+
+

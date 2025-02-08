@@ -12,8 +12,17 @@ $MachineEpsilon
 
 
 >>> $MachineEpsilon
-  = 2.22045×10^-16
+    =
+
+:math:`2.22045\text{*${}^{\wedge}$}-16`
+
+
 >>> x = 1.0 + {0.4, 0.5, 0.6} $MachineEpsilon;
 
+
 >>> x - 1
-  = {0., 0., 2.22045×10^-16}
+    =
+
+:math:`\left\{0.,0.,2.22045\text{*${}^{\wedge}$}-16\right\}`
+
+

@@ -36,20 +36,89 @@ The option "ColorCoverage" specifies the minimum amount of coverage needed to   
 The option "MinColorDistance" specifies the distance (in LAB color space) up     to which colors are merged and thus regarded as belonging to the same dominant color.
 
 >>> img = Import["ExampleData/hedy.tif"]
-  = -Image-
+    =
+
+.. image:: tmpt8gkuhrc.png
+    :align: center
+
+
+
 >>> DominantColors[img]
-  = {RGBColor[0.00784314, 0.00784314, 0.0156863], RGBColor[0.996078, 0.803922, 0.721569], RGBColor[0.227451, 0.329412, 0.360784]}
+    =
+
+
+.. math::
+    \left\{
+    \includegraphics[]{/tmp/tmpk1nrfbal.png}
+    ,
+    \includegraphics[]{/tmp/tmpgwm_otks.png}
+    ,
+    \includegraphics[]{/tmp/tmp89cbzgxr.png}
+    \right\}
+
+
+
 >>> DominantColors[img, 3]
-  = {RGBColor[0.00784314, 0.00784314, 0.0156863], RGBColor[0.996078, 0.803922, 0.721569], RGBColor[0.227451, 0.329412, 0.360784]}
+    =
+
+
+.. math::
+    \left\{
+    \includegraphics[]{/tmp/tmph0mk3oh3.png}
+    ,
+    \includegraphics[]{/tmp/tmp__643hee.png}
+    ,
+    \includegraphics[]{/tmp/tmpnjtmj3as.png}
+    \right\}
+
+
+
 >>> DominantColors[img, 3, "Coverage"]
-  = {68817 / 103360, 62249 / 516800, 37953 / 516800}
+    =
+
+:math:`\left\{\frac{68817}{103360},\frac{62249}{516800},\frac{37953}{516800}\right\}`
+
+
 >>> DominantColors[img, 3, "CoverageImage"]
-  = {-Image-, -Image-, -Image-}
+
 >>> DominantColors[img, 3, "Count"]
-  = {344085, 62249, 37953}
+    =
+
+:math:`\left\{344085,62249,37953\right\}`
+
+
 >>> DominantColors[img, 2, "LABColor"]
-  = {LABColor[0.00581591, 0.00207458, -0.00760911], LABColor[0.863667, 0.156864, 0.173956]}
+    =
+
+
+.. math::
+    \left\{\text{LABColor}\left[0.00581591,0.00207458,-0.00760911\right],
+    \includegraphics[]{/tmp/tmpltpvuyjw.png}
+    \right\}
+
+
+
 >>> DominantColors[img, MinColorDistance -> 0.5]
-  = {RGBColor[0.00784314, 0.00784314, 0.0156863], RGBColor[0.996078, 0.803922, 0.721569]}
+    =
+
+
+.. math::
+    \left\{
+    \includegraphics[]{/tmp/tmpmvl3wfp2.png}
+    ,
+    \includegraphics[]{/tmp/tmpw4gwrhmm.png}
+    \right\}
+
+
+
 >>> DominantColors[img, ColorCoverage -> 0.15]
-  = {RGBColor[0.00784314, 0.00784314, 0.0156863]}
+    =
+
+
+.. math::
+    \left\{
+    \includegraphics[]{/tmp/tmpasnrivkp.png}
+    \right\}
+
+
+

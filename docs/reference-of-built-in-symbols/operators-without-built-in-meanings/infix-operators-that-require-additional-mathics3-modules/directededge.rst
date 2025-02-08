@@ -16,6 +16,14 @@ DirectedEdge
 
 
 >>> DirectedEdge[x, y, z]
-  = x → y → z
+    =
+
+:math:`x \rightarrow y \rightarrow z`
+
+
 >>> a \[DirectedEdge] b
-  = a → b
+    =
+
+:math:`a \rightarrow b`
+
+

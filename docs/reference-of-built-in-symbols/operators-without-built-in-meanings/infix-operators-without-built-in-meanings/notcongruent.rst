@@ -12,6 +12,14 @@ NotCongruent
 
 
 >>> NotCongruent[x, y, z]
-  = x ≢ y ≢ z
+    =
+
+:math:`x \not{\equiv} y \not{\equiv} z`
+
+
 >>> a \[NotCongruent] b
-  = a ≢ b
+    =
+
+:math:`a \not{\equiv} b`
+
+

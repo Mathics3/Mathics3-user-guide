@@ -18,21 +18,41 @@ Prime
 Note that the first prime is 2, not 1:
 
 >>> Prime[1]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Prime[167]
-  = 991
+    =
+
+:math:`991`
+
+
 
 When given a list of integers, a list is returned:
 
 >>> Prime[{5, 10, 15}]
-  = {11, 29, 47}
+    =
+
+:math:`\left\{11,29,47\right\}`
+
+
 
 1.2 isn't an integer
 
 >>> Prime[1.2]
-  = Prime[1.2]
+    =
+
+:math:`\text{Prime}\left[1.2\right]`
+
+
 
 Since 0 is less than 1, like 1.2 it is invalid.
 
 >>> Prime[{0, 1, 1.2, 3}]
-  = {Prime[0], 2, Prime[1.2], 5}
+    =
+
+:math:`\left\{\text{Prime}\left[0\right],2,\text{Prime}\left[1.2\right],5\right\}`
+
+

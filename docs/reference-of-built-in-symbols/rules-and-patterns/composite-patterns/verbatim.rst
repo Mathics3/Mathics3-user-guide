@@ -14,11 +14,23 @@ Verbatim
 Create a pattern matching :code:`Blank` :
 
 >>> _ /. Verbatim[_]->t
-  = t
+    =
+
+:math:`t`
+
+
 >>> x /. Verbatim[_]->t
-  = x
+    =
+
+:math:`x`
+
+
 
 Without :code:`Verbatim` , :code:`Blank`  has its normal effect:
 
 >>> x /. _->t
-  = t
+    =
+
+:math:`t`
+
+

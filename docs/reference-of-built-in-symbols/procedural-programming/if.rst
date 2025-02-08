@@ -19,17 +19,30 @@ If
 
 
 >>> If[1<2, a, b]
-  = a
+    =
+
+:math:`a`
+
+
 
 If the second branch is not specified, :code:`Null`  is taken:
 
 >>> If[1<2, a]
-  = a
+    =
+
+:math:`a`
+
+
 >>> If[False, a] //FullForm
-  = Null
+    =
+
+:math:`\text{Null}`
+
+
 
 You might use comments (inside :code:`(*`  and :code:`*)` ) to make the branches of :code:`If` 
 more readable:
 
 >>> If[a, (*then*) b, (*else*) c];
+
 

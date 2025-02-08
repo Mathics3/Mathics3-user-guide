@@ -12,6 +12,14 @@ RightArrowBar
 
 
 >>> RightArrowBar[x, y, z]
-  = x ⇥ y ⇥ z
+    =
+
+:math:`x \rightarrow | y \rightarrow | z`
+
+
 >>> a \[RightArrowBar] b
-  = a ⇥ b
+    =
+
+:math:`a \rightarrow | b`
+
+

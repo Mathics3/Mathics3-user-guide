@@ -12,4 +12,8 @@ $Input
 
 
 >>> $Input
+    =
+
+:math:`\text{}`
+
 

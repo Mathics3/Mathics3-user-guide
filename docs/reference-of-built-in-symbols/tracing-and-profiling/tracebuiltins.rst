@@ -23,21 +23,39 @@ Sort Options:
 
 
 >>> TraceBuiltins[Graphics3D[Tetrahedron[]]] (* See console log *)
-  = -Graphics3D-
+    =
+
+.. image:: tmpojkw6p41.png
+    :align: center
+
+
+
 
 By default, the output is sorted by the name:
 
 >>> TraceBuiltins[Times[x, x]] (* See console log *)
-  = x ^ 2
+    =
+
+:math:`x^2`
+
+
 
 By default, the output is sorted by the number of calls of the builtin from     highest to lowest:
 
 >>> TraceBuiltins[Times[x, x], SortBy->"count"] (* See console log *)
-  = x ^ 2
+    =
+
+:math:`x^2`
+
+
 
 You can have results ordered by name, or time.
 
 Trace an expression and list the result by time from highest to lowest.
 
 >>> TraceBuiltins[Times[x, x], SortBy->"time"] (* See console log *)
-  = x ^ 2
+    =
+
+:math:`x^2`
+
+

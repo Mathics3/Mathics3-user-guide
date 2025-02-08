@@ -12,10 +12,23 @@ NullSpace
 
 
 >>> NullSpace[{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}]
-  = {{1, -2, 1}}
+    =
+
+:math:`\left\{\left\{1,-2,1\right\}\right\}`
+
+
 >>> A = {{1, 1, 0}, {1, 0, 1}, {0, 1, 1}};
 
+
 >>> NullSpace[A]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 >>> MatrixRank[A]
-  = 3
+    =
+
+:math:`3`
+
+

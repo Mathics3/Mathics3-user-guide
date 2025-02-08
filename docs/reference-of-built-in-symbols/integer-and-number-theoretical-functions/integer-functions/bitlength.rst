@@ -12,10 +12,26 @@ BitLength
 
 
 >>> BitLength[1023]
-  = 10
+    =
+
+:math:`10`
+
+
 >>> BitLength[100]
-  = 7
+    =
+
+:math:`7`
+
+
 >>> BitLength[-5]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> BitLength[0]
-  = 0
+    =
+
+:math:`0`
+
+

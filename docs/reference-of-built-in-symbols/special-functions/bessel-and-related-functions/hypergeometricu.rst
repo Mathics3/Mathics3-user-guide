@@ -11,14 +11,28 @@ HypergeometricU
 
 
 >>> HypergeometricU[3, 2, 1.]
-  = 0.105479
+    =
+
+:math:`0.105479`
+
+
 
 Plot :code:`U` [3, 2, x] from 0 to 2 in steps of 0.5:
 
 >>> Plot[HypergeometricU[3, 2, x], {x, 0.5, 2}]
-  = -Graphics-
+    =
+
+.. image:: tmpir484fpr.png
+    :align: center
+
+
+
 
 We handle this special case:
 
 >>> HypergeometricU[0, c, z]
-  = 1
+    =
+
+:math:`1`
+
+

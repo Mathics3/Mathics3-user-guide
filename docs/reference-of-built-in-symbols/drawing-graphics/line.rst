@@ -15,6 +15,18 @@ Line
 
 
 >>> Graphics[Line[{{0,1},{0,0},{1,0},{1,1}}]]
-  = -Graphics-
+    =
+
+.. image:: tmpx_2w5cbg.png
+    :align: center
+
+
+
 >>> Graphics3D[Line[{{0,0,0},{0,1,1},{1,0,0}}]]
-  = -Graphics3D-
+    =
+
+.. image:: tmp9ms8j_7n.png
+    :align: center
+
+
+

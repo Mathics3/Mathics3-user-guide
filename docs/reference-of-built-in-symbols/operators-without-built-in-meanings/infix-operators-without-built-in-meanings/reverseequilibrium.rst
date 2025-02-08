@@ -12,6 +12,14 @@ ReverseEquilibrium
 
 
 >>> ReverseEquilibrium[x, y, z]
-  = x ⇋ y ⇋ z
+    =
+
+:math:`x \leftrightharpoons y \leftrightharpoons z`
+
+
 >>> a \[ReverseEquilibrium] b
-  = a ⇋ b
+    =
+
+:math:`a \leftrightharpoons b`
+
+

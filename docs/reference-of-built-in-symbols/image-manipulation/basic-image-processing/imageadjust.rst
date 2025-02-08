@@ -22,5 +22,12 @@ ImageAdjust
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageAdjust[hedy]
-  = -Image-
+    =
+
+.. image:: tmpw1_ye1as.png
+    :align: center
+
+
+

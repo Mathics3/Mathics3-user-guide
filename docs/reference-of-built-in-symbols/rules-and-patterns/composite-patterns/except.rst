@@ -15,11 +15,23 @@ Except
 
 
 >>> Cases[{x, a, b, x, c}, Except[x]]
-  = {a, b, c}
+    =
+
+:math:`\left\{a,b,c\right\}`
+
+
 >>> Cases[{a, 0, b, 1, c, 2, 3}, Except[1, _Integer]]
-  = {0, 2, 3}
+    =
+
+:math:`\left\{0,2,3\right\}`
+
+
 
 Except can also be used for string expressions:
 
 >>> StringReplace["Hello world!", Except[LetterCharacter] -> ""]
-  = Helloworld
+    =
+
+:math:`\text{Helloworld}`
+
+

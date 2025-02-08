@@ -12,6 +12,14 @@ SucceedsSlantEqual
 
 
 >>> SucceedsSlantEqual[x, y, z]
-  = x ≽ y ≽ z
+    =
+
+:math:`x \succeq y \succeq z`
+
+
 >>> a \[SucceedsSlantEqual] b
-  = a ≽ b
+    =
+
+:math:`a \succeq b`
+
+

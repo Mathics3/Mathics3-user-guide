@@ -12,6 +12,14 @@ NotTildeEqual
 
 
 >>> NotTildeEqual[x, y, z]
-  = x ≄ y ≄ z
+    =
+
+:math:`x \not{\simeq} y \not{\simeq} z`
+
+
 >>> a \[NotTildeEqual] b
-  = a ≄ b
+    =
+
+:math:`a \not{\simeq} b`
+
+

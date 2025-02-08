@@ -15,8 +15,20 @@ Riffle
 
 
 >>> Riffle[{a, b, c}, x]
-  = {a, x, b, x, c}
+    =
+
+:math:`\left\{a,x,b,x,c\right\}`
+
+
 >>> Riffle[{a, b, c}, {x, y, z}]
-  = {a, x, b, y, c, z}
+    =
+
+:math:`\left\{a,x,b,y,c,z\right\}`
+
+
 >>> Riffle[{a, b, c, d, e, f}, {x, y, z}]
-  = {a, x, b, y, c, z, d, x, e, y, f}
+    =
+
+:math:`\left\{a,x,b,y,c,z,d,x,e,y,f\right\}`
+
+

@@ -12,21 +12,38 @@ OneIdentity
 
 
 >>> a /. f[x_:0, u_] -> {u}
-  = a
+    =
+
+:math:`a`
+
+
 
 Here is how :code:`OneIdentity`  changes the pattern matched above :
 
 >>> SetAttributes[f, OneIdentity]
 
+
 >>> a /. f[x_:0, u_] -> {u}
-  = {a}
+    =
+
+:math:`\left\{a\right\}`
+
+
 
 However, without a default argument, the pattern does not match:
 
 >>> a /. f[u_] -> {u}
-  = a
+    =
+
+:math:`a`
+
+
 
 :code:`OneIdentity`  does not change evaluation:
 
 >>> f[a]
-  = f[a]
+    =
+
+:math:`f\left[a\right]`
+
+

@@ -16,17 +16,38 @@ Create a function :math:`f` with a held argument:
 
 >>> SetAttributes[f, HoldAll]
 
+
 >>> f[1 + 2]
-  = f[1 + 2]
+    =
+
+:math:`f\left[1+2\right]`
+
+
 
 :code:`Evaluate`  forces evaluation of the argument, even though :math:`f` has
 the :code:`HoldAll`  attribute:
 
 >>> f[Evaluate[1 + 2]]
-  = f[3]
+    =
+
+:math:`f\left[3\right]`
+
+
 >>> Hold[Evaluate[1 + 2]]
-  = Hold[3]
+    =
+
+:math:`\text{Hold}\left[3\right]`
+
+
 >>> HoldComplete[Evaluate[1 + 2]]
-  = HoldComplete[Evaluate[1 + 2]]
+    =
+
+:math:`\text{HoldComplete}\left[\text{Evaluate}\left[1+2\right]\right]`
+
+
 >>> Evaluate[Sequence[1, 2]]
-  = Sequence[1, 2]
+    =
+
+:math:`\text{Sequence}\left[1,2\right]`
+
+

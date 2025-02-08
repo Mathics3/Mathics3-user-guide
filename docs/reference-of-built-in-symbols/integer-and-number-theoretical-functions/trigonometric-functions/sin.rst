@@ -12,12 +12,34 @@ Sin
 
 
 >>> Sin[0]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Sin[0.5]
-  = 0.479426
+    =
+
+:math:`0.479426`
+
+
 >>> Sin[3 Pi]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Sin[1.0 + I]
-  = 1.29846 + 0.634964 I
+    =
+
+:math:`1.29846+0.634964 I`
+
+
 >>> Plot[Sin[x], {x, -Pi, Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmp6dnfpd7r.png
+    :align: center
+
+
+

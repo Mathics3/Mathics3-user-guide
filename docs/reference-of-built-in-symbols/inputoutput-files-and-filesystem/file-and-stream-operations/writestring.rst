@@ -13,28 +13,47 @@ WriteString
 
 >>> stream = OpenWrite[];
 
+
 >>> WriteString[stream, "This is a test 1"]
+
 
 >>> WriteString[stream, "This is also a test 2"]
 
+
 >>> pathname = Close[stream];
+
 
 >>> FilePrint[%]
 
+    This is a test 1This is also a test 2
+
+
 >>> DeleteFile[pathname];
+
 
 >>> stream = OpenWrite[];
 
+
 >>> WriteString[stream, "This is a test 1", "This is also a test 2"]
 
+
 >>> pathname = Close[stream]
-  = ...
+    =
+
+:math:`\text{/tmp/tmpppfyqjv6}`
+
+
 >>> FilePrint[%]
 
+    This is a test 1This is also a test 2
+
+
 >>> DeleteFile[pathname];
+
 
 
 If stream is the string "stdout" or "stderr", writes to the system standard output/ standard error channel:
 
 >>> WriteString["stdout", "Hola"]
+
 

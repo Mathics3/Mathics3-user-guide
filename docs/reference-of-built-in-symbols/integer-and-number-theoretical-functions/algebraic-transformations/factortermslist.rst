@@ -18,12 +18,32 @@ FactorTermsList
 
 
 >>> FactorTermsList[2 x^2 - 2]
-  = {2, -1 + x ^ 2}
+    =
+
+:math:`\left\{2,-1+x^2\right\}`
+
+
 >>> FactorTermsList[x^2 - 2 x + 1]
-  = {1, 1 - 2 x + x ^ 2}
+    =
+
+:math:`\left\{1,1-2 x+x^2\right\}`
+
+
 >>> f = 3 (-1 + 2 x) (-1 + y) (1 - a)
-  = 3 (-1 + 2 x) (-1 + y) (1 - a)
+    =
+
+:math:`3 \left(-1+2 x\right) \left(-1+y\right) \left(1-a\right)`
+
+
 >>> FactorTermsList[f]
-  = {-3, -1 + a - 2 a x - a y + 2 x + y - 2 x y + 2 a x y}
+    =
+
+:math:`\left\{-3,-1+a-2 a x-a y+2 x+y-2 x y+2 a x y\right\}`
+
+
 >>> FactorTermsList[f, x]
-  = {-3, 1 - a - y + a y, -1 + 2 x}
+    =
+
+:math:`\left\{-3,1-a-y+a y,-1+2 x\right\}`
+
+

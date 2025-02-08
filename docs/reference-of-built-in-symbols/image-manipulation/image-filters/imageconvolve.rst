@@ -13,9 +13,28 @@ ImageConvolve
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageConvolve[hedy, DiamondMatrix[5] / 61]
-  = -Image-
+    =
+
+.. image:: tmpgjaeiyy3.png
+    :align: center
+
+
+
 >>> ImageConvolve[hedy, DiskMatrix[5] / 97]
-  = -Image-
+    =
+
+.. image:: tmpljimazsj.png
+    :align: center
+
+
+
 >>> ImageConvolve[hedy, BoxMatrix[5] / 121]
-  = -Image-
+    =
+
+.. image:: tmpu5i7n466.png
+    :align: center
+
+
+

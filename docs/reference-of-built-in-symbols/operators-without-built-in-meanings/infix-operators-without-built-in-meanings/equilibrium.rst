@@ -12,6 +12,14 @@ Equilibrium
 
 
 >>> Equilibrium[x, y, z]
-  = x ⇌ y ⇌ z
+    =
+
+:math:`x \rightleftharpoons y \rightleftharpoons z`
+
+
 >>> a \[Equilibrium] b
-  = a ⇌ b
+    =
+
+:math:`a \rightleftharpoons b`
+
+

@@ -12,18 +12,40 @@ Abs
 
 
 >>> Abs[-3]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> Plot[Abs[x], {x, -4, 4}]
-  = -Graphics-
+    =
+
+.. image:: tmpv7ldvvwx.png
+    :align: center
+
+
+
 
 :code:`Abs`  returns the magnitude of complex numbers:
 
 >>> Abs[3 + I]
-  = Sqrt[10]
+    =
+
+:math:`\sqrt{10}`
+
+
 >>> Abs[3.0 + I]
-  = 3.16228
+    =
+
+:math:`3.16228`
+
+
 
 All of the below evaluate to Infinity:
 
 >>> Abs[Infinity] == Abs[I Infinity] == Abs[ComplexInfinity]
-  = True
+    =
+
+:math:`\text{True}`
+
+

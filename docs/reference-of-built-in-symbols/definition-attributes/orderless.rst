@@ -15,17 +15,31 @@ The elements of an :code:`Orderless`  function are automatically sorted:
 
 >>> SetAttributes[f, Orderless]
 
+
 >>> f[c, a, b, a + b, 3, 1.0]
-  = f[1., 3, a, b, c, a + b]
+    =
+
+:math:`f\left[1.,3,a,b,c,a+b\right]`
+
+
 
 A symbol with the :code:`Orderless`  attribute represents a commutative     mathematical operation.
 
 >>> f[a, b] == f[b, a]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 :code:`Orderless`  affects pattern matching:
 
 >>> SetAttributes[f, Flat]
 
+
 >>> f[a, b, c] /. f[a, c] -> d
-  = f[b, d]
+    =
+
+:math:`f\left[b,d\right]`
+
+

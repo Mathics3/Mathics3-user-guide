@@ -12,6 +12,14 @@ GreaterGreater
 
 
 >>> GreaterGreater[x, y, z]
-  = x ≫ y ≫ z
+    =
+
+:math:`x \gg y \gg z`
+
+
 >>> a \[GreaterGreater] b
-  = a ≫ b
+    =
+
+:math:`a \gg b`
+
+

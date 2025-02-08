@@ -12,6 +12,14 @@ UpperLeftArrow
 
 
 >>> UpperLeftArrow[x, y, z]
-  = x ↖ y ↖ z
+    =
+
+:math:`x \nwarrow y \nwarrow z`
+
+
 >>> a \[UpperLeftArrow] b
-  = a ↖ b
+    =
+
+:math:`a \nwarrow b`
+
+

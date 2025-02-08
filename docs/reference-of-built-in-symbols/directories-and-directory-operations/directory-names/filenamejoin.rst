@@ -15,8 +15,20 @@ FileNameJoin
 
 
 >>> FileNameJoin[{"dir1", "dir2", "dir3"}]
-  = ...
+    =
+
+:math:`\text{dir1/dir2/dir3}`
+
+
 >>> FileNameJoin[{"dir1", "dir2", "dir3"}, OperatingSystem -> "Unix"]
-  = dir1/dir2/dir3
+    =
+
+:math:`\text{dir1/dir2/dir3}`
+
+
 >>> FileNameJoin[{"dir1", "dir2", "dir3"}, OperatingSystem -> "Windows"]
-  = dir1\dir2\dir3
+    =
+
+:math:`\text{dir1$\backslash$dir2$\backslash$dir3}`
+
+

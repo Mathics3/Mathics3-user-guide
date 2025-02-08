@@ -15,17 +15,35 @@ UpSet
 
 >>> a[b] ^= 3;
 
+
 >>> DownValues[a]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 >>> UpValues[b]
-  = {HoldPattern[a[b]] :> 3}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[a\left[b\right]\right]\text{:>}3\right\}`
+
+
 
 You can use :code:`UpSet`  to specify special values like format values.
 However, these values will not be saved in :code:`UpValues` :
 
 >>> Format[r] ^= "custom";
 
+
 >>> r
-  = custom
+    =
+
+:math:`\text{custom}`
+
+
 >>> UpValues[r]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+

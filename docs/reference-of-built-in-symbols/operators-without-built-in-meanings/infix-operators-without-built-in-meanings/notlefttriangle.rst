@@ -12,6 +12,14 @@ NotLeftTriangle
 
 
 >>> NotLeftTriangle[x, y, z]
-  = x ⋪ y ⋪ z
+    =
+
+:math:`x \ntriangleleft y \ntriangleleft z`
+
+
 >>> a \[NotLeftTriangle] b
-  = a ⋪ b
+    =
+
+:math:`a \ntriangleleft b`
+
+

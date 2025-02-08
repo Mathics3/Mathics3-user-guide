@@ -15,6 +15,18 @@ Colorize
 
 
 >>> Colorize[{{1.3, 2.1, 1.5}, {1.3, 1.3, 2.1}, {1.3, 2.1, 1.5}}]
-  = -Image-
+    =
+
+.. image:: tmpa9flh_39.png
+    :align: center
+
+
+
 >>> Colorize[{{1, 2}, {2, 2}, {2, 3}}, ColorFunction -> (Blend[{White, Blue}, #]&)]
-  = -Image-
+    =
+
+.. image:: tmpdwy1rbfb.png
+    :align: center
+
+
+

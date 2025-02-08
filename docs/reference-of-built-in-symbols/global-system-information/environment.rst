@@ -12,6 +12,10 @@ Environment
 
 
 >>> Environment["HOME"]
-  = ...
+    =
+
+:math:`\text{/home/mauricio}`
+
+
 
 See also `:code:`GetEnvironment`  </doc/reference-of-built-in-symbols/global-system-information/getenvironment/>`_ and `:code:`SetEnvironment`  </doc/reference-of-built-in-symbols/global-system-information/setenvironment/>`_.

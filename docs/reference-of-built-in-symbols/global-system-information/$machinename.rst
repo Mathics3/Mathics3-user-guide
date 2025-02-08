@@ -12,4 +12,8 @@ $MachineName
 
 
 >>> $MachineName
-  = ...
+    =
+
+:math:`\text{mauricio-T15thinkpad}`
+
+

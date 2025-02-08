@@ -13,9 +13,22 @@ Dispatch
 
 >>> rules = {{a_,b_}->a^b, {1,2}->3., F[x_]->x^2};
 
+
 >>> F[2] /. rules
-  = 4
+    =
+
+:math:`4`
+
+
 >>> dispatchrules = Dispatch[rules]
-  = Dispatch[<3>]
+    =
+
+:math:`\text{Dispatch}\left[\text{<3>}\right]`
+
+
 >>> F[2] /. dispatchrules
-  = 4
+    =
+
+:math:`4`
+
+

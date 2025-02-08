@@ -16,18 +16,38 @@ number of :code:`Part`  indices required to reach any part of :math:`expr`,
 except for heads.
 
 >>> Depth[x]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> Depth[x + y]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Depth[{{{{x}}}}]
-  = 5
+    =
+
+:math:`5`
+
+
 
 Complex numbers are atomic, and hence have depth 1:
 
 >>> Depth[1 + 2 I]
-  = 1
+    =
+
+:math:`1`
+
+
 
 :code:`Depth`  ignores heads:
 
 >>> Depth[f[a, b][c]]
-  = 2
+    =
+
+:math:`2`
+
+

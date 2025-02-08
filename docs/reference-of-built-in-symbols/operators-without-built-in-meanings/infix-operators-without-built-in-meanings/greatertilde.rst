@@ -12,6 +12,14 @@ GreaterTilde
 
 
 >>> GreaterTilde[x, y, z]
-  = x ≳ y ≳ z
+    =
+
+:math:`x \gtrsim y \gtrsim z`
+
+
 >>> a \[GreaterTilde] b
-  = a ≳ b
+    =
+
+:math:`a \gtrsim b`
+
+

@@ -12,11 +12,23 @@ Root
 
 
 >>> Root[#1 ^ 2 - 1&, 1]
-  = -1
+    =
+
+:math:`-1`
+
+
 >>> Root[#1 ^ 2 - 1&, 2]
-  = 1
+    =
+
+:math:`1`
+
+
 
 Roots that can't be represented by radicals:
 
 >>> Root[#1 ^ 5 + 2 #1 + 1&, 2]
-  = Root[1 + #1 ^ 5 + 2 #1&, 2]
+    =
+
+:math:`\text{Root}\left[1+\text{\#1}^5+2 \text{\#1}\&,2\right]`
+
+

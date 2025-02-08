@@ -16,6 +16,14 @@ PolyGamma[n,z]
 
 
 >>> PolyGamma[5]
-  = 25 / 12 - EulerGamma
+    =
+
+:math:`\frac{25}{12}-\text{EulerGamma}`
+
+
 >>> PolyGamma[3, 5]
-  = -22369 / 3456 + Pi ^ 4 / 15
+    =
+
+:math:`-\frac{22369}{3456}+\frac{ \pi ^4}{15}`
+
+

@@ -12,9 +12,14 @@ StringToStream
 
 
 >>> strm = StringToStream["abc 123"]
-  = InputStream[String, ...]
+    =
+
+:math:`\text{InputStream}\left[\text{String},37\right]`
+
+
 
 The stream must be closed after using it, to release the resource:
 
 >>> Close[strm];
+
 

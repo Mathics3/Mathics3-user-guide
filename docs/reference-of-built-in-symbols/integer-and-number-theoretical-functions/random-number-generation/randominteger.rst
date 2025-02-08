@@ -23,17 +23,32 @@ RandomInteger
 
 
 >>> RandomInteger[{1, 5}]
-  = ...
+    =
+
+:math:`2`
+
+
 >>> RandomInteger[100, {2, 3}] // TableForm
-  = ...   ...   ...
-    
-    ...   ...   ...
+    =
+
+:math:`\begin{array}{ccc} 14 & 99 & 36\\ 27 & 67 & 17\end{array}`
+
+
 
 Calling :code:`RandomInteger`  changes :code:`$RandomState` :
 
 >>> previousState = $RandomState;
 
+
 >>> RandomInteger[]
-  = ...
+    =
+
+:math:`0`
+
+
 >>> $RandomState != previousState
-  = True
+    =
+
+:math:`\text{True}`
+
+

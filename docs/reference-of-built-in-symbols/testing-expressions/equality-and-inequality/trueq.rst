@@ -12,8 +12,20 @@ TrueQ
 
 
 >>> TrueQ[True]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> TrueQ[False]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> TrueQ[a]
-  = False
+    =
+
+:math:`\text{False}`
+
+

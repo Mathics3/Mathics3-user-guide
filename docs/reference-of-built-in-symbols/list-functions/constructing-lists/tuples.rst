@@ -15,20 +15,44 @@ Tuples
 
 
 >>> Tuples[{a, b, c}, 2]
-  = {{a, a}, {a, b}, {a, c}, {b, a}, {b, b}, {b, c}, {c, a}, {c, b}, {c, c}}
+    =
+
+:math:`\left\{\left\{a,a\right\},\left\{a,b\right\},\left\{a,c\right\},\left\{b,a\right\},\left\{b,b\right\},\left\{b,c\right\},\left\{c,a\right\},\left\{c,b\right\},\left\{c,c\right\}\right\}`
+
+
 >>> Tuples[{}, 2]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 >>> Tuples[{a, b, c}, 0]
-  = {{}}
+    =
+
+:math:`\left\{\left\{\right\}\right\}`
+
+
 >>> Tuples[{{a, b}, {1, 2, 3}}]
-  = {{a, 1}, {a, 2}, {a, 3}, {b, 1}, {b, 2}, {b, 3}}
+    =
+
+:math:`\left\{\left\{a,1\right\},\left\{a,2\right\},\left\{a,3\right\},\left\{b,1\right\},\left\{b,2\right\},\left\{b,3\right\}\right\}`
+
+
 
 The head of :math:`list` need not be :code:`List` :
 
 >>> Tuples[f[a, b, c], 2]
-  = {f[a, a], f[a, b], f[a, c], f[b, a], f[b, b], f[b, c], f[c, a], f[c, b], f[c, c]}
+    =
+
+:math:`\left\{f\left[a,a\right],f\left[a,b\right],f\left[a,c\right],f\left[b,a\right],f\left[b,b\right],f\left[b,c\right],f\left[c,a\right],f\left[c,b\right],f\left[c,c\right]\right\}`
+
+
 
 However, when specifying multiple expressions, :code:`List`  is always used:
 
 >>> Tuples[{f[a, b], g[c, d]}]
-  = {{a, c}, {a, d}, {b, c}, {b, d}}
+    =
+
+:math:`\left\{\left\{a,c\right\},\left\{a,d\right\},\left\{b,c\right\},\left\{b,d\right\}\right\}`
+
+

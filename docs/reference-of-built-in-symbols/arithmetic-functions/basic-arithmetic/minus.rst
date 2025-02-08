@@ -12,14 +12,26 @@ Minus
 
 
 >>> -a //FullForm
-  = Times[-1, a]
+    =
+
+:math:`\text{Times}\left[-1, a\right]`
+
+
 
 :code:`Minus`  automatically distributes:
 
 >>> -(x - 2/3)
-  = 2 / 3 - x
+    =
+
+:math:`\frac{2}{3}-x`
+
+
 
 :code:`Minus`  threads over lists:
 
 >>> -Range[10]
-  = {-1, -2, -3, -4, -5, -6, -7, -8, -9, -10}
+    =
+
+:math:`\left\{-1,-2,-3,-4,-5,-6,-7,-8,-9,-10\right\}`
+
+

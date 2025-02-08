@@ -12,6 +12,14 @@ MinusPlus
 
 
 >>> MinusPlus[x, y, z]
-  = x ∓ y ∓ z
+    =
+
+:math:`x \mp y \mp z`
+
+
 >>> a \[MinusPlus] b
-  = a ∓ b
+    =
+
+:math:`a \mp b`
+
+

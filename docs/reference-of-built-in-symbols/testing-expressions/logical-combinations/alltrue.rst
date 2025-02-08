@@ -18,6 +18,14 @@ AllTrue
 
 
 >>> AllTrue[{2, 4, 6}, EvenQ]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> AllTrue[{2, 4, 7}, EvenQ]
-  = False
+    =
+
+:math:`\text{False}`
+
+

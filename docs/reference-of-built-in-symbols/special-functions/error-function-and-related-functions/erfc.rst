@@ -12,10 +12,28 @@ Erfc
 
 
 >>> Erfc[-x] / 2
-  = (2 - Erfc[x]) / 2
+    =
+
+:math:`\frac{2-\text{Erfc}\left[x\right]}{2}`
+
+
 >>> Erfc[1.0]
-  = 0.157299
+    =
+
+:math:`0.157299`
+
+
 >>> Erfc[0]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> Plot[Erfc[x], {x, -2, 2}]
-  = -Graphics-
+    =
+
+.. image:: tmp80_5rtbh.png
+    :align: center
+
+
+

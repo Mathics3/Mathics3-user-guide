@@ -10,6 +10,11 @@ XML`Parser`XMLGetString
 
 
 >>> Head[XML`Parser`XMLGetString["<a></a>"]]
-  = XMLObject[Document]
+    =
+
+:math:`\text{XMLObject}\left[\text{Document}\right]`
+
+
 >>> XML`Parser`XMLGetString["<a></a>xyz"]
-  = $Failed
+    = $Failed`
+

@@ -17,6 +17,11 @@ TimeRemaining
 If TimeConstrained is called out of a TimeConstrained expression, returns :code:`Infinity` :
 
 >>> TimeRemaining[]
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 >>> TimeConstrained[1+2; Print[TimeRemaining[]], 0.9]
+    = `
 

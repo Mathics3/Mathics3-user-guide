@@ -17,12 +17,34 @@ Erf
 :code:`Erf[:math:`x`]`  is an odd function:
 
 >>> Erf[-x]
-  = -Erf[x]
+    =
+
+:math:`-\text{Erf}\left[x\right]`
+
+
 >>> Erf[1.0]
-  = 0.842701
+    =
+
+:math:`0.842701`
+
+
 >>> Erf[0]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> {Erf[0, x], Erf[x, 0]}
-  = {Erf[x], -Erf[x]}
+    =
+
+:math:`\left\{\text{Erf}\left[x\right],-\text{Erf}\left[x\right]\right\}`
+
+
 >>> Plot[Erf[x], {x, -2, 2}]
-  = -Graphics-
+    =
+
+.. image:: tmpaxic9nny.png
+    :align: center
+
+
+

@@ -12,6 +12,18 @@ FilledCurve
 
 
 >>> Graphics[FilledCurve[{Line[{{0, 0}, {1, 1}, {2, 0}}]}]]
-  = -Graphics-
+    =
+
+.. image:: tmpbhnr0m25.png
+    :align: center
+
+
+
 >>> Graphics[FilledCurve[{BezierCurve[{{0, 0}, {1, 1}, {2, 0}}], Line[{{3, 0}, {0, 2}}]}]]
-  = -Graphics-
+    =
+
+.. image:: tmp8mj9uywa.png
+    :align: center
+
+
+

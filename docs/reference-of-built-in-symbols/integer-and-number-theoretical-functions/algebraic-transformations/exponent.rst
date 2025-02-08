@@ -15,16 +15,44 @@ Exponent
 
 
 >>> Exponent[5 x^2 - 3 x + 7, x]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Exponent[(x^3 + 1)^2 + 1, x]
-  = 6
+    =
+
+:math:`6`
+
+
 >>> Exponent[x^(n + 1) + Sqrt[x] + 1, x]
-  = Max[1 / 2, 1 + n]
+    =
+
+:math:`\text{Max}\left[\frac{1}{2},1+n\right]`
+
+
 >>> Exponent[x / y, y]
-  = -1
+    =
+
+:math:`-1`
+
+
 >>> Exponent[(x^2 + 1)^3 - 1, x, Min]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> Exponent[0, x]
-  = -Infinity
+    =
+
+:math:`-\infty`
+
+
 >>> Exponent[1, x]
-  = 0
+    =
+
+:math:`0`
+
+

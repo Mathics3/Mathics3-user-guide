@@ -16,7 +16,20 @@ Blur
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> Blur[hedy]
-  = -Image-
+    =
+
+.. image:: tmplprf575h.png
+    :align: center
+
+
+
 >>> Blur[hedy, 5]
-  = -Image-
+    =
+
+.. image:: tmpotovmo7z.png
+    :align: center
+
+
+

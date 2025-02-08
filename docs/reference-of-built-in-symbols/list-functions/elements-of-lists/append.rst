@@ -12,14 +12,26 @@ Append
 
 
 >>> Append[{1, 2, 3}, 4]
-  = {1, 2, 3, 4}
+    =
+
+:math:`\left\{1,2,3,4\right\}`
+
+
 
 :code:`Append`  works on expressions with heads other than :code:`List` :
 
 >>> Append[f[a, b], c]
-  = f[a, b, c]
+    =
+
+:math:`f\left[a,b,c\right]`
+
+
 
 Unlike :code:`Join` , :code:`Append`  does not flatten lists in :math:`item`:
 
 >>> Append[{a, b}, {c, d}]
-  = {a, b, {c, d}}
+    =
+
+:math:`\left\{a,b,\left\{c,d\right\}\right\}`
+
+

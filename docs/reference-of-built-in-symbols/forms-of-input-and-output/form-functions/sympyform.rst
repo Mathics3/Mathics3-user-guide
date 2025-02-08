@@ -11,6 +11,14 @@ SympyForm
 
 
 >>> SympyForm[Pi^2]
-  = pi**2
+    =
+
+:math:`\text{pi**2}`
+
+
 >>> E^2 + 3E // SympyForm
-  = exp(2) + 3*E
+    =
+
+:math:`\text{exp(2) + 3*E}`
+
+

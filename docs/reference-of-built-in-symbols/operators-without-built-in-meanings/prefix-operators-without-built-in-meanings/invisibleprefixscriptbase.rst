@@ -12,6 +12,14 @@ InvisiblePrefixScriptBase
 
 
 >>> InvisiblePrefixScriptBase[x]
-  = x
+    =
+
+:math:`x`
+
+
 >>> \[InvisiblePrefixScriptBase]x
-  = x
+    =
+
+:math:`x`
+
+

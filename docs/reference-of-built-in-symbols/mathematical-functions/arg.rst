@@ -27,23 +27,47 @@ Arg
 
 
 >>> Arg[-3]
-  = Pi
+    =
+
+:math:`\pi`
+
+
 
 Same as above, but using SymPy's method:
 
 >>> Arg[-3, Method->"sympy"]
-  = Pi
+    =
+
+:math:`\pi`
+
+
 >>> Arg[1-I]
-  = -Pi / 4
+    =
+
+:math:`-\frac{ \pi }{4}`
+
+
 
 :code:`Arg`  evaluates the direction of :code:`DirectedInfinity`  quantities by     the :code:`Arg`  of its arguments:
 
 >>> Arg[DirectedInfinity[1+I]]
-  = Pi / 4
+    =
+
+:math:`\frac{ \pi }{4}`
+
+
 >>> Arg[DirectedInfinity[]]
-  = 1
+    =
+
+:math:`1`
+
+
 
 Arg for 0 is assumed to be 0:
 
 >>> Arg[0]
-  = 0
+    =
+
+:math:`0`
+
+

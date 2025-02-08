@@ -12,16 +12,32 @@ SubsetQ
 
 
 >>> SubsetQ[{1, 2, 3}, {3, 1}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 The empty list is a subset of every list:
 
 >>> SubsetQ[{}, {}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> SubsetQ[{1, 2, 3}, {}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Every list is a subset of itself:
 
 >>> SubsetQ[{1, 2, 3}, {1, 2, 3}]
-  = True
+    =
+
+:math:`\text{True}`
+
+

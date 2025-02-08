@@ -18,6 +18,18 @@ Cylinder
 
 
 >>> Graphics3D[Cylinder[{{0, 0, 0}, {1, 1, 1}}, 1]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpqa9gmxt9.png
+    :align: center
+
+
+
 >>> Graphics3D[{Yellow, Cylinder[{{-1, 0, 0}, {1, 0, 0}, {0, 0, Sqrt[3]}, {1, 1, Sqrt[3]}}, 1]}]
-  = -Graphics3D-
+    =
+
+.. image:: tmp68ttdasp.png
+    :align: center
+
+
+

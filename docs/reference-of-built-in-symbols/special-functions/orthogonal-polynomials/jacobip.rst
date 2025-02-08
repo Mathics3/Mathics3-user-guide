@@ -12,6 +12,14 @@ JacobiP
 
 
 >>> JacobiP[1, a, b, z]
-  = a / 2 - b / 2 + z (1 + a / 2 + b / 2)
+    =
+
+:math:`\frac{a}{2}-\frac{b}{2}+z \left(1+\frac{a}{2}+\frac{b}{2}\right)`
+
+
 >>> JacobiP[3.5 + I, 3, 2, 4 - I]
-  = 1410.02 + 5797.3 I
+    =
+
+:math:`1410.02+5797.3 I`
+
+

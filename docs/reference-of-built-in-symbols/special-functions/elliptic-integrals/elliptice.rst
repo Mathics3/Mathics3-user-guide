@@ -17,11 +17,25 @@ EllipticE
 Elliptic curves give Pi / 2 when evaluated at zero:
 
 >>> EllipticE[0]
-  = Pi / 2
+    =
+
+:math:`\frac{ \pi }{2}`
+
+
 >>> EllipticE[0.3, 0.8]
-  = 0.296426
+    =
+
+:math:`0.296426`
+
+
 
 Plot over a reals centered around 0:
 
 >>> Plot[EllipticE[m], {m, -2, 2}]
-  = -Graphics-
+    =
+
+.. image:: tmpw0f6h3d1.png
+    :align: center
+
+
+

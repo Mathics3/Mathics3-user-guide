@@ -14,6 +14,10 @@ TakeSmallest
 List the smallest two numbers of a list:
 
 >>> TakeSmallest[{100, -1, 50, 10}, 2]
-  = {-1, 10}
+    =
+
+:math:`\left\{-1,10\right\}`
+
+
 
 For details on how to use the :code:`ExcludedForms`  option, see `TakeLargest </doc/reference-of-built-in-symbols/descriptive-statistics/order-statistics/takelargest/>`_.

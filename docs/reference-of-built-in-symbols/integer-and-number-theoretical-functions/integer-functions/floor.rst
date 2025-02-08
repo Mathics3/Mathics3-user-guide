@@ -15,27 +15,63 @@ Floor
 
 
 >>> Floor[10.4]
-  = 10
+    =
+
+:math:`10`
+
+
 >>> Floor[10/3]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> Floor[10]
-  = 10
+    =
+
+:math:`10`
+
+
 >>> Floor[21, 2]
-  = 20
+    =
+
+:math:`20`
+
+
 >>> Floor[2.6, 0.5]
-  = 2.5
+    =
+
+:math:`2.5`
+
+
 >>> Floor[-10.4]
-  = -11
+    =
+
+:math:`-11`
+
+
 
 For complex :math:`x`, take the floor of real an imaginary parts.
 
 >>> Floor[1.5 + 2.7 I]
-  = 1 + 2 I
+    =
+
+:math:`1+2 I`
+
+
 
 For negative :math:`a`, the smallest multiple of :math:`a` greater than or equal to :math:`x`
 is returned.
 
 >>> Floor[10.4, -1]
-  = 11
+    =
+
+:math:`11`
+
+
 >>> Floor[-10.4, -1]
-  = -10
+    =
+
+:math:`-10`
+
+

@@ -15,13 +15,29 @@ RealSign
 :code:`RealSign`  is also known as :math:`sgn` or :math:`signum` function.
 
 >>> RealSign[-3.]
-  = -1
+    =
+
+:math:`-1`
+
+
 
 :code:`RealSign[:math:`z`]`  is left unevaluated for complex :math:`z`:
 
 >>> RealSign[2. + 3. I]
-  = RealSign[2. + 3. I]
+    =
+
+:math:`\text{RealSign}\left[2.+3. I\right]`
+
+
 >>> D[RealSign[x^2],x]
-  = 2 x Piecewise[{{0, x ^ 2 != 0}}, Indeterminate]
+    =
+
+:math:`2 x \text{Piecewise}\left[\left\{\left\{0,x^2\text{!=}0\right\}\right\},\text{Indeterminate}\right]`
+
+
 >>> Integrate[RealSign[u],{u,0,x}]
-  = RealAbs[x]
+    =
+
+:math:`\text{RealAbs}\left[x\right]`
+
+

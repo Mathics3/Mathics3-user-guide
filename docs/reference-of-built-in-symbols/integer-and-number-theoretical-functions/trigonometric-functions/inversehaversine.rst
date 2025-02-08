@@ -12,6 +12,14 @@ InverseHaversine
 
 
 >>> InverseHaversine[0.5]
-  = 1.5708
+    =
+
+:math:`1.5708`
+
+
 >>> InverseHaversine[1 + 2.5 I]
-  = 1.76459 + 2.33097 I
+    =
+
+:math:`1.76459+2.33097 I`
+
+

@@ -11,14 +11,34 @@ $Line
 
 
 >>> $Line
-  = 1
+    =
+
+:math:`1`
+
+
 >>> $Line
-  = 2
+    =
+
+:math:`2`
+
+
 >>> $Line = 12;
 
+
 >>> 2 * 5
-  = 10
+    =
+
+:math:`10`
+
+
 >>> Out[13]
-  = 10
+    =
+
+:math:`10`
+
+
 >>> $Line = -1;
+
+    $Line::intnn Non-negative integer expected.
+
 

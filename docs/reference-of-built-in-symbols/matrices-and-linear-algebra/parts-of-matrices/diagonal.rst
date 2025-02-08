@@ -15,19 +15,35 @@ Diagonal
 
 
 >>> Diagonal[{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}]
-  = {1, 5, 9}
+    =
+
+:math:`\left\{1,5,9\right\}`
+
+
 
 Get the superdiagonal:
 
 >>> Diagonal[{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, 1]
-  = {2, 6}
+    =
+
+:math:`\left\{2,6\right\}`
+
+
 
 Get the subdiagonal:
 
 >>> Diagonal[{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, -1]
-  = {4, 8}
+    =
+
+:math:`\left\{4,8\right\}`
+
+
 
 Get the diagonal of a nonsquare matrix:
 
 >>> Diagonal[{{1, 2, 3}, {4, 5, 6}}]
-  = {1, 5}
+    =
+
+:math:`\left\{1,5\right\}`
+
+

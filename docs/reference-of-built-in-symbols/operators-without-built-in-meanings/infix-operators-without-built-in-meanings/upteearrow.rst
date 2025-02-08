@@ -12,6 +12,14 @@ UpTeeArrow
 
 
 >>> UpTeeArrow[x, y, z]
-  = x ↥ y ↥ z
+    =
+
+:math:`x \underline{\uparrow} y \underline{\uparrow} z`
+
+
 >>> a \[UpTeeArrow] b
-  = a ↥ b
+    =
+
+:math:`a \underline{\uparrow} b`
+
+

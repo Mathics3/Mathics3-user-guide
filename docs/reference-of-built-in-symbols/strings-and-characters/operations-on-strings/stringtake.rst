@@ -27,24 +27,56 @@ StringTake
 
 
 >>> StringTake["abcde", 2]
-  = ab
+    =
+
+:math:`\text{ab}`
+
+
 >>> StringTake["abcde", 0]
+    =
+
+:math:`\text{}`
+
 
 >>> StringTake["abcde", -2]
-  = de
+    =
+
+:math:`\text{de}`
+
+
 >>> StringTake["abcde", {2}]
-  = b
+    =
+
+:math:`\text{b}`
+
+
 >>> StringTake["abcd", {2,3}]
-  = bc
+    =
+
+:math:`\text{bc}`
+
+
 >>> StringTake["abcdefgh", {1, 5, 2}]
-  = ace
+    =
+
+:math:`\text{ace}`
+
+
 
 Take the last 2 characters from several strings:
 
 >>> StringTake[{"abcdef", "stuv", "xyzw"}, -2]
-  = {ef, uv, zw}
+    =
+
+:math:`\left\{\text{ef},\text{uv},\text{zw}\right\}`
+
+
 
 StringTake also supports standard sequence specifications
 
 >>> StringTake["abcdef", All]
-  = abcdef
+    =
+
+:math:`\text{abcdef}`
+
+

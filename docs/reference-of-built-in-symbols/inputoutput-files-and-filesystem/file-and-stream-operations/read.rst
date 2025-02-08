@@ -46,63 +46,134 @@ Read
 
 >>> stream = StringToStream["abc123"];
 
+
 >>> Read[stream, String]
-  = abc123
+    =
+
+:math:`\text{abc123}`
+
+
 >>> Read[stream, String]
-  = EndOfFile
+    =
+
+:math:`\text{EndOfFile}`
+
+
 >>> Close[stream];
+    = `
 
 >>> stream = StringToStream["abc 123"];
 
+
 >>> Read[stream, Word]
-  = abc
+    =
+
+:math:`\text{abc}`
+
+
 >>> Read[stream, Word]
-  = 123
+    =
+
+:math:`\text{123}`
+
+
 >>> Read[stream, Word]
-  = EndOfFile
+    =
+
+:math:`\text{EndOfFile}`
+
+
 >>> Close[stream];
+    = `
 
 >>> stream = StringToStream["123, 4"];
 
+
 >>> Read[stream, Number]
-  = 123
+    =
+
+:math:`123`
+
+
 >>> Read[stream, Number]
-  = 4
+    =
+
+:math:`4`
+
+
 >>> Read[stream, Number]
-  = EndOfFile
+    =
+
+:math:`\text{EndOfFile}`
+
+
 >>> Close[stream];
+    = `
 
 >>> stream = StringToStream["2+2\n2+3"];
+
 
 
 :code:`Read`  with a :code:`Hold[Expression]`  returns the expression it reads unevaluated so it can be later inspected and evaluated:
 
 >>> Read[stream, Hold[Expression]]
-  = Hold[2 + 2]
+    =
+
+:math:`\text{Hold}\left[2+2\right]`
+
+
 >>> Read[stream, Expression]
-  = 5
+    =
+
+:math:`5`
+
+
 >>> Close[stream];
+    = `
 
 
 Reading a comment, a non-expression, will return :code:`Hold[Null]` 
 
 >>> stream = StringToStream["(* ::Package:: *)"];
 
+
 >>> Read[stream, Hold[Expression]]
-  = Hold[Null]
+    =
+
+:math:`\text{Hold}\left[\text{Null}\right]`
+
+
 >>> Close[stream];
+    = `
 
 >>> stream = StringToStream["123 abc"];
 
+
 >>> Read[stream, {Number, Word}]
-  = {123, abc}
+    =
+
+:math:`\left\{123,\text{abc}\right\}`
+
+
 >>> Read[stream, {Number, Word}]
-  = EndOfFile
+    =
+
+:math:`\text{EndOfFile}`
+
+
 >>> Close[stream];
+    = `
 
 
 Multiple lines:
 
 >>> stream = StringToStream["\"Tengo una\nvaca lechera.\""]; Read[stream]
-  = Tengo una
-    vaca lechera.
+    =
+
+
+.. math::
+    \text{Tengo una\newline
+    vaca lechera.}
+
+
+

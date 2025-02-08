@@ -12,6 +12,8 @@ Dilation
 
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
+    = `
 
 >>> Dilation[ein, 2.5]
-  = -Image-
+    = -Image-`
+

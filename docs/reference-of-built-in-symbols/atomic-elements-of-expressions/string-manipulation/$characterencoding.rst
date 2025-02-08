@@ -14,20 +14,37 @@ $CharacterEncoding
 See the character encoding current is in effect and used in input and     output functions functions like :code:`OpenRead[]` :
 
 >>> $CharacterEncoding
-  = ...
+    =
+
+:math:`\text{ASCII}`
+
+
 
 By setting its value to one of the values in :code:`$CharacterEncodings` ,     operators are formatted differently. For example,
 
 >>> $CharacterEncoding = "ASCII"; a -> b
-  = ...
+    =
+
+:math:`a->b`
+
+
 >>> $CharacterEncoding = "UTF-8"; a -> b
-  = ...
+    =
+
+:math:`a \rightarrow b`
+
+
 
 Setting its value to :code:`None`  restore the value to     :code:`$SystemCharacterEncoding` :
 
 >>> $CharacterEncoding = None;
 
+
 >>> $SystemCharacterEncoding == $CharacterEncoding
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 See also `$SystemCharacterEncoding </doc/reference-of-built-in-symbols/atomic-elements-of-expressions/string-manipulation/$systemcharacterencoding/>`_.

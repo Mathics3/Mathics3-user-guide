@@ -12,4 +12,10 @@ ChartLabels
 
 
 >>> PieChart[{30, 20, 10}, ChartLabels -> {Dogs, Cats, Fish}]
-  = -Graphics-
+    =
+
+.. image:: tmpnawa1n3v.png
+    :align: center
+
+
+

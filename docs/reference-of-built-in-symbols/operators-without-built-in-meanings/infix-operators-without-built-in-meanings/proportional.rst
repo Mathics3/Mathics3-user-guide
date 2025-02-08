@@ -12,6 +12,14 @@ Proportional
 
 
 >>> Proportional[x, y, z]
-  = x ∝ y ∝ z
+    =
+
+:math:`x \propto y \propto z`
+
+
 >>> a \[Proportional] b
-  = a ∝ b
+    =
+
+:math:`a \propto b`
+
+

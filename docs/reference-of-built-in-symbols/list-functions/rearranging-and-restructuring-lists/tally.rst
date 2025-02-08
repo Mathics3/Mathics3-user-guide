@@ -15,9 +15,17 @@ Tally
 
 
 >>> Tally[{a, b, c, b, a}]
-  = {{a, 2}, {b, 2}, {c, 1}}
+    =
+
+:math:`\left\{\left\{a,2\right\},\left\{b,2\right\},\left\{c,1\right\}\right\}`
+
+
 
 Tally always returns items in the order as they first appear in :math:`list`:
 
 >>> Tally[{b, b, a, a, a, d, d, d, d, c}]
-  = {{b, 2}, {a, 3}, {d, 4}, {c, 1}}
+    =
+
+:math:`\left\{\left\{b,2\right\},\left\{a,3\right\},\left\{d,4\right\},\left\{c,1\right\}\right\}`
+
+

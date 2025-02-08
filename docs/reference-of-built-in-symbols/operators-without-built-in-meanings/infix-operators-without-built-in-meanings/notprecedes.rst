@@ -12,6 +12,14 @@ NotPrecedes
 
 
 >>> NotPrecedes[x, y, z]
-  = x ⊀ y ⊀ z
+    =
+
+:math:`x \nprec y \nprec z`
+
+
 >>> a \[NotPrecedes] b
-  = a ⊀ b
+    =
+
+:math:`a \nprec b`
+
+

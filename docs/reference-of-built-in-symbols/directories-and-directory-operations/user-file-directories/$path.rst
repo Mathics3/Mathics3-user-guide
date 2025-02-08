@@ -12,4 +12,8 @@ $Path
 
 
 >>> $Path
-  = ...
+    =
+
+:math:`\left\{\text{.},\text{/home/mauricio},\text{/home/mauricio/.local/var/Mathics3/Packages},\text{/home/mauricio/Projects/mathics-core/mathics/data},\text{/home/mauricio/Projects/mathics-core/mathics/Packages}\right\}`
+
+

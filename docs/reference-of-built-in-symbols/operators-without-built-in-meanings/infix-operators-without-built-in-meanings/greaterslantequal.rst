@@ -12,6 +12,14 @@ GreaterSlantEqual
 
 
 >>> GreaterSlantEqual[x, y, z]
-  = x ⩾ y ⩾ z
+    =
+
+:math:`x \geq y \geq z`
+
+
 >>> a \[GreaterSlantEqual] b
-  = a ⩾ b
+    =
+
+:math:`a \geq b`
+
+

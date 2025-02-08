@@ -12,11 +12,25 @@ TranslationTransform
 
 
 >>> t = TranslationTransform[{x0, y0}]
-  = TransformationFunction[{{1, 0, x0}, {0, 1, y0}, {0, 0, 1}}]
+    =
+
+:math:`\text{TransformationFunction}\left[\left\{\left\{1,0,\text{x0}\right\},\left\{0,1,\text{y0}\right\},\left\{0,0,1\right\}\right\}\right]`
+
+
 >>> t[{x, y}]
-  = {x + x0, y + y0}
+    =
+
+:math:`\left\{x+\text{x0},y+\text{y0}\right\}`
+
+
 
 From `Creating a Sierpinsky gasket with the missing triangles filled in <"https://mathematica.stackexchange.com/questions/7360/creating-a-sierpinski-gasket-with-the-missing-triangles-filled-in/7361#7361>`_:
 
 >>> Show[Graphics[Table[Polygon[TranslationTransform[{Sqrt[3] (i - j/2), 3 j/2}] /@ {{Sqrt[3]/2, -1/2}, {0, 1}, {-Sqrt[3]/2, -1/2}}], {i, 7}, {j, i}]]]
-  = -Graphics-
+    =
+
+.. image:: tmp8afmmu93.png
+    :align: center
+
+
+

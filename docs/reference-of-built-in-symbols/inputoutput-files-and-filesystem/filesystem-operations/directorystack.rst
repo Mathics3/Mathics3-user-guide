@@ -12,4 +12,8 @@ DirectoryStack
 
 
 >>> DirectoryStack[]
-  = ...
+    =
+
+:math:`\left\{\text{/home/mauricio/Projects/mathics-core},\text{/home/mauricio}\right\}`
+
+

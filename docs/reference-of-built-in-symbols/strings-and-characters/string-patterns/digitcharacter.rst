@@ -12,10 +12,26 @@ DigitCharacter
 
 
 >>> StringMatchQ["1", DigitCharacter]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringMatchQ["a", DigitCharacter]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringMatchQ["12", DigitCharacter]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> StringMatchQ["123245", DigitCharacter..]
-  = True
+    =
+
+:math:`\text{True}`
+
+

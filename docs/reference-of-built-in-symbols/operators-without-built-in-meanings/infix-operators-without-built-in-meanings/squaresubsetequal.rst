@@ -12,6 +12,14 @@ SquareSubsetEqual
 
 
 >>> SquareSubsetEqual[x, y, z]
-  = x ⊑ y ⊑ z
+    =
+
+:math:`x \sqsubseteq y \sqsubseteq z`
+
+
 >>> a \[SquareSubsetEqual] b
-  = a ⊑ b
+    =
+
+:math:`a \sqsubseteq b`
+
+

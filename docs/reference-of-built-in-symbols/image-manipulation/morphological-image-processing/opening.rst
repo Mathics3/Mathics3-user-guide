@@ -12,6 +12,8 @@ Opening
 
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
+    = `
 
 >>> Opening[ein, 2.5]
-  = -Image-
+    = -Image-`
+

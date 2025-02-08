@@ -17,13 +17,29 @@ ToExpression
 
 
 >>> ToExpression["1 + 2"]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> ToExpression["{2, 3, 1}", InputForm, Max]
-  = 3
+    =
+
+:math:`3`
+
+
 >>> ToExpression["2 3", InputForm]
-  = 6
+    =
+
+:math:`6`
+
+
 
 Note that newlines are like semicolons, not blanks. So so the return value is the second-line value.
 
 >>> ToExpression["2\[NewLine]3"]
-  = 3
+    =
+
+:math:`3`
+
+

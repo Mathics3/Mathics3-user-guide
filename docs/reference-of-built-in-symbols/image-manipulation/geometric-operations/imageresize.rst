@@ -37,13 +37,35 @@ The Resampling option can be used to specify how to resample the image. Options 
 See `Pillow Filters <https://pillow.readthedocs.io/en/stable/handbook/concepts.html#filters>`_    for a description of these.
 
 >>> alice = Import["ExampleData/MadTeaParty.gif"]
-  = -Image-
+    =
+
+.. image:: tmpx8f6cb_y.png
+    :align: center
+
+
+
 >>> shape = ImageDimensions[alice]
-  = {640, 487}
+    =
+
+:math:`\left\{640,487\right\}`
+
+
 >>> ImageResize[alice, shape / 2]
-  = -Image-
+    =
+
+.. image:: tmp8ex0d01n.png
+    :align: center
+
+
+
 
 The default sampling method is "Bicubic" which has pretty good upscaling     and downscaling quality. However "Box" is the fastest:
 
 >>> ImageResize[alice, shape / 2, Resampling -> "Box"]
-  = -Image-
+    =
+
+.. image:: tmpuwoa25dd.png
+    :align: center
+
+
+

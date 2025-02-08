@@ -15,33 +15,79 @@ Power
 
 
 >>> 4 ^ (1/2)
-  = 2
+    =
+
+:math:`2`
+
+
 >>> 4 ^ (1/3)
-  = 2 ^ (2 / 3)
+    =
+
+:math:`2^{\frac{2}{3}}`
+
+
 >>> 3^123
-  = 48519278097689642681155855396759336072749841943521979872827
+    =
+
+:math:`48519278097689642681155855396759336072749841943521979872827`
+
+
 >>> (y ^ 2) ^ (1/2)
-  = Sqrt[y ^ 2]
+    =
+
+:math:`\sqrt{y^2}`
+
+
 >>> (y ^ 2) ^ 3
-  = y ^ 6
+    =
+
+:math:`y^6`
+
+
 >>> Plot[Evaluate[Table[x^y, {y, 1, 5}]], {x, -1.5, 1.5}, AspectRatio -> 1]
-  = -Graphics-
+    =
+
+.. image:: tmppomcj2ex.png
+    :align: center
+
+
+
 
 Use a decimal point to force numeric evaluation:
 
 >>> 4.0 ^ (1/3)
-  = 1.5874
+    =
+
+:math:`1.5874`
+
+
 
 :code:`Power`  has default value 1 for its second argument:
 
 >>> DefaultValues[Power]
-  = {HoldPattern[Default[Power, 2]] :> 1}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[\text{Default}\left[\text{Power},2\right]\right]\text{:>}1\right\}`
+
+
 >>> a /. x_ ^ n_. :> {x, n}
-  = {a, 1}
+    =
+
+:math:`\left\{a,1\right\}`
+
+
 
 :code:`Power`  can be used with complex numbers:
 
 >>> (1.5 + 1.0 I) ^ 3.5
-  = -3.68294 + 6.95139 I
+    =
+
+:math:`-3.68294+6.95139 I`
+
+
 >>> (1.5 + 1.0 I) ^ (3.5 + 1.5 I)
-  = -3.19182 + 0.645659 I
+    =
+
+:math:`-3.19182+0.645659 I`
+
+

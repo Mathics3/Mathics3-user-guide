@@ -23,18 +23,50 @@ For bases > 10, alphabetic characters a, b, ... are used to represent digits 11,
 that base must be an integer in the range from 2 to 36.
 
 >>> IntegerString[12345]
-  = 12345
+    =
+
+:math:`\text{12345}`
+
+
 >>> IntegerString[-500]
-  = 500
+    =
+
+:math:`\text{500}`
+
+
 >>> IntegerString[12345, 10, 8]
-  = 00012345
+    =
+
+:math:`\text{00012345}`
+
+
 >>> IntegerString[12345, 10, 3]
-  = 345
+    =
+
+:math:`\text{345}`
+
+
 >>> IntegerString[11, 2]
-  = 1011
+    =
+
+:math:`\text{1011}`
+
+
 >>> IntegerString[123, 8]
-  = 173
+    =
+
+:math:`\text{173}`
+
+
 >>> IntegerString[32767, 16]
-  = 7fff
+    =
+
+:math:`\text{7fff}`
+
+
 >>> IntegerString[98765, 20]
-  = c6i5
+    =
+
+:math:`\text{c6i5}`
+
+

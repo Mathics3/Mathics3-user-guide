@@ -28,9 +28,22 @@ FileNames
 
 >>> SetDirectory[$InstallationDirectory <> "/autoload"];
 
+
 >>> FileNames["*.m", "formats"]//Length
-  = ...
+    =
+
+:math:`0`
+
+
 >>> FileNames["*.m", "formats", 3]//Length
-  = ...
+    =
+
+:math:`14`
+
+
 >>> FileNames["*.m", "formats", Infinity]//Length
-  = ...
+    =
+
+:math:`14`
+
+

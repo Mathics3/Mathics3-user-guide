@@ -15,4 +15,8 @@ ParentDirectory
 
 
 >>> ParentDirectory[]
-  = ...
+    =
+
+:math:`\text{/home/mauricio/Projects}`
+
+

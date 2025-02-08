@@ -29,25 +29,55 @@ RandomSample
 
 >>> SeedRandom[42]
 
+
 >>> RandomSample[{a, b, c, d}]
-  = {b, d, a, c}
+    =
+
+:math:`\left\{b,d,a,c\right\}`
+
+
 >>> SeedRandom[42]
+
 
 >>> RandomSample[{a, b, c, d, e, f, g, h}, 7]
-  = {b, f, a, h, c, e, d}
+    =
+
+:math:`\left\{b,f,a,h,c,e,d\right\}`
+
+
 >>> SeedRandom[42]
+
 
 >>> RandomSample[{"a", {1, 2}, x, {}}, 3]
-  = {{1, 2}, {}, a}
+    =
+
+:math:`\left\{\left\{1,2\right\},\left\{\right\},\text{a}\right\}`
+
+
 >>> SeedRandom[42]
+
 
 >>> RandomSample[Range[10]]
-  = {9, 2, 6, 1, 8, 3, 10, 5, 4, 7}
+    =
+
+:math:`\left\{9,2,6,1,8,3,10,5,4,7\right\}`
+
+
 >>> SeedRandom[42]
+
 
 >>> RandomSample[Range[100], {2, 3}]
-  = {{84, 54, 71}, {46, 45, 40}}
+    =
+
+:math:`\left\{\left\{84,54,71\right\},\left\{46,45,40\right\}\right\}`
+
+
 >>> SeedRandom[42]
 
+
 >>> RandomSample[Range[100] -> Range[100], 5]
-  = {62, 98, 86, 78, 40}
+    =
+
+:math:`\left\{62,98,86,78,40\right\}`
+
+

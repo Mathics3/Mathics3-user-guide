@@ -12,6 +12,14 @@ Therefore
 
 
 >>> Therefore[x, y, z]
-  = x ∴ y ∴ z
+    =
+
+:math:`x \therefore y \therefore z`
+
+
 >>> a \[Therefore] b
-  = a ∴ b
+    =
+
+:math:`a \therefore b`
+
+

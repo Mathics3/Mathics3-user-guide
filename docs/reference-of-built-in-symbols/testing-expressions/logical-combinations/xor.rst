@@ -17,12 +17,24 @@ Xor
 
 
 >>> Xor[False, True]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> Xor[True, True]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 If an expression does not evaluate to :code:`True`  or :code:`False` , :code:`Xor` 
 returns a result in symbolic form:
 
 >>> Xor[a, False, b]
-  = a \[Xor] b
+    =
+
+:math:`a\text{$\backslash$[Xor]}b`
+
+

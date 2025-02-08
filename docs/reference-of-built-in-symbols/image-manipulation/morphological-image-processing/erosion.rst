@@ -12,6 +12,8 @@ Erosion
 
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
+    = `
 
 >>> Erosion[ein, 2.5]
-  = -Image-
+    = -Image-`
+

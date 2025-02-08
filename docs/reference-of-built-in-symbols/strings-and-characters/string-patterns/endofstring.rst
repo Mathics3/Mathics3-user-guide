@@ -14,7 +14,18 @@ EndOfString
 Test whether strings end with "e":
 
 >>> StringMatchQ[#, __ ~~ "e" ~~ EndOfString] &/@ {"apple", "banana", "artichoke"}
-  = {True, False, True}
+    =
+
+:math:`\left\{\text{True},\text{False},\text{True}\right\}`
+
+
 >>> StringReplace["aab\nabb", "b" ~~ EndOfString -> "c"]
-  = aab
-    abc
+    =
+
+
+.. math::
+    \text{aab\newline
+    abc}
+
+
+

@@ -17,15 +17,29 @@ Curl
 Two-dimensional :code:`Curl` :
 
 >>> Curl[{y, -x}, {x, y}]
-  = -2
+    =
+
+:math:`-2`
+
+
 >>> v[x_, y_] := {Cos[x] Sin[y], Cos[y] Sin[x]}
 
+
 >>> Curl[v[x, y], {x, y}]
-  = 0
+    =
+
+:math:`0`
+
+
 
 Three-dimensional :code:`Curl` :
 
 >>> Curl[{y, -x, 2 z}, {x, y, z}]
-  = {0, 0, -2}
+    =
+
+:math:`\left\{0,0,-2\right\}`
+
+
 >>> Clear[v];
+    = `
 

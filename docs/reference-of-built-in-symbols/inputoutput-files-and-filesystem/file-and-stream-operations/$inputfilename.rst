@@ -14,4 +14,5 @@ $InputFileName
 While in interactive mode, :code:`$InputFileName`  is "".
 
 >>> $InputFileName
+    = `
 

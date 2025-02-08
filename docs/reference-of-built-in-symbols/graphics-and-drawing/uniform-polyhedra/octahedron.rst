@@ -18,4 +18,10 @@ Octahedron
 
 
 >>> Graphics3D[{Red, Octahedron[]}]
-  = -Graphics3D-
+    =
+
+.. image:: tmpj25h56g7.png
+    :align: center
+
+
+

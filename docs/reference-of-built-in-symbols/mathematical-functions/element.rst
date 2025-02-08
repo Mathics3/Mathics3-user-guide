@@ -18,9 +18,19 @@ Element
 Check if :math:`3` and :math:`a` are both integers. If :math:`a` is not defined, then :code:`Element`  reduces the condition:
 
 >>> Element[3 | a, Integers]
-  = Element[a, Integers]
+    =
+
+:math:`\text{Element}\left[a,\text{Integers}\right]`
+
+
 
 Notice that standard domain names (:code:`Primes` , :code:`Integers` , :code:`Rationals` , :code:`Algebraics` , :code:`Reals` , :code:`Complexes` , and :code:`Booleans` )    are in plural form. If a singular form is used, a warning is shown:
 
 >>> Element[a, Real]
-  = Element[a, Real]
+
+    Element::bset The second argument Real of Element should be one of: Primes, Integers, Rationals, Algebraics, Reals, Complexes, or Booleans.
+    =
+
+:math:`\text{Element}\left[a,\text{Real}\right]`
+
+

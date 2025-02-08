@@ -18,8 +18,26 @@ Cone
 
 
 >>> Graphics3D[Cone[]]
-  = -Graphics3D-
+    =
+
+.. image:: tmpeh643ayd.png
+    :align: center
+
+
+
 >>> Graphics3D[Cone[{{0, 0, 0}, {1, 1, 1}}, 1]]
-  = -Graphics3D-
+    =
+
+.. image:: tmp9aosae_u.png
+    :align: center
+
+
+
 >>> Graphics3D[{Yellow, Cone[{{-1, 0, 0}, {1, 0, 0}, {0, 0, Sqrt[3]}, {1, 1, Sqrt[3]}}, 1]}]
-  = -Graphics3D-
+    =
+
+.. image:: tmppfnoln4g.png
+    :align: center
+
+
+

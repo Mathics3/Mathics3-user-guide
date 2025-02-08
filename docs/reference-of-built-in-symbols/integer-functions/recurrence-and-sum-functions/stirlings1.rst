@@ -15,4 +15,8 @@ Integer mathematical function, suitable for both symbolic and numerical manipula
 gives the number of permutations of :math:`n` elements that contain exactly :math:`m` cycles.
 
 >>> StirlingS1[50, 1]
-  = -608281864034267560872252163321295376887552831379210240000000000
+    =
+
+:math:`-608281864034267560872252163321295376887552831379210240000000000`
+
+

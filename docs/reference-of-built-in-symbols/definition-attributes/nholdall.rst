@@ -12,8 +12,17 @@ NHoldAll
 
 
 >>> N[f[2, 3]]
-  = f[2., 3.]
+    =
+
+:math:`f\left[2.,3.\right]`
+
+
 >>> SetAttributes[f, NHoldAll]
 
+
 >>> N[f[2, 3]]
-  = f[2, 3]
+    =
+
+:math:`f\left[2,3\right]`
+
+

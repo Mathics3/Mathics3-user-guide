@@ -15,8 +15,20 @@ Not
 
 
 >>> !True
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> !False
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> !b
-  = !b
+    =
+
+:math:`!b`
+
+

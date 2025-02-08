@@ -14,11 +14,23 @@ RealAbs
 :code:`RealAbs`  is also known as modulus. It is evaluated if :math:`x` can be compared     with :math:`0`.
 
 >>> RealAbs[-3.]
-  = 3.
+    =
+
+:math:`3.`
+
+
 
 :code:`RealAbs[:math:`z`]`  is left unevaluated for complex :math:`z`:
 
 >>> RealAbs[2. + 3. I]
-  = RealAbs[2. + 3. I]
+    =
+
+:math:`\text{RealAbs}\left[2.+3. I\right]`
+
+
 >>> D[RealAbs[x ^ 2], x]
-  = 2 x ^ 3 / RealAbs[x ^ 2]
+    =
+
+:math:`\frac{2 x^3}{\text{RealAbs}\left[x^2\right]}`
+
+

@@ -21,41 +21,77 @@ Replace
 
 
 >>> Replace[x, {x -> 2}]
-  = 2
+    =
+
+:math:`2`
+
+
 
 By default, only the top level is searched for matches:
 
 >>> Replace[1 + x, {x -> 2}]
-  = 1 + x
+    =
+
+:math:`1+x`
+
+
 >>> Replace[x, {{x -> 1}, {x -> 2}}]
-  = {1, 2}
+    =
+
+:math:`\left\{1,2\right\}`
+
+
 
 Replace stops after the first replacement:
 
 >>> Replace[x, {x -> {}, _List -> y}]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 
 Replace replaces the deepest levels first:
 
 >>> Replace[x[1], {x[1] -> y, 1 -> 2}, All]
-  = x[2]
+    =
+
+:math:`x\left[2\right]`
+
+
 
 By default, heads are not replaced:
 
 >>> Replace[x[x[y]], x -> z, All]
-  = x[x[y]]
+    =
+
+:math:`x\left[x\left[y\right]\right]`
+
+
 
 Heads can be replaced using the :code:`Heads`  option:
 
 >>> Replace[x[x[y]], x -> z, All, Heads -> True]
-  = z[z[y]]
+    =
+
+:math:`z\left[z\left[y\right]\right]`
+
+
 
 Note that heads are handled at the level of elements:
 
 >>> Replace[x[x[y]], x -> z, {1}, Heads -> True]
-  = z[x[y]]
+    =
+
+:math:`z\left[x\left[y\right]\right]`
+
+
 
 You can use Replace as an operator:
 
 >>> Replace[{x_ -> x + 1}][10]
-  = 11
+    =
+
+:math:`11`
+
+

@@ -12,6 +12,14 @@ IntegerQ
 
 
 >>> IntegerQ[3]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> IntegerQ[Pi]
-  = False
+    =
+
+:math:`\text{False}`
+
+

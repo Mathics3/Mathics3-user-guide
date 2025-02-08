@@ -12,14 +12,23 @@ Null
 
 
 >>> FullForm[a:=b]
-  = Null
+    =
+
+:math:`\text{Null}`
+
+
 
 It is not displayed in StandardForm,
 
 >>> a:=b
 
 
+
 in contrast to the empty string:
 
 >>> ""
+    =
+
+:math:`\text{}`
+
 

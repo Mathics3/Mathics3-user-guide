@@ -11,13 +11,35 @@ LightBlue
 
 
 >>> Graphics[{EdgeForm[Black], LightBlue, Disk[]}, ImageSize->Small]
-  = -Graphics-
+    =
+
+.. image:: tmpphq4oz1c.png
+    :align: center
+
+
+
 >>> LightBlue // ToBoxes
-  = StyleBox[GraphicsBox[...], ...]
+    =
+
+:math:`\text{StyleBox}\left[\text{GraphicsBox}\left[\left\{\text{EdgeForm}\left[\text{RGBColor}\left[0,0,0\right]\right],\text{RGBColor}\left[0.87,0.94,1\right],\text{RectangleBox}\left[\left\{0,0\right\}\right]\right\},\text{AspectRatio}->\text{Automatic},\text{Axes}->\text{False},\text{AxesStyle}->\left\{\right\},\text{Background}->\text{Automatic},\text{ImageSize}->16,\text{LabelStyle}->\left\{\right\},\text{PlotRange}->\text{Automatic},\text{PlotRangePadding}->\text{Automatic},\text{TicksStyle}->\left\{\right\}\right],\text{ImageSizeMultipliers}->\left\{1,1\right\},\text{ShowStringCharacters}->\text{True}\right]`
+
+
 
 `WMA link <https://reference.wolfram.com/language/ref/LightBlue.html>`_
 
 >>> Graphics[{LightBlue, EdgeForm[Black], Disk[]}]
-  = -Graphics-
+    =
+
+.. image:: tmpkyo19jyk.png
+    :align: center
+
+
+
 >>> Plot[Sin[x], {x, 0, 2 Pi}, Background -> LightBlue]
-  = -Graphics-
+    =
+
+.. image:: tmpipmj8vh4.png
+    :align: center
+
+
+

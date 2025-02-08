@@ -22,9 +22,19 @@ Compute the factorial of 10 using :code:`For` :
 
 >>> n := 1
 
+
 >>> For[i=1, i<=10, i=i+1, n = n * i]
 
+
 >>> n
-  = 3628800
+    =
+
+:math:`3628800`
+
+
 >>> n == 10!
-  = True
+    =
+
+:math:`\text{True}`
+
+

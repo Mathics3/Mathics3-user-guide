@@ -12,6 +12,14 @@ IntegerPart
 
 
 >>> IntegerPart[4.1]
-  = 4
+    =
+
+:math:`4`
+
+
 >>> IntegerPart[-5.25]
-  = -5
+    =
+
+:math:`-5`
+
+

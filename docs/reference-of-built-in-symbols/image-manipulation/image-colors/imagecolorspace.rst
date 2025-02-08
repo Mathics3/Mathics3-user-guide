@@ -13,9 +13,19 @@ ImageColorSpace
 
 >>> img = Import["ExampleData/MadTeaParty.gif"];
 
->>> ImageColorSpace[img]
-  = Grayscale
->>> img = Import["ExampleData/sunflowers.jpg"];
 
 >>> ImageColorSpace[img]
-  = RGB
+    =
+
+:math:`\text{Grayscale}`
+
+
+>>> img = Import["ExampleData/sunflowers.jpg"];
+
+
+>>> ImageColorSpace[img]
+    =
+
+:math:`\text{RGB}`
+
+

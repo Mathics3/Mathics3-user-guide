@@ -15,8 +15,18 @@ LambertW
 
 
 >>> LambertW[k, z]
-  = ProductLog[k, z]
+    =
+
+:math:`\text{ProductLog}\left[k,z\right]`
+
+
 >>> Plot[LambertW[x], {x, -1/E, E}]
-  = -Graphics-
+    =
+
+.. image:: tmpfc95_gse.png
+    :align: center
+
+
+
 
 See also `ProductLog </doc/reference-of-built-in-symbols/special-functions/exponential-integral-and-special-functions/productlog>`_.

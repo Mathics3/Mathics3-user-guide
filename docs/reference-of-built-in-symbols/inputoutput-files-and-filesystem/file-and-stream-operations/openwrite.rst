@@ -12,6 +12,11 @@ OpenWrite
 
 
 >>> OpenWrite[]
-  = OutputStream[...]
+    =
+
+:math:`\text{OutputStream}\left[\text{/tmp/tmp93jsq64l},17\right]`
+
+
 >>> DeleteFile[Close[%]];
+
 

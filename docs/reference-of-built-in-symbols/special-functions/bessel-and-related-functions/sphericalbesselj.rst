@@ -12,6 +12,16 @@ SphericalBesselJ
 
 
 >>> SphericalBesselJ[1, 5.2]
-  = -0.122771
+    =
+
+:math:`-0.122771`
+
+
 >>> Plot[SphericalBesselJ[1, x], {x, 0.1, 10}]
-  = -Graphics-
+    =
+
+.. image:: tmpaxnpys5t.png
+    :align: center
+
+
+

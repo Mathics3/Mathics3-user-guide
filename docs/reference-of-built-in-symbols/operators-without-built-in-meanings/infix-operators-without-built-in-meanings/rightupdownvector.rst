@@ -12,6 +12,14 @@ RightUpDownVector
 
 
 >>> RightUpDownVector[x, y, z]
-  = x ⥏ y ⥏ z
+    =
+
+:math:`x \stackrel{\upharpoonright}{\downharpoonright} y \stackrel{\upharpoonright}{\downharpoonright} z`
+
+
 >>> a \[RightUpDownVector] b
-  = a ⥏ b
+    =
+
+:math:`a \stackrel{\upharpoonright}{\downharpoonright} b`
+
+

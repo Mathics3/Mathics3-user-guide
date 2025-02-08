@@ -12,4 +12,8 @@ IdentityMatrix
 
 
 >>> IdentityMatrix[3]
-  = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
+    =
+
+:math:`\left\{\left\{1,0,0\right\},\left\{0,1,0\right\},\left\{0,0,1\right\}\right\}`
+
+

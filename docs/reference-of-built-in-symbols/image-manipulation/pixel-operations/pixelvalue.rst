@@ -13,5 +13,10 @@ PixelValue
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> PixelValue[hedy, {1, 1}]
-  = {0.439216, 0.356863, 0.337255}
+    =
+
+:math:`\left\{0.439216,0.356863,0.337255\right\}`
+
+

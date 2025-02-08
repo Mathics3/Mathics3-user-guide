@@ -12,6 +12,14 @@ SuchThat
 
 
 >>> SuchThat[x, y, z]
-  = x ∍ y ∍ z
+    =
+
+:math:`x \backepsilon y \backepsilon z`
+
+
 >>> a \[SuchThat] b
-  = a ∍ b
+    =
+
+:math:`a \backepsilon b`
+
+

@@ -20,19 +20,35 @@ Between
 Check that 6 is in range 4..10:
 
 >>> Between[6, {4, 10}]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Same as above in operator form:
 
 >>> Between[{4, 10}][6]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 :code:`Between`  works with irrational numbers:
 
 >>> Between[2, {E, Pi}]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 If more than an interval is given, :code:`Between`  returns :code:`True`  if :math:`x` belongs to one of them:
 
 >>> {Between[3, {1, 2}, {4, 6}], Between[5, {1, 2}, {4, 6}]}
-  = {False, True}
+    =
+
+:math:`\left\{\text{False},\text{True}\right\}`
+
+

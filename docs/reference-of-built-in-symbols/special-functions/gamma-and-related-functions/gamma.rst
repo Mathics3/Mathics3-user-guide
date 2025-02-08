@@ -22,27 +22,61 @@ The gamma function is one commonly used extension of the factorial function     
 :code:`Gamma[:math:`z`]`  is equivalent to :code:`(:math:`z` - 1)!` :
 
 >>> Simplify[Gamma[z] - (z - 1)!]
-  = 0
+    =
+
+:math:`0`
+
+
 
 Exact arguments:
 
 >>> Gamma[8]
-  = 5040
+    =
+
+:math:`5040`
+
+
 >>> Gamma[1/2]
-  = Sqrt[Pi]
+    =
+
+:math:`\sqrt{ \pi }`
+
+
 >>> Gamma[1, x]
-  = E ^ (-x)
+    =
+
+:math:`E^{-x}`
+
+
 >>> Gamma[0, x]
-  = ExpIntegralE[1, x]
+    =
+
+:math:`\text{ExpIntegralE}\left[1,x\right]`
+
+
 
 Numeric arguments:
 
 >>> Gamma[123.78]
-  = 4.21078×10^204
+    =
+
+:math:`4.21078\text{*${}^{\wedge}$}204`
+
+
 >>> Gamma[1. + I]
-  = 0.498016 - 0.15495 I
+    =
+
+:math:`0.498016-0.15495 I`
+
+
 
 Both :code:`Gamma`  and :code:`Factorial`  functions are continuous:
 
 >>> Plot[{Gamma[x], x!}, {x, 0, 4}]
-  = -Graphics-
+    =
+
+.. image:: tmpeik0dyem.png
+    :align: center
+
+
+

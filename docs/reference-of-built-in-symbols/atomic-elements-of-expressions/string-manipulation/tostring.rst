@@ -14,14 +14,40 @@ ToString
 
 
 >>> ToString[2]
-  = 2
+    =
+
+:math:`\text{2}`
+
+
 >>> ToString[2] // InputForm
-  = "2"
+    =
+
+:math:`\text{\`{}\`{}2''}`
+
+
 >>> ToString[a+b]
-  = a + b
+    =
+
+:math:`\text{a + b}`
+
+
 >>> "U" <> 2
-  = U <> 2
+
+    StringJoin::string String expected.
+    =
+
+:math:`\text{U}\text{<>}2`
+
+
 >>> "U" <> ToString[2]
-  = U2
+    =
+
+:math:`\text{U2}`
+
+
 >>> ToString[Integrate[f[x],x], TeXForm]
-  = \int f\left[x\right] \, dx
+    =
+
+:math:`\text{$\backslash$int f$\backslash$left[x$\backslash$right] $\backslash$, dx}`
+
+

@@ -13,10 +13,21 @@ Message
 
 
 >>> a::b = "Hello world!"
-  = Hello world!
+    =
+
+:math:`\text{Hello world!}`
+
+
 >>> Message[a::b]
+
+    a::b Hello world!
+
 
 >>> a::c := "Hello `1`, Mr 00`2`!"
 
+
 >>> Message[a::c, "you", 3 + 4]
+
+    a::c Hello you, Mr 007!
+
 

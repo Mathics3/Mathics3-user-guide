@@ -12,6 +12,14 @@ Cap
 
 
 >>> Cap[x, y, z]
-  = x ⌢ y ⌢ z
+    =
+
+:math:`x \cap y \cap z`
+
+
 >>> a \[Cap] b
-  = a ⌢ b
+    =
+
+:math:`a \cap b`
+
+

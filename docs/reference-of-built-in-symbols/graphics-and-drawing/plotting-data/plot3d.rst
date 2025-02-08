@@ -13,12 +13,42 @@ Plot3D
 
 
 >>> Plot3D[x ^ 2 + 1 / y, {x, -1, 1}, {y, 1, 4}]
-  = -Graphics3D-
+    =
+
+.. image:: tmpjeb7mcil.png
+    :align: center
+
+
+
 >>> Plot3D[Sin[y + Sin[3 x]], {x, -2, 2}, {y, -2, 2}, PlotPoints->20]
-  = -Graphics3D-
+    =
+
+.. image:: tmpprwwzxkj.png
+    :align: center
+
+
+
 >>> Plot3D[x / (x ^ 2 + y ^ 2 + 1), {x, -2, 2}, {y, -2, 2}, Mesh->None]
-  = -Graphics3D-
+    =
+
+.. image:: tmpvmh88igh.png
+    :align: center
+
+
+
 >>> Plot3D[Sin[x y] /(x y), {x, -3, 3}, {y, -3, 3}, Mesh->All]
-  = -Graphics3D-
+    =
+
+.. image:: tmpjd96nb94.png
+    :align: center
+
+
+
 >>> Plot3D[Log[x + y^2], {x, -1, 1}, {y, -1, 1}]
-  = -Graphics3D-
+    =
+
+.. image:: tmpmol55hb7.png
+    :align: center
+
+
+

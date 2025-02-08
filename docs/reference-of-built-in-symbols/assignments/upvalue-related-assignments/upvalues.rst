@@ -11,15 +11,32 @@ UpValues
 
 
 >>> a + b ^= 2
-  = 2
+    =
+
+:math:`2`
+
+
 >>> UpValues[a]
-  = {HoldPattern[a + b] :> 2}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[a+b\right]\text{:>}2\right\}`
+
+
 >>> UpValues[b]
-  = {HoldPattern[a + b] :> 2}
+    =
+
+:math:`\left\{\text{HoldPattern}\left[a+b\right]\text{:>}2\right\}`
+
+
 
 You can assign values to :code:`UpValues` :
 
 >>> UpValues[pi] := {Sin[pi] :> 0}
 
+
 >>> Sin[pi]
-  = 0
+    =
+
+:math:`0`
+
+

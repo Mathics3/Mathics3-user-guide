@@ -15,21 +15,41 @@ Sort
 
 
 >>> Sort[{4, 1.0, a, 3+I}]
-  = {1., 3 + I, 4, a}
+    =
+
+:math:`\left\{1.,3+I,4,a\right\}`
+
+
 
 Sort uses :code:`OrderedQ`  to determine ordering by default.
 You can sort patterns according to their precedence using :code:`PatternsOrderedQ` :
 
 >>> Sort[{items___, item_, OptionsPattern[], item_symbol, item_?test}, PatternsOrderedQ]
-  = {item_symbol, item_ ? test, item_, items___, OptionsPattern[]}
+    =
+
+:math:`\left\{\text{item\_symbol},\text{item\_}?\text{test},\text{item\_},\text{items\_\_\_},\text{OptionsPattern}\left[\right]\right\}`
+
+
 
 When sorting patterns, values of atoms do not matter:
 
 >>> Sort[{a, b/;t}, PatternsOrderedQ]
-  = {b /; t, a}
+    =
+
+:math:`\left\{b\text{/;}t,a\right\}`
+
+
 >>> Sort[{2+c_, 1+b__}, PatternsOrderedQ]
-  = {2 + c_, 1 + b__}
+    =
+
+:math:`\left\{2+\text{c\_},1+\text{b\_\_}\right\}`
+
+
 >>> Sort[{x_ + n_*y_, x_ + y_}, PatternsOrderedQ]
-  = {x_ + n_ y_, x_ + y_}
+    =
+
+:math:`\left\{\text{x\_}+\text{n\_} \text{y\_},\text{x\_}+\text{y\_}\right\}`
+
+
 
 See also `ReverseSort </doc/reference-of-built-in-symbols/descriptive-statistics/order-statistics/reversesort/>`_.

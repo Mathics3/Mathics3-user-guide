@@ -15,8 +15,20 @@ Pick
 
 
 >>> Pick[{a, b, c}, {False, True, False}]
-  = {b}
+    =
+
+:math:`\left\{b\right\}`
+
+
 >>> Pick[f[g[1, 2], h[3, 4]], {{True, False}, {False, True}}]
-  = f[g[1], h[4]]
+    =
+
+:math:`f\left[g\left[1\right],h\left[4\right]\right]`
+
+
 >>> Pick[{a, b, c, d, e}, {1, 2, 3.5, 4, 5.5}, _Integer]
-  = {a, b, d}
+    =
+
+:math:`\left\{a,b,d\right\}`
+
+

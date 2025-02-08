@@ -14,4 +14,8 @@ Reals
 Limit a solution to real numbers:
 
 >>> Solve[x^3 == 1, x, Reals]
-  = {{x -> 1}}
+    =
+
+:math:`\left\{\left\{x->1\right\}\right\}`
+
+

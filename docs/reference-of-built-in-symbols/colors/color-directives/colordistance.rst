@@ -39,6 +39,14 @@ distance. Available options are:
 It is also possible to specify a custom distance.
 
 >>> ColorDistance[Magenta, Green]
-  = 2.2507
+    =
+
+:math:`2.2507`
+
+
 >>> ColorDistance[{Red, Blue}, {Green, Yellow}, DistanceFunction -> {"CMC", "Perceptibility"}]
-  = {1.0495, 1.27455}
+    =
+
+:math:`\left\{1.0495,1.27455\right\}`
+
+

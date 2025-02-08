@@ -38,25 +38,65 @@ A negative level :code:`-:math:`n``  consists of parts with depth :math:`n`.
 Level -1 is the set of atoms in an expression:
 
 >>> Level[a + b ^ 3 * f[2 x ^ 2], {-1}]
-  = {a, b, 3, 2, x, 2}
+    =
+
+:math:`\left\{a,b,3,2,x,2\right\}`
+
+
 >>> Level[{{{{a}}}}, 3]
-  = {{a}, {{a}}, {{{a}}}}
+    =
+
+:math:`\left\{\left\{a\right\},\left\{\left\{a\right\}\right\},\left\{\left\{\left\{a\right\}\right\}\right\}\right\}`
+
+
 >>> Level[{{{{a}}}}, -4]
-  = {{{{a}}}}
+    =
+
+:math:`\left\{\left\{\left\{\left\{a\right\}\right\}\right\}\right\}`
+
+
 >>> Level[{{{{a}}}}, -5]
-  = {}
+    =
+
+:math:`\left\{\right\}`
+
+
 >>> Level[h0[h1[h2[h3[a]]]], {0, -1}]
-  = {a, h3[a], h2[h3[a]], h1[h2[h3[a]]], h0[h1[h2[h3[a]]]]}
+    =
+
+:math:`\left\{a,\text{h3}\left[a\right],\text{h2}\left[\text{h3}\left[a\right]\right],\text{h1}\left[\text{h2}\left[\text{h3}\left[a\right]\right]\right],\text{h0}\left[\text{h1}\left[\text{h2}\left[\text{h3}\left[a\right]\right]\right]\right]\right\}`
+
+
 
 Use the option :code:`Heads -> True`  to include heads:
 
 >>> Level[{{{{a}}}}, 3, Heads -> True]
-  = {List, List, List, {a}, {{a}}, {{{a}}}}
+    =
+
+:math:`\left\{\text{List},\text{List},\text{List},\left\{a\right\},\left\{\left\{a\right\}\right\},\left\{\left\{\left\{a\right\}\right\}\right\}\right\}`
+
+
 >>> Level[x^2 + y^3, 3, Heads -> True]
-  = {Plus, Power, x, 2, x ^ 2, Power, y, 3, y ^ 3}
+    =
+
+:math:`\left\{\text{Plus},\text{Power},x,2,x^2,\text{Power},y,3,y^3\right\}`
+
+
 >>> Level[a ^ 2 + 2 * b, {-1}, Heads -> True]
-  = {Plus, Power, a, 2, Times, 2, b}
+    =
+
+:math:`\left\{\text{Plus},\text{Power},a,2,\text{Times},2,b\right\}`
+
+
 >>> Level[f[g[h]][x], {-1}, Heads -> True]
-  = {f, g, h, x}
+    =
+
+:math:`\left\{f,g,h,x\right\}`
+
+
 >>> Level[f[g[h]][x], {-2, -1}, Heads -> True]
-  = {f, g, h, g[h], x, f[g[h]][x]}
+    =
+
+:math:`\left\{f,g,h,g\left[h\right],x,f\left[g\left[h\right]\right]\left[x\right]\right\}`
+
+

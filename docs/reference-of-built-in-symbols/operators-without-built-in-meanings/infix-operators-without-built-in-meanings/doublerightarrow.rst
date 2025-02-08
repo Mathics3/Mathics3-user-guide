@@ -12,6 +12,14 @@ DoubleRightArrow
 
 
 >>> DoubleRightArrow[x, y, z]
-  = x ⇒ y ⇒ z
+    =
+
+:math:`x \Rightarrow y \Rightarrow z`
+
+
 >>> a \[DoubleRightArrow] b
-  = a ⇒ b
+    =
+
+:math:`a \Rightarrow b`
+
+

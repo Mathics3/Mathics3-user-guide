@@ -18,4 +18,10 @@ Icosahedron
 
 
 >>> Graphics3D[Icosahedron[]]
-  = -Graphics3D-
+    =
+
+.. image:: tmp218lvpuk.png
+    :align: center
+
+
+

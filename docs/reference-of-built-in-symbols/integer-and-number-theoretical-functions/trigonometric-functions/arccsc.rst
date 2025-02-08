@@ -12,6 +12,14 @@ Inverse cosecant, `arccosecant <https://en.wikipedia.org/wiki/Inverse_trigonomet
 
 
 >>> ArcCsc[1]
-  = Pi / 2
+    =
+
+:math:`\frac{ \pi }{2}`
+
+
 >>> ArcCsc[-1]
-  = -Pi / 2
+    =
+
+:math:`-\frac{ \pi }{2}`
+
+

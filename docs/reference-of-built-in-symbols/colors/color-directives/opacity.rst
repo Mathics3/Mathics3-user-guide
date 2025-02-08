@@ -12,11 +12,29 @@ Opacity
 
 
 >>> Graphics[{Blue, Disk[{.5, 1}, 1], Opacity[.4], Red, Disk[], Opacity[.2], Green, Disk[{-.5, 1}, 1]}]
-  = -Graphics-
+    =
+
+.. image:: tmp1bl6ii8o.png
+    :align: center
+
+
+
 >>> Graphics3D[{Blue, Sphere[], Opacity[.4], Red, Cuboid[]}]
-  = -Graphics3D-
+    =
+
+.. image:: tmpocdlpviw.png
+    :align: center
+
+
+
 
 Notice that :code:`Opacity`  does not overwrite the value of the alpha channel if it is set in a color directive:
 
 >>> Graphics[{Blue, Disk[], RGBColor[1,0,0,1],Opacity[.2], Rectangle[{0,0},{1,1}]}]
-  = -Graphics-
+    =
+
+.. image:: tmpnjgtyik2.png
+    :align: center
+
+
+

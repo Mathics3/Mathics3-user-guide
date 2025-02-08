@@ -17,24 +17,52 @@ SeriesCoefficient
 First we list 5 terms of a series:
 
 >>> Series[Exp[Sin[x]], {x, 0, 5}]
-  = 1 + x + 1 / 2 x ^ 2 + (-1 / 8) x ^ 4 + (-1 / 15) x ^ 5 + O[x] ^ 6
+    =
+
+:math:`1+x+\frac{1}{2} x^2+\left(-\frac{1}{8}\right) x^4+\left(-\frac{1}{15}\right) x^5+O\left[x\right]^6`
+
+
 
 Now get the :math:`x`^4 coefficient:
 
 >>> SeriesCoefficient[%, 4]
-  = -1 / 8
+    =
+
+:math:`-\frac{1}{8}`
+
+
 
 Do the same thing, but without calling :code:`Series`  first:
 
 >>> SeriesCoefficient[Exp[Sin[x]], {x, 0, 4}]
-  = -1 / 8
+    =
+
+:math:`-\frac{1}{8}`
+
+
 >>> SeriesCoefficient[2x, {x, 0, 2}]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> SeriesCoefficient[SeriesData[x, c, Table[i^2, {i, 10}], 7, 17, 3], 14/3]
-  = 64
+    =
+
+:math:`64`
+
+
 >>> SeriesCoefficient[SeriesData[x, c, Table[i^2, {i, 10}], 7, 17, 3], 6/3]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> SeriesCoefficient[SeriesData[x, c, Table[i^2, {i, 10}], 7, 17, 3], 17/3]
-  = Indeterminate
+    =
+
+:math:`\text{Indeterminate}`
+
+
 
 See also `:code:`Series`  </doc/reference-of-built-in-symbols/integer-and-number-theoretical-functions/calculus/series/>`_ and `:code:`SeriesData`  </doc/reference-of-built-in-symbols/integer-and-number-theoretical-functions/calculus/seriesdata/>`_.

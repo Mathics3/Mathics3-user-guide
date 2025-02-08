@@ -10,6 +10,18 @@ LoadModule
 
 
 >>> LoadModule["nomodule"]
-  = $Failed
+
+    LoadModule::loaderror Python import errors with: No module named 'nomodule'.
+    =
+
+:math:`\text{\$Failed}`
+
+
 >>> LoadModule["sys"]
-  = $Failed
+
+    LoadModule::notmathicslib Python module "sys" is not a Mathics3 module.
+    =
+
+:math:`\text{\$Failed}`
+
+

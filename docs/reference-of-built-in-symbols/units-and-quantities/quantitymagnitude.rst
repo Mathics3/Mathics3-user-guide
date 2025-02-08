@@ -15,8 +15,20 @@ QuantityMagnitude
 
 
 >>> QuantityMagnitude[Quantity["Kilogram"]]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> QuantityMagnitude[Quantity[10, "Meters"]]
-  = 10
+    =
+
+:math:`10`
+
+
 >>> QuantityMagnitude[Quantity[{10,20}, "Meters"]]
-  = {10, 20}
+    =
+
+:math:`\left\{10,20\right\}`
+
+

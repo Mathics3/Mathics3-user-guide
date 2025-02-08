@@ -12,6 +12,14 @@ RightTeeArrow
 
 
 >>> RightTeeArrow[x, y, z]
-  = x ↦ y ↦ z
+    =
+
+:math:`x \vdash y \vdash z`
+
+
 >>> a \[RightTeeArrow] b
-  = a ↦ b
+    =
+
+:math:`a \vdash b`
+
+

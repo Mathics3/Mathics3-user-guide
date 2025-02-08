@@ -12,6 +12,14 @@ HumpDownHump
 
 
 >>> HumpDownHump[x, y, z]
-  = x ≎ y ≎ z
+    =
+
+:math:`x \Bumpeq y \Bumpeq z`
+
+
 >>> a \[HumpDownHump] b
-  = a ≎ b
+    =
+
+:math:`a \Bumpeq b`
+
+

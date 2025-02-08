@@ -12,6 +12,8 @@ TextRecognize
 
 
 >>> textimage = Import["ExampleData/TextRecognize.png"]
-  = -Image-
+    = -Image-`
+
 >>> TextRecognize[textimage]
-  = ...
+    = ...`
+

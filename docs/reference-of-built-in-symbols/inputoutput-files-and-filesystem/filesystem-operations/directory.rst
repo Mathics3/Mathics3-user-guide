@@ -12,4 +12,8 @@ Directory
 
 
 >>> Directory[]
-  = ...
+    =
+
+:math:`\text{/home/mauricio}`
+
+

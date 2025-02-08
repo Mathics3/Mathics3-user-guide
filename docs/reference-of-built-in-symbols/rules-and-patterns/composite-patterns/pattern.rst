@@ -21,30 +21,62 @@ Pattern
 
 
 >>> FullForm[a_b]
-  = Pattern[a, Blank[b]]
+    =
+
+:math:`\text{Pattern}\left[a, \text{Blank}\left[b\right]\right]`
+
+
 >>> FullForm[a:_:b]
-  = Optional[Pattern[a, Blank[]], b]
+    =
+
+:math:`\text{Optional}\left[\text{Pattern}\left[a, \text{Blank}\left[\right]\right], b\right]`
+
+
 
 :code:`Pattern`  has attribute :code:`HoldFirst` , so it does not evaluate its name:
 
 >>> x = 2
-  = 2
+    =
+
+:math:`2`
+
+
 >>> x_
-  = x_
+    =
+
+:math:`\text{x\_}`
+
+
 
 Nested :code:`Pattern`  assigns multiple names to the same pattern. Still,     the last parameter is the default value.
 
 >>> f[y] /. f[a:b,_:d] -> {a, b}
-  = f[y]
+    =
+
+:math:`f\left[y\right]`
+
+
 
 This is equivalent to:
 
 >>> f[a] /. f[a:_:b] -> {a, b}
-  = {a, b}
+    =
+
+:math:`\left\{a,b\right\}`
+
+
 
 :code:`FullForm` :
 
 >>> FullForm[a:b:c:d:e]
-  = Optional[Pattern[a, b], Optional[Pattern[c, d], e]]
+    =
+
+:math:`\text{Optional}\left[\text{Pattern}\left[a, b\right], \text{Optional}\left[\text{Pattern}\left[c, d\right], e\right]\right]`
+
+
 >>> f[] /. f[a:_:b] -> {a, b}
-  = {b, b}
+    =
+
+:math:`\left\{b,b\right\}`
+
+

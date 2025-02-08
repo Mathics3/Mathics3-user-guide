@@ -12,6 +12,14 @@ NotGreaterLess
 
 
 >>> NotGreaterLess[x, y, z]
-  = x ≹ y ≹ z
+    =
+
+:math:`x \not{\gtrless} y \not{\gtrless} z`
+
+
 >>> a \[NotGreaterLess] b
-  = a ≹ b
+    =
+
+:math:`a \not{\gtrless} b`
+
+

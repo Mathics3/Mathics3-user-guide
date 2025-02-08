@@ -12,4 +12,8 @@ Accumulate
 
 
 >>> Accumulate[{1, 2, 3}]
-  = {1, 3, 6}
+    =
+
+:math:`\left\{1,3,6\right\}`
+
+

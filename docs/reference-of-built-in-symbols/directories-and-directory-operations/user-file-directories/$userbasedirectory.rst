@@ -12,4 +12,8 @@ $UserBaseDirectory
 
 
 >>> $UserBaseDirectory
-  = ...
+    =
+
+:math:`\text{/home/mauricio/.mathics}`
+
+

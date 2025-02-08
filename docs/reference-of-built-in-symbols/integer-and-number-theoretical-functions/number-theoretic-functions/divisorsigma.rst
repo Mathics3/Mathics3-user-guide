@@ -14,26 +14,46 @@ DivisorSigma
 For reference, let us first get the integer divisors of 20:
 
 >>> Divisors[20]
-  = {1, 2, 4, 5, 10, 20}
+    =
+
+:math:`\left\{1,2,4,5,10,20\right\}`
+
+
 
 The DivisorSigma function counts this sum:
 
 >>> DivisorSigma[1, 20]
-  = 42
+    =
+
+:math:`42`
+
+
 
 This is the same thing as:
 
 >>> DivisorSum[20, # &]
-  = 42
+    =
+
+:math:`42`
+
+
 
 To get a sum of the second power of the factors of 20:
 
 >>> DivisorSigma[2, 20]
-  = 546
+    =
+
+:math:`546`
+
+
 
 Doing this with :code:`DivisorSum`  instead:
 
 >>> DivisorSum[20, #^2 &]
-  = 546
+    =
+
+:math:`546`
+
+
 
 See also `:code:`DivisorSum`  </doc/reference-of-built-in-symbols/integer-and-number-theoretical-functions/number-theoretic-functions/divisorsum/>`_ and `Divisors </doc/reference-of-built-in-symbols/integer-and-number-theoretical-functions/number-theoretic-functions/divisors/>`_.

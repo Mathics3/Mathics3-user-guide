@@ -17,16 +17,32 @@ Dot
 Scalar product of vectors:
 
 >>> {a, b, c} . {x, y, z}
-  = a x + b y + c z
+    =
+
+:math:`a x+b y+c z`
+
+
 
 Product of matrices and vectors:
 
 >>> {{a, b}, {c, d}} . {x, y}
-  = {a x + b y, c x + d y}
+    =
+
+:math:`\left\{a x+b y,c x+d y\right\}`
+
+
 
 Matrix product:
 
 >>> {{a, b}, {c, d}} . {{r, s}, {t, u}}
-  = {{a r + b t, a s + b u}, {c r + d t, c s + d u}}
+    =
+
+:math:`\left\{\left\{a r+b t,a s+b u\right\},\left\{c r+d t,c s+d u\right\}\right\}`
+
+
 >>> a . b
-  = a . b
+    =
+
+:math:`a.b`
+
+

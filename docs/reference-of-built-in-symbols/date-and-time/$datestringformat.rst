@@ -12,4 +12,8 @@ $DateStringFormat
 
 
 >>> $DateStringFormat
-  = {DateTimeShort}
+    =
+
+:math:`\left\{\text{DateTimeShort}\right\}`
+
+

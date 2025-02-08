@@ -15,10 +15,28 @@ KelvinBei
 
 
 >>> KelvinBei[0.5]
-  = 0.0624932
+    =
+
+:math:`0.0624932`
+
+
 >>> KelvinBei[1.5 + I]
-  = 0.326323 + 0.755606 I
+    =
+
+:math:`0.326323+0.755606 I`
+
+
 >>> KelvinBei[0.5, 0.25]
-  = 0.370153
+    =
+
+:math:`0.370153`
+
+
 >>> Plot[KelvinBei[x], {x, 0, 10}]
-  = -Graphics-
+    =
+
+.. image:: tmp46xwztws.png
+    :align: center
+
+
+

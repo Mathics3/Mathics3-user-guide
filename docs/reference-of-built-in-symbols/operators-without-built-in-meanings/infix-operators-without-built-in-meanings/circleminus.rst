@@ -12,6 +12,14 @@ CircleMinus
 
 
 >>> CircleMinus[x, y, z]
-  = x ⊖ y ⊖ z
+    =
+
+:math:`x \ominus y \ominus z`
+
+
 >>> a \[CircleMinus] b
-  = a ⊖ b
+    =
+
+:math:`a \ominus b`
+
+

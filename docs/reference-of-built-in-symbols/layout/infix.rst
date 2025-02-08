@@ -16,17 +16,46 @@ user-defined infix notation:
 
 >>> Format[g[x_, y_]] := Infix[{x, y}, "#", 350, Left]
 
+
 >>> g[a, g[b, c]]
-  = a # (b # c)
+    =
+
+:math:`a\#\left(b\#c\right)`
+
+
 >>> g[g[a, b], c]
-  = a # b # c
+    =
+
+:math:`a\#b\#c`
+
+
 >>> g[a + b, c]
-  = (a + b) # c
+    =
+
+:math:`\left(a+b\right)\#c`
+
+
 >>> g[a * b, c]
-  = a b # c
+    =
+
+:math:`a b\#c`
+
+
 >>> g[a, b] + c
-  = c + a # b
+    =
+
+:math:`c+a\#b`
+
+
 >>> g[a, b] * c
-  = c (a # b)
+    =
+
+:math:`c \left(a\#b\right)`
+
+
 >>> Infix[{a, b, c}, {"+", "-"}]
-  = a + b - c
+    =
+
+:math:`a+b-c`
+
+

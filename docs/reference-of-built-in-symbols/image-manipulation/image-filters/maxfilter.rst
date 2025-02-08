@@ -13,5 +13,12 @@ MaxFilter
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> MaxFilter[hedy, 5]
-  = -Image-
+    =
+
+.. image:: tmpso49is7t.png
+    :align: center
+
+
+

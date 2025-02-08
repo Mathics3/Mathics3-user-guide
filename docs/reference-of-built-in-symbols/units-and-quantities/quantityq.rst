@@ -11,6 +11,16 @@ QuantityQ
 
 
 >>> QuantityQ[Quantity[3, "Meters"]]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> QuantityQ[Quantity[3, "Maters"]]
-  = False
+
+    Quantity::unkunit Unable to interpret unit specification Maters.
+    =
+
+:math:`\text{False}`
+
+

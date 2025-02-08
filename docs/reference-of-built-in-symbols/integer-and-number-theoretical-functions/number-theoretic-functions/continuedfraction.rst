@@ -14,8 +14,20 @@ ContinuedFraction
 
 
 >>> ContinuedFraction[Pi, 10]
-  = {3, 7, 15, 1, 292, 1, 1, 1, 2, 1}
+    =
+
+:math:`\left\{3,7,15,1,292,1,1,1,2,1\right\}`
+
+
 >>> ContinuedFraction[(1 + 2 Sqrt[3])/5]
-  = {0, 1, {8, 3, 34, 3}}
+    =
+
+:math:`\left\{0,1,\left\{8,3,34,3\right\}\right\}`
+
+
 >>> ContinuedFraction[Sqrt[70]]
-  = {8, {2, 1, 2, 1, 2, 16}}
+    =
+
+:math:`\left\{8,\left\{2,1,2,1,2,16\right\}\right\}`
+
+

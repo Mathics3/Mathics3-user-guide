@@ -12,8 +12,20 @@ Head
 
 
 >>> Head[a * b]
-  = Times
+    =
+
+:math:`\text{Times}`
+
+
 >>> Head[6]
-  = Integer
+    =
+
+:math:`\text{Integer}`
+
+
 >>> Head[x]
-  = Symbol
+    =
+
+:math:`\text{Symbol}`
+
+

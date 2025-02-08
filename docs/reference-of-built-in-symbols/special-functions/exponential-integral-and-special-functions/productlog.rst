@@ -17,18 +17,40 @@ ProductLog
 The defining equation:
 
 >>> z == ProductLog[z] * E ^ ProductLog[z]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Some special values:
 
 >>> ProductLog[0]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> ProductLog[E]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> ProductLog[-1.5]
-  = -0.0327837 + 1.54964 I
+    =
+
+:math:`-0.0327837+1.54964 I`
+
+
 
 The graph of :code:`ProductLog` :
 
 >>> Plot[ProductLog[x], {x, -1/E, E}]
-  = -Graphics-
+    =
+
+.. image:: tmpnfffvemz.png
+    :align: center
+
+
+

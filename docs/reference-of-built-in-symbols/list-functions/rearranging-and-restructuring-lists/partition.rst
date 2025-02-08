@@ -15,6 +15,14 @@ Partition
 
 
 >>> Partition[{a, b, c, d, e, f}, 2]
-  = {{a, b}, {c, d}, {e, f}}
+    =
+
+:math:`\left\{\left\{a,b\right\},\left\{c,d\right\},\left\{e,f\right\}\right\}`
+
+
 >>> Partition[{a, b, c, d, e, f}, 3, 1]
-  = {{a, b, c}, {b, c, d}, {c, d, e}, {d, e, f}}
+    =
+
+:math:`\left\{\left\{a,b,c\right\},\left\{b,c,d\right\},\left\{c,d,e\right\},\left\{d,e,f\right\}\right\}`
+
+

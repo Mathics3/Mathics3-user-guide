@@ -21,16 +21,32 @@ Total
 
 
 >>> Total[{1, 2, 3}]
-  = 6
+    =
+
+:math:`6`
+
+
 >>> Total[{{1, 2, 3}, {4, 5, 6}, {7, 8 ,9}}]
-  = {12, 15, 18}
+    =
+
+:math:`\left\{12,15,18\right\}`
+
+
 
 Total over rows and columns
 
 >>> Total[{{1, 2, 3}, {4, 5, 6}, {7, 8 ,9}}, 2]
-  = 45
+    =
+
+:math:`45`
+
+
 
 Total over rows instead of columns
 
 >>> Total[{{1, 2, 3}, {4, 5, 6}, {7, 8 ,9}}, {2}]
-  = {6, 15, 24}
+    =
+
+:math:`\left\{6,15,24\right\}`
+
+

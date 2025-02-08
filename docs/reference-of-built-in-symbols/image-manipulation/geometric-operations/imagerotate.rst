@@ -16,9 +16,28 @@ ImageRotate
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
 
+
 >>> ImageRotate[ein]
-  = -Image-
+    =
+
+.. image:: tmphl68svoq.png
+    :align: center
+
+
+
 >>> ImageRotate[ein, 45 Degree]
-  = -Image-
+    =
+
+.. image:: tmpsjn1g8n1.png
+    :align: center
+
+
+
 >>> ImageRotate[ein, Pi / 4]
-  = -Image-
+    =
+
+.. image:: tmps98n0f8l.png
+    :align: center
+
+
+

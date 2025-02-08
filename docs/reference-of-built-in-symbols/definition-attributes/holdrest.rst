@@ -12,4 +12,8 @@ HoldRest
 
 
 >>> Attributes[If]
-  = {HoldRest, Protected}
+    =
+
+:math:`\left\{\text{HoldRest},\text{Protected}\right\}`
+
+

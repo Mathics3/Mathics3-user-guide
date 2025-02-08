@@ -16,9 +16,14 @@ ImagePartition
 
 >>> hedy = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageDimensions[hedy]
-  = {646, 800}
+    =
+
+:math:`\left\{646,800\right\}`
+
+
 >>> ImagePartition[hedy, 256]
-  = {{-Image-, -Image-}, {-Image-, -Image-}, {-Image-, -Image-}}
+
 >>> ImagePartition[hedy, {512, 128}]
-  = {{-Image-}, {-Image-}, {-Image-}, {-Image-}, {-Image-}, {-Image-}}
+

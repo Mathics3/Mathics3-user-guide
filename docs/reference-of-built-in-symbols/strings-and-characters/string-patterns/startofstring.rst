@@ -14,7 +14,18 @@ StartOfString
 Test whether strings start with "a":
 
 >>> StringMatchQ[#, StartOfString ~~ "a" ~~ __] &/@ {"apple", "banana", "artichoke"}
-  = {True, False, True}
+    =
+
+:math:`\left\{\text{True},\text{False},\text{True}\right\}`
+
+
 >>> StringReplace["aba\nabb", StartOfString ~~ "a" -> "c"]
-  = cba
-    abb
+    =
+
+
+.. math::
+    \text{cba\newline
+    abb}
+
+
+

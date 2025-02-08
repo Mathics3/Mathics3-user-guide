@@ -12,6 +12,14 @@ CanberraDistance
 
 
 >>> CanberraDistance[-7, 5]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> CanberraDistance[{-1, -1}, {1, 1}]
-  = 2
+    =
+
+:math:`2`
+
+

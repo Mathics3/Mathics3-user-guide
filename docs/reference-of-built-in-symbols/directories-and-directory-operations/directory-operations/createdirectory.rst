@@ -15,8 +15,14 @@ CreateDirectory
 
 
 >>> dir = CreateDirectory[]
-  = ...
+    =
+
+:math:`\text{/tmp/mpasdyqwn}`
+
+
 >>> DirectoryQ[dir]
-  = True
+    = True`
+
 >>> DeleteDirectory[dir]
+    = `
 

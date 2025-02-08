@@ -14,6 +14,18 @@ LogPlot
 
 
 >>> LogPlot[x^x, {x, 1, 5}]
-  = -Graphics-
+    =
+
+.. image:: tmp5ww03hhh.png
+    :align: center
+
+
+
 >>> LogPlot[{x^x, Exp[x], x!}, {x, 1, 5}]
-  = -Graphics-
+    =
+
+.. image:: tmpw9v3hycb.png
+    :align: center
+
+
+

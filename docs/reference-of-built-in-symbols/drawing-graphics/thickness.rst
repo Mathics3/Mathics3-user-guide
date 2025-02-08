@@ -12,4 +12,10 @@ Thickness
 
 
 >>> Graphics[{Thickness[0.2], Line[{{0, 0}, {0, 5}}]}, Axes->True, PlotRange->{{-5, 5}, {-5, 5}}]
-  = -Graphics-
+    =
+
+.. image:: tmpiwym105l.png
+    :align: center
+
+
+

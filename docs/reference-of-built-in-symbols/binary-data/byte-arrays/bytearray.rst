@@ -15,14 +15,40 @@ ByteArray
 
 
 >>> A=ByteArray[{1, 25, 3}]
-  = ByteArray[<3>]
+    =
+
+:math:`\text{ByteArray}\left[\text{<3>}\right]`
+
+
 >>> A[[2]]
-  = 25
+    =
+
+:math:`25`
+
+
 >>> Normal[A]
-  = {1, 25, 3}
+    =
+
+:math:`\left\{1,25,3\right\}`
+
+
 >>> ToString[A]
-  = ByteArray[<3>]
+    =
+
+:math:`\text{ByteArray[<3>]}`
+
+
 >>> ByteArray["ARkD"]
-  = ByteArray[<3>]
+    =
+
+:math:`\text{ByteArray}\left[\text{<3>}\right]`
+
+
 >>> B=ByteArray["asy"]
-  = $Failed
+
+    ByteArray::lend The first argument in Bytearray[asy] should be a B64 encoded string or a vector of integers.
+    =
+
+:math:`\text{\$Failed}`
+
+

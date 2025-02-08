@@ -14,8 +14,24 @@ See also `Integer Overflow <https://en.wikipedia.org/wiki/Integer_overflow>`_.
 
 
 >>> Exp[10.*^20]
-  = Overflow[]
+
+    General::ovfl Overflow occurred in computation.
+    =
+
+:math:`\text{Overflow}\left[\right]`
+
+
 >>> Table[Exp[10.^k],{k, 3}]
-  = {22026.5, 2.68812×10^43, Overflow[]}
+
+    General::ovfl Overflow occurred in computation.
+    =
+
+:math:`\left\{22026.5,2.68812\text{*${}^{\wedge}$}43,\text{Overflow}\left[\right]\right\}`
+
+
 >>> 1 / Underflow[]
-  = Overflow[]
+    =
+
+:math:`\text{Overflow}\left[\right]`
+
+

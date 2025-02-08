@@ -12,8 +12,20 @@ Csc
 
 
 >>> Csc[0]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 >>> Csc[1] (* Csc[1] in Mathematica *)
-  = 1 / Sin[1]
+    =
+
+:math:`\frac{1}{\text{Sin}\left[1\right]}`
+
+
 >>> Csc[1.]
-  = 1.1884
+    =
+
+:math:`1.1884`
+
+

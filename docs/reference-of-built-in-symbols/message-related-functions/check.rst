@@ -17,11 +17,29 @@ Check
 Return err when a message is generated:
 
 >>> Check[1/0, err]
-  = err
+
+    Power::infy Infinite expression 1 / 0 encountered.
+    =
+
+:math:`\text{err}`
+
+
 
 Check only for specific messages:
 
 >>> Check[Sin[0^0], err, Sin::argx]
-  = Indeterminate
+
+    Power::indet Indeterminate expression 0 ^ 0 encountered.
+    =
+
+:math:`\text{Indeterminate}`
+
+
 >>> Check[1/0, err, Power::infy]
-  = err
+
+    Power::infy Infinite expression 1 / 0 encountered.
+    =
+
+:math:`\text{err}`
+
+

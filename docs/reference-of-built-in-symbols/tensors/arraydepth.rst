@@ -12,6 +12,14 @@ ArrayDepth
 
 
 >>> ArrayDepth[{{a,b},{c,d}}]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> ArrayDepth[x]
-  = 0
+    =
+
+:math:`0`
+
+

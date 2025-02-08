@@ -13,9 +13,19 @@ Remove
 
 >>> a := 2
 
->>> Names["Global`a"]
-  = {a}
->>> Remove[a]
 
 >>> Names["Global`a"]
-  = {}
+    =
+
+:math:`\left\{\text{a}\right\}`
+
+
+>>> Remove[a]
+
+
+>>> Names["Global`a"]
+    =
+
+:math:`\left\{\right\}`
+
+

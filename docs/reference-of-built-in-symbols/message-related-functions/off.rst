@@ -13,9 +13,19 @@ Off
 
 >>> Off[Power::infy]
 
+
 >>> 1 / 0
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 >>> Off[Power::indet, Syntax::com]
 
+
 >>> {0 ^ 0,}
-  = {Indeterminate, Null}
+    =
+
+:math:`\left\{\text{Indeterminate},\text{Null}\right\}`
+
+

@@ -12,6 +12,14 @@ LeftUpDownVector
 
 
 >>> LeftUpDownVector[x, y, z]
-  = x ⥑ y ⥑ z
+    =
+
+:math:`x \stackrel{\upharpoonleft}{\downharpoonleft} y \stackrel{\upharpoonleft}{\downharpoonleft} z`
+
+
 >>> a \[LeftUpDownVector] b
-  = a ⥑ b
+    =
+
+:math:`a \stackrel{\upharpoonleft}{\downharpoonleft} b`
+
+

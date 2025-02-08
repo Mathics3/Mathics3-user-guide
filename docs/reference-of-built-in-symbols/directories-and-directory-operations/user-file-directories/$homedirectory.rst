@@ -12,4 +12,8 @@ $HomeDirectory
 
 
 >>> $HomeDirectory
-  = ...
+    =
+
+:math:`\text{/home/mauricio}`
+
+

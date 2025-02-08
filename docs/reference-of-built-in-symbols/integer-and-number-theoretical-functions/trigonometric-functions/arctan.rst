@@ -12,10 +12,26 @@ Inverse tangent, `arctangent <https://en.wikipedia.org/wiki/Inverse_trigonometri
 
 
 >>> ArcTan[1]
-  = Pi / 4
+    =
+
+:math:`\frac{ \pi }{4}`
+
+
 >>> ArcTan[1.0]
-  = 0.785398
+    =
+
+:math:`0.785398`
+
+
 >>> ArcTan[-1.0]
-  = -0.785398
+    =
+
+:math:`-0.785398`
+
+
 >>> ArcTan[1, 1]
-  = Pi / 4
+    =
+
+:math:`\frac{ \pi }{4}`
+
+

@@ -18,6 +18,14 @@ The Beta function satisfies the property
 Beta[x, y] = Integrate[t^(x-1)(1-t)^(y-1),{t,0,1}] = Gamma[a] Gamma[b] / Gamma[a + b]
 
 >>> Beta[2, 3]
-  = 1 / 12
+    =
+
+:math:`\frac{1}{12}`
+
+
 >>> 12* Beta[1., 2, 3]
-  = 1.
+    =
+
+:math:`1.`
+
+

@@ -15,6 +15,14 @@ MapThread
 
 
 >>> MapThread[f, {{a, b, c}, {1, 2, 3}}]
-  = {f[a, 1], f[b, 2], f[c, 3]}
+    =
+
+:math:`\left\{f\left[a,1\right],f\left[b,2\right],f\left[c,3\right]\right\}`
+
+
 >>> MapThread[f, {{{a, b}, {c, d}}, {{e, f}, {g, h}}}, 2]
-  = {{f[a, e], f[b, f]}, {f[c, g], f[d, h]}}
+    =
+
+:math:`\left\{\left\{f\left[a,e\right],f\left[b,f\right]\right\},\left\{f\left[c,g\right],f\left[d,h\right]\right\}\right\}`
+
+

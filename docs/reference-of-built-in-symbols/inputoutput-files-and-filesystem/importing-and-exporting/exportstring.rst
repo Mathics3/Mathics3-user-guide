@@ -15,14 +15,32 @@ ExportString
 
 
 >>> ExportString[{{1,2,3,4},{3},{2},{4}}, "CSV"]
-  = 1,2,3,4
-    3,
-    2,
-    4,
+    =
+
+
+.. math::
+    \text{1,2,3,4\newline
+    3,\newline
+    2,\newline
+    4,}
+
+
+
 >>> ExportString[{1,2,3,4}, "CSV"]
-  = 1,
-    2,
-    3,
-    4,
+    =
+
+
+.. math::
+    \text{1,\newline
+    2,\newline
+    3,\newline
+    4,}
+
+
+
 >>> ExportString[Integrate[f[x],{x,0,2}], "SVG"]//Head
-  = String
+    =
+
+:math:`\text{String}`
+
+

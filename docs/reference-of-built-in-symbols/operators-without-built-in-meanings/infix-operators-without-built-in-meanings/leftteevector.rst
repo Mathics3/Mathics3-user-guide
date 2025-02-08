@@ -12,6 +12,14 @@ LeftTeeVector
 
 
 >>> LeftTeeVector[x, y, z]
-  = x ⥚ y ⥚ z
+    =
+
+:math:`x \leftharpoonup | y \leftharpoonup | z`
+
+
 >>> a \[LeftTeeVector] b
-  = a ⥚ b
+    =
+
+:math:`a \leftharpoonup | b`
+
+

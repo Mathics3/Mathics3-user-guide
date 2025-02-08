@@ -12,6 +12,14 @@ ShortUpArrow
 
 
 >>> ShortUpArrow[x, y, z]
-  = x ↑ y ↑ z
+    =
+
+:math:`x \uparrow y \uparrow z`
+
+
 >>> a \[ShortUpArrow] b
-  = a ↑ b
+    =
+
+:math:`a \uparrow b`
+
+

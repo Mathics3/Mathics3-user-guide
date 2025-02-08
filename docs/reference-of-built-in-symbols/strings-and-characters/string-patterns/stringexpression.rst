@@ -12,4 +12,8 @@ StringExpression
 
 
 >>> "a" ~~ "b" // FullForm
-  = "ab"
+    =
+
+:math:`\text{\`{}\`{}ab''}`
+
+

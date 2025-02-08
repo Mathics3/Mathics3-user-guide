@@ -27,9 +27,17 @@ Contexts
 Get a list of all contexts:
 
 >>> Contexts[]
-  = ...
+    =
+
+:math:`\left\{\text{HTML\`{}},\text{HTML\`{}Parser\`{}},\text{ImportExport\`{}},\text{Internal\`{}},\text{Pymathics\`{}},\text{Settings\`{}},\text{System\`{}},\text{System\`{}Convert\`{}Asy\`{}},\text{System\`{}Convert\`{}B64Dump\`{}},\text{System\`{}Convert\`{}Image\`{}},\text{System\`{}Convert\`{}JSONDump\`{}},\text{System\`{}Convert\`{}TableDump\`{}},\text{System\`{}Convert\`{}TextDump\`{}},\text{System\`{}ConvertersDump\`{}},\text{System\`{}Limit\`{}private\`{}},\text{System\`{}Private\`{}},\text{XML\`{}},\text{XML\`{}Parser\`{}},\text{internals\`{}bessel\`{}},\text{internals\`{}elements\`{}}\right\}`
+
+
 
 Get a list of HTML contexts only:
 
 >>> Contexts["HTML*"]
-  = {HTML`, HTML`Parser`}
+    =
+
+:math:`\left\{\text{HTML\`{}},\text{HTML\`{}Parser\`{}}\right\}`
+
+

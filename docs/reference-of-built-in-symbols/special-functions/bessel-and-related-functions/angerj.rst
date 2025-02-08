@@ -11,6 +11,16 @@ AngerJ
 
 
 >>> AngerJ[1.5, 3.5]
-  = 0.294479
+    =
+
+:math:`0.294479`
+
+
 >>> Plot[AngerJ[1, x], {x, -10, 10}]
-  = -Graphics-
+    =
+
+.. image:: tmpmcitslmn.png
+    :align: center
+
+
+

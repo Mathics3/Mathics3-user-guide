@@ -15,21 +15,41 @@ Factorial
 
 
 >>> 20!
-  = 2432902008176640000
+    =
+
+:math:`2432902008176640000`
+
+
 
 :code:`Factorial`  handles numeric (real and complex) values using the gamma function:
 
 >>> 10.5!
-  = 1.18994×10^7
+    =
+
+:math:`1.18994\text{*${}^{\wedge}$}7`
+
+
 >>> (-3.0+1.5*I)!
-  = 0.0427943 - 0.00461565 I
+    =
+
+:math:`0.0427943-0.00461565 I`
+
+
 
 However, the value at poles is :code:`ComplexInfinity` :
 
 >>> (-1.)!
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 
 :code:`Factorial`  has the same operator (:code:`!` ) as :code:`Not` , but with higher precedence:
 
 >>> !a! //FullForm
-  = Not[Factorial[a]]
+    =
+
+:math:`\text{Not}\left[\text{Factorial}\left[a\right]\right]`
+
+

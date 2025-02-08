@@ -12,10 +12,26 @@ ArcCoth
 
 
 >>> ArcCoth[0]
-  = I / 2 Pi
+    =
+
+:math:`\frac{I}{2}  \pi`
+
+
 >>> ArcCoth[1]
-  = Infinity
+    =
+
+:math:`\infty`
+
+
 >>> ArcCoth[0.0]
-  = 0. + 1.5708 I
+    =
+
+:math:`0.+1.5708 I`
+
+
 >>> ArcCoth[0.5]
-  = 0.549306 - 1.5708 I
+    =
+
+:math:`0.549306-1.5708 I`
+
+

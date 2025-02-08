@@ -12,19 +12,32 @@ Write
 
 
 >>> stream = OpenWrite[]
-  = ...
+    =
+
+:math:`\text{OutputStream}\left[\text{/tmp/tmpz7axdmoz},37\right]`
+
+
 >>> Write[stream, 10 x + 15 y ^ 2]
 
+
 >>> Write[stream, 3 Sin[z]]
+
 
 
 The stream must be closed in order to use the file again:
 
 >>> Close[stream];
 
+
 >>> stream = OpenRead[%];
 
+
 >>> ReadList[stream]
-  = {10 x + 15 y ^ 2, 3 Sin[z]}
+    =
+
+:math:`\left\{10 x+15 y^2,3 \text{Sin}\left[z\right]\right\}`
+
+
 >>> DeleteFile[Close[stream]];
+
 

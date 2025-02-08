@@ -13,17 +13,37 @@ Find
 
 >>> stream = OpenRead["ExampleData/EinsteinSzilLetter.txt", CharacterEncoding->"UTF8"];
 
+
 >>> Find[stream, "uranium"]
-  = in manuscript, leads me to expect that the element uranium may be turned into
+    =
+
+:math:`\text{in manuscript, leads me to expect that the element uranium may be turned into}`
+
+
 >>> Find[stream, "uranium"]
-  = become possible to set up a nuclear chain reaction in a large mass of uranium,
+    =
+
+:math:`\text{become possible to set up a nuclear chain reaction in a large mass of uranium,}`
+
+
 >>> Close[stream]
-  = ...
+    = ...`
+
 >>> stream = OpenRead["ExampleData/EinsteinSzilLetter.txt", CharacterEncoding->"UTF8"];
 
+
 >>> Find[stream, {"energy", "power"} ]
-  = a new and important source of energy in the immediate future. Certain aspects
+    =
+
+:math:`\text{a new and important source of energy in the immediate future. Certain aspects}`
+
+
 >>> Find[stream, {"energy", "power"} ]
-  = by which vast amounts of power and large quantities of new radium-like
+    =
+
+:math:`\text{by which vast amounts of power and large quantities of new radium-like}`
+
+
 >>> Close[stream]
-  = ...
+    = ...`
+

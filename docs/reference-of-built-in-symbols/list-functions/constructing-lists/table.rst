@@ -21,33 +21,74 @@ Table
 
 
 >>> Table[x, 3]
-  = {x, x, x}
+    =
+
+:math:`\left\{x,x,x\right\}`
+
+
 >>> n = 0; Table[n = n + 1, {5}]
-  = {1, 2, 3, 4, 5}
+    =
+
+:math:`\left\{1,2,3,4,5\right\}`
+
+
 >>> Clear[n]
+    = `
 
 >>> Table[i, {i, 4}]
-  = {1, 2, 3, 4}
+    =
+
+:math:`\left\{1,2,3,4\right\}`
+
+
 >>> Table[i, {i, 2, 5}]
-  = {2, 3, 4, 5}
+    =
+
+:math:`\left\{2,3,4,5\right\}`
+
+
 >>> Table[i, {i, 2, 6, 2}]
-  = {2, 4, 6}
+    =
+
+:math:`\left\{2,4,6\right\}`
+
+
 >>> Table[i, {i, Pi, 2 Pi, Pi / 2}]
-  = {Pi, 3 Pi / 2, 2 Pi}
+    =
+
+:math:`\left\{ \pi ,\frac{3  \pi }{2},2  \pi \right\}`
+
+
 >>> Table[x^2, {x, {a, b, c}}]
-  = {a ^ 2, b ^ 2, c ^ 2}
+    =
+
+:math:`\left\{a^2,b^2,c^2\right\}`
+
+
 
 :code:`Table`  supports multi-dimensional tables:
 
 >>> Table[{i, j}, {i, {a, b}}, {j, 1, 2}]
-  = {{{a, 1}, {a, 2}}, {{b, 1}, {b, 2}}}
+    =
+
+:math:`\left\{\left\{\left\{a,1\right\},\left\{a,2\right\}\right\},\left\{\left\{b,1\right\},\left\{b,2\right\}\right\}\right\}`
+
+
 
 Symbolic bounds:
 
 >>> Table[x, {x, a, a + 5 n, n}]
-  = {a, a + n, a + 2 n, a + 3 n, a + 4 n, a + 5 n}
+    =
+
+:math:`\left\{a,5+a,10+a,15+a,20+a,25+a\right\}`
+
+
 
 The lower bound is always included even for large step sizes:
 
 >>> Table[i, {i, 1, 9, Infinity}]
-  = {1}
+    =
+
+:math:`\left\{1\right\}`
+
+

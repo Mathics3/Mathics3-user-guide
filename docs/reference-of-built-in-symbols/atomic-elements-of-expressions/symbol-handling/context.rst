@@ -14,8 +14,20 @@ Context
 
 
 >>> Context[a]
-  = Global`
+    =
+
+:math:`\text{Global\`{}}`
+
+
 >>> Context[b`c]
-  = b`
+    =
+
+:math:`\text{b\`{}}`
+
+
 >>> InputForm[Context[]]
-  = "Global`"
+    =
+
+:math:`\text{\`{}\`{}Global\`{}''}`
+
+

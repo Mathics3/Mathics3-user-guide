@@ -14,6 +14,14 @@ LessEqual
 LessEqual operator can be chained:
 
 >>> LessEqual[1, 3, 3, 2]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> 1 <= 3 <= 3
-  = True
+    =
+
+:math:`\text{True}`
+
+

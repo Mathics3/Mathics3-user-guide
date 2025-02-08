@@ -12,4 +12,8 @@ QRDecomposition
 
 
 >>> QRDecomposition[{{1, 2}, {3, 4}, {5, 6}}]
-  = {{{Sqrt[35] / 35, 3 Sqrt[35] / 35, Sqrt[35] / 7}, {13 Sqrt[210] / 210, 2 Sqrt[210] / 105, -Sqrt[210] / 42}}, {{Sqrt[35], 44 Sqrt[35] / 35}, {0, 2 Sqrt[210] / 35}}}
+    =
+
+:math:`\left\{\left\{\left\{\frac{\sqrt{35}}{35},\frac{3 \sqrt{35}}{35},\frac{\sqrt{35}}{7}\right\},\left\{\frac{13 \sqrt{210}}{210},\frac{2 \sqrt{210}}{105},-\frac{\sqrt{210}}{42}\right\}\right\},\left\{\left\{\sqrt{35},\frac{44 \sqrt{35}}{35}\right\},\left\{0,\frac{2 \sqrt{210}}{35}\right\}\right\}\right\}`
+
+

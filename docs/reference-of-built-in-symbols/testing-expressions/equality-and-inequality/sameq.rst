@@ -29,29 +29,53 @@ SameQ
 Any object is the same as itself:
 
 >>> a === a
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Degenerate cases of :code:`SameQ`  showing off how you can chain :code:`===` :
 
 >>> SameQ[a] === SameQ[] === True
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Unlike :code:`Equal` , :code:`SameQ`  only yields :code:`True`  if :math:`x` and :math:`y` have the same type:
 
 >>> {1==1., 1===1.}
-  = {True, False}
+    =
+
+:math:`\left\{\text{True},\text{False}\right\}`
+
+
 >>> 2./9. === .2222222222222222`15.9546
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 The comparison consider just the lowest precision
 
 >>> .2222222`6 === .2222`3
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Notice the extra decimal in the rhs. Because the internal representation,
 :math:`0.222`3` is not equivalent to :math:`0.2222`3`:
 
 >>> .2222222`6 === .222`3
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 15.9546 is the value of :code:`$MaxPrecision` 

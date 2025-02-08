@@ -21,18 +21,38 @@ Blank
 
 
 >>> MatchQ[a + b, _]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 
 Patterns of the form :code:`_` :math:`h` can be used to test the types of     objects:
 
 >>> MatchQ[42, _Integer]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> MatchQ[1.0, _Integer]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> {42, 1.0, x} /. {_Integer -> "integer", _Real -> "real"} // InputForm
-  = {"integer", "real", x}
+    =
+
+:math:`\left\{\text{\`{}\`{}integer''}, \text{\`{}\`{}real''}, x\right\}`
+
+
 
 :code:`Blank`  only matches a single expression:
 
 >>> MatchQ[f[1, 2], f[_]]
-  = False
+    =
+
+:math:`\text{False}`
+
+

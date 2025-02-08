@@ -11,8 +11,17 @@ ValueQ
 
 
 >>> ValueQ[x]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> x = 1;
 
+
 >>> ValueQ[x]
-  = True
+    =
+
+:math:`\text{True}`
+
+

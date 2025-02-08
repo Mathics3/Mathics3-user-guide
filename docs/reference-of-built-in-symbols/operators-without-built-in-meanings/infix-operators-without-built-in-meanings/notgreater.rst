@@ -12,6 +12,14 @@ NotGreater
 
 
 >>> NotGreater[x, y, z]
-  = x ≯ y ≯ z
+    =
+
+:math:`x \ngtr y \ngtr z`
+
+
 >>> a \[NotGreater] b
-  = a ≯ b
+    =
+
+:math:`a \ngtr b`
+
+

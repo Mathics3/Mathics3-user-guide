@@ -18,21 +18,43 @@ The option values can be accessed using :code:`OptionValue` .
 
 >>> f[x_, OptionsPattern[{n->2}]] := x ^ OptionValue[n]
 
+
 >>> f[x]
-  = x ^ 2
+    =
+
+:math:`x^2`
+
+
 >>> f[x, n->3]
-  = x ^ 3
+    =
+
+:math:`x^3`
+
+
 
 Delayed rules as options:
 
 >>> e = f[x, n:>a]
-  = x ^ a
+    =
+
+:math:`x^a`
+
+
 >>> a = 5;
 
+
 >>> e
-  = x ^ 5
+    =
+
+:math:`x^5`
+
+
 
 Options might be given in nested lists:
 
 >>> f[x, {{{n->4}}}]
-  = x ^ 4
+    =
+
+:math:`x^4`
+
+

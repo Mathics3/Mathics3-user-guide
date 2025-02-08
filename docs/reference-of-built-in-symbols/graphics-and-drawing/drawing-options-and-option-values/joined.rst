@@ -12,4 +12,10 @@ Joined
 
 
 >>> ListPlot[Table[n ^ 2, {n, 10}], Joined->True]
-  = -Graphics-
+    =
+
+.. image:: tmp6zbpqnql.png
+    :align: center
+
+
+

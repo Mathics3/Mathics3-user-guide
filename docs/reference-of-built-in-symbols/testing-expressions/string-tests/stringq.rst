@@ -11,8 +11,20 @@ StringQ
 
 
 >>> StringQ["abc"]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> StringQ[1.5]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> Select[{"12", 1, 3, 5, "yz", x, y}, StringQ]
-  = {12, yz}
+    =
+
+:math:`\left\{\text{12},\text{yz}\right\}`
+
+

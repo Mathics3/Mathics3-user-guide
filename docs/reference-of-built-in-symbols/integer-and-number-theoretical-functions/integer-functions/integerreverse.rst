@@ -15,8 +15,20 @@ IntegerReverse
 
 
 >>> IntegerReverse[1234]
-  = 4321
+    =
+
+:math:`4321`
+
+
 >>> IntegerReverse[1022, 2]
-  = 511
+    =
+
+:math:`511`
+
+
 >>> IntegerReverse[-123]
-  = 321
+    =
+
+:math:`321`
+
+

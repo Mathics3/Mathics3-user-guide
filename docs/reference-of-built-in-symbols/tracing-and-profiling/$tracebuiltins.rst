@@ -15,26 +15,43 @@ In contrast to :code:`TraceBuiltins[]`  statistics are accumulated and over seve
 By default, this setting is False.
 
 >>> $TraceBuiltins = True
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> $TraceBuiltins = False
-  = False
+    = False`
+
 
 Tracing is enabled, so the expressions entered and evaluated will have statistics collected for the evaluations.
 
 >>> x
-  = x
+    =
+
+:math:`x`
+
+
 
 To print the statistics collected, use :code:`PrintTrace[]` :
 
 >>> PrintTrace[]
+    = `
 
 
 To  clear statistics collected use :code:`ClearTrace[]` :
 
 >>> ClearTrace[]
+    = `
 
 
 :code:`$TraceBuiltins`   cannot be set to a non-boolean value.
 
 >>> $TraceBuiltins = x
-  = x
+
+    $TraceBuiltins::bool x should be True or False.
+    =
+
+:math:`x`
+
+

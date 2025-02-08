@@ -19,11 +19,23 @@ Points are rendered if possible as circular regions. Their diameters can be spec
 Points can be specified as {:math:`x`, :math:`y`}:
 
 >>> Graphics[Point[{0, 0}]]
-  = -Graphics-
+    =
+
+.. image:: tmpjdqvf1qm.png
+    :align: center
+
+
+
 >>> Graphics[Point[Table[{Sin[t], Cos[t]}, {t, 0, 2. Pi, Pi / 15.}]]]
-  = -Graphics-
+    =
+
+.. image:: tmptl2g0lzd.png
+    :align: center
+
+
+
 
 or as {:math:`x`, :math:`y`, :math:`z`}:
 
 >>> Graphics3D[{Orange, PointSize[0.05], Point[Table[{Sin[t], Cos[t], 0}, {t, 0, 2 Pi, Pi / 15.}]]}]
-  = -Graphics3D-
+

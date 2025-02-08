@@ -16,23 +16,49 @@ Skip
 
 >>> stream = StringToStream["a b c d"];
 
->>> Read[stream, Word]
-  = a
->>> Skip[stream, Word]
 
 >>> Read[stream, Word]
-  = c
+    =
+
+:math:`\text{a}`
+
+
+>>> Skip[stream, Word]
+
+
+>>> Read[stream, Word]
+    =
+
+:math:`\text{c}`
+
+
 >>> Close[stream];
+    = `
 
 >>> stream = StringToStream["a b c d"];
 
->>> Read[stream, Word]
-  = a
->>> Skip[stream, Word, 2]
 
 >>> Read[stream, Word]
-  = d
+    =
+
+:math:`\text{a}`
+
+
+>>> Skip[stream, Word, 2]
+
+
+>>> Read[stream, Word]
+    =
+
+:math:`\text{d}`
+
+
 >>> Skip[stream, Word]
-  = EndOfFile
+    =
+
+:math:`\text{EndOfFile}`
+
+
 >>> Close[stream];
+    = `
 

@@ -5,6 +5,8 @@ In integral calculus, an `elliptic integral <https://en.wikipedia.org/wiki/Ellip
 
 These functions often are used in cryptography to encode and decode messages.
 
+See also `Chapter 19 Elliptic Integrals in the Digital Library of Mathematical Functions <https://dlmf.nist.gov/19>`_.
+
 .. toctree::
     :maxdepth: 2
 

@@ -17,21 +17,45 @@ A polar coordinate system is a two-dimensional coordinate system in which     ea
 Here is a 5-blade propeller, or maybe a flower, using :code:`PolarPlot` :
 
 >>> PolarPlot[Cos[5t], {t, 0, Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmppi9ebnit.png
+    :align: center
+
+
+
 
 The number of blades and be change by adjusting the :math:`t` multiplier.
 
 A slight change adding :code:`Abs`  turns this a clump of grass:
 
 >>> PolarPlot[Abs[Cos[5t]], {t, 0, Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmpd4jdugo0.png
+    :align: center
+
+
+
 
 Coils around a ring:
 
 >>> PolarPlot[{1, 1 + Sin[20 t] / 5}, {t, 0, 2 Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmp37lo9bk6.png
+    :align: center
+
+
+
 
 A spring having 16 turns:
 
 >>> PolarPlot[Sqrt[t], {t, 0, 16 Pi}]
-  = -Graphics-
+    =
+
+.. image:: tmpuuq596ib.png
+    :align: center
+
+
+

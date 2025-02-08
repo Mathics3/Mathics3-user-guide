@@ -11,11 +11,25 @@ Gudermannian
 
 
 >>> Gudermannian[4.2]
-  = 1.54081
+    =
+
+:math:`1.54081`
+
+
 
 :code:`Gudermannian[-:math:`z`]`  == - :code:`Gudermannian[:math:`z`]` :
 
 >>> Gudermannian[-4.2] ==  -Gudermannian[4.2]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> Plot[Gudermannian[x], {x, -10, 10}]
-  = -Graphics-
+    =
+
+.. image:: tmpeko4tw56.png
+    :align: center
+
+
+

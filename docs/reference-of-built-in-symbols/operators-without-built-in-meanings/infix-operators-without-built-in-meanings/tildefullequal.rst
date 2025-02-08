@@ -12,6 +12,14 @@ TildeFullEqual
 
 
 >>> TildeFullEqual[x, y, z]
-  = x ≅ y ≅ z
+    =
+
+:math:`x \cong y \cong z`
+
+
 >>> a \[TildeFullEqual] b
-  = a ≅ b
+    =
+
+:math:`a \cong b`
+
+

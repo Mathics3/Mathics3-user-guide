@@ -15,10 +15,19 @@ A symbol with the :code:`Flat`  attribute represents an associative     mathemat
 
 >>> SetAttributes[f, Flat]
 
+
 >>> f[a, f[b, c]]
-  = f[a, b, c]
+    =
+
+:math:`f\left[a,b,c\right]`
+
+
 
 :code:`Flat`  is taken into account in pattern matching:
 
 >>> f[a, b, c] /. f[a, b] -> d
-  = f[d, c]
+    =
+
+:math:`f\left[d,c\right]`
+
+

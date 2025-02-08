@@ -12,8 +12,20 @@ IntegerExponent
 
 
 >>> IntegerExponent[16, 2]
-  = 4
+    =
+
+:math:`4`
+
+
 >>> IntegerExponent[-510000]
-  = 4
+    =
+
+:math:`4`
+
+
 >>> IntegerExponent[10, b]
-  = IntegerExponent[10, b]
+    =
+
+:math:`\text{IntegerExponent}\left[10,b\right]`
+
+

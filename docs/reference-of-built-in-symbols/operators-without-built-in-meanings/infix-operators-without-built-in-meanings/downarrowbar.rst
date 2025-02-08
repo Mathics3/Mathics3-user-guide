@@ -12,6 +12,14 @@ DownArrowBar
 
 
 >>> DownArrowBar[x, y, z]
-  = x ⤓ y ⤓ z
+    =
+
+:math:`x \underline{\downarrow} y \underline{\downarrow} z`
+
+
 >>> a \[DownArrowBar] b
-  = a ⤓ b
+    =
+
+:math:`a \underline{\downarrow} b`
+
+

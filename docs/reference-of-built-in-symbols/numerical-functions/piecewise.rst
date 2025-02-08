@@ -17,17 +17,43 @@ Piecewise
 Heaviside function
 
 >>> Piecewise[{{0, x <= 0}}, 1]
-  = Piecewise[{{0, x <= 0}}, 1]
+    =
+
+:math:`\text{Piecewise}\left[\left\{\left\{0,x\text{<=}0\right\}\right\},1\right]`
+
+
 >>> Integrate[Piecewise[{{1, x <= 0}, {-1, x > 0}}], x]
-  = Piecewise[{{x, x <= 0}}, -x]
+    =
+
+:math:`\text{Piecewise}\left[\left\{\left\{x,x\text{<=}0\right\}\right\},-x\right]`
+
+
 >>> Integrate[Piecewise[{{1, x <= 0}, {-1, x > 0}}], {x, -1, 2}]
-  = -1
+    =
+
+:math:`-1`
+
+
 
 Piecewise defaults to 0 if no other case is matching.
 
 >>> Piecewise[{{1, False}}]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Plot[Piecewise[{{Log[x], x > 0}, {x*-0.5, x < 0}}], {x, -1, 1}]
-  = -Graphics-
+    =
+
+.. image:: tmpgvbrhox6.png
+    :align: center
+
+
+
 >>> Piecewise[{{0 ^ 0, False}}, -1]
-  = -1
+    =
+
+:math:`-1`
+
+

@@ -12,6 +12,14 @@ RepeatedNull
 
 
 >>> a___Integer...//FullForm
-  = RepeatedNull[Pattern[a, BlankNullSequence[Integer]]]
+    =
+
+:math:`\text{RepeatedNull}\left[\text{Pattern}\left[a, \text{BlankNullSequence}\left[\text{Integer}\right]\right]\right]`
+
+
 >>> f[x] /. f[x, 0...] -> t
-  = t
+    =
+
+:math:`t`
+
+

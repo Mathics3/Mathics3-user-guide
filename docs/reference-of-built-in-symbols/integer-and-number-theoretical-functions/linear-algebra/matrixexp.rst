@@ -12,6 +12,14 @@ MatrixExp
 
 
 >>> MatrixExp[{{0, 2}, {0, 1}}]
-  = {{1, -2 + 2 E}, {0, E}}
+    =
+
+:math:`\left\{\left\{1,-2+2 E\right\},\left\{0,E\right\}\right\}`
+
+
 >>> MatrixExp[{{1.5, 0.5}, {0.5, 2.0}}]
-  = {{5.16266, 3.02952}, {3.02952, 8.19218}}
+    =
+
+:math:`\left\{\left\{5.16266,3.02952\right\},\left\{3.02952,8.19218\right\}\right\}`
+
+

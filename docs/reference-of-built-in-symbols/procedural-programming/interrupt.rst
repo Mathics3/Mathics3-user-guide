@@ -12,4 +12,10 @@ Interrupt
 
 
 >>> Print["a"]; Interrupt[]; Print["b"]
-  = $Aborted
+
+    a
+    =
+
+:math:`\text{\$Aborted}`
+
+

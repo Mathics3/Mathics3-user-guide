@@ -13,7 +13,13 @@ Break
 
 >>> n = 0;
 
+
 >>> While[True, If[n>10, Break[]]; n=n+1]
 
+
 >>> n
-  = 11
+    =
+
+:math:`11`
+
+

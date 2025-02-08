@@ -12,10 +12,20 @@ DeleteDirectory
 
 
 >>> dir = CreateDirectory[]
-  = ...
+    =
+
+:math:`\text{/tmp/mva6xkff0}`
+
+
 >>> DeleteDirectory[dir]
 
+
 >>> DirectoryQ[dir]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> Quiet[DeleteDirectory[dir]]
-  = $Failed
+    = $Failed`
+

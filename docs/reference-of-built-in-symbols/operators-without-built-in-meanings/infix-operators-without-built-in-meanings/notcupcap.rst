@@ -12,6 +12,14 @@ NotCupCap
 
 
 >>> NotCupCap[x, y, z]
-  = x ≭ y ≭ z
+    =
+
+:math:`x \not{\stackrel{\smile}{\frown}} y \not{\stackrel{\smile}{\frown}} z`
+
+
 >>> a \[NotCupCap] b
-  = a ≭ b
+    =
+
+:math:`a \not{\stackrel{\smile}{\frown}} b`
+
+

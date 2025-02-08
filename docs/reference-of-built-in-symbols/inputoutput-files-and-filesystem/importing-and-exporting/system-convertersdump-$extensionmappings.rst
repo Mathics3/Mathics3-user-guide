@@ -12,4 +12,8 @@ System`ConvertersDump`$ExtensionMappings
 The format associated to the extension "*.jpg"
 
 >>> "*.jpg"/. System`ConvertersDump`$ExtensionMappings
-  = JPEG
+    =
+
+:math:`\text{JPEG}`
+
+

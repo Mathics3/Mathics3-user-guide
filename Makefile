@@ -12,6 +12,8 @@ all: user-docs
 
 #: Build developer guide
 user-docs: setup
+	$(PYTHON) -m mathics.docpipeline --output --keep-going $(MATHICS3_MODULE_OPTION)
+	$(PYTHON) generate/testdata.py
 	$(PYTHON) generate/doc2rst.py $(MATHICS3_MODULE_OPTION)
 	$(MAKE) -C docs html latexpdf
 

@@ -12,6 +12,14 @@ LessLess
 
 
 >>> LessLess[x, y, z]
-  = x ≪ y ≪ z
+    =
+
+:math:`x \ll y \ll z`
+
+
 >>> a \[LessLess] b
-  = a ≪ b
+    =
+
+:math:`a \ll b`
+
+

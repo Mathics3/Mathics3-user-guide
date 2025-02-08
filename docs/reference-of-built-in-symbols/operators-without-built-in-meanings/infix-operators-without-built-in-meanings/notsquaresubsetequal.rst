@@ -12,6 +12,14 @@ NotSquareSubsetEqual
 
 
 >>> NotSquareSubsetEqual[x, y, z]
-  = x ⋢ y ⋢ z
+    =
+
+:math:`x \not{\sqsubseteq} y \not{\sqsubseteq} z`
+
+
 >>> a \[NotSquareSubsetEqual] b
-  = a ⋢ b
+    =
+
+:math:`a \not{\sqsubseteq} b`
+
+

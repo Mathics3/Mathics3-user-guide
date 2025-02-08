@@ -12,4 +12,8 @@ $CharacterEncodings
 
 
 >>> $CharacterEncodings[[;;9]]
-  = ...
+    =
+
+:math:`\left\{\text{ASCII},\text{CP949},\text{CP950},\text{EUC-JP},\text{IBM-850},\text{ISOLatin1},\text{ISOLatin2},\text{ISOLatin3},\text{ISOLatin4}\right\}`
+
+

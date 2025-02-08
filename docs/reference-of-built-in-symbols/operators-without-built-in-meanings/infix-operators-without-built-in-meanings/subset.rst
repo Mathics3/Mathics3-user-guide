@@ -12,6 +12,14 @@ Subset
 
 
 >>> Subset[x, y, z]
-  = x ⊂ y ⊂ z
+    =
+
+:math:`x \subset y \subset z`
+
+
 >>> a \[Subset] b
-  = a ⊂ b
+    =
+
+:math:`a \subset b`
+
+

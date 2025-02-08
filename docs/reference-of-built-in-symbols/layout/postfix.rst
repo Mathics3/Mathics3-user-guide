@@ -12,11 +12,23 @@ Postfix
 
 
 >>> b // a
-  = a[b]
+    =
+
+:math:`a\left[b\right]`
+
+
 >>> c // b // a
-  = a[b[c]]
+    =
+
+:math:`a\left[b\left[c\right]\right]`
+
+
 
 The postfix operator :code:`//`  is parsed to an expression before evaluation:
 
 >>> Hold[x // a // b // c // d // e // f]
-  = Hold[f[e[d[c[b[a[x]]]]]]]
+    =
+
+:math:`\text{Hold}\left[f\left[e\left[d\left[c\left[b\left[a\left[x\right]\right]\right]\right]\right]\right]\right]`
+
+

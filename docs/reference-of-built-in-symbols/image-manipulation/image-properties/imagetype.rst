@@ -13,9 +13,19 @@ ImageType
 
 >>> img = Import["ExampleData/hedy.tif"];
 
+
 >>> ImageType[img]
-  = Byte
+    =
+
+:math:`\text{Byte}`
+
+
 >>> ImageType[Image[{{0, 1}, {1, 0}}]]
-  = Real
+    =
+
+:math:`\text{Real}`
+
+
 >>> ImageType[Binarize[img]]
-  = Bit
+    = Bit`
+

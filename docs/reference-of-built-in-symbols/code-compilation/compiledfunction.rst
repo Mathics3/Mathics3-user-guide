@@ -12,8 +12,16 @@ CompiledFunction
 
 
 >>> sqr = Compile[{x}, x x]
-  = CompiledFunction[{x}, x ^ 2, ...]
+
 >>> Head[sqr]
-  = CompiledFunction
+    =
+
+:math:`\text{CompiledFunction}`
+
+
 >>> sqr[2]
-  = 4.
+    =
+
+:math:`4.`
+
+

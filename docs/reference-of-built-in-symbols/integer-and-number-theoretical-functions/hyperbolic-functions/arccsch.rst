@@ -12,6 +12,14 @@ ArcCsch
 
 
 >>> ArcCsch[0]
-  = ComplexInfinity
+    =
+
+:math:`\text{ComplexInfinity}`
+
+
 >>> ArcCsch[1.0]
-  = 0.881374
+    =
+
+:math:`0.881374`
+
+

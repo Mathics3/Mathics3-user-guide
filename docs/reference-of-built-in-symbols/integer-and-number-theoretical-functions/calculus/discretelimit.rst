@@ -12,6 +12,14 @@ DiscreteLimit
 
 
 >>> DiscreteLimit[n/(n + 1), n -> Infinity]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> DiscreteLimit[f[n], n -> Infinity]
-  = f[Infinity]
+    =
+
+:math:`f\left[\infty \right]`
+
+

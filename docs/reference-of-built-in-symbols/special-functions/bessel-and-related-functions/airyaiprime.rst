@@ -13,9 +13,25 @@ Derivative of Airy function (`Sympy <https://docs.sympy.org/latest/modules/funct
 Exact values:
 
 >>> AiryAiPrime[0]
-  = -3 ^ (2 / 3) / (3 Gamma[1 / 3])
+    =
+
+:math:`-\frac{3^{\frac{2}{3}}}{3 \text{Gamma}\left[\frac{1}{3}\right]}`
+
+
 
 Numeric evaluation:
 
 >>> AiryAiPrime[0.5]
-  = -0.224911
+    =
+
+:math:`-0.224911`
+
+
+>>> Plot[AiryAiPrime[x], {x, -10, 10}]
+    =
+
+.. image:: tmprzz3vllc.png
+    :align: center
+
+
+

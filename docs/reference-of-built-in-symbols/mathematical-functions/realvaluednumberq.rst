@@ -12,17 +12,41 @@ RealValuedNumberQ
 
 
 >>> RealValuedNumberQ[10]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> RealValuedNumberQ[4.0]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> RealValuedNumberQ[1+I]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 >>> RealValuedNumberQ[0 * I]
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> RealValuedNumberQ[0.0 * I]
-  = False
+    =
+
+:math:`\text{False}`
+
+
 
 "Underflow[]" and "Overflow[]" are considered Real valued numbers:
 
 >>> {RealValuedNumberQ[Underflow[]], RealValuedNumberQ[Overflow[]]}
-  = {True, True}
+    =
+
+:math:`\left\{\text{True},\text{True}\right\}`
+
+

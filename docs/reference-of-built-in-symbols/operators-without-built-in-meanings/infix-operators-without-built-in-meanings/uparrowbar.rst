@@ -12,6 +12,14 @@ UpArrowBar
 
 
 >>> UpArrowBar[x, y, z]
-  = x ⤒ y ⤒ z
+    =
+
+:math:`x \bar{\uparrow} y \bar{\uparrow} z`
+
+
 >>> a \[UpArrowBar] b
-  = a ⤒ b
+    =
+
+:math:`a \bar{\uparrow} b`
+
+

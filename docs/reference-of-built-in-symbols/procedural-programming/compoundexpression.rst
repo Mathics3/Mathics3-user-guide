@@ -15,9 +15,14 @@ CompoundExpression
 
 
 >>> a; b; c; d
-  = d
+    =
+
+:math:`d`
+
+
 
 If the last argument is omitted, :code:`Null`  is taken:
 
 >>> a;
+
 

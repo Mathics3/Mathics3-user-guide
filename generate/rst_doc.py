@@ -204,14 +204,43 @@ class RsTDocTest(DocTest):
         """
         Return a RsT representation of the test
         """
-        result = ">>> " + self.test + "\n"
+        formatted_test = ">>> " + self.test + "\n"
         test_result = self.result
+        output_for_key = test_data.get(self.key, None) if self.key else None
+#        output_for_key = None
+        if output_for_key:                             
+            result_content_list = output_for_key["results"]
+            
+            if len(result_content_list)==0:
+                return formatted_test
+            
+            assert len(result_content_list)==1
+            for out_msg in result_content_list[0]["out"]:
+                if isinstance(out_msg, dict):
+                    if "prefix" in out_msg:
+                        formatted_test += f"\n    %s %s" % (out_msg["prefix"], out_msg["text"])+"\n"
+                    else:
+                        formatted_test += f"\n    %s" % (out_msg["text"])+"\n"
+                    continue
+                formatted_test += "    " + "\n    ".join(out_msg)+"\n"
+
+            result_content = result_content_list[0]["result"]
+            if result_content is None:
+                return formatted_test + "\n"
+            test_result = '    =\n\n' + result_content + "\n"
+        else:
+            # We are using OutputForm results. Process as text.
+            lines = test_result.split("\n")
+            if len(lines)>1:
+                test_result = '    = ' + "\n    ".join(lines) + "\n"
+            else:
+                test_result = '    = ' + test_result + "`\n"
         if test_result == "":
             return result
 
-        result += "  = " + "\n    ".join(line for line in test_result.split("\n"))
-        # TODO, use the result stored in test_data.
-        return result
+        formatted_test += test_result
+
+        return formatted_test
 
 
 class RsTDocTests(DocTests):
@@ -254,7 +283,6 @@ class RsTDocText(DocText):
             # substitutions
             src = match.group("src")
             result = """.. image:: %s\n""" % (osp.join(DOC_DIR,"..","latex","images", src.strip()),)
-            print("img ",result)
             return result
 
         text, post_substitutions = pre_sub(
@@ -364,7 +392,6 @@ class RsTDocText(DocText):
             lines = content.split("\n")
             if len(lines)>1:
                 content = f"\n{4*' '}"+f"\n{4*' '}".join(lines)
-                print("content:", content)
                 return ".. code-block: console%s\n\n" % content
             return " :code:`%s` " % content
 

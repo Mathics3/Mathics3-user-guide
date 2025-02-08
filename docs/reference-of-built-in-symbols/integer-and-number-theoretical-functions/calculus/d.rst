@@ -23,53 +23,113 @@ D
 First-order derivative of a polynomial:
 
 >>> D[x^3 + x^2, x]
-  = 2 x + 3 x ^ 2
+    =
+
+:math:`2 x+3 x^2`
+
+
 
 Second-order derivative:
 
 >>> D[x^3 + x^2, {x, 2}]
-  = 2 + 6 x
+    =
+
+:math:`2+6 x`
+
+
 
 Trigonometric derivatives:
 
 >>> D[Sin[Cos[x]], x]
-  = -Cos[Cos[x]] Sin[x]
+    =
+
+:math:`-\text{Cos}\left[\text{Cos}\left[x\right]\right] \text{Sin}\left[x\right]`
+
+
 >>> D[Sin[x], {x, 2}]
-  = -Sin[x]
+    =
+
+:math:`-\text{Sin}\left[x\right]`
+
+
 >>> D[Cos[t], {t, 2}]
-  = -Cos[t]
+    =
+
+:math:`-\text{Cos}\left[t\right]`
+
+
 
 Unknown variables are treated as constant:
 
 >>> D[y, x]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> D[x, x]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> D[x + y, x]
-  = 1
+    =
+
+:math:`1`
+
+
 
 Derivatives of unknown functions are represented using :code:`Derivative` :
 
 >>> D[f[x], x]
-  = f'[x]
+    =
+
+:math:`f'\left[x\right]`
+
+
 >>> D[f[x, x], x]
-  = Derivative[0, 1][f][x, x] + Derivative[1, 0][f][x, x]
+    =
+
+:math:`f^{\left(0,1\right)}\left[x,x\right]+f^{\left(1,0\right)}\left[x,x\right]`
+
+
 >>> D[f[x, x], x] // InputForm
-  = Derivative[0, 1][f][x, x] + Derivative[1, 0][f][x, x]
+    =
+
+:math:`\text{Derivative}\left[0, 1\right]\left[f\right]\left[x, x\right]\text{ + }\text{Derivative}\left[1, 0\right]\left[f\right]\left[x, x\right]`
+
+
 
 Chain rule:
 
 >>> D[f[2x+1, 2y, x+y], x]
-  = 2 Derivative[1, 0, 0][f][1 + 2 x, 2 y, x + y] + Derivative[0, 0, 1][f][1 + 2 x, 2 y, x + y]
+    =
+
+:math:`2 f^{\left(1,0,0\right)}\left[1+2 x,2 y,x+y\right]+f^{\left(0,0,1\right)}\left[1+2 x,2 y,x+y\right]`
+
+
 >>> D[f[x^2, x, 2y], {x,2}, y] // Expand
-  = 8 x Derivative[1, 1, 1][f][x ^ 2, x, 2 y] + 8 x ^ 2 Derivative[2, 0, 1][f][x ^ 2, x, 2 y] + 2 Derivative[0, 2, 1][f][x ^ 2, x, 2 y] + 4 Derivative[1, 0, 1][f][x ^ 2, x, 2 y]
+    =
+
+:math:`8 x f^{\left(1,1,1\right)}\left[x^2,x,2 y\right]+8 x^2 f^{\left(2,0,1\right)}\left[x^2,x,2 y\right]+2 f^{\left(0,2,1\right)}\left[x^2,x,2 y\right]+4 f^{\left(1,0,1\right)}\left[x^2,x,2 y\right]`
+
+
 
 Compute the gradient vector of a function:
 
 >>> D[x ^ 3 * Cos[y], {{x, y}}]
-  = {3 x ^ 2 Cos[y], -x ^ 3 Sin[y]}
+    =
+
+:math:`\left\{3 x^2 \text{Cos}\left[y\right],-x^3 \text{Sin}\left[y\right]\right\}`
+
+
 
 Hesse matrix:
 
 >>> D[Sin[x] * Cos[y], {{x,y}, 2}]
-  = {{-Cos[y] Sin[x], -Cos[x] Sin[y]}, {-Cos[x] Sin[y], -Cos[y] Sin[x]}}
+    =
+
+:math:`\left\{\left\{-\text{Cos}\left[y\right] \text{Sin}\left[x\right],-\text{Cos}\left[x\right] \text{Sin}\left[y\right]\right\},\left\{-\text{Cos}\left[x\right] \text{Sin}\left[y\right],-\text{Cos}\left[y\right] \text{Sin}\left[x\right]\right\}\right\}`
+
+

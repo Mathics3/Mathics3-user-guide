@@ -12,6 +12,14 @@ Because
 
 
 >>> Because[x, y, z]
-  = x ∵ y ∵ z
+    =
+
+:math:`x \because y \because z`
+
+
 >>> a \[Because] b
-  = a ∵ b
+    =
+
+:math:`a \because b`
+
+

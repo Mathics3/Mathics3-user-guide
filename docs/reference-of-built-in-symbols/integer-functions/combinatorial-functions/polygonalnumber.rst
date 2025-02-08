@@ -14,18 +14,30 @@ PolygonalNumber
 
 
 >>> Table[PolygonalNumber[n], {n, 10}]
-  = {1, 3, 6, 10, 15, 21, 28, 36, 45, 55}
+    =
+
+:math:`\left\{1,3,6,10,15,21,28,36,45,55\right\}`
+
+
 
 The sum of two consecutive Polygonal numbers is the square of the larger number:
 
 >>> Table[PolygonalNumber[n-1] + PolygonalNumber[n], {n, 10}]
-  = {1, 4, 9, 16, 25, 36, 49, 64, 81, 100}
+    =
+
+:math:`\left\{1,4,9,16,25,36,49,64,81,100\right\}`
+
+
 
 :code:`PolygonalNumber` [:math:`r`, :math:`n`] can be interpreted as the number of points arranged in the form of :math:`n`-1 polygons of :math:`r` sides.
 
 List the tenth :math:`r`-gonal number of regular polygons from 3 to 8:
 
 >>> Table[PolygonalNumber[r, 10], {r, 3, 8}]
-  = {55, 100, 145, 190, 235, 280}
+    =
+
+:math:`\left\{55,100,145,190,235,280\right\}`
+
+
 
 See also `Binomial </doc/reference-of-built-in-symbols/integer-functions/combinatorial-functions/binomial/>`_, and `RegularPolygon </doc/reference-of-built-in-symbols/drawing-graphics/regularpolygon/>`_.

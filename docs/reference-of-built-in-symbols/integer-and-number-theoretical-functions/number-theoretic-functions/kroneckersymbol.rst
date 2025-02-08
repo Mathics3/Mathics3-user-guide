@@ -11,4 +11,8 @@ KroneckerSymbol
 
 
 >>> Table[KroneckerSymbol[n, m], {n, 5}, {m, 5}]
-  = {{1, 1, 1, 1, 1}, {1, 0, -1, 0, -1}, {1, -1, 0, 1, -1}, {1, 0, 1, 0, 1}, {1, -1, -1, 1, 0}}
+    =
+
+:math:`\left\{\left\{1,1,1,1,1\right\},\left\{1,0,-1,0,-1\right\},\left\{1,-1,0,1,-1\right\},\left\{1,0,1,0,1\right\},\left\{1,-1,-1,1,0\right\}\right\}`
+
+

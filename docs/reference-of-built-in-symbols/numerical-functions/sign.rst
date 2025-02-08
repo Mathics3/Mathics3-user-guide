@@ -12,15 +12,35 @@ Sign
 
 
 >>> Sign[19]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> Sign[-6]
-  = -1
+    =
+
+:math:`-1`
+
+
 >>> Sign[0]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> Sign[{-5, -10, 15, 20, 0}]
-  = {-1, -1, 1, 1, 0}
+    =
+
+:math:`\left\{-1,-1,1,1,0\right\}`
+
+
 
 For a complex number, :code:`Sign`  returns the phase of the number:
 
 >>> Sign[3 - 4*I]
-  = 3 / 5 - 4 I / 5
+    =
+
+:math:`\frac{3}{5}-\frac{4 I}{5}`
+
+

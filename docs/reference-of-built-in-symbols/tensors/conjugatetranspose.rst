@@ -12,6 +12,14 @@ ConjugateTranspose
 
 
 >>> ConjugateTranspose[{{0, I}, {0, 0}}]
-  = {{0, 0}, {-I, 0}}
+    =
+
+:math:`\left\{\left\{0,0\right\},\left\{-I,0\right\}\right\}`
+
+
 >>> ConjugateTranspose[{{1, 2 I, 3}, {3 + 4 I, 5, I}}]
-  = {{1, 3 - 4 I}, {-2 I, 5}, {3, -I}}
+    =
+
+:math:`\left\{\left\{1,3-4 I\right\},\left\{-2 I,5\right\},\left\{3,-I\right\}\right\}`
+
+

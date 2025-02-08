@@ -14,12 +14,32 @@ PrimePi
 PrimePi is the inverse of Prime:
 
 >>> PrimePi[2]
-  = 1
+    =
+
+:math:`1`
+
+
 >>> PrimePi[100]
-  = 25
+    =
+
+:math:`25`
+
+
 >>> PrimePi[-1]
-  = 0
+    =
+
+:math:`0`
+
+
 >>> PrimePi[3.5]
-  = 2
+    =
+
+:math:`2`
+
+
 >>> PrimePi[E]
-  = 1
+    =
+
+:math:`1`
+
+

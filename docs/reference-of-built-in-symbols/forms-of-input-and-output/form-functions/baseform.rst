@@ -14,27 +14,51 @@ BaseForm
 A binary integer:
 
 >>> BaseForm[33, 2]
-  = 100001_2
+    =
+
+:math:`\text{SubscriptBox}\left[\text{100001},\text{2}\right]`
+
+
 
 A hexadecimal number:
 
 >>> BaseForm[234, 16]
-  = ea_16
+    =
+
+:math:`\text{SubscriptBox}\left[\text{ea},\text{16}\right]`
+
+
 
 A binary real number:
 
 >>> BaseForm[12.3, 2]
-  = 1100.01001100110011001_2
+    =
+
+:math:`\text{SubscriptBox}\left[\text{1100.01001100110011001},\text{2}\right]`
+
+
 >>> BaseForm[-42, 16]
-  = -2a_16
+    =
+
+:math:`\text{SubscriptBox}\left[\text{-2a},\text{16}\right]`
+
+
 >>> BaseForm[x, 2]
-  = x
+    =
+
+:math:`x`
+
+
 >>> BaseForm[12, 3] // FullForm
-  = BaseForm[12, 3]
+    =
+
+:math:`\text{BaseForm}\left[12, 3\right]`
+
+
 
 Bases must be between 2 and 36:
 
 >>> BaseForm[12, -3]
-  = BaseForm[12, -3]
+
 >>> BaseForm[12, 100]
-  = BaseForm[12, 100]
+

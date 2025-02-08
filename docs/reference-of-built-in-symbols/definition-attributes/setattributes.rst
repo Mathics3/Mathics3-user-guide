@@ -13,12 +13,22 @@ SetAttributes
 
 >>> SetAttributes[f, Flat]
 
+
 >>> Attributes[f]
-  = {Flat}
+    =
+
+:math:`\left\{\text{Flat}\right\}`
+
+
 
 Multiple attributes can be set at the same time using lists:
 
 >>> SetAttributes[{f, g}, {Flat, Orderless}]
 
+
 >>> Attributes[g]
-  = {Flat, Orderless}
+    =
+
+:math:`\left\{\text{Flat},\text{Orderless}\right\}`
+
+

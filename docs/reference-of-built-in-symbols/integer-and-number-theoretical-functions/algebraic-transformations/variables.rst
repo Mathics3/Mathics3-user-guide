@@ -12,8 +12,20 @@ Variables
 
 
 >>> Variables[a x^2 + b x + c]
-  = {a, b, c, x}
+    =
+
+:math:`\left\{a,b,c,x\right\}`
+
+
 >>> Variables[{a + b x, c y^2 + x/2}]
-  = {a, b, c, x, y}
+    =
+
+:math:`\left\{a,b,c,x,y\right\}`
+
+
 >>> Variables[x + Sin[y]]
-  = {x, Sin[y]}
+    =
+
+:math:`\left\{x,\text{Sin}\left[y\right]\right\}`
+
+

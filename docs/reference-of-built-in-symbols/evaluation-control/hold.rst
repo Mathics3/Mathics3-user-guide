@@ -12,4 +12,8 @@ Hold
 
 
 >>> Attributes[Hold]
-  = {HoldAll, Protected}
+    =
+
+:math:`\left\{\text{HoldAll},\text{Protected}\right\}`
+
+

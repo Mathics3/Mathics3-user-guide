@@ -18,19 +18,41 @@ RGBColor
 A swatch of color green:
 
 >>> RGBColor[0, 1, 0]
-  = RGBColor[0, 1, 0]
+    =
+
+.. image:: tmp4zj703jf.png
+    :align: center
+
+
+
 
 Let's show what goes on in the process of boxing the above to make this display:
 
 >>> RGBColor[0, 1, 0] // ToBoxes
-  = StyleBox[GraphicsBox[...], ...]
+    =
+
+:math:`\text{StyleBox}\left[\text{GraphicsBox}\left[\left\{\text{EdgeForm}\left[\text{RGBColor}\left[0,0,0\right]\right],\text{RGBColor}\left[0,1,0\right],\text{RectangleBox}\left[\left\{0,0\right\}\right]\right\},\text{AspectRatio}->\text{Automatic},\text{Axes}->\text{False},\text{AxesStyle}->\left\{\right\},\text{Background}->\text{Automatic},\text{ImageSize}->16,\text{LabelStyle}->\left\{\right\},\text{PlotRange}->\text{Automatic},\text{PlotRangePadding}->\text{Automatic},\text{TicksStyle}->\left\{\right\}\right],\text{ImageSizeMultipliers}->\left\{1,1\right\},\text{ShowStringCharacters}->\text{True}\right]`
+
+
 
 A swatch of color green which is 1/8 opaque:
 
 >>> RGBColor[0, 1, 0, 0.125]
-  = RGBColor[0, 1, 0, 0.125]
+    =
+
+.. image:: tmpwuksxf0x.png
+    :align: center
+
+
+
 
 A series of small disks of the primary colors:
 
 >>> Graphics[MapIndexed[{RGBColor @@ #1, Disk[2*#2 ~Join~ {0}]} &, IdentityMatrix[3]], ImageSize->Small]
-  = -Graphics-
+    =
+
+.. image:: tmp_vpq_o5n.png
+    :align: center
+
+
+

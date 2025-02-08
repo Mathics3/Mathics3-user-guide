@@ -30,9 +30,16 @@ list.
 
 >>> PrintTrace[] (* See console log *)
 
+
 >>> $TraceBuiltins = True
-  = True
+    =
+
+:math:`\text{True}`
+
+
 >>> PrintTrace[SortBy -> "time"]
 
+
 >>> $TraceBuiltins = False
-  = False
+    = False`
+

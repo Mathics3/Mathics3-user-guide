@@ -19,7 +19,16 @@ FindList
 
 >>> stream = FindList["ExampleData/EinsteinSzilLetter.txt", "uranium"];
 
+
 >>> Length[stream]
-  = 7
+    =
+
+:math:`7`
+
+
 >>> FindList["ExampleData/EinsteinSzilLetter.txt", "uranium", 1]
-  = {in manuscript, leads me to expect that the element uranium may be turned into}
+    =
+
+:math:`\left\{\text{in manuscript, leads me to expect that the element uranium may be turned into}\right\}`
+
+

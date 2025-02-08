@@ -15,24 +15,44 @@ NextPrime
 
 
 >>> NextPrime[100]
-  = 101
+    =
+
+:math:`101`
+
+
 
 The the first number does not have to be an integer:
 
 >>> NextPrime[100.5, 2]
-  = 103
+    =
+
+:math:`103`
+
+
 
 However, when the second value, the step value is not an integer is given, we do nothing:
 
 >>> NextPrime[100, 2.5]
-  = NextPrime[100, 2.5]
+    =
+
+:math:`\text{NextPrime}\left[100,2.5\right]`
+
+
 
 With a negative number, we find a prime number *before* the given number:
 
 >>> NextPrime[100, -1]
-  = 97
+    =
+
+:math:`97`
+
+
 
 And with negative counts, it is possible to get *negative* prime numbers:
 
 >>> NextPrime[2, -1]
-  = -2
+    =
+
+:math:`-2`
+
+

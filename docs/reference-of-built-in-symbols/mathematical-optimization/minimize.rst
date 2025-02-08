@@ -12,4 +12,8 @@ Minimize
 
 
 >>> Minimize[2 x^2 - 3 x + 5, x]
-  = {{31 / 8, {x -> 3 / 4}}}
+    =
+
+:math:`\left\{\left\{\frac{31}{8},\left\{x->\frac{3}{4}\right\}\right\}\right\}`
+
+
