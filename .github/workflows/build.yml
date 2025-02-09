@@ -27,6 +27,7 @@ jobs:
         make setup
     - name: Generate documentation
       run: |
+        sudo chmod 777 /home/runner/.local/var/Mathics3/
         make doctest-data
         make rst-documentation
         cd docs
