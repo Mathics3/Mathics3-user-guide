@@ -16,7 +16,7 @@ Plot
 >>> Plot[{Sin[x], Cos[x], x / 3}, {x, -Pi, Pi}]
 
     =
-.. image:: tmpwbyyh333.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_83wcpu3b.png
     :align: center
 
 
@@ -24,7 +24,7 @@ Plot
 >>> Plot[Sin[x], {x, 0, 4 Pi}, PlotRange->{{0, 4 Pi}, {0, 1.5}}]
 
     =
-.. image:: tmpnqp4sa55.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_2ctvjw1x.png
     :align: center
 
 
@@ -32,7 +32,7 @@ Plot
 >>> Plot[Tan[x], {x, -6, 6}, Mesh->Full]
 
     =
-.. image:: tmpey_ikawf.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_ivbio5vs.png
     :align: center
 
 
@@ -40,7 +40,7 @@ Plot
 >>> Plot[x^2, {x, -1, 1}, MaxRecursion->5, Mesh->All]
 
     =
-.. image:: tmpz2rv_gcz.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_ira7tp11.png
     :align: center
 
 
@@ -48,7 +48,7 @@ Plot
 >>> Plot[Log[x], {x, 0, 5}, MaxRecursion->0]
 
     =
-.. image:: tmpoz9rj2th.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_zmksbwzu.png
     :align: center
 
 
@@ -56,7 +56,7 @@ Plot
 >>> Plot[Tan[x], {x, 0, 6}, Mesh->All, PlotRange->{{-1, 5}, {0, 15}}, MaxRecursion->10]
 
     =
-.. image:: tmplx59zj6s.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_xep89n14.png
     :align: center
 
 
@@ -67,7 +67,7 @@ A constant function:
 >>> Plot[3, {x, 0, 1}]
 
     =
-.. image:: tmp48i5fd3q.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot_sq4aj_41.png
     :align: center
 
 

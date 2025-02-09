@@ -20,7 +20,7 @@ Sharpen
 >>> Sharpen[hedy]
 
     =
-.. image:: tmponms0ikn.png
+.. image:: tmp41bcqjz6.png
     :align: center
 
 
@@ -28,7 +28,7 @@ Sharpen
 >>> Sharpen[hedy, 5]
 
     =
-.. image:: tmp0r9i2tux.png
+.. image:: tmp_uehedrp.png
     :align: center
 
 

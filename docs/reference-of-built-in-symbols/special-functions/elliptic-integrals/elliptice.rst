@@ -34,7 +34,7 @@ Plot over a reals centered around 0:
 >>> Plot[EllipticE[m], {m, -2, 2}]
 
     =
-.. image:: tmpjfooaseo.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_EllipticE__aycb1o6.png
     :align: center
 
 

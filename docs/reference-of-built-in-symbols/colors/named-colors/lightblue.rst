@@ -13,7 +13,7 @@ LightBlue
 >>> Graphics[{EdgeForm[Black], LightBlue, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpa72p_skb.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightBlue_ngz9ltzf.png
     :align: center
 
 
@@ -30,7 +30,7 @@ LightBlue
 >>> Graphics[{LightBlue, EdgeForm[Black], Disk[]}]
 
     =
-.. image:: tmpi735q4jd.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightBlue_wh52ksj3.png
     :align: center
 
 
@@ -38,7 +38,7 @@ LightBlue
 >>> Plot[Sin[x], {x, 0, 2 Pi}, Background -> LightBlue]
 
     =
-.. image:: tmpmq12v12z.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightBlue_fqc3mdzq.png
     :align: center
 
 

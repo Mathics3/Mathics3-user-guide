@@ -17,7 +17,7 @@ However, you hide the mesh by setting the :code:`Mesh`  option value to :code:`N
 >>> Plot3D[{x^2 + y^2, -x^2 - y^2}, {x, -2, 2}, {y, -2, 2}, BoxRatios-> Automatic, Mesh->None]
 
     =
-.. image:: tmptb54_jgi.png
+.. image:: asy_Reference_of_Built-in_Symbols_Options_Management_None_2q1b1qtf.png
     :align: center
 
 

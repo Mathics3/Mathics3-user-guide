@@ -14,7 +14,7 @@ Histogram
 >>> Histogram[{3, 8, 10, 100, 1000, 500, 300, 200, 10, 20, 200, 100, 200, 300, 500}]
 
     =
-.. image:: tmp15tzj77r.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Histogram_0sjpp5w3.png
     :align: center
 
 
@@ -22,7 +22,7 @@ Histogram
 >>> Histogram[{{1, 2, 10, 5, 50, 20}, {90, 100, 101, 120, 80}}]
 
     =
-.. image:: tmp1i6jnd1j.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Histogram_0igba1_x.png
     :align: center
 
 

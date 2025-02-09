@@ -43,7 +43,7 @@ Visualize this:
 >>> Graphics[{Arrow[{{0, 0}, v1}], Red, Arrow[{{0, 0}, v2}]}, Axes -> True]
 
     =
-.. image:: tmpwbuewhnj.png
+.. image:: asy_Reference_of_Built-in_Symbols_Operations_on_Vectors_Cross_29tvm_dk.png
     :align: center
 
 

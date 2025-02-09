@@ -19,13 +19,13 @@ The option "Method" may be "Cluster" (use Otsu's threshold), "Median", or "Mean"
 >>> Threshold[img]
 
     =
-:math:`0.408203`
+:math:`0.0593961`
 
 
 >>> Binarize[img, %]
 
     =
-.. image:: tmpme5_n00m.png
+.. image:: tmp2q7_m4df.png
     :align: center
 
 

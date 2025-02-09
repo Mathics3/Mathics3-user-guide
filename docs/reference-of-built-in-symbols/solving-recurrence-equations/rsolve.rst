@@ -34,7 +34,7 @@ Include one boundary condition:
 >>> RSolve[{a[n + 2] == a[n], a[0] == 1}, a, n]
 
     =
-:math:`\left\{\left\{a->\text{Function}\left[\left\{n\right\},1-C\left[1\right]+C\left[1\right] \left(-1\right){}^{\wedge}n\right]\right\}\right\}`
+:math:`\left\{\left\{a->\text{Function}\left[\left\{n\right\},C\left[0\right]+\left(1-C\left[0\right]\right) \left(-1\right){}^{\wedge}n\right]\right\}\right\}`
 
 
 

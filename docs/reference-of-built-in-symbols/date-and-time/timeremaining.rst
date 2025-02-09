@@ -24,6 +24,6 @@ If TimeConstrained is called out of a TimeConstrained expression, returns :code:
 
 >>> TimeConstrained[1+2; Print[TimeRemaining[]], 0.9]
 
-    0.899374
+    0.899414
 
 

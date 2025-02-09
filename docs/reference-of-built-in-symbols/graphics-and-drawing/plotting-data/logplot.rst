@@ -16,7 +16,7 @@ LogPlot
 >>> LogPlot[x^x, {x, 1, 5}]
 
     =
-.. image:: tmpkr_c7vsa.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_LogPlot_0e_yhofv.png
     :align: center
 
 
@@ -24,7 +24,7 @@ LogPlot
 >>> LogPlot[{x^x, Exp[x], x!}, {x, 1, 5}]
 
     =
-.. image:: tmplnsvw7ov.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_LogPlot_tg44shkq.png
     :align: center
 
 

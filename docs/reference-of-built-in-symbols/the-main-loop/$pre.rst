@@ -39,7 +39,7 @@ stores just the result in :code:`Out[$Line]`  and print a formatted version show
     The result is:
 
     =
-:math:`\left\{248.295,4\right\}`
+:math:`\left\{243.54,4\right\}`
 
 
 >>> $Pre = .; $Post = .;  $PrePrint = .;  $ElapsedTime = .;

@@ -17,7 +17,7 @@ Rectangle
 >>> Graphics[Rectangle[]]
 
     =
-.. image:: tmp_qd9bbvs.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Rectangle_sm6rtm4y.png
     :align: center
 
 
@@ -25,7 +25,7 @@ Rectangle
 >>> Graphics[{Blue, Rectangle[{0.5, 0}], Orange, Rectangle[{0, 0.5}]}]
 
     =
-.. image:: tmpoyhckrbm.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Rectangle_bzcnv_gz.png
     :align: center
 
 

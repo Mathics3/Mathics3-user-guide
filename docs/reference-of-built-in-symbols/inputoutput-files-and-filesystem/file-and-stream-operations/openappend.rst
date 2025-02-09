@@ -14,7 +14,7 @@ OpenAppend
 >>> OpenAppend[]
 
     =
-:math:`\text{OutputStream}\left[\text{/tmp/tmpbowoy6ft},17\right]`
+:math:`\text{OutputStream}\left[\text{/tmp/tmpl6i6r3dq},17\right]`
 
 
 >>> DeleteFile[Close[%]];

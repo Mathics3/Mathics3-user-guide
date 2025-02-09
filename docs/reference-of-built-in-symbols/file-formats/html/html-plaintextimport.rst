@@ -10,8 +10,5 @@ HTML`PlaintextImport
 
 
 >>> DeleteDuplicates[StringCases[Import["ExampleData/PrimeMeridian.html"], RegularExpression["Wiki[a-z]+"]]]
-
-    =
-:math:`\left\{\text{Wikipedia},\text{Wikidata},\text{Wikibase},\text{Wikimedia}\right\}`
-
+    = {Wikipedia, Wikidata, Wikibase, Wikimedia}`
 

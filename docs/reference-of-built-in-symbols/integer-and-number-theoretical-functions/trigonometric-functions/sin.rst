@@ -38,7 +38,7 @@ Sin
 >>> Plot[Sin[x], {x, -Pi, Pi}]
 
     =
-.. image:: tmp7jxcml4a.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_Sin_tiyktgh0.png
     :align: center
 
 

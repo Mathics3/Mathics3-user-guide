@@ -46,7 +46,7 @@ A hypothetical comparison between types of pets owned:
 >>> PieChart[{30, 20, 10}, ChartLabels -> {Dogs, Cats, Fish}]
 
     =
-.. image:: tmpl4cy77vy.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PieChart_f0gnjchb.png
     :align: center
 
 
@@ -57,7 +57,7 @@ A doughnut chart for a list of values:
 >>> PieChart[{8, 16, 2}, SectorOrigin -> {Automatic, 1.5}]
 
     =
-.. image:: tmpoel5birh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PieChart_maq78ypy.png
     :align: center
 
 
@@ -68,7 +68,7 @@ A Pie chart with multiple datasets:
 >>> PieChart[{{10, 20, 30}, {15, 22, 30}}]
 
     =
-.. image:: tmpcqw_y86u.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PieChart_ludp2fvh.png
     :align: center
 
 
@@ -79,7 +79,7 @@ Same as the above, but without gaps between the groups of data:
 >>> PieChart[{{10, 20, 30}, {15, 22, 30}}, SectorSpacing -> None]
 
     =
-.. image:: tmpmy4poodd.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PieChart_3gyll0lg.png
     :align: center
 
 
@@ -90,7 +90,7 @@ The doughnut chart above with labels on each of the 3 pieces:
 >>> PieChart[{{10, 20, 30}, {15, 22, 30}}, ChartLabels -> {A, B, C}]
 
     =
-.. image:: tmpjqgl6oze.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PieChart_dyyiijkp.png
     :align: center
 
 
@@ -101,7 +101,7 @@ Negative values are removed, the data below is the same as {1, 3}:
 >>> PieChart[{1, -1, 3}]
 
     =
-.. image:: tmphyg4cocy.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PieChart_2g93u8ho.png
     :align: center
 
 

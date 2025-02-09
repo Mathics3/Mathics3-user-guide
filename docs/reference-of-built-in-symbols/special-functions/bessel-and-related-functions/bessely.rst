@@ -26,7 +26,7 @@ BesselY
 >>> Plot[BesselY[0, x], {x, 0, 10}]
 
     =
-.. image:: tmplzmaoi_3.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_BesselY_1acozc4d.png
     :align: center
 
 

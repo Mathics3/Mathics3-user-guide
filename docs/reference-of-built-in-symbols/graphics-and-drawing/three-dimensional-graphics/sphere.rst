@@ -20,7 +20,7 @@ Sphere
 >>> Graphics3D[Sphere[{0, 0, 0}, 1]]
 
     =
-.. image:: tmps5gtl42n.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Sphere_s4m8csh4.png
     :align: center
 
 
@@ -28,7 +28,7 @@ Sphere
 >>> Graphics3D[{Yellow, Sphere[{{-1, 0, 0}, {1, 0, 0}, {0, 0, Sqrt[3.]}}, 1]}]
 
     =
-.. image:: tmpyza_yq8j.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Sphere_bxhaodpr.png
     :align: center
 
 

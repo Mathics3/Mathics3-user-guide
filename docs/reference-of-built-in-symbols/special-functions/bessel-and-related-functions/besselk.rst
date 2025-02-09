@@ -20,7 +20,7 @@ BesselK
 >>> Plot[BesselK[0, x], {x, 0, 5}]
 
     =
-.. image:: tmp6n0j3lvr.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_BesselK_x9f8612w.png
     :align: center
 
 

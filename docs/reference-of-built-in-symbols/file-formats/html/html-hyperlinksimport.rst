@@ -10,8 +10,5 @@ HTML`HyperlinksImport
 
 
 >>> Import["ExampleData/PrimeMeridian.html", "Hyperlinks"][[1]]
-
-    =
-:math:`\text{/wiki/Prime\_meridian\_(Greenwich)}`
-
+    = /wiki/Prime_meridian_(Greenwich)`
 

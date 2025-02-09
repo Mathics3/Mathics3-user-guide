@@ -12,21 +12,8 @@ TextRecognize
 
 
 >>> textimage = Import["ExampleData/TextRecognize.png"]
-
-    =
-.. image:: tmp4dtr87h8.png
-    :align: center
-
-
+    = -Image-`
 
 >>> TextRecognize[textimage]
-
-    =
-
-.. math::
-    \text{TextRecognize[ image]\newline
-    \newline
-    Recognizes text in image and returns it as a String.}
-
-
+    = ...`
 

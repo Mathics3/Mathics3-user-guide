@@ -13,7 +13,7 @@ LightGreen
 >>> Graphics[{EdgeForm[Black], LightGreen, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmphqmfu144.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightGreen_dk5myljb.png
     :align: center
 
 

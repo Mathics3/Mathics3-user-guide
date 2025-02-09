@@ -25,7 +25,7 @@ Sort Options:
 >>> TraceBuiltins[Graphics3D[Tetrahedron[]]] (* See console log *)
 
     =
-.. image:: tmpwpi_u0s7.png
+.. image:: asy_Reference_of_Built-in_Symbols_Tracing_and_Profiling_TraceBuiltins_7k1909_5.png
     :align: center
 
 

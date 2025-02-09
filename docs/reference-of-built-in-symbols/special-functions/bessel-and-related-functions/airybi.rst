@@ -37,7 +37,7 @@ Numeric evaluation:
 >>> Plot[AiryBi[x], {x, -10, 2}]
 
     =
-.. image:: tmp8rb_d5pd.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AiryBi_bdvkr979.png
     :align: center
 
 

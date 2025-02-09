@@ -19,5 +19,10 @@ Define a user-defined color function:
 Compare it to the default color function, :code:`LakeColors` :
 
 >>> {DensityPlot[x + y, {x, -1, 1}, {y, -1, 1}], DensityPlot[x + y, {x, -1, 1}, {y, -1, 1}, ColorFunction->"test"]}
-    = {-Graphics-, -Graphics-}`
+
+    =
+.. image:: eq_Reference of Built-in Symbols_Graphics and Drawing_ColorData_yn8ksiwt.png
+    :align: center
+
+
 

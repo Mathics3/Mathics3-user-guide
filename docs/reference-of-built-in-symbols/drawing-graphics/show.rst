@@ -12,5 +12,10 @@ Show
 
 
 >>> Show[{Plot[x, {x, 0, 10}], ListPlot[{1,2,3}]}]
-    = ...`
+
+    =
+.. image:: eq_Reference of Built-in Symbols_Drawing Graphics_Show_5azc1k0q.png
+    :align: center
+
+
 

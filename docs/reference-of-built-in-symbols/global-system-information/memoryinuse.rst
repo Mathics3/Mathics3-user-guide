@@ -14,6 +14,6 @@ MemoryInUse
 >>> MemoryInUse[]
 
     =
-:math:`22063416`
+:math:`22065416`
 
 

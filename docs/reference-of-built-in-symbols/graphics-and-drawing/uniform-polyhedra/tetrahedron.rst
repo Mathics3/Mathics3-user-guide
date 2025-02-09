@@ -20,7 +20,7 @@ Tetrahedron
 >>> Graphics3D[Tetrahedron[{{0,0,0}, {1,1,1}}, 2], Axes->True]
 
     =
-.. image:: tmpewzbycxx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Tetrahedron_yj_ib_lu.png
     :align: center
 
 

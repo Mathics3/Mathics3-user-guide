@@ -20,7 +20,7 @@ Blur
 >>> Blur[hedy]
 
     =
-.. image:: tmpan_mfycl.png
+.. image:: tmpmqc07lq6.png
     :align: center
 
 
@@ -28,7 +28,7 @@ Blur
 >>> Blur[hedy, 5]
 
     =
-.. image:: tmpo5djuq21.png
+.. image:: tmpjzgdhrhm.png
     :align: center
 
 

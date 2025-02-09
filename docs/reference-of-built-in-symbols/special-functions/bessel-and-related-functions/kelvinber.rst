@@ -34,7 +34,7 @@ KelvinBer
 >>> Plot[KelvinBer[x], {x, 0, 10}]
 
     =
-.. image:: tmp7hzuxaem.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_KelvinBer_4yqp0xyf.png
     :align: center
 
 

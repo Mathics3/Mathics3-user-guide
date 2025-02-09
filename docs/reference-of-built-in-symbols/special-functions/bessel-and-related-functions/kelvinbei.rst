@@ -35,7 +35,7 @@ KelvinBei
 >>> Plot[KelvinBei[x], {x, 0, 10}]
 
     =
-.. image:: tmp5mtilhlu.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_KelvinBei_10l97b03.png
     :align: center
 
 

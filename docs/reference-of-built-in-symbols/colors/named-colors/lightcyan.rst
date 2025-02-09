@@ -13,7 +13,7 @@ LightCyan
 >>> Graphics[{EdgeForm[Black], LightCyan, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpoonr_zj5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightCyan_r2l49v_b.png
     :align: center
 
 

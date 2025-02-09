@@ -35,7 +35,7 @@ Plotting the Bézier Function accoss a Bézier curve:
 >>> Module[{p={{0, 0},{1, 1},{2, -1},{4, 0}}}, Graphics[{BezierCurve[p], Red, Point[Table[BezierFunction[p][x], {x, 0, 1, 0.1}]]}]]
 
     =
-.. image:: tmpek2_456i.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_BezierFunction_3a761sjd.png
     :align: center
 
 

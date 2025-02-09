@@ -13,7 +13,7 @@ Magenta
 >>> Graphics[{EdgeForm[Black], Magenta, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmplqr5r0bo.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Magenta_3avwtzq0.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Magenta
 >>> Magenta
 
     =
-.. image:: tmp4hai27to.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Magenta_5drpr17z.png
     :align: center
 
 

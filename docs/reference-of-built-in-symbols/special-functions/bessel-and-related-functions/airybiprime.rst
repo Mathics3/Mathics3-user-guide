@@ -32,7 +32,7 @@ Numeric evaluation:
 >>> Plot[AiryBiPrime[x], {x, -10, 2}]
 
     =
-.. image:: tmpmcvu_zuc.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AiryBiPrime_4k3kmuyj.png
     :align: center
 
 

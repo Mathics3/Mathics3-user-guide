@@ -13,7 +13,7 @@ Orange
 >>> Graphics[{EdgeForm[Black], Orange, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpwuraw20_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Orange_unho2bg0.png
     :align: center
 
 

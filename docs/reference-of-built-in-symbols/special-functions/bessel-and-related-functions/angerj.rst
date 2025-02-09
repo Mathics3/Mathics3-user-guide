@@ -19,7 +19,7 @@ AngerJ
 >>> Plot[AngerJ[1, x], {x, -10, 10}]
 
     =
-.. image:: tmpr9ln_i77.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AngerJ_kozoqy9b.png
     :align: center
 
 

@@ -13,7 +13,7 @@ LightGray
 >>> Graphics[{EdgeForm[Black], LightGray, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpchpsrcd_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightGray_wvvoleou.png
     :align: center
 
 

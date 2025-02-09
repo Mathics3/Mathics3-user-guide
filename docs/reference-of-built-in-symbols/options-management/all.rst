@@ -37,7 +37,7 @@ In `Plot </doc/reference-of-built-in-symbols/graphics-and-drawing/plotting-data/
 >>> Plot[x^2, {x, -1, 1}, MaxRecursion->5, Mesh->All]
 
     =
-.. image:: tmp45hchh6g.png
+.. image:: asy_Reference_of_Built-in_Symbols_Options_Management_All_t1antl6l.png
     :align: center
 
 

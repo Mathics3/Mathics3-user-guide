@@ -19,7 +19,7 @@ StruveL
 >>> Plot[StruveL[0, x], {x, 0, 5}]
 
     =
-.. image:: tmpz18y2g_q.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_StruveL_r2ysaxyg.png
     :align: center
 
 

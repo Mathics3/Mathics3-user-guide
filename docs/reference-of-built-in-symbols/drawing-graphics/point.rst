@@ -21,7 +21,7 @@ Points can be specified as {:math:`x`, :math:`y`}:
 >>> Graphics[Point[{0, 0}]]
 
     =
-.. image:: tmp7n2h7gbn.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Point_feykcl0_.png
     :align: center
 
 
@@ -29,7 +29,7 @@ Points can be specified as {:math:`x`, :math:`y`}:
 >>> Graphics[Point[Table[{Sin[t], Cos[t]}, {t, 0, 2. Pi, Pi / 15.}]]]
 
     =
-.. image:: tmpkcrx999x.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Point_3e1p6dxo.png
     :align: center
 
 

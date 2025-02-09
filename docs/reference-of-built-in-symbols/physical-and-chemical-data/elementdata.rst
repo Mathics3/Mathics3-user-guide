@@ -84,7 +84,7 @@ All the known properties:
 >>> ListPlot[Table[ElementData[z, "AtomicWeight"], {z, 118}]]
 
     =
-.. image:: tmpjnsbtf19.png
+.. image:: asy_Reference_of_Built-in_Symbols_Physical_and_Chemical_data_ElementData_9ud3tqi2.png
     :align: center
 
 

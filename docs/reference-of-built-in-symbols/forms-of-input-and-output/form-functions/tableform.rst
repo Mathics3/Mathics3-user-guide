@@ -21,21 +21,10 @@ TableForm
 A table of Graphics:
 
 >>> Table[Style[Graphics[{EdgeForm[{Black}], RGBColor[r,g,b], Rectangle[]}], ImageSizeMultipliers->{0.2, 1}], {r,0,1,1/2}, {g,0,1,1/2}, {b,0,1,1/2}] // TableForm
-    = -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
-    
-    -Graphics-   -Graphics-   -Graphics-
+
+    =
+.. image:: eq_Reference of Built-in Symbols_Forms of Input and Output_TableForm_j3di6mf9.png
+    :align: center
+
+
 

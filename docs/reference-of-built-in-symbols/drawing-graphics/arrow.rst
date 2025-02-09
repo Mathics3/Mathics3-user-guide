@@ -23,7 +23,7 @@ Arrow
 >>> Graphics[Arrow[{{0,0}, {1,1}}]]
 
     =
-.. image:: tmp5op6aqwy.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrow_l6s3m7f2.png
     :align: center
 
 
@@ -31,7 +31,7 @@ Arrow
 >>> Graphics[{Circle[], Arrow[{{2, 1}, {0, 0}}, 1]}]
 
     =
-.. image:: tmpzbnu54ig.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrow_qg8_jqsh.png
     :align: center
 
 
@@ -42,7 +42,7 @@ Arrows can also be drawn in 3D by giving point in three dimensions:
 >>> Graphics3D[Arrow[{{1, 1, -1}, {2, 2, 0}, {3, 3, -1}, {4, 4, 0}}]]
 
     =
-.. image:: tmp1z1skv89.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrow_paj0jv08.png
     :align: center
 
 
@@ -51,5 +51,10 @@ Arrows can also be drawn in 3D by giving point in three dimensions:
 Keeping distances may happen across multiple segments:
 
 >>> Table[Graphics[{Circle[], Arrow[Table[{Cos[phi],Sin[phi]},{phi,0,2*Pi,Pi/2}],{d, d}]}],{d,0,2,0.5}]
-    = {-Graphics-, -Graphics-, -Graphics-, -Graphics-, -Graphics-}`
+
+    =
+.. image:: eq_Reference of Built-in Symbols_Drawing Graphics_Arrow_q4fm4_ss.png
+    :align: center
+
+
 

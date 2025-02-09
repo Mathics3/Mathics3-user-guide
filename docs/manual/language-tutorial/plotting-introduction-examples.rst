@@ -6,7 +6,7 @@ Plotting Introduction Examples
 >>> Plot[Sin[x], {x, 0, 2 Pi}]
 
     =
-.. image:: tmp2kcscn62.png
+.. image:: asy_Manual_Language_Tutorial_Plotting_Introduction_Examples_on2_cpam.png
     :align: center
 
 
@@ -17,7 +17,7 @@ You can also plot multiple functions at once:
 >>> Plot[{Sin[x], Cos[x], x ^ 2}, {x, -1, 1}]
 
     =
-.. image:: tmp058vzyuu.png
+.. image:: asy_Manual_Language_Tutorial_Plotting_Introduction_Examples_qq0qaujb.png
     :align: center
 
 
@@ -28,7 +28,7 @@ Two-dimensional functions can be plotted using :code:`DensityPlot` :
 >>> DensityPlot[x ^ 2 + 1 / y, {x, -1, 1}, {y, 1, 4}]
 
     =
-.. image:: tmpvsl1hxll.png
+.. image:: asy_Manual_Language_Tutorial_Plotting_Introduction_Examples_hvodok88.png
     :align: center
 
 
@@ -39,7 +39,7 @@ You can use a custom coloring function:
 >>> DensityPlot[x ^ 2 + 1 / y, {x, -1, 1}, {y, 1, 4}, ColorFunction -> (Blend[{Red, Green, Blue}, #]&)]
 
     =
-.. image:: tmpc8e2fuq6.png
+.. image:: asy_Manual_Language_Tutorial_Plotting_Introduction_Examples_0cltunj_.png
     :align: center
 
 
@@ -52,7 +52,7 @@ Three-dimensional plots are supported as well:
 >>> Plot3D[Exp[x] Cos[y], {x, -2, 1}, {y, -Pi, 2 Pi}]
 
     =
-.. image:: tmpxz6cv45t.png
+.. image:: asy_Manual_Language_Tutorial_Plotting_Introduction_Examples_rzjxk0z_.png
     :align: center
 
 

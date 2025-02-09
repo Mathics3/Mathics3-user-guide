@@ -20,7 +20,7 @@ Cube
 >>> Graphics3D[Cube[]]
 
     =
-.. image:: tmp7afjllhx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cube_1w09kb_b.png
     :align: center
 
 

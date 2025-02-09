@@ -25,7 +25,7 @@ Cuboid also known as interval, rectangle, square, cube, rectangular parallelepip
 >>> Graphics3D[Cuboid[{0, 0, 1}]]
 
     =
-.. image:: tmp05uch5nk.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cuboid_u4bmfvjl.png
     :align: center
 
 
@@ -33,7 +33,7 @@ Cuboid also known as interval, rectangle, square, cube, rectangular parallelepip
 >>> Graphics3D[{Red, Cuboid[{{0, 0, 0}, {1, 1, 0.5}}], Blue, Cuboid[{{0.25, 0.25, 0.5}, {0.75, 0.75, 1}}]}]
 
     =
-.. image:: tmpl9jg275j.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cuboid_e97nkcvh.png
     :align: center
 
 
@@ -41,7 +41,7 @@ Cuboid also known as interval, rectangle, square, cube, rectangular parallelepip
 >>> Graphics[Cuboid[{0, 0}]]
 
     =
-.. image:: tmpskqh0ecl.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cuboid_998pgx_y.png
     :align: center
 
 

@@ -20,7 +20,7 @@ Im
 >>> Plot[{Sin[a], Im[E^(I a)]}, {a, 0, 2 Pi}]
 
     =
-.. image:: tmp3kruxu6i.png
+.. image:: asy_Reference_of_Built-in_Symbols_Mathematical_Functions_Im_0hki_v1b.png
     :align: center
 
 

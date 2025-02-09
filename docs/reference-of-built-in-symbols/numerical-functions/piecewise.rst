@@ -46,7 +46,7 @@ Piecewise defaults to 0 if no other case is matching.
 >>> Plot[Piecewise[{{Log[x], x > 0}, {x*-0.5, x < 0}}], {x, -1, 1}]
 
     =
-.. image:: tmpez2_0nq7.png
+.. image:: asy_Reference_of_Built-in_Symbols_Numerical_Functions_Piecewise_6mkgnnlf.png
     :align: center
 
 

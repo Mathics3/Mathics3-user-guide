@@ -23,7 +23,7 @@ RegularPolygon
 >>> Graphics[RegularPolygon[5]]
 
     =
-.. image:: tmphfb4sdyh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_RegularPolygon_5omuni_k.png
     :align: center
 
 
@@ -31,7 +31,7 @@ RegularPolygon
 >>> Graphics[{Yellow, Rectangle[], Orange, RegularPolygon[{1, 1}, {0.25, 0}, 3]}]
 
     =
-.. image:: tmpbp1ymn7g.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_RegularPolygon_yysarlxh.png
     :align: center
 
 

@@ -27,7 +27,7 @@ Options include:
 >>> Plot[Sin[Cos[x^2]],{x,-4,4},Mesh->All]
 
     =
-.. image:: tmpm36wcvsz.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Mesh_kkb31uia.png
     :align: center
 
 
@@ -35,7 +35,7 @@ Options include:
 >>> Plot[Sin[x], {x,0,4 Pi}, Mesh->Full]
 
     =
-.. image:: tmpwqdqbk_m.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Mesh_795vj9ul.png
     :align: center
 
 
@@ -43,7 +43,7 @@ Options include:
 >>> DensityPlot[Sin[x y], {x, -2, 2}, {y, -2, 2}, Mesh->Full]
 
     =
-.. image:: tmpm2rj23d8.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Mesh_hr889m5z.png
     :align: center
 
 
@@ -51,7 +51,7 @@ Options include:
 >>> Plot3D[Sin[x y], {x, -2, 2}, {y, -2, 2}, Mesh->Full]
 
     =
-.. image:: tmpp_rz4w_0.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Mesh_k3yxrnc5.png
     :align: center
 
 

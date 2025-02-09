@@ -39,7 +39,7 @@ See `Pillow Filters <https://pillow.readthedocs.io/en/stable/handbook/concepts.h
 >>> alice = Import["ExampleData/MadTeaParty.gif"]
 
     =
-.. image:: tmpbuz8noij.png
+.. image:: tmpnwpevj7o.png
     :align: center
 
 
@@ -53,7 +53,7 @@ See `Pillow Filters <https://pillow.readthedocs.io/en/stable/handbook/concepts.h
 >>> ImageResize[alice, shape / 2]
 
     =
-.. image:: tmpzs45cdlm.png
+.. image:: tmpc01ej1ux.png
     :align: center
 
 
@@ -64,7 +64,7 @@ The default sampling method is "Bicubic" which has pretty good upscaling     and
 >>> ImageResize[alice, shape / 2, Resampling -> "Box"]
 
     =
-.. image:: tmpfizh3dlj.png
+.. image:: tmpbc9totuz.png
     :align: center
 
 

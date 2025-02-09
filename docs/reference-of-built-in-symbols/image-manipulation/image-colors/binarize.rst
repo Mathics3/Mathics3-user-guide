@@ -23,7 +23,7 @@ Binarize
 >>> Binarize[hedy]
 
     =
-.. image:: tmpafhtt0p1.png
+.. image:: tmpzp77q7fj.png
     :align: center
 
 
@@ -31,7 +31,7 @@ Binarize
 >>> Binarize[hedy, 0.7]
 
     =
-.. image:: tmpq5ga9wd7.png
+.. image:: tmpnv6oy2vf.png
     :align: center
 
 
@@ -39,7 +39,7 @@ Binarize
 >>> Binarize[hedy, {0.2, 0.6}]
 
     =
-.. image:: tmp9rc9yr6i.png
+.. image:: tmpp6n05hra.png
     :align: center
 
 

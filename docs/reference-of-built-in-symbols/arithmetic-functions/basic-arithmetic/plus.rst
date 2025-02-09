@@ -80,7 +80,7 @@ The sum of 2 red circles and 3 red circles is...
 >>> 2 Graphics[{Red,Disk[]}] + 3 Graphics[{Red,Disk[]}]
 
     =
-.. image:: tmp_d48_ncg.png
+.. image:: eq_Reference of Built-in Symbols_Arithmetic Functions_Plus_givuvg0u.png
     :align: center
 
 
