@@ -25,6 +25,10 @@ jobs:
     - name: Install the documentation and dependencies
       run: |
         make setup
-    - name: Test Mathics Consistency and Style
+    - name: Generate documentation
       run: |
-        make
+        make doctest-data
+        make rst-documentation
+        cd docs
+        make html
+        make latex
