@@ -6,15 +6,20 @@ PYTHON ?= python
 MATHICS3_MODULE_OPTION ?=--load-module pymathics.trepan,pymathics.graph,pymathics.natlang
 
 #: Default target - same as "develop"
-all: user-docs
+all: doctest-data rst-documentation user-docs
 
 .PHONY: developer-docs clean
 
-#: Build developer guide
-user-docs: setup
+
+doctest-data: setup
 	MATHICS_CHARACTER_ENCODING="UTF-8" $(PYTHON) -m mathics.docpipeline --output $(MATHICS3_MODULE_OPTION)
 	$(PYTHON) generate/testdata.py
+
+rst-documentation:
 	$(PYTHON) generate/doc2rst.py $(MATHICS3_MODULE_OPTION)
+
+#: Build developer guide
+user-docs:
 	$(MAKE) -C docs html latexpdf
 
 
