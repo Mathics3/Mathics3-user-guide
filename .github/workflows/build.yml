@@ -20,7 +20,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        sudo apt update -qq && sudo apt install llvm-dev asymptote remake
+        sudo apt update -qq && sudo apt install llvm-dev asymptote xelatex remake
         python -m pip install --upgrade pip
     - name: Install the documentation and dependencies
       run: |
