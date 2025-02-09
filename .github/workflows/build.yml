@@ -29,7 +29,7 @@ jobs:
       run: |
         mkdir /home/runner/.local
         mkdir /home/runner/.local/var
-        mkdir /home/runner/.local/Mathics3
+        mkdir /home/runner/.local/var/Mathics3
         make doctest-data
         make rst-documentation
         cd docs
