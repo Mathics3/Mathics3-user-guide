@@ -36,7 +36,7 @@ def convert_asy_code(content: str, key=""):
     tmp_path, _ = osp.split(tmp_filename)
     result = tmp_filename[:-4] + ".png"
     if not SKIP_ASY:
-        subprocess.run(["asy", "-f", "png", tmp_filename], cwd=tmp_path)
+        subprocess.run(["asy", "-f", "png", "-render", "70", tmp_filename], cwd=tmp_path)
     result = osp.abspath(result)
     return r"\includegraphics[]{" + result + "}"
 
@@ -106,7 +106,7 @@ def convert_output_to_rst(test_data, key=""):
             "query": test_data["query"],
             "results": [convert_result_to_rst(item, key) for item in test_data["results"]],
         }
-    except ValueError:
+    except ValueError, RuntimeError:
         print("Result from ", test_data["query"], "could not be converted.")
         return None
     return converted_data
@@ -157,7 +157,6 @@ def latex_to_img(tex, fn):
     Borrowed from
     https://stackoverflow.com/questions/1381741/converting-latex-code-to-images-or-other-displayble-format-with-python
     """
-    white = (255, 255, 255, 255)
     matplotlib.rcParams["text.latex.preamble"] = (
         "\\usepackage{multicol}\n" "\\usepackage{amsmath}\n" "\\usepackage{amssymb}\n" "\\usepackage{graphicx}\n"
     )
@@ -165,13 +164,13 @@ def latex_to_img(tex, fn):
     # the \text command. Use \mbox instead.
     tex = tex.replace(r'\text{',r'\mbox{')
     tex = tex.replace("\n", " ")
-    
+    # TODO: adjust the size of the figure.
+    plt.figure(figsize=(3,1))
     plt.rc("text", usetex=True)
     plt.rc("font", family="serif")
     plt.axis("off")
-    
     plt.text(0.05, 0.5, f"{tex}", size=12)
-    plt.savefig(fn, format="png", backend="pgf")
+    plt.savefig(fn, format="png", bbox_inches='tight', backend="pgf", dpi=250,)
     plt.close()
 
 
