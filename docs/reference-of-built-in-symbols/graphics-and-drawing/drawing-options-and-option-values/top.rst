@@ -14,7 +14,7 @@ Top
 >>> ListLinePlot[Table[Cos[x], {x, -5, 5, 0.2}], Filling->Top]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Top_xsj2jxrh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Top_gfgev65y.png
     :align: center
 
 

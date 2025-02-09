@@ -56,7 +56,7 @@ Plot this:
 >>> ListLinePlot[list]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Functional_Programming_FixedPointList_276ugtla.png
+.. image:: asy_Reference_of_Built-in_Symbols_Functional_Programming_FixedPointList_bq2lefpi.png
     :align: center
 
 

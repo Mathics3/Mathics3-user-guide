@@ -23,7 +23,7 @@ For shallow lists, elements are shown as a column:
 >>> Grid[{a, b, c}]
 
     =
-.. image:: eq_Reference of Built-in Symbols_Layout_Grid_r7t65ii1.png
+.. image:: eq_Reference_of_Built-in_Symbols_Layout_Grid_jy392g5s.png
     :align: center
 
 
@@ -44,7 +44,7 @@ shown as rows:
 >>> Grid[{"This is a long title", {"first", "second", "third"},{a},{1, 2, 3}}]
 
     =
-.. image:: eq_Reference of Built-in Symbols_Layout_Grid_iw9avhcg.png
+.. image:: eq_Reference_of_Built-in_Symbols_Layout_Grid_6x8m7uri.png
     :align: center
 
 

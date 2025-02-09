@@ -25,7 +25,7 @@ The option "Method" may be "Cluster" (use Otsu's threshold), "Median", or "Mean"
 >>> Binarize[img, %]
 
     =
-.. image:: tmp2q7_m4df.png
+.. image:: tmpe5fn0pq5.png
     :align: center
 
 

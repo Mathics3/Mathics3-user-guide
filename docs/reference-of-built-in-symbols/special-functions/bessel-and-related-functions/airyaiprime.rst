@@ -30,7 +30,7 @@ Numeric evaluation:
 >>> Plot[AiryAiPrime[x], {x, -10, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AiryAiPrime_sxpg6vpk.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AiryAiPrime_cfdva6e8.png
     :align: center
 
 

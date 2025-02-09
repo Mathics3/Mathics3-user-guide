@@ -23,7 +23,7 @@ Circle
 >>> Graphics[{Red, Circle[{0, 0}, {2, 1}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Circle_38qcx98i.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Circle_j6qw2_6m.png
     :align: center
 
 
@@ -31,7 +31,7 @@ Circle
 >>> Graphics[{Circle[], Disk[{0, 0}, {1, 1}, {0, 2.1}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Circle_k52caeel.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Circle_7r2ljnje.png
     :align: center
 
 
@@ -42,7 +42,7 @@ Target practice:
 >>> Graphics[Circle[], Axes-> True]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Circle_3b3097jy.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Circle_ik9ykm22.png
     :align: center
 
 

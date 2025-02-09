@@ -35,7 +35,7 @@ KelvinKer
 >>> Plot[KelvinKer[x], {x, 0, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_KelvinKer_62fz03jh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_KelvinKer_0fvjdxon.png
     :align: center
 
 

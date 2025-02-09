@@ -20,7 +20,7 @@ SphericalBesselY
 >>> Plot[SphericalBesselY[1, x], {x, 0, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_SphericalBesselY_ecpoipgl.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_SphericalBesselY_nxxozo56.png
     :align: center
 
 

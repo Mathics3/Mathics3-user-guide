@@ -16,7 +16,7 @@ PointSize
 >>> Table[Graphics[{PointSize[r], Point[{0, 0}]}], {r, {0.02, 0.05, 0.1, 0.3}}]
 
     =
-.. image:: eq_Reference of Built-in Symbols_Drawing Graphics_PointSize_snp3e_as.png
+.. image:: eq_Reference_of_Built-in_Symbols_Drawing_Graphics_PointSize_rift4ipj.png
     :align: center
 
 
@@ -24,7 +24,7 @@ PointSize
 >>> Table[Graphics3D[{PointSize[r], Point[{0, 0, 0}]}], {r, {0.05, 0.1, 0.8}}]
 
     =
-.. image:: eq_Reference of Built-in Symbols_Drawing Graphics_PointSize_dv6u129h.png
+.. image:: eq_Reference_of_Built-in_Symbols_Drawing_Graphics_PointSize_iggoshoh.png
     :align: center
 
 

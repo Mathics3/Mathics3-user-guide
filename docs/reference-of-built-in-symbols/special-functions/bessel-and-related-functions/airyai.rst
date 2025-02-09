@@ -36,7 +36,7 @@ Exact values:
 >>> Plot[AiryAi[x], {x, -10, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AiryAi_uop_83g_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_AiryAi_dcad1yd4.png
     :align: center
 
 

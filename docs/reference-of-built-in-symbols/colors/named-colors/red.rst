@@ -13,7 +13,7 @@ Red
 >>> Graphics[{EdgeForm[Black], Red, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Red_cuvh1p5y.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Red_hb493n46.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Red
 >>> Red
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Red_ctmmtuj8.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Red_1lrmrz6p.png
     :align: center
 
 

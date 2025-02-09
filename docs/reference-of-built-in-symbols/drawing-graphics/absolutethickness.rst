@@ -14,7 +14,7 @@ AbsoluteThickness
 >>> Graphics[Table[{AbsoluteThickness[t], Line[{{20 t, 10}, {20 t, 80}}], Text[ToString[t]<>"pt", {20 t, 0}]}, {t, 0, 10}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_AbsoluteThickness_hfv4tsi8.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_AbsoluteThickness_rfjhelhf.png
     :align: center
 
 

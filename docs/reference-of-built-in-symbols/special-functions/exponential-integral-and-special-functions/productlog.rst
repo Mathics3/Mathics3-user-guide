@@ -49,7 +49,7 @@ The graph of :code:`ProductLog` :
 >>> Plot[ProductLog[x], {x, -1/E, E}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_ProductLog_mm04lgqg.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_ProductLog_48ll_deq.png
     :align: center
 
 

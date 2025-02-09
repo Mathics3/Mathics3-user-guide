@@ -20,7 +20,7 @@ Octahedron
 >>> Graphics3D[{Red, Octahedron[]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Octahedron_w8iq54t_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Octahedron_z48sxsxv.png
     :align: center
 
 

@@ -28,7 +28,7 @@ Arrows on both ends can be achieved using negative sizes:
 >>> Graphics[{Circle[],Arrowheads[{-0.04, 0.04}], Arrow[{{0, 0}, {2, 2}}, {1,1}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrowheads_snrlwjv3.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrowheads_1ggvn5v2.png
     :align: center
 
 
@@ -39,7 +39,7 @@ You may also specify our own arrow shapes:
 >>> Graphics[{Circle[], Arrowheads[{{0.04, 1, Graphics[{Red, Disk[]}]}}], Arrow[{{0, 0}, {Cos[Pi/3],Sin[Pi/3]}}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrowheads_87cjjklg.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrowheads_avx754yg.png
     :align: center
 
 
@@ -47,7 +47,7 @@ You may also specify our own arrow shapes:
 >>> Graphics[{Arrowheads[Table[{0.04, i/10, Graphics[Disk[]]},{i,1,10}]], Arrow[{{0, 0}, {6, 5}, {1, -3}, {-2, 2}}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrowheads_mt1hsxwh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Arrowheads_emshs_ot.png
     :align: center
 
 

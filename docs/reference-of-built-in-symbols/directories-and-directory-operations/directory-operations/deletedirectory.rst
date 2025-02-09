@@ -14,7 +14,7 @@ DeleteDirectory
 >>> dir = CreateDirectory[]
 
     =
-:math:`\text{/tmp/mvsjyes50}`
+:math:`\text{/tmp/mjl35zvlh}`
 
 
 >>> DeleteDirectory[dir]

@@ -20,7 +20,7 @@ StruveH
 >>> Plot[StruveH[0, x], {x, 0, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_StruveH_qfc72m6w.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_StruveH_ptztvkgv.png
     :align: center
 
 

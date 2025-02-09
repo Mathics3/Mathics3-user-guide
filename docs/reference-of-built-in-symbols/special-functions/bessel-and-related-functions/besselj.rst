@@ -32,7 +32,7 @@ BesselJ
 >>> Plot[BesselJ[0, x], {x, 0, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_BesselJ_ur0b4evh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_BesselJ_2icvk9jx.png
     :align: center
 
 

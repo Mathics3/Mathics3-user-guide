@@ -19,7 +19,7 @@ ListStepPlot
 >>> ListStepPlot[{1, 1, 2, 3, 5, 8, 13, 21}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListStepPlot_pnqntjyn.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListStepPlot_zgljzlzd.png
     :align: center
 
 
@@ -30,7 +30,7 @@ ListStepPlot
 >>> ListStepPlot[{1, 1, 2, 3, 5, 8, 13, 21}, Joined->False]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListStepPlot_0u8dysa5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListStepPlot_6f44u5ek.png
     :align: center
 
 
@@ -41,7 +41,7 @@ The same as the first example but using a list of point as data,     and filling
 >>> ListStepPlot[{{1, 1}, {3, 2}, {4, 5}, {5, 8}, {6, 13}, {7, 21}}, Filling->Axis]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListStepPlot_s300c6nc.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListStepPlot_3gfnhld0.png
     :align: center
 
 

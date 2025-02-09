@@ -32,7 +32,7 @@ InverseGudermannian is 0 at multiples of 8 Pi:
 >>> Plot[InverseGudermannian[x], {x, -2 Pi, 2 Pi}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_InverseGudermannian_v616qlnx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_InverseGudermannian_jfj94dks.png
     :align: center
 
 

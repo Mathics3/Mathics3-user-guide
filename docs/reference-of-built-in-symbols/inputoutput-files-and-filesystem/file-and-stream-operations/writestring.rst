@@ -40,7 +40,7 @@ WriteString
 >>> pathname = Close[stream]
 
     =
-:math:`\text{/tmp/tmpx34y1\_o3}`
+:math:`\text{/tmp/tmpmf1eh56m}`
 
 
 >>> FilePrint[%]

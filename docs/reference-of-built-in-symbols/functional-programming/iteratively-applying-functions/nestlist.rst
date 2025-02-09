@@ -35,7 +35,7 @@ Chaos game rendition of the Sierpinski triangle:
 >>> Graphics[Point[points], ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Functional_Programming_NestList_8a3l1md5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Functional_Programming_NestList_6f3390_s.png
     :align: center
 
 

@@ -17,7 +17,7 @@ GaussianFilter
 >>> GaussianFilter[hedy, 2.5]
 
     =
-.. image:: tmpjir0wh84.png
+.. image:: tmp149wep6p.png
     :align: center
 
 

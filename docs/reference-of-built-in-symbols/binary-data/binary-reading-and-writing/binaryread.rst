@@ -20,13 +20,13 @@ BinaryRead
 >>> strm = OpenWrite[BinaryFormat -> True]
 
     =
-:math:`\text{OutputStream}\left[\text{/tmp/tmpq0huvdz3},3\right]`
+:math:`\text{OutputStream}\left[\text{/tmp/tmpc82totep},3\right]`
 
 
 >>> BinaryWrite[strm, {97, 98, 99}]
 
     =
-:math:`\text{OutputStream}\left[\text{/tmp/tmpq0huvdz3},3\right]`
+:math:`\text{OutputStream}\left[\text{/tmp/tmpc82totep},3\right]`
 
 
 >>> Close[strm];
@@ -35,7 +35,7 @@ BinaryRead
 >>> strm = OpenRead[%, BinaryFormat -> True]
 
     =
-:math:`\text{InputStream}\left[\text{/tmp/tmpq0huvdz3},3\right]`
+:math:`\text{InputStream}\left[\text{/tmp/tmpc82totep},3\right]`
 
 
 >>> BinaryRead[strm, {"Character8", "Character8", "Character8"}]

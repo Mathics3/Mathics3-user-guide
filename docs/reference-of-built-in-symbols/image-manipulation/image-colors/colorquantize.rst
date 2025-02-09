@@ -17,7 +17,7 @@ ColorQuantize
 >>> ColorQuantize[img, 6]
 
     =
-.. image:: tmp44cdpypp.png
+.. image:: tmpt843kcxs.png
     :align: center
 
 

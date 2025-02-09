@@ -16,7 +16,7 @@ Graphics3D
 >>> Graphics3D[Polygon[{{0,0,0}, {0,1,1}, {1,0,0}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Graphics3D_ut6bz6jg.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Graphics3D_6ru53dfz.png
     :align: center
 
 
@@ -27,7 +27,7 @@ The :code:`Background`  option allows to set the color of the background:
 >>> Graphics3D[Sphere[], Background->RGBColor[.6, .7, 1.]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Graphics3D_zn2zsuyp.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Graphics3D_auyv_9jx.png
     :align: center
 
 

@@ -25,7 +25,7 @@ Axes
 >>> Graphics[Circle[], Axes -> True]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Axes_7dpv7a8a.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Axes_grv1faab.png
     :align: center
 
 

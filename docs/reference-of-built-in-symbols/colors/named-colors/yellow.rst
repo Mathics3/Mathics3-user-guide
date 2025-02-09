@@ -13,7 +13,7 @@ Yellow
 >>> Graphics[{EdgeForm[Black], Yellow, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Yellow_428725u3.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Yellow_bv1qxjyl.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Yellow
 >>> Yellow
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Yellow_w1l3xe2f.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Yellow_fnn2tz59.png
     :align: center
 
 

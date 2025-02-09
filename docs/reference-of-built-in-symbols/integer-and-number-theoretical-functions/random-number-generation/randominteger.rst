@@ -25,13 +25,13 @@ RandomInteger
 >>> RandomInteger[{1, 5}]
 
     =
-:math:`4`
+:math:`2`
 
 
 >>> RandomInteger[100, {2, 3}] // TableForm
 
     =
-:math:`\begin{array}{ccc} 3 & 63 & 68\\ 16 & 85 & 41\end{array}`
+:math:`\begin{array}{ccc} 17 & 28 & 3\\ 88 & 99 & 85\end{array}`
 
 
 

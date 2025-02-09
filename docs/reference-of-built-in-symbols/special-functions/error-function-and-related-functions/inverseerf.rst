@@ -20,7 +20,7 @@ InverseErf
 >>> Plot[InverseErf[x], {x, -1, 1}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_InverseErf_cnenuzhe.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_InverseErf_tio7d103.png
     :align: center
 
 

@@ -23,7 +23,7 @@ A table of Graphics:
 >>> Table[Style[Graphics[{EdgeForm[{Black}], RGBColor[r,g,b], Rectangle[]}], ImageSizeMultipliers->{0.2, 1}], {r,0,1,1/2}, {g,0,1,1/2}, {b,0,1,1/2}] // TableForm
 
     =
-.. image:: eq_Reference of Built-in Symbols_Forms of Input and Output_TableForm_j3di6mf9.png
+.. image:: eq_Reference_of_Built-in_Symbols_Forms_of_Input_and_Output_TableForm_3o916gtq.png
     :align: center
 
 

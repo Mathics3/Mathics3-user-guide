@@ -17,6 +17,6 @@ Share
 >>> Share[]
 
     =
-:math:`2580480`
+:math:`0`
 
 

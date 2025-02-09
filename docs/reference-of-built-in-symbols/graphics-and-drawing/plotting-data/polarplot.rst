@@ -19,7 +19,7 @@ Here is a 5-blade propeller, or maybe a flower, using :code:`PolarPlot` :
 >>> PolarPlot[Cos[5t], {t, 0, Pi}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_rhg5kryy.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_2ewy9j9y.png
     :align: center
 
 
@@ -32,7 +32,7 @@ A slight change adding :code:`Abs`  turns this a clump of grass:
 >>> PolarPlot[Abs[Cos[5t]], {t, 0, Pi}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_u8eh4zc1.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_fm8egnbr.png
     :align: center
 
 
@@ -43,7 +43,7 @@ Coils around a ring:
 >>> PolarPlot[{1, 1 + Sin[20 t] / 5}, {t, 0, 2 Pi}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_esvr5zov.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_nqlc_5l8.png
     :align: center
 
 
@@ -54,7 +54,7 @@ A spring having 16 turns:
 >>> PolarPlot[Sqrt[t], {t, 0, 16 Pi}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_r2lsx_3e.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PolarPlot_ktwqbcw8.png
     :align: center
 
 

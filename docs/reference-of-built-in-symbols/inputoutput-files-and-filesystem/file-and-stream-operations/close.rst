@@ -22,7 +22,7 @@ Close
 >>> file=Close[OpenWrite[]]
 
     =
-:math:`\text{/tmp/tmpz7u4oa9x}`
+:math:`\text{/tmp/tmp50ig32wj}`
 
 
 

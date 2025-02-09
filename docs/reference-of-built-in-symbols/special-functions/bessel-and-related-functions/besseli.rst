@@ -26,7 +26,7 @@ BesselI
 >>> Plot[BesselI[0, x], {x, 0, 5}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_BesselI_o821tici.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_BesselI_dpoul45w.png
     :align: center
 
 

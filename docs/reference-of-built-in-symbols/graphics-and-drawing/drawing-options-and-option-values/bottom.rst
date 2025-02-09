@@ -14,7 +14,7 @@ Bottom
 >>> ListLinePlot[Table[Sin[x], {x, -5, 5, 0.2}], Filling->Bottom]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Bottom__4idms6o.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Bottom_1rgou9fa.png
     :align: center
 
 

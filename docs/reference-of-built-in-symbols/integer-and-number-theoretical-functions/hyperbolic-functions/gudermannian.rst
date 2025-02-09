@@ -28,7 +28,7 @@ Gudermannian
 >>> Plot[Gudermannian[x], {x, -10, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_Gudermannian_rgx2j5xh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_Gudermannian_0epvr2c8.png
     :align: center
 
 

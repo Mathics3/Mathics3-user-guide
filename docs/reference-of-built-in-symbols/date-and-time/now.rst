@@ -14,6 +14,6 @@ Now
 >>> Now
 
     =
-:math:`\left[\text{Sun 9 Feb 2025 08:49:26}\text{  GTM}-3\right]`
+:math:`\left[\text{Sun 9 Feb 2025 10:36:41}\text{  GTM}-3\right]`
 
 

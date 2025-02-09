@@ -19,7 +19,7 @@ A Right Triangle:
 >>> Graphics[Polygon[{{1,0},{0,0},{0,1}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Polygon_ek3fnuqt.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Polygon_o98_xgyd.png
     :align: center
 
 
@@ -32,7 +32,7 @@ A point is an element of the polygon if a ray from the point in any direction in
 >>> Graphics[Polygon[{{150,0},{121,90},{198,35},{102,35},{179,90}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Polygon_faljc0mg.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Polygon_iwdg32tl.png
     :align: center
 
 
@@ -40,7 +40,7 @@ A point is an element of the polygon if a ray from the point in any direction in
 >>> Graphics3D[Polygon[{{0,0,0},{0,1,1},{1,0,0}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Polygon_a2vuxw92.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Polygon__5brkdj_.png
     :align: center
 
 

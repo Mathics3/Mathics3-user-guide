@@ -17,7 +17,7 @@ Lighter
 >>> Lighter[Orange, 1/4]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Lighter_e95_94li.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Lighter_xip06fy4.png
     :align: center
 
 
@@ -25,7 +25,7 @@ Lighter
 >>> Graphics[{Lighter[Orange, 1/4], Disk[]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Lighter_6a5bd0nn.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Lighter_zly_gy2b.png
     :align: center
 
 
@@ -33,7 +33,7 @@ Lighter
 >>> Graphics[Table[{Lighter[Orange, x], Disk[{12x, 0}]}, {x, 0, 1, 1/6}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Lighter_0j7bp8t_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Lighter_mrix7rhb.png
     :align: center
 
 

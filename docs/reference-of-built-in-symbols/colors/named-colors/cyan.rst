@@ -13,7 +13,7 @@ Cyan
 >>> Graphics[{EdgeForm[Black], Cyan, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Cyan_gknzrsi5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Cyan_633z_oyo.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Cyan
 >>> Cyan
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Cyan_mar1b8g2.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Cyan_kera_147.png
     :align: center
 
 

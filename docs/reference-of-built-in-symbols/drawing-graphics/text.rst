@@ -14,7 +14,7 @@ Text
 >>> Graphics[{Text["First", {0, 0}], Text["Second", {1, 1}]}, Axes->True, PlotRange->{{-2, 2}, {-2, 2}}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Text_nkv6_h3v.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Text_j2ig35fw.png
     :align: center
 
 

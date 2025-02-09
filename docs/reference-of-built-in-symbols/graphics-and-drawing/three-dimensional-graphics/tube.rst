@@ -17,7 +17,7 @@ Tube
 >>> Graphics3D[Tube[{{0,0,0}, {1,1,1}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Tube_q_vyk6wd.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Tube_8ksd957q.png
     :align: center
 
 
@@ -25,7 +25,7 @@ Tube
 >>> Graphics3D[Tube[{{0,0,0}, {1,1,1}, {0, 0, 1}}, 0.1]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Tube_zetn_iwx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Tube_i236dpre.png
     :align: center
 
 
