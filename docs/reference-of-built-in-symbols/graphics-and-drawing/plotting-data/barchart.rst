@@ -42,7 +42,7 @@ A bar chart of a list of heights:
 >>> BarChart[{1, 4, 2}]
 
     =
-.. image:: tmpo7hmr3e0.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_BarChart_1i2rxccp.png
     :align: center
 
 
@@ -50,7 +50,7 @@ A bar chart of a list of heights:
 >>> BarChart[{1, 4, 2}, ChartStyle -> {Red, Green, Blue}]
 
     =
-.. image:: tmpk9rbgcj0.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_BarChart_q18lbh4n.png
     :align: center
 
 
@@ -58,7 +58,7 @@ A bar chart of a list of heights:
 >>> BarChart[{{1, 2, 3}, {2, 3, 4}}]
 
     =
-.. image:: tmpgr6oimsy.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_BarChart_2j3qgv1n.png
     :align: center
 
 
@@ -69,7 +69,7 @@ Chart several datasets with categorical labels:
 >>> BarChart[{{1, 2, 3}, {2, 3, 4}}, ChartLabels -> {"a", "b", "c"}]
 
     =
-.. image:: tmpa1tk2bj6.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_BarChart_nk33xwau.png
     :align: center
 
 
@@ -77,7 +77,7 @@ Chart several datasets with categorical labels:
 >>> BarChart[{{1, 5}, {3, 4}}, ChartStyle -> {{EdgeForm[Thin], White}, {EdgeForm[Thick], White}}]
 
     =
-.. image:: tmp29fmq6x2.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_BarChart_0ifndgoa.png
     :align: center
 
 

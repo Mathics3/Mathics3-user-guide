@@ -30,7 +30,7 @@ release = "8.0.1"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.autosectionlabel"]
+extensions = ["sphinx.ext.autosectionlabel", "sphinx.ext.mathjax"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -57,3 +57,7 @@ smartquotes = True
 
 latex_engine = 'xelatex'
 
+
+mathjax2_config={
+    "preamble":r"\usepackage{multirow}",
+}

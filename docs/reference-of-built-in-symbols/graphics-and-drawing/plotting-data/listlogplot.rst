@@ -21,7 +21,7 @@ Plotting table of Fibonacci numbers:
 >>> ListLogPlot[Table[Fibonacci[n], {n, 10}]]
 
     =
-.. image:: tmp_e6iy2tc.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListLogPlot_mqayqfgs.png
     :align: center
 
 
@@ -32,7 +32,7 @@ we see that Fibonacci numbers grow exponentially. So when     plotted using on a
 >>> ListLogPlot[Table[n!, {n, 10}], Joined -> True]
 
     =
-.. image:: tmpgrnt9ccm.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListLogPlot_ows_zc_c.png
     :align: center
 
 

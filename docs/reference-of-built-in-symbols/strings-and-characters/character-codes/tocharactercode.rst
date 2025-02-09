@@ -62,7 +62,7 @@ ToCharacterCode
 >>> ListPlot[ToCharacterCode["plot this string"], Filling -> Axis]
 
     =
-.. image:: tmpk4cnbu9i.png
+.. image:: asy_Reference_of_Built-in_Symbols_Strings_and_Characters_ToCharacterCode_gngfmga0.png
     :align: center
 
 

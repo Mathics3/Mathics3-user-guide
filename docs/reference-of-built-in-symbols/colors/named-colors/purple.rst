@@ -13,7 +13,7 @@ Purple
 >>> Graphics[{EdgeForm[Black], Purple, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpdtwbzxnh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Purple_4ttgygb0.png
     :align: center
 
 

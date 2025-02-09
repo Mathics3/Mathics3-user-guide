@@ -13,7 +13,7 @@ LightOrange
 >>> Graphics[{EdgeForm[Black], LightOrange, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpk37x5vbc.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightOrange_n2jkgmm7.png
     :align: center
 
 

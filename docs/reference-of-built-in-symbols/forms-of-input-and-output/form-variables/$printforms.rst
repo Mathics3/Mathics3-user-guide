@@ -12,7 +12,7 @@ $PrintForms
 >>> $PrintForms
 
     =
-:math:`\left\{\text{MathMLForm},\text{SympyForm},\text{TraditionalForm},\text{InputForm},\text{PythonForm},\text{FullForm},\text{StandardForm},\text{TeXForm},\text{OutputForm},\text{MyForm}\right\}`
+:math:`\left\{\text{InputForm},\text{PythonForm},\text{SympyForm},\text{TraditionalForm},\text{MathMLForm},\text{TeXForm},\text{StandardForm},\text{FullForm},\text{OutputForm},\text{MyForm}\right\}`
 
 
 

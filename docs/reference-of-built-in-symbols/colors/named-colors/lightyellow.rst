@@ -13,7 +13,7 @@ LightYellow
 >>> Graphics[{EdgeForm[Black], LightYellow, Disk[]}, ImageSize->Small]
 
     =
-.. image:: tmpp0o3icb2.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightYellow_y4as3_jt.png
     :align: center
 
 

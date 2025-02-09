@@ -43,7 +43,7 @@ Plot in one dimension:
 >>> Plot[UnitStep[x], {x, -4, 4}]
 
     =
-.. image:: tmpuawk5u4c.png
+.. image:: asy_Reference_of_Built-in_Symbols_Numerical_Functions_UnitStep_d245x9s1.png
     :align: center
 
 

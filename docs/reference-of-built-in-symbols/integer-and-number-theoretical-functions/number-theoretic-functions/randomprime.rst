@@ -40,6 +40,6 @@ RandomPrime
 >>> RandomPrime[{10,30}, {2,5}]
 
     =
-:math:`\left\{\left\{19,19,19,19,19\right\},\left\{19,19,19,19,19\right\}\right\}`
+:math:`\left\{\left\{23,23,23,23,23\right\},\left\{23,23,23,23,23\right\}\right\}`
 
 

@@ -28,7 +28,7 @@ Two-dimensional graphics can be created using the function :code:`Graphics`  and
 >>> Graphics[{Circle[{0, 0}, 1]}]
 
     =
-.. image:: tmpax7zqh1e.png
+.. image:: asy_Manual_Language_Tutorial_Graphics_Introduction_Examples_c4njl6yo.png
     :align: center
 
 
@@ -36,7 +36,7 @@ Two-dimensional graphics can be created using the function :code:`Graphics`  and
 >>> Graphics[{Line[{{0, 0}, {0, 1}, {1, 1}, {1, -1}}], Rectangle[{0, 0}, {-1, -1}]}]
 
     =
-.. image:: tmpqhakjtgl.png
+.. image:: asy_Manual_Language_Tutorial_Graphics_Introduction_Examples_473uoeas.png
     :align: center
 
 
@@ -65,7 +65,7 @@ All components range from 0 to 1. Each color function can be supplied with an ad
 >>> Graphics[{Red, Disk[]}]
 
     =
-.. image:: tmpe8e4aqhv.png
+.. image:: asy_Manual_Language_Tutorial_Graphics_Introduction_Examples_gdx6tf5c.png
     :align: center
 
 
@@ -76,7 +76,7 @@ Table of hues:
 >>> Graphics[Table[{Hue[h, s], Disk[{12h, 8s}]}, {h, 0, 1, 1/6}, {s, 0, 1, 1/4}]]
 
     =
-.. image:: tmpb5aws5pr.png
+.. image:: asy_Manual_Language_Tutorial_Graphics_Introduction_Examples_rut4ke_s.png
     :align: center
 
 
@@ -100,7 +100,7 @@ Colors can be mixed and altered using the following functions:
 >>> Graphics[{Lighter[Red], Disk[]}]
 
     =
-.. image:: tmph8geaq1t.png
+.. image:: asy_Manual_Language_Tutorial_Graphics_Introduction_Examples_ieet9zfc.png
     :align: center
 
 

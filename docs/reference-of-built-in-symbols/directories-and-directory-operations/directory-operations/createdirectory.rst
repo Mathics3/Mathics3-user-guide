@@ -17,7 +17,7 @@ CreateDirectory
 >>> dir = CreateDirectory[]
 
     =
-:math:`\text{/tmp/m9d8357j7}`
+:math:`\text{/tmp/m1sn85mk4}`
 
 
 >>> DirectoryQ[dir]

@@ -14,8 +14,18 @@ PointSize
 :code:`PointSize`  can be used for both two- and three-dimensional graphics.     The initial default pointsize is 0.008 for two-dimensional graphics and 0.01 for three-dimensional graphics.
 
 >>> Table[Graphics[{PointSize[r], Point[{0, 0}]}], {r, {0.02, 0.05, 0.1, 0.3}}]
-    = {-Graphics-, -Graphics-, -Graphics-, -Graphics-}`
+
+    =
+.. image:: eq_Reference_of_Built-in_Symbols_Drawing_Graphics_PointSize_rift4ipj.png
+    :align: center
+
+
 
 >>> Table[Graphics3D[{PointSize[r], Point[{0, 0, 0}]}], {r, {0.05, 0.1, 0.8}}]
-    = {-Graphics3D-, -Graphics3D-, -Graphics3D-}`
+
+    =
+.. image:: eq_Reference_of_Built-in_Symbols_Drawing_Graphics_PointSize_iggoshoh.png
+    :align: center
+
+
 

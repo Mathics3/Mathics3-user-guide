@@ -14,7 +14,7 @@ Joined
 >>> ListPlot[Table[n ^ 2, {n, 10}], Joined->True]
 
     =
-.. image:: tmpalmyh8r4.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Joined_mpecx2zz.png
     :align: center
 
 

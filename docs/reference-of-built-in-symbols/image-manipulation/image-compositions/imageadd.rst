@@ -17,7 +17,7 @@ ImageAdd
 >>> ImageAdd[i, 0.5]
 
     =
-.. image:: tmpx2vex9qd.png
+.. image:: tmpxdzq0zpe.png
     :align: center
 
 
@@ -25,7 +25,7 @@ ImageAdd
 >>> ImageAdd[i, i]
 
     =
-.. image:: tmpxvm8ykxz.png
+.. image:: tmpmarp96r4.png
     :align: center
 
 
@@ -39,7 +39,7 @@ ImageAdd
 >>> ImageAdd[noise, ein]
 
     =
-.. image:: tmpujvzuvwe.png
+.. image:: tmpouq18_fv.png
     :align: center
 
 
@@ -53,7 +53,7 @@ ImageAdd
 >>> ImageAdd[noise, hedy]
 
     =
-.. image:: tmp4oxqbbsw.png
+.. image:: tmpf58kcuyp.png
     :align: center
 
 

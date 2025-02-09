@@ -34,4 +34,6 @@ build rebuild:
 #: Wipe derivable files
 clean:
 	$(MAKE) -C docs $<
+	rm -f -R docs/manual
+	rm -f -R docs/reference-of-builtin-symbols
 

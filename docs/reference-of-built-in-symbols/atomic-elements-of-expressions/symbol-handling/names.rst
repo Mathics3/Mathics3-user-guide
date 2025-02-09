@@ -49,6 +49,6 @@ The number of built-in symbols:
 >>> Length[Names["System`*"]]
 
     =
-:math:`1507`
+:math:`1497`
 
 

@@ -39,7 +39,7 @@ Options include:
 >>> Graphics[{Blue, Line[{{0,0}, {1,1}}]}]
 
     =
-.. image:: tmpyyrza4_5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Graphics_uw7cezs6.png
     :align: center
 
 
@@ -50,7 +50,7 @@ Options include:
 >>> Graphics[{Rectangle[{1, 1}]}, Axes -> True, PlotRange -> {{-2, 1.5}, {-1, 1.5}}]
 
     =
-.. image:: tmppd8yiakr.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Graphics_ozfmvmqg.png
     :align: center
 
 
@@ -58,7 +58,7 @@ Options include:
 >>> Graphics[{Rectangle[],Red,Disk[{1,0}]},PlotRange->{{0,1},{0,1}}]
 
     =
-.. image:: tmp1uqswsu9.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Graphics_i5nzbw53.png
     :align: center
 
 
@@ -78,7 +78,7 @@ The :code:`Background`  option allows to set the color of the background:
 >>> Graphics[{Green, Disk[]}, Background->RGBColor[.6, .7, 1.]]
 
     =
-.. image:: tmp43qc9txe.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Graphics_g0cbz3mi.png
     :align: center
 
 

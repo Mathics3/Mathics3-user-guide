@@ -25,7 +25,7 @@ TicksStyle
 >>> Graphics[Circle[], Axes-> True, TicksStyle -> {Blue, Red}]
 
     =
-.. image:: tmp7wty2dse.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_TicksStyle_ts43q1m1.png
     :align: center
 
 

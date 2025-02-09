@@ -14,7 +14,7 @@ MemoryAvailable
 >>> MemoryAvailable[]
 
     =
-:math:`5189345280`
+:math:`3450294272`
 
 
 

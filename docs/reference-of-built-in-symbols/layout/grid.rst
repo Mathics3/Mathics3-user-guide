@@ -23,7 +23,9 @@ For shallow lists, elements are shown as a column:
 >>> Grid[{a, b, c}]
 
     =
-:math:`\begin{array}{c} \multicolumn{1}{c}{a}\\ \multicolumn{1}{c}{b}\\ \multicolumn{1}{c}{c}\end{array}`
+.. image:: eq_Reference_of_Built-in_Symbols_Layout_Grid_jy392g5s.png
+    :align: center
+
 
 
 
@@ -42,6 +44,8 @@ shown as rows:
 >>> Grid[{"This is a long title", {"first", "second", "third"},{a},{1, 2, 3}}]
 
     =
-:math:`\begin{array}{cccc} \multicolumn{4}{c}{\text{This is a long title}}\\ \text{first} & \text{second} & \text{third} & \\ a &  &  & \\ 1 & 2 & 3 & \end{array}`
+.. image:: eq_Reference_of_Built-in_Symbols_Layout_Grid_6x8m7uri.png
+    :align: center
+
 
 

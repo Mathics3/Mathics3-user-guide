@@ -47,7 +47,7 @@ Power
 >>> Plot[Evaluate[Table[x^y, {y, 1, 5}]], {x, -1.5, 1.5}, AspectRatio -> 1]
 
     =
-.. image:: tmp38z1kx_8.png
+.. image:: asy_Reference_of_Built-in_Symbols_Arithmetic_Functions_Power_nihx1s1c.png
     :align: center
 
 

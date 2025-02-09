@@ -14,7 +14,7 @@ Write
 >>> stream = OpenWrite[]
 
     =
-:math:`\text{OutputStream}\left[\text{/tmp/tmpnzw6xw8x},37\right]`
+:math:`\text{OutputStream}\left[\text{/tmp/tmpd9axr1j2},37\right]`
 
 
 >>> Write[stream, 10 x + 15 y ^ 2]

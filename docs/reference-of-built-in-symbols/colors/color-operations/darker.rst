@@ -17,7 +17,7 @@ Darker
 >>> Graphics[{Darker[Red], Disk[]}]
 
     =
-.. image:: tmpp5sckrlp.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Darker_ar7pc8u7.png
     :align: center
 
 
@@ -25,7 +25,7 @@ Darker
 >>> Graphics3D[{Darker[Green], Sphere[]}]
 
     =
-.. image:: tmp7h3wm2bf.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Darker_ezb0dohn.png
     :align: center
 
 
@@ -33,7 +33,7 @@ Darker
 >>> Graphics[Table[{Darker[Yellow, x], Disk[{12x, 0}]}, {x, 0, 1, 1/6}]]
 
     =
-.. image:: tmpmx03nuio.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Darker_c6k10oel.png
     :align: center
 
 

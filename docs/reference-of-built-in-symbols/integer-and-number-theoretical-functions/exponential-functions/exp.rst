@@ -32,7 +32,7 @@ Exp
 >>> Plot[Exp[x], {x, 0, 3}]
 
     =
-.. image:: tmpfo8ih3ui.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_Exp_7wywelma.png
     :align: center
 
 

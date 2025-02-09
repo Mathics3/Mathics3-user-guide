@@ -20,7 +20,7 @@ Dodecahedron
 >>> Graphics3D[Dodecahedron[]]
 
     =
-.. image:: tmpfz9voxtz.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Dodecahedron_qv0ejtlq.png
     :align: center
 
 

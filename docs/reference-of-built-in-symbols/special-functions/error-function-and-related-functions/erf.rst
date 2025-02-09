@@ -43,7 +43,7 @@ Erf
 >>> Plot[Erf[x], {x, -2, 2}]
 
     =
-.. image:: tmpimfpjxdf.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_Erf_kcboz6m5.png
     :align: center
 
 

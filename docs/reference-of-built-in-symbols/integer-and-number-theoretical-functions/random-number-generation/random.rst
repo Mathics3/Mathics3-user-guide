@@ -21,7 +21,7 @@ Four random numbers in the range 0..1:
 >>> Table[Random[], {4}]
 
     =
-:math:`\left\{0.884347,0.403754,0.473134,0.93401\right\}`
+:math:`\left\{0.785711,0.0849675,0.82118,0.535305\right\}`
 
 
 
@@ -30,6 +30,6 @@ Eight random integers in the range 1..100:
 >>> Table[Random[Integer, {1, 100}], {8}]
 
     =
-:math:`\left\{1,77,50,53,95,50,71,7\right\}`
+:math:`\left\{85,7,83,77,32,80,88,90\right\}`
 
 

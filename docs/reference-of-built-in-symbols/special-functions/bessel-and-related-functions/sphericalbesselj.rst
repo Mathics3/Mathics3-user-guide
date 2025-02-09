@@ -20,7 +20,7 @@ SphericalBesselJ
 >>> Plot[SphericalBesselJ[1, x], {x, 0.1, 10}]
 
     =
-.. image:: tmpil86asev.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_SphericalBesselJ_nkt_ukq1.png
     :align: center
 
 

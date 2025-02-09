@@ -32,7 +32,7 @@ Erfc
 >>> Plot[Erfc[x], {x, -2, 2}]
 
     =
-.. image:: tmpwmd7zmp1.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_Erfc_wy8csmv4.png
     :align: center
 
 

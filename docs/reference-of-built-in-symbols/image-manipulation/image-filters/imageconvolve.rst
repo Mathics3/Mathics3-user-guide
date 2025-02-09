@@ -17,7 +17,7 @@ ImageConvolve
 >>> ImageConvolve[hedy, DiamondMatrix[5] / 61]
 
     =
-.. image:: tmphrs9aymb.png
+.. image:: tmpnajoou6j.png
     :align: center
 
 
@@ -25,7 +25,7 @@ ImageConvolve
 >>> ImageConvolve[hedy, DiskMatrix[5] / 97]
 
     =
-.. image:: tmpqcltitzg.png
+.. image:: tmpcvgmtilp.png
     :align: center
 
 
@@ -33,7 +33,7 @@ ImageConvolve
 >>> ImageConvolve[hedy, BoxMatrix[5] / 121]
 
     =
-.. image:: tmpom47p2c4.png
+.. image:: tmp6v702j50.png
     :align: center
 
 

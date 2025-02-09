@@ -20,7 +20,7 @@ Cylinder
 >>> Graphics3D[Cylinder[{{0, 0, 0}, {1, 1, 1}}, 1]]
 
     =
-.. image:: tmp63h2q05_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cylinder_eb_ckwzr.png
     :align: center
 
 
@@ -28,7 +28,7 @@ Cylinder
 >>> Graphics3D[{Yellow, Cylinder[{{-1, 0, 0}, {1, 0, 0}, {0, 0, Sqrt[3]}, {1, 1, Sqrt[3]}}, 1]}]
 
     =
-.. image:: tmpm6bnmd4_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cylinder_ogjwmqo9.png
     :align: center
 
 

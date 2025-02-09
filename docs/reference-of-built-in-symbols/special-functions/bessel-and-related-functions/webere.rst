@@ -20,7 +20,7 @@ WeberE
 >>> Plot[WeberE[1, x], {x, -10, 10}]
 
     =
-.. image:: tmp6hqf6240.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_WeberE_pu0oc237.png
     :align: center
 
 

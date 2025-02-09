@@ -12,13 +12,8 @@ Dilation
 
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
-
+    = `
 
 >>> Dilation[ein, 2.5]
-
-    =
-.. image:: tmpetyp0w_y.png
-    :align: center
-
-
+    = -Image-`
 

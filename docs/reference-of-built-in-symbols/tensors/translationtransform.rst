@@ -29,7 +29,7 @@ From `Creating a Sierpinsky gasket with the missing triangles filled in <"https:
 >>> Show[Graphics[Table[Polygon[TranslationTransform[{Sqrt[3] (i - j/2), 3 j/2}] /@ {{Sqrt[3]/2, -1/2}, {0, 1}, {-Sqrt[3]/2, -1/2}}], {i, 7}, {j, i}]]]
 
     =
-.. image:: tmpwaqf85r5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Tensors_TranslationTransform_e_ozlevz.png
     :align: center
 
 

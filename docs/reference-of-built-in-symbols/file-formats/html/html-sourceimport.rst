@@ -10,8 +10,5 @@ HTML`SourceImport
 
 
 >>> DeleteDuplicates[StringCases[Import["ExampleData/PrimeMeridian.html", "Source"], RegularExpression["<t[a-z]+>"]]]
-
-    =
-:math:`\left\{\text{<title>},\text{<tr>},\text{<th>},\text{<td>}\right\}`
-
+    = {<title>, <tr>, <th>, <td>}`
 

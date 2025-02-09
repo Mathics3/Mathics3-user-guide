@@ -1,0 +1,37 @@
+name: Mathics3-user-guide
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.12']
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        sudo apt update -qq && sudo apt install asymptote texlive-xetex texlive-latex-extra
+        python -m pip install --upgrade pip
+    - name: Install the documentation and dependencies
+      run: |
+        make setup
+    - name: Generate documentation
+      run: |
+        mkdir /home/runner/.local
+        mkdir /home/runner/.local/var
+        mkdir /home/runner/.local/var/Mathics3
+        make doctest-data
+        make rst-documentation
+        cd docs
+        make html
+        make latex

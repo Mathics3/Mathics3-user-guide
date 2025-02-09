@@ -17,7 +17,7 @@ ImageMultiply
 >>> ImageMultiply[i, 0.2]
 
     =
-.. image:: tmp8vy3_0ng.png
+.. image:: tmpmr3nugjt.png
     :align: center
 
 
@@ -25,7 +25,7 @@ ImageMultiply
 >>> ImageMultiply[i, i]
 
     =
-.. image:: tmp83s22cvy.png
+.. image:: tmpym481rth.png
     :align: center
 
 

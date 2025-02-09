@@ -19,7 +19,7 @@ Three-dimensional graphics are created using the function :code:`Graphics3D`  an
 >>> Graphics3D[Polygon[{{0,0,0}, {0,1,1}, {1,0,0}}]]
 
     =
-.. image:: tmpouet69sx.png
+.. image:: asy_Manual_Language_Tutorial_3D_Graphics_3gk0_tfk.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Colors can also be added to three-dimensional primitives.
 >>> Graphics3D[{Orange, Polygon[{{0,0,0}, {1,1,1}, {1,0,0}}]}, Axes->True]
 
     =
-.. image:: tmppebt78xy.png
+.. image:: asy_Manual_Language_Tutorial_3D_Graphics_n28iucq9.png
     :align: center
 
 

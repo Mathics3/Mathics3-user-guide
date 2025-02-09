@@ -26,12 +26,12 @@ RandomReal
 >>> RandomReal[]
 
     =
-:math:`0.92965`
+:math:`0.754904`
 
 
 >>> RandomReal[{1, 5}]
 
     =
-:math:`3.90934`
+:math:`1.70244`
 
 

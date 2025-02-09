@@ -22,7 +22,7 @@ ParametricPlot
 >>> ParametricPlot[{Sin[u], Cos[3 u]}, {u, 0, 2 Pi}]
 
     =
-.. image:: tmpsdlrij49.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ParametricPlot_em58f4xn.png
     :align: center
 
 
@@ -30,7 +30,7 @@ ParametricPlot
 >>> ParametricPlot[{Cos[u] / u, Sin[u] / u}, {u, 0, 50}, PlotRange->0.5]
 
     =
-.. image:: tmp9zkc1by6.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ParametricPlot_multzll3.png
     :align: center
 
 
@@ -38,7 +38,7 @@ ParametricPlot
 >>> ParametricPlot[{{Sin[u], Cos[u]},{0.6 Sin[u], 0.6 Cos[u]}, {0.2 Sin[u], 0.2 Cos[u]}}, {u, 0, 2 Pi}, PlotRange->1, AspectRatio->1]
 
     =
-.. image:: tmp7ljtmr0x.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ParametricPlot_iig88675.png
     :align: center
 
 

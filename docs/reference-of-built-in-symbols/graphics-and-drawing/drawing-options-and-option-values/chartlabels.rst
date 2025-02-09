@@ -14,7 +14,7 @@ ChartLabels
 >>> PieChart[{30, 20, 10}, ChartLabels -> {Dogs, Cats, Fish}]
 
     =
-.. image:: tmpsul0frds.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ChartLabels_1jttywy5.png
     :align: center
 
 
