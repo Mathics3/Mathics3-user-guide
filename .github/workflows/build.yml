@@ -20,7 +20,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        sudo apt update -qq && sudo apt install asymptote texlive-xetex texlive-latex-base
+        sudo apt update -qq && sudo apt install asymptote texlive-xetex texlive-latex-extra
+        sudo tlmgr install cm-super
         python -m pip install --upgrade pip
     - name: Install the documentation and dependencies
       run: |
