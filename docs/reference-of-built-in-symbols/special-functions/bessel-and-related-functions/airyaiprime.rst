@@ -13,8 +13,8 @@ Derivative of Airy function (`Sympy <https://docs.sympy.org/latest/modules/funct
 Exact values:
 
 >>> AiryAiPrime[0]
-    =
 
+    =
 :math:`-\frac{3^{\frac{2}{3}}}{3 \text{Gamma}\left[\frac{1}{3}\right]}`
 
 
@@ -22,15 +22,15 @@ Exact values:
 Numeric evaluation:
 
 >>> AiryAiPrime[0.5]
-    =
 
+    =
 :math:`-0.224911`
 
 
 >>> Plot[AiryAiPrime[x], {x, -10, 10}]
-    =
 
-.. image:: tmprzz3vllc.png
+    =
+.. image:: tmp1arg__m2.png
     :align: center
 
 

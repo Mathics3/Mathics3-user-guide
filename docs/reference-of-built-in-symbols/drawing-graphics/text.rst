@@ -12,9 +12,9 @@ Text
 
 
 >>> Graphics[{Text["First", {0, 0}], Text["Second", {1, 1}]}, Axes->True, PlotRange->{{-2, 2}, {-2, 2}}]
-    =
 
-.. image:: tmp28xhinrf.png
+    =
+.. image:: tmp3f3du8ba.png
     :align: center
 
 

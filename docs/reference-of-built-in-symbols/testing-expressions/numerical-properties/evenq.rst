@@ -12,20 +12,20 @@ EvenQ
 
 
 >>> EvenQ[4]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> EvenQ[-3]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> EvenQ[n]
-    =
 
+    =
 :math:`\text{False}`
 
 

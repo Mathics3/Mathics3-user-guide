@@ -12,14 +12,14 @@ LessSlantEqual
 
 
 >>> LessSlantEqual[x, y, z]
-    =
 
+    =
 :math:`x \leq y \leq z`
 
 
 >>> a \[LessSlantEqual] b
-    =
 
+    =
 :math:`a \leq b`
 
 

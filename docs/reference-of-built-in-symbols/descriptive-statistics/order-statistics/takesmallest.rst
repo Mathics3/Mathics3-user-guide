@@ -14,8 +14,8 @@ TakeSmallest
 List the smallest two numbers of a list:
 
 >>> TakeSmallest[{100, -1, 50, 10}, 2]
-    =
 
+    =
 :math:`\left\{-1,10\right\}`
 
 

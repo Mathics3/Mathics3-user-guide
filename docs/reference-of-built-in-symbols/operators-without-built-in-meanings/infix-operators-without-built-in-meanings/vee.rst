@@ -12,14 +12,14 @@ Vee
 
 
 >>> Vee[x, y, z]
-    =
 
+    =
 :math:`x \vee y \vee z`
 
 
 >>> a \[Vee] b
-    =
 
+    =
 :math:`a \vee b`
 
 

@@ -20,8 +20,8 @@ MapAt
 Map function :math:`f` to the second element of an simple flat list:
 
 >>> MapAt[f, {a, b, c}, 2]
-    =
 
+    =
 :math:`\left\{a,f\left[b\right],c\right\}`
 
 
@@ -31,8 +31,8 @@ Above, we specified a simple integer value 2. In general, the expression can be 
 Using :code:`MapAt`  with :code:`Function[0]` , we can zero a value or values in a vector:
 
 >>> MapAt[0&, {{1, 1}, {1, 1}}, {2, 1}]
-    =
 
+    =
 :math:`\left\{\left\{1,1\right\},\left\{0,1\right\}\right\}`
 
 
@@ -40,8 +40,8 @@ Using :code:`MapAt`  with :code:`Function[0]` , we can zero a value or values in
 When the dimension of the replacement expression is less than the vector,     that element's dimension changes:
 
 >>> MapAt[0&, {{0, 1}, {1, 0}}, 2]
-    =
 
+    =
 :math:`\left\{\left\{0,1\right\},0\right\}`
 
 
@@ -49,8 +49,8 @@ When the dimension of the replacement expression is less than the vector,     th
 So now compare what happen when using {{2}, {1}} instead of {2, 1} above:
 
 >>> MapAt[0&, {{0, 1}, {1, 0}}, {{2}, {1}}]
-    =
 
+    =
 :math:`\left\{0,0\right\}`
 
 
@@ -58,8 +58,8 @@ So now compare what happen when using {{2}, {1}} instead of {2, 1} above:
 Map :math:`f` onto the last element of a list:
 
 >>> MapAt[f, {a, b, c}, -1]
-    =
 
+    =
 :math:`\left\{a,b,f\left[c\right]\right\}`
 
 
@@ -67,8 +67,8 @@ Map :math:`f` onto the last element of a list:
 Same as above, but use the operator form of :code:`MapAt` :
 
 >>> MapAt[f, -1][{a, b, c}]
-    =
 
+    =
 :math:`\left\{a,b,f\left[c\right]\right\}`
 
 
@@ -76,8 +76,8 @@ Same as above, but use the operator form of :code:`MapAt` :
 Map :math:`f` onto at the second position of an association:
 
 >>> MapAt[f, <|"a" -> 1, "b" -> 2, "c" -> 3, "d" -> 4|>, 2]
-    =
 
+    =
 :math:`\left\{\text{a}->1,\text{b}->f\left[2\right],\text{c}->3,\text{d}->4\right\}`
 
 
@@ -85,8 +85,8 @@ Map :math:`f` onto at the second position of an association:
 Same as above, but select the second-from-the-end position:
 
 >>> MapAt[f, <|"a" -> 1, "b" -> 2, "c" -> 3, "d" -> 4|>, -2]
-    =
 
+    =
 :math:`\left\{\text{a}->1,\text{b}->2,\text{c}->f\left[3\right],\text{d}->4\right\}`
 
 

@@ -12,8 +12,8 @@ NValues
 
 
 >>> NValues[a]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
@@ -21,8 +21,8 @@ NValues
 
 
 >>> NValues[a]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[N\left[a,\text{MachinePrecision}\right]\right]\text{:>}3\right\}`
 
 
@@ -33,8 +33,8 @@ You can assign values to :code:`NValues` :
 
 
 >>> N[b]
-    =
 
+    =
 :math:`2.`
 
 
@@ -45,8 +45,8 @@ Be sure to use :code:`SetDelayed` , otherwise the left-hand side of the     tran
 
 
 >>> N[c]
-    =
 
+    =
 :math:`c`
 
 
@@ -57,14 +57,14 @@ Mathics will assign any list of rules to :code:`NValues` ; however,     inapprop
 
 
 >>> NValues[d]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[\text{foo}\right]\text{:>}\text{bar}\right\}`
 
 
 >>> N[d]
-    =
 
+    =
 :math:`d`
 
 

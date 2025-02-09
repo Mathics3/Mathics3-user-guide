@@ -17,8 +17,8 @@ LetterNumber
 
 
 >>> LetterNumber["b"]
-    =
 
+    =
 :math:`2`
 
 
@@ -26,14 +26,14 @@ LetterNumber
 LetterNumber also works with uppercase characters
 
 >>> LetterNumber["B"]
-    =
 
+    =
 :math:`2`
 
 
 >>> LetterNumber["ss2!"]
-    =
 
+    =
 :math:`\left\{19,19,0,0\right\}`
 
 
@@ -41,20 +41,20 @@ LetterNumber also works with uppercase characters
 Get positions of each of the letters in a string:
 
 >>> LetterNumber[Characters["Peccary"]]
-    =
 
+    =
 :math:`\left\{16,5,3,3,1,18,25\right\}`
 
 
 >>> LetterNumber[{"P", "Pe", "P1", "eck"}]
-    =
 
+    =
 :math:`\left\{16,\left\{16,5\right\},\left\{16,0\right\},\left\{5,3,11\right\}\right\}`
 
 
 >>> LetterNumber["\[Beta]", "Greek"]
-    =
 
+    =
 :math:`2`
 
 

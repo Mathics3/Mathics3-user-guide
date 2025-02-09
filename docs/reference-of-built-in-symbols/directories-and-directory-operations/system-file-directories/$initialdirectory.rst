@@ -12,8 +12,8 @@ $InitialDirectory
 
 
 >>> $InitialDirectory
-    =
 
-:math:`\text{/home/mauricio/Projects/mathics-core}`
+    =
+:math:`\text{/home/mauricio/Projects/Mathics3-user-guide}`
 
 

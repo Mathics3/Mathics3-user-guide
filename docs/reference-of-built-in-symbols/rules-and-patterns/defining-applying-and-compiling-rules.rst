@@ -13,8 +13,8 @@ If the :math:`pat` includes named subpatterns, symbols in :math:`repl` associate
 Let us consider, for example, the :code:`Rule` :
 
 >>> rule = F[u_]->g[u]
-    =
 
+    =
 :math:`F\left[\text{u\_}\right]->g\left[u\right]`
 
 
@@ -24,8 +24,8 @@ This rule associates the pattern :code:`F[u_]`  with the expression :code:`g[u]`
 Then, using the :code:`Replace`  operator :code:`/.`  we can apply the rule to an expression
 
 >>> a + F[x ^ 2] /. rule
-    =
 
+    =
 :math:`a+g\left[x^2\right]`
 
 
@@ -33,8 +33,8 @@ Then, using the :code:`Replace`  operator :code:`/.`  we can apply the rule to a
 Notice that the rule is applied from top to bottom just once:
 
 >>> a + F[F[x ^ 2]] /. rule
-    =
 
+    =
 :math:`a+g\left[F\left[x^2\right]\right]`
 
 
@@ -44,8 +44,8 @@ Here, the subexpression :code:`F[F[x^2]]`  matches with the pattern, and the nam
 Notice also that the rule is applied just once. We can apply it recursively until no further matches are found by using the :code:`ReplaceRepeated`  operator :code:`//.` :
 
 >>> a + F[F[x ^ 2]] //. rule
-    =
 
+    =
 :math:`a+g\left[g\left[x^2\right]\right]`
 
 
@@ -53,14 +53,14 @@ Notice also that the rule is applied just once. We can apply it recursively unti
 Rules are kept as expressions until a :code:`Replace`  expression is evaluated. At that moment, :code:`Pattern`  objects are :code:`compiled` , taking into account the attributes of the symbols involved. To make the repeated application of the same rule over different expressions faster, it is convenient to use :code:`Dispatch`  tables. These expressions store precompiled versions of a list of rules, avoiding repeating the :code:`compilation`  step each time the rules are applied.
 
 >>> dispatchrule = Dispatch[{rule}]
-    =
 
+    =
 :math:`\text{Dispatch}\left[\text{<1>}\right]`
 
 
 >>> a + F[F[x ^ 2]] //. dispatchrule
-    =
 
+    =
 :math:`a+g\left[g\left[x^2\right]\right]`
 
 

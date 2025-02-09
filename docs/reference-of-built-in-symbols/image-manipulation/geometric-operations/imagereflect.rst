@@ -20,25 +20,25 @@ ImageReflect
 
 
 >>> ImageReflect[ein]
-    =
 
-.. image:: tmpd0u8xsa_.png
+    =
+.. image:: tmp0r6nzboo.png
     :align: center
 
 
 
 >>> ImageReflect[ein, Left]
-    =
 
-.. image:: tmp2aoj_1nb.png
+    =
+.. image:: tmpx924eoyi.png
     :align: center
 
 
 
 >>> ImageReflect[ein, Left -> Top]
-    =
 
-.. image:: tmp_prc3v9d.png
+    =
+.. image:: tmpzz4k8v7c.png
     :align: center
 
 

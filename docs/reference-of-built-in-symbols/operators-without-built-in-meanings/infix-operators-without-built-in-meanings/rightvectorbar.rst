@@ -12,14 +12,14 @@ RightVectorBar
 
 
 >>> RightVectorBar[x, y, z]
-    =
 
+    =
 :math:`x \rightharpoonup | y \rightharpoonup | z`
 
 
 >>> a \[RightVectorBar] b
-    =
 
+    =
 :math:`a \rightharpoonup | b`
 
 

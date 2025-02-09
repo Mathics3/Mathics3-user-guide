@@ -12,20 +12,20 @@ ArcSinh
 
 
 >>> ArcSinh[0]
-    =
 
+    =
 :math:`0`
 
 
 >>> ArcSinh[0.]
-    =
 
+    =
 :math:`0.`
 
 
 >>> ArcSinh[1.0]
-    =
 
+    =
 :math:`0.881374`
 
 

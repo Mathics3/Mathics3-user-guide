@@ -21,8 +21,8 @@ OptionValue
 
 
 >>> f[a->3] /. f[OptionsPattern[{}]] -> {OptionValue[a]}
-    =
 
+    =
 :math:`\left\{3\right\}`
 
 
@@ -32,8 +32,8 @@ Unavailable options generate a message:
 >>> f[a->3] /. f[OptionsPattern[{}]] -> {OptionValue[b]}
 
     OptionValue::optnf Option name b not found.
-    =
 
+    =
 :math:`\left\{b\right\}`
 
 
@@ -43,8 +43,8 @@ The argument of :code:`OptionValue`  must be a symbol:
 >>> f[a->3] /. f[OptionsPattern[{}]] -> {OptionValue[a+b]}
 
     OptionValue::sym Argument a + b at position 1 is expected to be a symbol.
-    =
 
+    =
 :math:`\left\{\text{OptionValue}\left[a+b\right]\right\}`
 
 
@@ -52,8 +52,8 @@ The argument of :code:`OptionValue`  must be a symbol:
 However, it can be evaluated dynamically:
 
 >>> f[a->5] /. f[OptionsPattern[{}]] -> {OptionValue[Symbol["a"]]}
-    =
 
+    =
 :math:`\left\{5\right\}`
 
 

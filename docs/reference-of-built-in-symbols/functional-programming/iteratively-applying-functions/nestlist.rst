@@ -12,14 +12,14 @@ NestList
 
 
 >>> NestList[f, x, 3]
-    =
 
+    =
 :math:`\left\{x,f\left[x\right],f\left[f\left[x\right]\right],f\left[f\left[f\left[x\right]\right]\right]\right\}`
 
 
 >>> NestList[2 # &, 1, 8]
-    =
 
+    =
 :math:`\left\{1,2,4,8,16,32,64,128,256\right\}`
 
 
@@ -33,9 +33,9 @@ Chaos game rendition of the Sierpinski triangle:
 
 
 >>> Graphics[Point[points], ImageSize->Small]
-    =
 
-.. image:: tmpik1gs43p.png
+    =
+.. image:: tmpg2jp97jz.png
     :align: center
 
 

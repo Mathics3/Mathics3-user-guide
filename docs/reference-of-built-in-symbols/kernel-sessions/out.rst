@@ -17,14 +17,14 @@ Out
 
 
 >>> 42
-    =
 
+    =
 :math:`42`
 
 
 >>> %
-    =
 
+    =
 :math:`42`
 
 
@@ -32,44 +32,44 @@ Out
 
 
 >>> %
-    =
 
+    =
 :math:`43`
 
 
 >>> 44
-    =
 
+    =
 :math:`44`
 
 
 >>> %1
-    =
 
+    =
 :math:`42`
 
 
 >>> %%
-    =
 
+    =
 :math:`44`
 
 
 >>> Hold[Out[-1]]
-    =
 
+    =
 :math:`\text{Hold}\left[\%\right]`
 
 
 >>> Hold[%4]
-    =
 
+    =
 :math:`\text{Hold}\left[\text{\%4}\right]`
 
 
 >>> Out[0]
-    =
 
+    =
 :math:`\text{Out}\left[0\right]`
 
 

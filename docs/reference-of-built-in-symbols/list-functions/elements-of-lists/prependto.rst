@@ -14,8 +14,8 @@ PrependTo
 Assign s to a list
 
 >>> s = {1, 2, 4, 9}
-    =
 
+    =
 :math:`\left\{1,2,4,9\right\}`
 
 
@@ -23,8 +23,8 @@ Assign s to a list
 Add a new value at the beginning of the list:
 
 >>> PrependTo[s, 0]
-    =
 
+    =
 :math:`\left\{0,1,2,4,9\right\}`
 
 
@@ -32,8 +32,8 @@ Add a new value at the beginning of the list:
 The value assigned to s has changed:
 
 >>> s
-    =
 
+    =
 :math:`\left\{0,1,2,4,9\right\}`
 
 
@@ -44,14 +44,14 @@ The value assigned to s has changed:
 
 
 >>> PrependTo[y, x]
-    =
 
+    =
 :math:`f\left[x,a,b,c\right]`
 
 
 >>> y
-    =
 
+    =
 :math:`f\left[x,a,b,c\right]`
 
 

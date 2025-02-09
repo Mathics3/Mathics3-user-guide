@@ -12,26 +12,26 @@ PrimePowerQ
 
 
 >>> PrimePowerQ[9]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> PrimePowerQ[52142]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> PrimePowerQ[-8]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> PrimePowerQ[371293]
-    =
 
+    =
 :math:`\text{True}`
 
 

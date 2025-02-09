@@ -12,11 +12,17 @@ BinaryImageQ
 
 
 >>> img = Import["ExampleData/hedy.tif"];
-    = `
+
 
 >>> BinaryImageQ[img]
-    = False`
+
+    =
+:math:`\text{False}`
+
 
 >>> BinaryImageQ[Binarize[img]]
-    = ...`
+
+    =
+:math:`\text{True}`
+
 

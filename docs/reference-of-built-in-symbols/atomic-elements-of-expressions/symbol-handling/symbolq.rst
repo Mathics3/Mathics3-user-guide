@@ -11,20 +11,20 @@ SymbolQ
 
 
 >>> SymbolQ[a]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> SymbolQ[1]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> SymbolQ[a + b]
-    =
 
+    =
 :math:`\text{False}`
 
 

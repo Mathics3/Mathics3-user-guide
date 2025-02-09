@@ -15,8 +15,8 @@ PixelValue
 
 
 >>> PixelValue[hedy, {1, 1}]
-    =
 
+    =
 :math:`\left\{0.439216,0.356863,0.337255\right\}`
 
 

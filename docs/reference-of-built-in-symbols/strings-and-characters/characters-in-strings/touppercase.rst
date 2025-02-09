@@ -12,8 +12,8 @@ ToUpperCase
 
 
 >>> ToUpperCase["New York"]
-    =
 
+    =
 :math:`\text{NEW YORK}`
 
 

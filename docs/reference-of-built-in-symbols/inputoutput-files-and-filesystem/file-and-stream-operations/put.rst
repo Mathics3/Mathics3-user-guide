@@ -17,8 +17,8 @@ Put
 >>> Put[40!, fortyfactorial]
 
     Put::stream fortyfactorial is not string, InputStream[], or OutputStream[]
-    =
 
+    =
 :math:`815915283247897734345611269596115894272000000000\text{>>}\text{fortyfactorial}`
 
 
@@ -34,8 +34,8 @@ Put
 
 
 >>> Get[filename]
-    =
 
+    =
 :math:`815915283247897734345611269596115894272000000000`
 
 

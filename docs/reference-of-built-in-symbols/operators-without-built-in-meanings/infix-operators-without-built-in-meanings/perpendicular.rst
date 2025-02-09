@@ -12,14 +12,14 @@ Perpendicular
 
 
 >>> Perpendicular[x, y, z]
-    =
 
+    =
 :math:`x \perp y \perp z`
 
 
 >>> a \[Perpendicular] b
-    =
 
+    =
 :math:`a \perp b`
 
 

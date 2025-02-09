@@ -12,14 +12,14 @@ Superset
 
 
 >>> Superset[x, y, z]
-    =
 
+    =
 :math:`x \supset y \supset z`
 
 
 >>> a \[Superset] b
-    =
 
+    =
 :math:`a \supset b`
 
 

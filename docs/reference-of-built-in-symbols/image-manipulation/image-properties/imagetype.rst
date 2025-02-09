@@ -15,17 +15,20 @@ ImageType
 
 
 >>> ImageType[img]
-    =
 
+    =
 :math:`\text{Byte}`
 
 
 >>> ImageType[Image[{{0, 1}, {1, 0}}]]
-    =
 
+    =
 :math:`\text{Real}`
 
 
 >>> ImageType[Binarize[img]]
-    = Bit`
+
+    =
+:math:`\text{Bit}`
+
 

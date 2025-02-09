@@ -12,9 +12,9 @@ Write
 
 
 >>> stream = OpenWrite[]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmpz7axdmoz},37\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpnzw6xw8x},37\right]`
 
 
 >>> Write[stream, 10 x + 15 y ^ 2]
@@ -33,8 +33,8 @@ The stream must be closed in order to use the file again:
 
 
 >>> ReadList[stream]
-    =
 
+    =
 :math:`\left\{10 x+15 y^2,3 \text{Sin}\left[z\right]\right\}`
 
 

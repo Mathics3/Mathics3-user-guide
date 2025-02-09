@@ -21,8 +21,8 @@ CompositeQ
 
 
 >>> Table[CompositeQ[n], {n, 0, 10}]
-    =
 
+    =
 :math:`\left\{\text{False},\text{False},\text{False},\text{False},\text{True},\text{False},\text{True},\text{False},\text{True},\text{True},\text{True}\right\}`
 
 

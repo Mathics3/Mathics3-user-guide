@@ -12,14 +12,14 @@ AssociationQ
 
 
 >>> AssociationQ[<|a -> 1, b :> 2|>]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> AssociationQ[<|a, b|>]
-    =
 
+    =
 :math:`\text{False}`
 
 

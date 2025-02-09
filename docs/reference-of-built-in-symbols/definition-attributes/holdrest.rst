@@ -12,8 +12,8 @@ HoldRest
 
 
 >>> Attributes[If]
-    =
 
+    =
 :math:`\left\{\text{HoldRest},\text{Protected}\right\}`
 
 

@@ -12,8 +12,8 @@ Less
 
 
 >>> 1 < 0
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -21,8 +21,8 @@ Less
 LessEqual operator can be chained:
 
 >>> 2/18 < 1/5 < Pi/10
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -30,8 +30,8 @@ LessEqual operator can be chained:
 Using less on an undefined symbol value:
 
 >>> 1 < 3 < x < 2
-    =
 
+    =
 :math:`1<3<x<2`
 
 

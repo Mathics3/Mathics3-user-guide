@@ -20,8 +20,8 @@ NestWhile
 Divide by 2 until the result is no longer an integer:
 
 >>> NestWhile[#/2&, 10000, IntegerQ]
-    =
 
+    =
 :math:`\frac{625}{2}`
 
 
@@ -30,8 +30,8 @@ Calculate the sum of third powers of the digits of a number until the
 same result appears twice:
 
 >>> NestWhile[Total[IntegerDigits[#]^3] &, 5, UnsameQ, All]
-    =
 
+    =
 :math:`371`
 
 
@@ -55,8 +55,8 @@ Print the intermediate results:
     {5, 125, 134, 92, 737, 713, 371}
 
     {5, 125, 134, 92, 737, 713, 371, 371}
-    =
 
+    =
 :math:`371`
 
 

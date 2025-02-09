@@ -13,8 +13,8 @@ $SystemCharacterEncoding
 
 
 >>> $SystemCharacterEncoding
-    =
 
+    =
 :math:`\text{ASCII}`
 
 

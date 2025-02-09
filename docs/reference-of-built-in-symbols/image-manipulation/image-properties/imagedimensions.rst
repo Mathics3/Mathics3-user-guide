@@ -15,14 +15,14 @@ ImageDimensions
 
 
 >>> ImageDimensions[hedy]
-    =
 
+    =
 :math:`\left\{646,800\right\}`
 
 
 >>> ImageDimensions[RandomImage[1, {50, 70}]]
-    =
 
+    =
 :math:`\left\{50,70\right\}`
 
 

@@ -12,14 +12,14 @@ Colon
 
 
 >>> Colon[x, y, z]
-    =
 
+    =
 :math:`x : y : z`
 
 
 >>> a \[Colon] b
-    =
 
+    =
 :math:`a : b`
 
 

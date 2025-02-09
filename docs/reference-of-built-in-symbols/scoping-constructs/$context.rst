@@ -11,8 +11,8 @@ $Context
 
 
 >>> $Context
-    =
 
+    =
 :math:`\text{Global\`{}}`
 
 

@@ -17,14 +17,14 @@ SetDelayed
 :code:`SetDelayed`  is like :code:`Set` , except it has attribute :code:`HoldAll` , thus it         does not evaluate the right-hand side immediately, but evaluates             it when needed.
 
 >>> Attributes[SetDelayed]
-    =
 
+    =
 :math:`\left\{\text{HoldAll},\text{Protected},\text{SequenceHold}\right\}`
 
 
 >>> a = 1
-    =
 
+    =
 :math:`1`
 
 
@@ -32,8 +32,8 @@ SetDelayed
 
 
 >>> x
-    =
 
+    =
 :math:`1`
 
 
@@ -41,14 +41,14 @@ SetDelayed
 Changing the value of :math:`a` affects :math:`x`:
 
 >>> a = 2
-    =
 
+    =
 :math:`2`
 
 
 >>> x
-    =
 
+    =
 :math:`2`
 
 
@@ -60,14 +60,14 @@ assignment that only holds if a condition is satisfied:
 
 
 >>> f[3]
-    =
 
+    =
 :math:`p\left[3\right]`
 
 
 >>> f[-3]
-    =
 
+    =
 :math:`f\left[-3\right]`
 
 
@@ -81,20 +81,20 @@ It also works if the condition is set in the LHS:
 
 
 >>> F[2, 3]
-    =
 
+    =
 :math:`\frac{2}{3}`
 
 
 >>> F[3, 2]
-    =
 
+    =
 :math:`\frac{2}{3}`
 
 
 >>> F[-3, 2]
-    =
 
+    =
 :math:`-\frac{2}{3}`
 
 
@@ -108,8 +108,8 @@ We can use conditional delayed assignments to define     symbols with values con
 Set :math:`a` to have a value of :math:`3` if certain variable :math:`b` is positive.    So, if this variable is not set, :math:`a` stays unevaluated:
 
 >>> a
-    =
 
+    =
 :math:`a`
 
 
@@ -117,8 +117,8 @@ Set :math:`a` to have a value of :math:`3` if certain variable :math:`b` is posi
 If now we assign a positive value to :math:`b`, then :math:`a` is evaluated:
 
 >>> b=2; a
-    =
 
+    =
 :math:`3`
 
 

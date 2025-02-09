@@ -15,20 +15,20 @@ IntegerReverse
 
 
 >>> IntegerReverse[1234]
-    =
 
+    =
 :math:`4321`
 
 
 >>> IntegerReverse[1022, 2]
-    =
 
+    =
 :math:`511`
 
 
 >>> IntegerReverse[-123]
-    =
 
+    =
 :math:`321`
 
 

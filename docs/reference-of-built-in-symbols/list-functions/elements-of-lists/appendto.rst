@@ -15,14 +15,14 @@ AppendTo
 
 
 >>> AppendTo[s, 1]
-    =
 
+    =
 :math:`\left\{1\right\}`
 
 
 >>> s
-    =
 
+    =
 :math:`\left\{1\right\}`
 
 
@@ -33,14 +33,14 @@ AppendTo
 
 
 >>> AppendTo[y, x]
-    =
 
+    =
 :math:`f\left[x\right]`
 
 
 >>> y
-    =
 
+    =
 :math:`f\left[x\right]`
 
 

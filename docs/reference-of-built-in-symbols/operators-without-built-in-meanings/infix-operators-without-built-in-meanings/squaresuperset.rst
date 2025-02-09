@@ -12,14 +12,14 @@ SquareSuperset
 
 
 >>> SquareSuperset[x, y, z]
-    =
 
+    =
 :math:`x \sqsupset y \sqsupset z`
 
 
 >>> a \[SquareSuperset] b
-    =
 
+    =
 :math:`a \sqsupset b`
 
 

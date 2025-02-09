@@ -12,8 +12,8 @@ represents a data that is missing.
 
 
 >>> ElementData["Meitnerium","MeltingPoint"]
-    =
 
+    =
 :math:`\text{Missing}\left[\text{NotAvailable}\right]`
 
 

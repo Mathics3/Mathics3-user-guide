@@ -20,14 +20,14 @@ SubValues
 
 
 >>> SubValues[f]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[f\left[2\right]\left[\text{x\_}\right]\right]\text{:>}x^2,\text{HoldPattern}\left[f\left[1\right]\left[\text{x\_}\right]\right]\text{:>}x\right\}`
 
 
 >>> Definition[f]
-    =
 
+    =
 :math:`\begin{array}{l} f\left[2\right]\left[\text{x\_}\right]=x^2\\ f\left[1\right]\left[\text{x\_}\right]=x\end{array}`
 
 

@@ -17,14 +17,14 @@ Condition
 The controlling expression of a :code:`Condition`  can use variables from     the pattern:
 
 >>> f[3] /. f[x_] /; x>0 -> t
-    =
 
+    =
 :math:`t`
 
 
 >>> f[-3] /. f[x_] /; x>0 -> t
-    =
 
+    =
 :math:`f\left[-3\right]`
 
 
@@ -35,14 +35,14 @@ The controlling expression of a :code:`Condition`  can use variables from     th
 
 
 >>> f[3]
-    =
 
+    =
 :math:`p\left[3\right]`
 
 
 >>> f[-3]
-    =
 
+    =
 :math:`f\left[-3\right]`
 
 

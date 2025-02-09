@@ -12,14 +12,14 @@ Prefix
 
 
 >>> a @ b
-    =
 
+    =
 :math:`a\left[b\right]`
 
 
 >>> a @ b @ c
-    =
 
+    =
 :math:`a\left[b\left[c\right]\right]`
 
 
@@ -27,8 +27,8 @@ Prefix
 
 
 >>> p[3]
-    =
 
+    =
 :math:`*3`
 
 
@@ -36,20 +36,20 @@ Prefix
 
 
 >>> q[a+b]
-    =
 
+    =
 :math:`\sim{}\left(a+b\right)`
 
 
 >>> q[a*b]
-    =
 
+    =
 :math:`\sim{}a b`
 
 
 >>> q[a]+b
-    =
 
+    =
 :math:`b+\sim{}a`
 
 
@@ -57,8 +57,8 @@ Prefix
 The prefix operator :code:`@`  is parsed to an expression before evaluation:
 
 >>> Hold[a @ b @ c @ d @ e @ f @ x]
-    =
 
+    =
 :math:`\text{Hold}\left[a\left[b\left[c\left[d\left[e\left[f\left[x\right]\right]\right]\right]\right]\right]\right]`
 
 

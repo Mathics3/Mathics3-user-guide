@@ -12,14 +12,14 @@ Longest
 
 
 >>> StringCases["aabaaab", Longest["a" ~~ __ ~~ "b"]]
-    =
 
+    =
 :math:`\left\{\text{aabaaab}\right\}`
 
 
 >>> StringCases["aabaaab", Longest[RegularExpression["a+b"]]]
-    =
 
+    =
 :math:`\left\{\text{aab},\text{aaab}\right\}`
 
 

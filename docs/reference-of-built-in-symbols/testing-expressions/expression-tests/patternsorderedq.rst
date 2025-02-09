@@ -11,20 +11,20 @@ PatternsOrderedQ
 
 
 >>> PatternsOrderedQ[x__, x_]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> PatternsOrderedQ[x_, x__]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> PatternsOrderedQ[b, a]
-    =
 
+    =
 :math:`\text{True}`
 
 

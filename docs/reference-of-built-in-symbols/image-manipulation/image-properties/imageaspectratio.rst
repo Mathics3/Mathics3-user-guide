@@ -15,14 +15,14 @@ ImageAspectRatio
 
 
 >>> ImageAspectRatio[img]
-    =
 
+    =
 :math:`\frac{400}{323}`
 
 
 >>> ImageAspectRatio[Image[{{0, 1}, {1, 0}, {1, 1}}]]
-    =
 
+    =
 :math:`\frac{3}{2}`
 
 

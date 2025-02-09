@@ -14,8 +14,8 @@ Interrupt
 >>> Print["a"]; Interrupt[]; Print["b"]
 
     a
-    =
 
+    =
 :math:`\text{\$Aborted}`
 
 

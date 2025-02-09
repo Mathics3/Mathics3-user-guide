@@ -15,8 +15,8 @@ Which
 
 
 >>> Which[n == 3, x, n == 5, y]
-    =
 
+    =
 :math:`y`
 
 
@@ -24,8 +24,8 @@ Which
 
 
 >>> f[-3]
-    =
 
+    =
 :math:`3`
 
 
@@ -44,8 +44,8 @@ and a :code:`Which`  expression containing the remaining cases is
 returned:
 
 >>> Which[False, a, x, b, True, c]
-    =
 
+    =
 :math:`\text{Which}\left[x,b,\text{True},c\right]`
 
 
@@ -55,8 +55,8 @@ returned:
 >>> Which[a, b, c]
 
     Which::argct Which called with 3 arguments.
-    =
 
+    =
 :math:`\text{Which}\left[a,b,c\right]`
 
 

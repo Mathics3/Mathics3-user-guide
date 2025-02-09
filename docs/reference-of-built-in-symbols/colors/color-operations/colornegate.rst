@@ -17,15 +17,15 @@ Color Inversion (`WMA link <https://reference.wolfram.com/language/ref/ColorNega
 Yellow is :code:`RGBColor[1.0, 1.0, 0.0]`  So when inverted or subtracted     from :code:`White` , we get blue:
 
 >>> ColorNegate[Yellow] == Blue
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> ColorNegate[Import["ExampleData/sunflowers.jpg"]]
-    =
 
-.. image:: tmpsy9n7if9.png
+    =
+.. image:: tmptea70_yt.png
     :align: center
 
 

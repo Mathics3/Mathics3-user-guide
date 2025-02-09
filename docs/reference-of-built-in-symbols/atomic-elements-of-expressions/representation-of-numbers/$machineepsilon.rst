@@ -12,8 +12,8 @@ $MachineEpsilon
 
 
 >>> $MachineEpsilon
-    =
 
+    =
 :math:`2.22045\text{*${}^{\wedge}$}-16`
 
 
@@ -21,8 +21,8 @@ $MachineEpsilon
 
 
 >>> x - 1
-    =
 
+    =
 :math:`\left\{0.,0.,2.22045\text{*${}^{\wedge}$}-16\right\}`
 
 

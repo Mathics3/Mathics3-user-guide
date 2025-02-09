@@ -12,8 +12,8 @@ $SystemMemory
 
 
 >>> $SystemMemory
-    =
 
+    =
 :math:`16468090880`
 
 

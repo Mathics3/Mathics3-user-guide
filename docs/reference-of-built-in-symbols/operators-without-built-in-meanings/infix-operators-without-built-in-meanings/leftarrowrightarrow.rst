@@ -12,14 +12,14 @@ LeftArrowRightArrow
 
 
 >>> LeftArrowRightArrow[x, y, z]
-    =
 
+    =
 :math:`x \leftrightarrows y \leftrightarrows z`
 
 
 >>> a \[LeftArrowRightArrow] b
-    =
 
+    =
 :math:`a \leftrightarrows b`
 
 

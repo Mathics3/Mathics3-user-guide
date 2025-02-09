@@ -12,14 +12,14 @@ CircleDot
 
 
 >>> CircleDot[x, y, z]
-    =
 
+    =
 :math:`x \odot y \odot z`
 
 
 >>> a \[CircleDot] b
-    =
 
+    =
 :math:`a \odot b`
 
 

@@ -20,14 +20,14 @@ PreDecrement
 
 
 >>> --a
-    =
 
+    =
 :math:`1`
 
 
 >>> a
-    =
 
+    =
 :math:`1`
 
 

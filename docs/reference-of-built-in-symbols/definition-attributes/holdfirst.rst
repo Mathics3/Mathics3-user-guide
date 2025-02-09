@@ -12,8 +12,8 @@ HoldFirst
 
 
 >>> Attributes[Set]
-    =
 
+    =
 :math:`\left\{\text{HoldFirst},\text{Protected},\text{SequenceHold}\right\}`
 
 

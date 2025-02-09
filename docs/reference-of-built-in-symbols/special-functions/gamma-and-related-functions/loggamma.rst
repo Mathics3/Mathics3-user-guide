@@ -11,8 +11,8 @@ LogGamma
 
 
 >>> LogGamma[3]
-    =
 
+    =
 :math:`\text{Log}\left[2\right]`
 
 
@@ -20,14 +20,14 @@ LogGamma
 LogGamma[z] has different analytical structure than Log[Gamma[z]]
 
 >>> LogGamma[-2.+3 I]
-    =
 
+    =
 :math:`-6.77652-4.56879 I`
 
 
 >>> Log[Gamma[-2.+3 I]]
-    =
 
+    =
 :math:`-6.77652+1.71439 I`
 
 
@@ -35,16 +35,16 @@ LogGamma[z] has different analytical structure than Log[Gamma[z]]
 LogGamma also can be evaluated for large arguments, for which Gamma produces Overflow:
 
 >>> LogGamma[1.*^20]
-    =
 
+    =
 :math:`4.50517\text{*${}^{\wedge}$}21`
 
 
 >>> Log[Gamma[1.*^20]]
 
     General::ovfl Overflow occurred in computation.
-    =
 
+    =
 :math:`\text{Overflow}\left[\right]`
 
 

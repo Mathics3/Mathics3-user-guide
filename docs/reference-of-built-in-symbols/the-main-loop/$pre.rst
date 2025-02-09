@@ -37,9 +37,9 @@ stores just the result in :code:`Out[$Line]`  and print a formatted version show
     [Storing result...]
 
     The result is:
-    =
 
-:math:`\left\{261.137,4\right\}`
+    =
+:math:`\left\{248.295,4\right\}`
 
 
 >>> $Pre = .; $Post = .;  $PrePrint = .;  $ElapsedTime = .;
@@ -48,8 +48,8 @@ stores just the result in :code:`Out[$Line]`  and print a formatted version show
 
 
 >>> 2 + 2
-    =
 
+    =
 :math:`4`
 
 

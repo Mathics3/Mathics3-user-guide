@@ -18,8 +18,8 @@ Clear
 
 
 >>> x
-    =
 
+    =
 :math:`x`
 
 
@@ -33,14 +33,14 @@ Clear
 
 
 >>> x
-    =
 
+    =
 :math:`x`
 
 
 >>> y
-    =
 
+    =
 :math:`y`
 
 
@@ -63,8 +63,8 @@ The values and rules associated with built-in symbols will not get lost when app
 
 
 >>> Sin[Pi]
-    =
 
+    =
 :math:`0`
 
 
@@ -78,8 +78,8 @@ The values and rules associated with built-in symbols will not get lost when app
 
 
 >>> Attributes[r]
-    =
 
+    =
 :math:`\left\{\text{Flat},\text{Orderless}\right\}`
 
 

@@ -19,14 +19,14 @@ SeedRandom
 
 
 >>> RandomInteger[100]
-    =
 
+    =
 :math:`51`
 
 
 >>> RandomInteger[100]
-    =
 
+    =
 :math:`92`
 
 
@@ -34,14 +34,14 @@ SeedRandom
 
 
 >>> RandomInteger[100]
-    =
 
+    =
 :math:`51`
 
 
 >>> RandomInteger[100]
-    =
 
+    =
 :math:`92`
 
 
@@ -52,8 +52,8 @@ String seeds are supported as well:
 
 
 >>> RandomInteger[100]
-    =
 
+    =
 :math:`27`
 
 
@@ -65,8 +65,8 @@ number generator to a random state:
 
 
 >>> RandomInteger[100]
-    =
 
-:math:`100`
+    =
+:math:`77`
 
 

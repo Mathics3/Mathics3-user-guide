@@ -12,8 +12,11 @@ CopyFile
 
 
 >>> CopyFile["ExampleData/sunflowers.jpg", "MathicsSunflowers.jpg"]
-    = MathicsSunflowers.jpg`
+
+    =
+:math:`\text{MathicsSunflowers.jpg}`
+
 
 >>> DeleteFile["MathicsSunflowers.jpg"]
-    = `
+
 

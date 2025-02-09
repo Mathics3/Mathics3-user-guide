@@ -12,14 +12,14 @@ NotRightTriangle
 
 
 >>> NotRightTriangle[x, y, z]
-    =
 
+    =
 :math:`x \ntriangleright y \ntriangleright z`
 
 
 >>> a \[NotRightTriangle] b
-    =
 
+    =
 :math:`a \ntriangleright b`
 
 

@@ -12,14 +12,14 @@ FileNameDepth
 
 
 >>> FileNameDepth["a/b/c"]
-    =
 
+    =
 :math:`3`
 
 
 >>> FileNameDepth["a/b/c/"]
-    =
 
+    =
 :math:`3`
 
 

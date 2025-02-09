@@ -12,14 +12,14 @@ UpDownArrow
 
 
 >>> UpDownArrow[x, y, z]
-    =
 
+    =
 :math:`x \updownarrow y \updownarrow z`
 
 
 >>> a \[UpDownArrow] b
-    =
 
+    =
 :math:`a \updownarrow b`
 
 

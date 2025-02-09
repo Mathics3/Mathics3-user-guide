@@ -17,8 +17,8 @@ The Pochammer symbol has a definite value even when the gamma     functions whic
 Product of the first 3 numbers:
 
 >>> Pochhammer[1, 3]
-    =
 
+    =
 :math:`6`
 
 
@@ -26,8 +26,8 @@ Product of the first 3 numbers:
 :code:`Pochhammer[1, :math:`n`]`  is     the same as Pochhammer[2, :math:`n`-1] since 1 is a multiplicative identity.
 
 >>> Pochhammer[1, 3] == Pochhammer[2, 2]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -35,8 +35,8 @@ Product of the first 3 numbers:
 Although sometimes :code:`Pochhammer[0, :math:`n`]`  is taken to be 1, in Mathics it is 0:
 
 >>> Pochhammer[0, n]
-    =
 
+    =
 :math:`0`
 
 
@@ -44,20 +44,20 @@ Although sometimes :code:`Pochhammer[0, :math:`n`]`  is taken to be 1, in Mathic
 Pochhammer uses Gamma for non-Integer values of :math:`n`:
 
 >>> Pochhammer[1, 3.001]
-    =
 
+    =
 :math:`6.00754`
 
 
 >>> Pochhammer[1, 3.001] == Pochhammer[2, 2.001]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> Pochhammer[1.001, 3] == 1.001 2.001 3.001
-    =
 
+    =
 :math:`\text{True}`
 
 

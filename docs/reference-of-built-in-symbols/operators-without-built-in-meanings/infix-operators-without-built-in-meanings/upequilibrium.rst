@@ -12,14 +12,14 @@ UpEquilibrium
 
 
 >>> UpEquilibrium[x, y, z]
-    =
 
+    =
 :math:`x \upharpoonleft \downharpoonright y \upharpoonleft \downharpoonright z`
 
 
 >>> a \[UpEquilibrium] b
-    =
 
+    =
 :math:`a \upharpoonleft \downharpoonright b`
 
 

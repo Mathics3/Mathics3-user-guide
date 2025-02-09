@@ -227,7 +227,7 @@ class RsTDocTest(DocTest):
             result_content = result_content_list[0]["result"]
             if result_content is None:
                 return formatted_test + "\n"
-            test_result = '    =\n\n' + result_content + "\n"
+            test_result = '\n    =\n' + result_content + "\n"
         else:
             # We are using OutputForm results. Process as text.
             lines = test_result.split("\n")

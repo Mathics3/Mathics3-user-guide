@@ -12,14 +12,14 @@ Therefore
 
 
 >>> Therefore[x, y, z]
-    =
 
+    =
 :math:`x \therefore y \therefore z`
 
 
 >>> a \[Therefore] b
-    =
 
+    =
 :math:`a \therefore b`
 
 

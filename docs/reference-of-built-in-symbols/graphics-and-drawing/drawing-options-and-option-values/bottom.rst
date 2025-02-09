@@ -12,9 +12,9 @@ Bottom
 
 
 >>> ListLinePlot[Table[Sin[x], {x, -5, 5, 0.2}], Filling->Bottom]
-    =
 
-.. image:: tmp32oy2e_p.png
+    =
+.. image:: tmpwy7iv83t.png
     :align: center
 
 

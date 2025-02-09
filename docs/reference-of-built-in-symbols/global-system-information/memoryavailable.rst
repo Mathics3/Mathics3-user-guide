@@ -12,17 +12,17 @@ MemoryAvailable
 
 
 >>> MemoryAvailable[]
-    =
 
-:math:`6452887552`
+    =
+:math:`5189345280`
 
 
 
 The relationship between $SystemMemory, MemoryAvailable, and MemoryInUse:
 
 >>> $SystemMemory > MemoryAvailable[] > MemoryInUse[]
-    =
 
+    =
 :math:`\text{True}`
 
 

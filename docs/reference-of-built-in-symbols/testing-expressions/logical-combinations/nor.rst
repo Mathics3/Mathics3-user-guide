@@ -15,8 +15,8 @@ Nor
 
 
 >>> Nor[True, False]
-    =
 
+    =
 :math:`\text{False}`
 
 

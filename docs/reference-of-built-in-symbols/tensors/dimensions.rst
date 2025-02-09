@@ -14,8 +14,8 @@ Dimensions
 A vector of length 3:
 
 >>> Dimensions[{a, b, c}]
-    =
 
+    =
 :math:`\left\{3\right\}`
 
 
@@ -23,8 +23,8 @@ A vector of length 3:
 A 3x2 matrix:
 
 >>> Dimensions[{{a, b}, {c, d}, {e, f}}]
-    =
 
+    =
 :math:`\left\{3,2\right\}`
 
 
@@ -32,8 +32,8 @@ A 3x2 matrix:
 Ragged arrays are not taken into account:
 
 >>> Dimensions[{{a, b}, {b, c}, {c, d, e}}]
-    =
 
+    =
 :math:`\left\{3\right\}`
 
 
@@ -41,8 +41,8 @@ Ragged arrays are not taken into account:
 The expression can have any head:
 
 >>> Dimensions[f[f[a, b, c]]]
-    =
 
+    =
 :math:`\left\{1,3\right\}`
 
 

@@ -11,14 +11,14 @@ String
 
 
 >>> Head["abc"]
-    =
 
+    =
 :math:`\text{String}`
 
 
 >>> "abc"
-    =
 
+    =
 :math:`\text{abc}`
 
 
@@ -26,8 +26,8 @@ String
 Use :code:`InputForm`  to display quotes around strings:
 
 >>> InputForm["abc"]
-    =
 
+    =
 :math:`\text{\`{}\`{}abc''}`
 
 
@@ -35,8 +35,8 @@ Use :code:`InputForm`  to display quotes around strings:
 :code:`FullForm`  also displays quotes:
 
 >>> FullForm["abc" + 2]
-    =
 
+    =
 :math:`\text{Plus}\left[2, \text{\`{}\`{}abc''}\right]`
 
 

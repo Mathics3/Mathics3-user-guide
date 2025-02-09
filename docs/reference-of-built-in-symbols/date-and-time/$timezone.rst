@@ -12,8 +12,8 @@ $TimeZone
 
 
 >>> $TimeZone
-    =
 
+    =
 :math:`-3.`
 
 

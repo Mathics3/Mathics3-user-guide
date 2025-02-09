@@ -12,14 +12,14 @@ Insert
 
 
 >>> Insert[{a,b,c,d,e}, x, 3]
-    =
 
+    =
 :math:`\left\{a,b,x,c,d,e\right\}`
 
 
 >>> Insert[{a,b,c,d,e}, x, -2]
-    =
 
+    =
 :math:`\left\{a,b,c,d,x,e\right\}`
 
 

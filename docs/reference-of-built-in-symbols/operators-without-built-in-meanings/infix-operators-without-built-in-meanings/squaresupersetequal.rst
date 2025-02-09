@@ -12,14 +12,14 @@ SquareSupersetEqual
 
 
 >>> SquareSupersetEqual[x, y, z]
-    =
 
+    =
 :math:`x \sqsupseteq y \sqsupseteq z`
 
 
 >>> a \[SquareSupersetEqual] b
-    =
 
+    =
 :math:`a \sqsupseteq b`
 
 

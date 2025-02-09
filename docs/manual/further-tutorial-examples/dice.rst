@@ -4,8 +4,8 @@ Dice
 Let's play with dice in this example. A :code:`Dice`  object shall represent the outcome of a series of rolling a dice with six faces, e.g.:
 
 >>> Dice[1, 6, 4, 4]
-    =
 
+    =
 :math:`\text{Dice}\left[1,6,4,4\right]`
 
 
@@ -16,8 +16,8 @@ Like in most games, the ordering of the individual throws does not matter. We ca
 
 
 >>> Dice[1, 6, 4, 4]
-    =
 
+    =
 :math:`\text{Dice}\left[1,4,4,6\right]`
 
 
@@ -28,9 +28,9 @@ A dice object shall be displayed as a rectangle with the given number of points 
 
 
 >>> Dice[1]
-    =
 
-.. image:: tmpk25a7ka9.png
+    =
+.. image:: tmpp81ukcll.png
     :align: center
 
 
@@ -55,9 +55,9 @@ The empty series of dice shall be displayed as an empty dice:
 
 
 >>> Dice[]
-    =
 
-.. image:: tmpwjoynlcg.png
+    =
+.. image:: tmpabn7beds.png
     :align: center
 
 
@@ -69,13 +69,9 @@ Any non-empty series of dice shall be displayed as a row of individual dice:
 
 
 >>> Dice[1, 6, 4, 4]
+
     =
-
-.. image:: tmp1rlxhq2a.png}
-\includegraphics[]{/tmp/tmph0ldbh8r.png}
-\includegraphics[]{/tmp/tmp0vufve7q.png}
-\includegraphics[]{/tmp/tmphdf5qgfr.png}
-
+.. image:: tmp32or4y29.png
     :align: center
 
 
@@ -85,8 +81,8 @@ Note that \Mathics will automatically sort the given format rules according to t
 We can still see the original form by using :code:`InputForm` :
 
 >>> Dice[1, 6, 4, 4] // InputForm
-    =
 
+    =
 :math:`\text{Dice}\left[1, 4, 4, 6\right]`
 
 
@@ -104,8 +100,8 @@ The :code:`^:=`  (:code:`UpSetDelayed` ) tells \Mathics to associate this rule w
 >>> Dice[a___] + Dice[b___] := Dice[Sequence @@ {a, b}]
 
     SetDelayed::write Tag Plus in Dice[a___] + Dice[b___] is Protected.
-    =
 
+    =
 :math:`\text{\$Failed}`
 
 
@@ -113,14 +109,9 @@ The :code:`^:=`  (:code:`UpSetDelayed` ) tells \Mathics to associate this rule w
 We can now combine dice:
 
 >>> Dice[1, 5] + Dice[3, 2] + Dice[4]
+
     =
-
-.. image:: tmpfnj5eea0.png}
-\includegraphics[]{/tmp/tmp6tcjj0p6.png}
-\includegraphics[]{/tmp/tmprltdvpfd.png}
-\includegraphics[]{/tmp/tmpqpasrl_f.png}
-\includegraphics[]{/tmp/tmpr4o2d6yr.png}
-
+.. image:: tmp0nqno03o.png
     :align: center
 
 
@@ -135,8 +126,8 @@ Let's write a function that returns the sum of the rolled dice:
 
 
 >>> DiceSum @ Dice[1, 2, 5]
-    =
 
+    =
 :math:`8`
 
 
@@ -144,20 +135,10 @@ Let's write a function that returns the sum of the rolled dice:
 And now let's put some dice into a table:
 
 >>> Table[{Dice[Sequence @@ d], DiceSum @ Dice[Sequence @@ d]}, {d, {{1, 2}, {2, 2}, {2, 6}}}] // TableForm
+
     =
-
-
-.. math::
-    \begin{array}{cc} 
-    \includegraphics[]{/tmp/tmprbypb5rt.png}
-    \includegraphics[]{/tmp/tmpkoomc_xz.png}
-     & 3\\ 
-    \includegraphics[]{/tmp/tmp42sn0pzp.png}
-    \includegraphics[]{/tmp/tmpn6b2cioj.png}
-     & 4\\ 
-    \includegraphics[]{/tmp/tmpnatppxpu.png}
-    \includegraphics[]{/tmp/tmp861vbzwv.png}
-     & 8\end{array}
+.. image:: tmpyxbsv76w.png
+    :align: center
 
 
 

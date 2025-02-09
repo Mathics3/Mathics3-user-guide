@@ -12,14 +12,14 @@ Proportional
 
 
 >>> Proportional[x, y, z]
-    =
 
+    =
 :math:`x \propto y \propto z`
 
 
 >>> a \[Proportional] b
-    =
 
+    =
 :math:`a \propto b`
 
 

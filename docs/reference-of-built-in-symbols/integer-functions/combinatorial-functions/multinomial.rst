@@ -11,14 +11,14 @@ Multinomial
 
 
 >>> Multinomial[2, 3, 4, 5]
-    =
 
+    =
 :math:`2522520`
 
 
 >>> Multinomial[]
-    =
 
+    =
 :math:`1`
 
 
@@ -26,8 +26,8 @@ Multinomial
 Multinomial is expressed in terms of :code:`Binomial` :
 
 >>> Multinomial[a, b, c]
-    =
 
+    =
 :math:`\text{Binomial}\left[a,a\right] \text{Binomial}\left[a+b,b\right] \text{Binomial}\left[a+b+c,c\right]`
 
 
@@ -35,8 +35,8 @@ Multinomial is expressed in terms of :code:`Binomial` :
 :code:`Multinomial` [:math:`n`-:math:`k`, :math:`k`] is equivalent to :code:`Binomial` [:math:`n`, :math:`k`]:
 
 >>> Multinomial[2, 3]
-    =
 
+    =
 :math:`10`
 
 

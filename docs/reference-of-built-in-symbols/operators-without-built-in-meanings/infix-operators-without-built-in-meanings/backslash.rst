@@ -12,14 +12,14 @@ Backslash
 
 
 >>> Backslash[x, y, z]
-    =
 
+    =
 :math:`x \\ y \\ z`
 
 
 >>> a \[Backslash] b
-    =
 
+    =
 :math:`a \\ b`
 
 

@@ -12,14 +12,14 @@ NotSuperset
 
 
 >>> NotSuperset[x, y, z]
-    =
 
+    =
 :math:`x \not{\supset} y \not{\supset} z`
 
 
 >>> a \[NotSuperset] b
-    =
 
+    =
 :math:`a \not{\supset} b`
 
 

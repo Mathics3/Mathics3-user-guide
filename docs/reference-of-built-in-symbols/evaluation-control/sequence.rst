@@ -15,14 +15,14 @@ Sequence
 (like assignment functions).
 
 >>> f[x, Sequence[a, b], y]
-    =
 
+    =
 :math:`f\left[x,a,b,y\right]`
 
 
 >>> Attributes[Set]
-    =
 
+    =
 :math:`\left\{\text{HoldFirst},\text{Protected},\text{SequenceHold}\right\}`
 
 
@@ -30,8 +30,8 @@ Sequence
 
 
 >>> a
-    =
 
+    =
 :math:`\text{Sequence}\left[b,c\right]`
 
 
@@ -42,8 +42,8 @@ Apply :code:`Sequence`  to a list to splice in arguments:
 
 
 >>> f[Sequence @@ list]
-    =
 
+    =
 :math:`f\left[1,2,3\right]`
 
 
@@ -52,8 +52,8 @@ Inside :code:`Hold`  or a function with a held argument, :code:`Sequence`  is
 spliced in at the first level of the argument:
 
 >>> Hold[a, Sequence[b, c], d]
-    =
 
+    =
 :math:`\text{Hold}\left[a,b,c,d\right]`
 
 
@@ -61,8 +61,8 @@ spliced in at the first level of the argument:
 If :code:`Sequence`  appears at a deeper level, it is left unevaluated:
 
 >>> Hold[{a, Sequence[b, c], d}]
-    =
 
+    =
 :math:`\text{Hold}\left[\left\{a,\text{Sequence}\left[b,c\right],d\right\}\right]`
 
 

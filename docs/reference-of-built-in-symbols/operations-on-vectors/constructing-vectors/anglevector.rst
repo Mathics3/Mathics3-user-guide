@@ -21,14 +21,14 @@ AngleVector
 
 
 >>> AngleVector[90 Degree]
-    =
 
+    =
 :math:`\left\{0,1\right\}`
 
 
 >>> AngleVector[{1, 10}, a]
-    =
 
+    =
 :math:`\left\{1+\text{Cos}\left[a\right],10+\text{Sin}\left[a\right]\right\}`
 
 

@@ -15,14 +15,14 @@ SortBy
 
 
 >>> SortBy[{{5, 1}, {10, -1}}, Last]
-    =
 
+    =
 :math:`\left\{\left\{10,-1\right\},\left\{5,1\right\}\right\}`
 
 
 >>> SortBy[Total][{{5, 1}, {10, -9}}]
-    =
 
+    =
 :math:`\left\{\left\{10,-9\right\},\left\{5,1\right\}\right\}`
 
 

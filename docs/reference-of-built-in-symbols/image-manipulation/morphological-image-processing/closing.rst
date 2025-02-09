@@ -13,8 +13,13 @@ Closing
 
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
-    = `
+
 
 >>> Closing[ein, 2.5]
-    = -Image-`
+
+    =
+.. image:: tmpqkfdcr3e.png
+    :align: center
+
+
 

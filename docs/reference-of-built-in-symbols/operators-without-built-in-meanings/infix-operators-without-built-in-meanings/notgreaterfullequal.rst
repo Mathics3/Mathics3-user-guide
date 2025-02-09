@@ -12,14 +12,14 @@ NotGreaterFullEqual
 
 
 >>> NotGreaterFullEqual[x, y, z]
-    =
 
+    =
 :math:`x \ngeqq y \ngeqq z`
 
 
 >>> a \[NotGreaterFullEqual] b
-    =
 
+    =
 :math:`a \ngeqq b`
 
 

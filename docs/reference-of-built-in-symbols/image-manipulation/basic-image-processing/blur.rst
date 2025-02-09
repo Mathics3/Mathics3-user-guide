@@ -18,17 +18,17 @@ Blur
 
 
 >>> Blur[hedy]
-    =
 
-.. image:: tmplprf575h.png
+    =
+.. image:: tmpan_mfycl.png
     :align: center
 
 
 
 >>> Blur[hedy, 5]
-    =
 
-.. image:: tmpotovmo7z.png
+    =
+.. image:: tmpo5djuq21.png
     :align: center
 
 

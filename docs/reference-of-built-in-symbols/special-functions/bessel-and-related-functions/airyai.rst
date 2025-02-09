@@ -13,8 +13,8 @@ AiryAi
 Exact values:
 
 >>> AiryAi[0]
-    =
 
+    =
 :math:`\frac{3^{\frac{1}{3}}}{3 \text{Gamma}\left[\frac{2}{3}\right]}`
 
 
@@ -22,21 +22,21 @@ Exact values:
 :code:`AiryAi`  can be evaluated numerically:
 
 >>> AiryAi[0.5]
-    =
 
+    =
 :math:`0.231694`
 
 
 >>> AiryAi[0.5 + I]
-    =
 
+    =
 :math:`0.157118-0.24104 I`
 
 
 >>> Plot[AiryAi[x], {x, -10, 10}]
-    =
 
-.. image:: tmp9wxhbwoj.png
+    =
+.. image:: tmp65psrs6d.png
     :align: center
 
 

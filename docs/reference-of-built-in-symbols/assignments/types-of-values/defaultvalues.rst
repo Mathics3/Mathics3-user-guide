@@ -14,14 +14,14 @@ DefaultValues
 
 
 >>> Default[f, 1] = 4
-    =
 
+    =
 :math:`4`
 
 
 >>> DefaultValues[f]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[\text{Default}\left[f,1\right]\right]\text{:>}4\right\}`
 
 
@@ -32,8 +32,8 @@ You can assign values to :code:`DefaultValues` :
 
 
 >>> Default[g, 1]
-    =
 
+    =
 :math:`3`
 
 
@@ -41,14 +41,14 @@ You can assign values to :code:`DefaultValues` :
 
 
 >>> g[a]
-    =
 
+    =
 :math:`\left\{a\right\}`
 
 
 >>> g[]
-    =
 
+    =
 :math:`\left\{3\right\}`
 
 

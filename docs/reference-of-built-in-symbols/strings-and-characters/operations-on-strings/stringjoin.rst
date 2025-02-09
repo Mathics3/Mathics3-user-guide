@@ -12,14 +12,14 @@ StringJoin
 
 
 >>> StringJoin["a", "b", "c"]
-    =
 
+    =
 :math:`\text{abc}`
 
 
 >>> "a" <> "b" <> "c" // InputForm
-    =
 
+    =
 :math:`\text{\`{}\`{}abc''}`
 
 
@@ -27,8 +27,8 @@ StringJoin
 :code:`StringJoin`  flattens lists out:
 
 >>> StringJoin[{"a", "b"}] // InputForm
-    =
 
+    =
 :math:`\text{\`{}\`{}ab''}`
 
 

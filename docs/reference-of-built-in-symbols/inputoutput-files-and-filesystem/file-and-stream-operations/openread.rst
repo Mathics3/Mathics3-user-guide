@@ -12,8 +12,8 @@ OpenRead
 
 
 >>> OpenRead["ExampleData/EinsteinSzilLetter.txt", CharacterEncoding->"UTF8"]
-    =
 
+    =
 :math:`\text{InputStream}\left[\text{ExampleData/EinsteinSzilLetter.txt},17\right]`
 
 

@@ -18,8 +18,8 @@ Skip
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{a}`
 
 
@@ -27,8 +27,8 @@ Skip
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{c}`
 
 
@@ -39,8 +39,8 @@ Skip
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{a}`
 
 
@@ -48,14 +48,14 @@ Skip
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{d}`
 
 
 >>> Skip[stream, Word]
-    =
 
+    =
 :math:`\text{EndOfFile}`
 
 

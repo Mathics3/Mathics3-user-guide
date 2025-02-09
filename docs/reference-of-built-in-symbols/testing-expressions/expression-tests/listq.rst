@@ -12,20 +12,20 @@ ListQ
 
 
 >>> ListQ[{1, 2, 3}]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> ListQ[{{1, 2}, {3, 4}}]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> ListQ[x]
-    =
 
+    =
 :math:`\text{False}`
 
 

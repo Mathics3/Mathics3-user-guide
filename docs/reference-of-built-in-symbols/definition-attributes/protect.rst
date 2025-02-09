@@ -26,8 +26,8 @@ Protect
 
 
 >>> A
-    =
 
+    =
 :math:`\left\{1,2,3\right\}`
 
 

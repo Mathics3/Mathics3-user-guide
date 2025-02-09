@@ -15,20 +15,20 @@ Block
 
 
 >>> n = 10
-    =
 
+    =
 :math:`10`
 
 
 >>> Block[{n = 5}, n ^ 2]
-    =
 
+    =
 :math:`25`
 
 
 >>> n
-    =
 
+    =
 :math:`10`
 
 
@@ -38,8 +38,8 @@ Keep in mind that the result of :code:`Block`  is evaluated again, so a returned
 will get its original value.
 
 >>> Block[{x = n+2, n}, {x, n}]
-    =
 
+    =
 :math:`\left\{12,10\right\}`
 
 
@@ -49,8 +49,8 @@ If the variable specification is not of the described form, an error message is 
 >>> Block[{x + y}, x]
 
     Block::lvsym Local variable specification contains x + y, which is not a symbol or an assignment to a symbol.
-    =
 
+    =
 :math:`x`
 
 
@@ -60,8 +60,8 @@ Variable names may not appear more than once:
 >>> Block[{x, x}, x]
 
     Block::dup Duplicate local variable x found in local variable specification.
-    =
 
+    =
 :math:`x`
 
 

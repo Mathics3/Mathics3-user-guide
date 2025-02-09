@@ -12,8 +12,8 @@ Environment
 
 
 >>> Environment["HOME"]
-    =
 
+    =
 :math:`\text{/home/mauricio}`
 
 

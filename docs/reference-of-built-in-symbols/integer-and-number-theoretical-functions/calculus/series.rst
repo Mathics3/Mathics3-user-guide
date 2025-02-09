@@ -14,8 +14,8 @@ Series
 For elementary expressions, :code:`Series`  returns the explicit power series as a :code:`SeriesData`  expression:
 
 >>> series = Series[Exp[x^2], {x,0,2}]
-    =
 
+    =
 :math:`1+x^2+O\left[x\right]^3`
 
 
@@ -23,8 +23,8 @@ For elementary expressions, :code:`Series`  returns the explicit power series as
 The expression created is a :code:`SeriesData`  object:
 
 >>> series // FullForm
-    =
 
+    =
 :math:`\text{SeriesData}\left[x, 0, \left\{1,0,1\right\}, 0, 3, 1\right]`
 
 
@@ -32,8 +32,8 @@ The expression created is a :code:`SeriesData`  object:
 Replacing :math:`x` with does a value produces another :code:`SeriesData`  object:
 
 >>> series /. x->4
-    =
 
+    =
 :math:`1+4^2+O\left[4\right]^3`
 
 
@@ -41,14 +41,14 @@ Replacing :math:`x` with does a value produces another :code:`SeriesData`  objec
 :code:`Normal`  transforms a :code:`SeriesData`  expression into a polynomial:
 
 >>> series // Normal
-    =
 
+    =
 :math:`1+x^2`
 
 
 >>> (series // Normal) /. x-> 4
-    =
 
+    =
 :math:`17`
 
 
@@ -59,8 +59,8 @@ Replacing :math:`x` with does a value produces another :code:`SeriesData`  objec
 We can also expand over multiple variables:
 
 >>> Series[Exp[x-y], {x, 0, 2}, {y, 0, 2}]
-    =
 
+    =
 :math:`\left(1-y+\frac{1}{2} y^2+O\left[y\right]^3\right)+\left(1-y+\frac{1}{2} y^2+O\left[y\right]^3\right) x+\left(\frac{1}{2}+\left(-\frac{1}{2}\right) y+\frac{1}{4} y^2+O\left[y\right]^3\right) x^2+O\left[x\right]^3`
 
 

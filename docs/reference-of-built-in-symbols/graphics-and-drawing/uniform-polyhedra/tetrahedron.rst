@@ -18,9 +18,9 @@ Tetrahedron
 
 
 >>> Graphics3D[Tetrahedron[{{0,0,0}, {1,1,1}}, 2], Axes->True]
-    =
 
-.. image:: tmpf9b192s2.png
+    =
+.. image:: tmpewzbycxx.png
     :align: center
 
 

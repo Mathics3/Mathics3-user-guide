@@ -12,8 +12,8 @@ CubeRoot
 
 
 >>> CubeRoot[16]
-    =
 
+    =
 :math:`2 2^{\frac{1}{3}}`
 
 

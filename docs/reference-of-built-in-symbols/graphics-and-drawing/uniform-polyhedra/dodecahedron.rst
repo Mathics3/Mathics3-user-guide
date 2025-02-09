@@ -18,9 +18,9 @@ Dodecahedron
 
 
 >>> Graphics3D[Dodecahedron[]]
-    =
 
-.. image:: tmp0mnl_fht.png
+    =
+.. image:: tmpfz9voxtz.png
     :align: center
 
 

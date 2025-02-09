@@ -18,20 +18,20 @@ ImageData
 
 
 >>> ImageData[img]
-    =
 
+    =
 :math:`\left\{\left\{0.2,0.4\right\},\left\{0.9,0.6\right\},\left\{0.5,0.8\right\}\right\}`
 
 
 >>> ImageData[img, "Byte"]
-    =
 
+    =
 :math:`\left\{\left\{51,102\right\},\left\{229,153\right\},\left\{127,204\right\}\right\}`
 
 
 >>> ImageData[Image[{{0, 1}, {1, 0}, {1, 1}}], "Bit"]
-    =
 
+    =
 :math:`\left\{\left\{0,1\right\},\left\{1,0\right\},\left\{1,1\right\}\right\}`
 
 

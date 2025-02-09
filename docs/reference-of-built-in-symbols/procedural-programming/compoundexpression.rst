@@ -15,8 +15,8 @@ CompoundExpression
 
 
 >>> a; b; c; d
-    =
 
+    =
 :math:`d`
 
 

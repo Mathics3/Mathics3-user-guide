@@ -12,14 +12,14 @@ Del
 
 
 >>> Del[x]
-    =
 
+    =
 :math:`\nabla x`
 
 
 >>> \[Del]x
-    =
 
+    =
 :math:`\nabla x`
 
 

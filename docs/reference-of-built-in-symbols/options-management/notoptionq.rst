@@ -12,26 +12,26 @@ NotOptionQ
 
 
 >>> NotOptionQ[x]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> NotOptionQ[2]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> NotOptionQ["abc"]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> NotOptionQ[a -> True]
-    =
 
+    =
 :math:`\text{False}`
 
 

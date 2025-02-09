@@ -14,8 +14,8 @@ Abort
 >>> Print["a"]; Abort[]; Print["b"]
 
     a
-    =
 
+    =
 :math:`\text{\$Aborted}`
 
 

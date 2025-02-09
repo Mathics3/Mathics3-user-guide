@@ -44,9 +44,9 @@ PieChart specific:
 A hypothetical comparison between types of pets owned:
 
 >>> PieChart[{30, 20, 10}, ChartLabels -> {Dogs, Cats, Fish}]
-    =
 
-.. image:: tmp4r0c2at4.png
+    =
+.. image:: tmpl4cy77vy.png
     :align: center
 
 
@@ -55,9 +55,9 @@ A hypothetical comparison between types of pets owned:
 A doughnut chart for a list of values:
 
 >>> PieChart[{8, 16, 2}, SectorOrigin -> {Automatic, 1.5}]
-    =
 
-.. image:: tmp1it2tbh1.png
+    =
+.. image:: tmpoel5birh.png
     :align: center
 
 
@@ -66,9 +66,9 @@ A doughnut chart for a list of values:
 A Pie chart with multiple datasets:
 
 >>> PieChart[{{10, 20, 30}, {15, 22, 30}}]
-    =
 
-.. image:: tmpfabyxr80.png
+    =
+.. image:: tmpcqw_y86u.png
     :align: center
 
 
@@ -77,9 +77,9 @@ A Pie chart with multiple datasets:
 Same as the above, but without gaps between the groups of data:
 
 >>> PieChart[{{10, 20, 30}, {15, 22, 30}}, SectorSpacing -> None]
-    =
 
-.. image:: tmpgxku3pdd.png
+    =
+.. image:: tmpmy4poodd.png
     :align: center
 
 
@@ -88,9 +88,9 @@ Same as the above, but without gaps between the groups of data:
 The doughnut chart above with labels on each of the 3 pieces:
 
 >>> PieChart[{{10, 20, 30}, {15, 22, 30}}, ChartLabels -> {A, B, C}]
-    =
 
-.. image:: tmpk9u_74i8.png
+    =
+.. image:: tmpjqgl6oze.png
     :align: center
 
 
@@ -99,9 +99,9 @@ The doughnut chart above with labels on each of the 3 pieces:
 Negative values are removed, the data below is the same as {1, 3}:
 
 >>> PieChart[{1, -1, 3}]
-    =
 
-.. image:: tmpek8u3ht0.png
+    =
+.. image:: tmphyg4cocy.png
     :align: center
 
 

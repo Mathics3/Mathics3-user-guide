@@ -12,14 +12,14 @@ ShortLeftArrow
 
 
 >>> ShortLeftArrow[x, y, z]
-    =
 
+    =
 :math:`x \leftarrow y \leftarrow z`
 
 
 >>> a \[ShortLeftArrow] b
-    =
 
+    =
 :math:`a \leftarrow b`
 
 

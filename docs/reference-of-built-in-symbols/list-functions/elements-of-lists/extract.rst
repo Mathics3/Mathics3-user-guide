@@ -17,14 +17,14 @@ Extract
 :code:`Extract[:math:`expr`, :math:`i`, :math:`j`, ...]`  is equivalent to :code:`Part[:math:`expr`, {:math:`i`, :math:`j`, ...}]` .
 
 >>> Extract[a + b + c, {2}]
-    =
 
+    =
 :math:`b`
 
 
 >>> Extract[{{a, b}, {c, d}}, {{1}, {2, 2}}]
-    =
 
+    =
 :math:`\left\{\left\{a,b\right\},d\right\}`
 
 

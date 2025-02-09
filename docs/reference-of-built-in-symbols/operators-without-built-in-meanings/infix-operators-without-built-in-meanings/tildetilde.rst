@@ -12,14 +12,14 @@ TildeTilde
 
 
 >>> TildeTilde[x, y, z]
-    =
 
+    =
 :math:`x \approx y \approx z`
 
 
 >>> a \[TildeTilde] b
-    =
 
+    =
 :math:`a \approx b`
 
 

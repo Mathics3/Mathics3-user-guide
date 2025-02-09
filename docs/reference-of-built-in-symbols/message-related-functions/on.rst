@@ -15,8 +15,8 @@ On
 
 
 >>> 1 / 0
-    =
 
+    =
 :math:`\text{ComplexInfinity}`
 
 
@@ -26,8 +26,8 @@ On
 >>> 1 / 0
 
     Power::infy Infinite expression 1 / 0 encountered.
-    =
 
+    =
 :math:`\text{ComplexInfinity}`
 
 

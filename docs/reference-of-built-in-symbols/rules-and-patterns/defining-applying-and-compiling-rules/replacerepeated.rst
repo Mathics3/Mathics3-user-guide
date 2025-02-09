@@ -16,8 +16,8 @@ ReplaceRepeated
 
 
 >>> a+b+c //. c->d
-    =
 
+    =
 :math:`a+b+d`
 
 
@@ -25,8 +25,8 @@ ReplaceRepeated
 
 
 >>> f[a+b+c]
-    =
 
+    =
 :math:`a+b+d`
 
 
@@ -40,8 +40,8 @@ Simplification of logarithms:
 
 
 >>> Log[a * (b * c) ^ d ^ e * f] //. logrules
-    =
 
+    =
 :math:`\text{Log}\left[a\right]+\text{Log}\left[f\right]+\left(\text{Log}\left[b\right]+\text{Log}\left[c\right]\right) d^e`
 
 
@@ -49,8 +49,8 @@ Simplification of logarithms:
 :code:`ReplaceAll`  just performs a single replacement:
 
 >>> Log[a * (b * c) ^ d ^ e * f] /. logrules
-    =
 
+    =
 :math:`\text{Log}\left[a\right]+\text{Log}\left[f \left(b c\right)^{{d^e}}\right]`
 
 

@@ -12,26 +12,26 @@ LetterQ
 
 
 >>> LetterQ["m"]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> LetterQ["9"]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> LetterQ["Mathics"]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> LetterQ["Welcome to Mathics"]
-    =
 
+    =
 :math:`\text{False}`
 
 

@@ -12,9 +12,9 @@ Top
 
 
 >>> ListLinePlot[Table[Cos[x], {x, -5, 5, 0.2}], Filling->Top]
-    =
 
-.. image:: tmp7gy9fffr.png
+    =
+.. image:: tmpxcd3p7c2.png
     :align: center
 
 

@@ -24,8 +24,8 @@ Sum
 A sum that Gauss in elementary school was asked to do to kill time:
 
 >>> Sum[k, {k, 1, 10}]
-    =
 
+    =
 :math:`55`
 
 
@@ -33,8 +33,8 @@ A sum that Gauss in elementary school was asked to do to kill time:
 The symbolic form he used:
 
 >>> Sum[k, {k, 1, n}]
-    =
 
+    =
 :math:`\frac{n \left(1+n\right)}{2}`
 
 
@@ -42,8 +42,8 @@ The symbolic form he used:
 A Geometric series with a finite limit:
 
 >>> Sum[1 / 2 ^ i, {i, 1, k}]
-    =
 
+    =
 :math:`1-2^{-k}`
 
 
@@ -51,8 +51,8 @@ A Geometric series with a finite limit:
 A Geometric series using Infinity:
 
 >>> Sum[1 / 2 ^ i, {i, 1, Infinity}]
-    =
 
+    =
 :math:`1`
 
 
@@ -60,8 +60,8 @@ A Geometric series using Infinity:
 Leibniz formula used in computing Pi:
 
 >>> Sum[1 / ((-1)^k (2k + 1)), {k, 0, Infinity}]
-    =
 
+    =
 :math:`\frac{ \pi }{4}`
 
 
@@ -69,8 +69,8 @@ Leibniz formula used in computing Pi:
 A table of double sums to compute squares:
 
 >>> Table[ Sum[i * j, {i, 0, n}, {j, 0, n}], {n, 0, 4} ]
-    =
 
+    =
 :math:`\left\{0,1,9,36,100\right\}`
 
 
@@ -78,8 +78,8 @@ A table of double sums to compute squares:
 Computing Harmonic using a sum
 
 >>> Sum[1 / k ^ 2, {k, 1, n}]
-    =
 
+    =
 :math:`\text{HarmonicNumber}\left[n,2\right]`
 
 
@@ -87,8 +87,8 @@ Computing Harmonic using a sum
 Other symbolic sums:
 
 >>> Sum[k, {k, n, 2 n}]
-    =
 
+    =
 :math:`\frac{3 n \left(1+n\right)}{2}`
 
 
@@ -96,20 +96,20 @@ Other symbolic sums:
 A sum with Complex-number iteration values
 
 >>> Sum[k, {k, I, I + 1}]
-    =
 
+    =
 :math:`1+2 I`
 
 
 >>> Sum[k, {k, Range[5]}]
-    =
 
+    =
 :math:`15`
 
 
 >>> Sum[f[i], {i, 1, 7}]
-    =
 
+    =
 :math:`f\left[1\right]+f\left[2\right]+f\left[3\right]+f\left[4\right]+f\left[5\right]+f\left[6\right]+f\left[7\right]`
 
 
@@ -117,8 +117,8 @@ A sum with Complex-number iteration values
 Verify algebraic identities:
 
 >>> Sum[x ^ 2, {x, 1, y}] - y * (y + 1) * (2 * y + 1) / 6
-    =
 
+    =
 :math:`0`
 
 
@@ -126,20 +126,20 @@ Verify algebraic identities:
 Non-integer bounds:
 
 >>> Sum[i, {i, 1, 2.5}]
-    =
 
+    =
 :math:`3`
 
 
 >>> Sum[i, {i, 1.1, 2.5}]
-    =
 
+    =
 :math:`3.2`
 
 
 >>> Sum[k, {k, I, I + 1.5}]
-    =
 
+    =
 :math:`1+2 I`
 
 

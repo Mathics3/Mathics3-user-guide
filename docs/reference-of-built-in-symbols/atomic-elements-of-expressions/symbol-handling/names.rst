@@ -11,8 +11,8 @@ Names
 
 
 >>> Names["List"]
-    =
 
+    =
 :math:`\left\{\text{List}\right\}`
 
 
@@ -20,8 +20,8 @@ Names
 The wildcard :code:`*`  matches any character:
 
 >>> Names["List*"]
-    =
 
+    =
 :math:`\left\{\text{List},\text{ListLinePlot},\text{ListLogPlot},\text{ListPlot},\text{ListQ},\text{ListStepPlot},\text{Listable}\right\}`
 
 
@@ -29,8 +29,8 @@ The wildcard :code:`*`  matches any character:
 The wildcard :code:`@`  matches only lowercase characters:
 
 >>> Names["List@"]
-    =
 
+    =
 :math:`\left\{\text{Listable}\right\}`
 
 
@@ -38,8 +38,8 @@ The wildcard :code:`@`  matches only lowercase characters:
 
 
 >>> Names["Global`*"]
-    =
 
+    =
 :math:`\left\{\text{x}\right\}`
 
 
@@ -47,8 +47,8 @@ The wildcard :code:`@`  matches only lowercase characters:
 The number of built-in symbols:
 
 >>> Length[Names["System`*"]]
-    =
 
-:math:`1497`
+    =
+:math:`1507`
 
 

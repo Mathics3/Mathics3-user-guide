@@ -15,8 +15,8 @@ Unset
 
 
 >>> a = 2
-    =
 
+    =
 :math:`2`
 
 
@@ -24,8 +24,8 @@ Unset
 
 
 >>> a
-    =
 
+    =
 :math:`a`
 
 
@@ -44,8 +44,8 @@ Unsetting an already unset or never defined variable will not change anything:
 >>> f[x_] =.
 
     Unset::norep Assignment on f for f[x_] not found.
-    =
 
+    =
 :math:`\text{\$Failed}`
 
 
@@ -53,8 +53,8 @@ Unsetting an already unset or never defined variable will not change anything:
 
 
 >>> f[3]
-    =
 
+    =
 :math:`9`
 
 
@@ -62,8 +62,8 @@ Unsetting an already unset or never defined variable will not change anything:
 
 
 >>> f[3]
-    =
 
+    =
 :math:`f\left[3\right]`
 
 
@@ -77,8 +77,8 @@ You can also unset :code:`OwnValues` , :code:`DownValues` , :code:`SubValues` , 
 
 
 >>> f[2]
-    =
 
+    =
 :math:`f\left[2\right]`
 
 
@@ -89,8 +89,8 @@ You can also unset :code:`OwnValues` , :code:`DownValues` , :code:`SubValues` , 
 
 
 >>> {a, {b}} =.
-    =
 
+    =
 :math:`\left\{\text{Null},\left\{\text{Null}\right\}\right\}`
 
 

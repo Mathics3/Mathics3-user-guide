@@ -17,9 +17,9 @@ ListLinePlot
 
 
 >>> ListLinePlot[Table[{n, n ^ 0.5}, {n, 10}]]
-    =
 
-.. image:: tmp5kpu6fgu.png
+    =
+.. image:: tmppwg415tu.png
     :align: center
 
 
@@ -28,9 +28,9 @@ ListLinePlot
 ListPlot accepts a superset of the Graphics options.
 
 >>> ListLinePlot[{{-2, -1}, {-1, -1}, {1, 3}}, Filling->Axis]
-    =
 
-.. image:: tmpgibr3v2w.png
+    =
+.. image:: tmprq14wrpr.png
     :align: center
 
 

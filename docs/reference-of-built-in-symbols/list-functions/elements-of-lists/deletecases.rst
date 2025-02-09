@@ -18,14 +18,14 @@ DeleteCases
 
 
 >>> DeleteCases[{a, 1, 2.5, "string"}, _Integer|_Real]
-    =
 
+    =
 :math:`\left\{a,\text{string}\right\}`
 
 
 >>> DeleteCases[{a, b, 1, c, 2, 3}, _Symbol]
-    =
 
+    =
 :math:`\left\{1,2,3\right\}`
 
 

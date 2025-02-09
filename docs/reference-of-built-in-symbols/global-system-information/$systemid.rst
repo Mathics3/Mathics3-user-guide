@@ -12,5 +12,8 @@ $SystemID
 
 
 >>> $SystemID
-    = linux`
+
+    =
+:math:`\text{linux}`
+
 

@@ -18,9 +18,9 @@ Cube
 
 
 >>> Graphics3D[Cube[]]
-    =
 
-.. image:: tmpxbivaddy.png
+    =
+.. image:: tmp7afjllhx.png
     :align: center
 
 

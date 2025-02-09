@@ -12,14 +12,14 @@ NestedGreaterGreater
 
 
 >>> NestedGreaterGreater[x, y, z]
-    =
 
+    =
 :math:`x \gg y \gg z`
 
 
 >>> a \[NestedGreaterGreater] b
-    =
 
+    =
 :math:`a \gg b`
 
 

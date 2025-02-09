@@ -12,14 +12,14 @@ NotLessFullEqual
 
 
 >>> NotLessFullEqual[x, y, z]
-    =
 
+    =
 :math:`x \nleqq y \nleqq z`
 
 
 >>> a \[NotLessFullEqual] b
-    =
 
+    =
 :math:`a \nleqq b`
 
 

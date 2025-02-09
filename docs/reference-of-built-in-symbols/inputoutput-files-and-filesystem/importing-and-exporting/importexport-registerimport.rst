@@ -54,14 +54,14 @@ First, define the default function used to import the data.
 
 
 >>> Import["ExampleData/ExampleData.txt", {"ExampleFormat1", "Elements"}]
-    =
 
+    =
 :math:`\left\{\text{Data},\text{Header}\right\}`
 
 
 >>> Import["ExampleData/ExampleData.txt", {"ExampleFormat1", "Header"}]
-    =
 
+    =
 :math:`\left\{\text{Example File Format},\text{Created by Angus}\right\}`
 
 
@@ -78,20 +78,20 @@ Conditional Importer:
 
 
 >>> Import["ExampleData/ExampleData.txt", {"ExampleFormat2", "Elements"}]
-    =
 
+    =
 :math:`\left\{\text{Data},\text{Header}\right\}`
 
 
 >>> Import["ExampleData/ExampleData.txt", {"ExampleFormat2", "Header"}]
-    =
 
+    =
 :math:`\left\{\text{Example File Format},\text{Created by Angus}\right\}`
 
 
 >>> Import["ExampleData/ExampleData.txt", {"ExampleFormat2", "Data"}] // Grid
-    =
 
+    =
 :math:`\begin{array}{cc} 0.629452 & 0.586355\\ 0.711009 & 0.687453\\ 0.24654 & 0.433973\\ 0.926871 & 0.887255\\ 0.825141 & 0.9409\\ 0.847035 & 0.127464\\ 0.054348 & 0.296494\\ 0.838545 & 0.247025\\ 0.838697 & 0.43622\\ 0.309496 & 0.833591\end{array}`
 
 

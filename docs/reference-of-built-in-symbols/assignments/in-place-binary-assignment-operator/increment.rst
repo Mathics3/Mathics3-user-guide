@@ -15,14 +15,14 @@ Increment
 
 
 >>> a = 1; a++
-    =
 
+    =
 :math:`1`
 
 
 >>> a
-    =
 
+    =
 :math:`2`
 
 
@@ -30,14 +30,14 @@ Increment
 Increment a numeric value:
 
 >>> a = 1.5; a++
-    =
 
+    =
 :math:`1.5`
 
 
 >>> a
-    =
 
+    =
 :math:`2.5`
 
 
@@ -45,8 +45,8 @@ Increment a numeric value:
 Increment a symbolic value:
 
 >>> y = 2 x; y++; y
-    =
 
+    =
 :math:`1+2 x`
 
 
@@ -54,8 +54,8 @@ Increment a symbolic value:
 Increment all values in a list:
 
 >>> x = {1, 3, 5}
-    =
 
+    =
 :math:`\left\{1,3,5\right\}`
 
 
@@ -66,8 +66,8 @@ x++; x
 Grouping of :code:`Increment` , :code:`PreIncrement`  and :code:`Plus` :
 
 >>> ++++a+++++2//Hold//FullForm
-    =
 
+    =
 :math:`\text{Hold}\left[\text{Plus}\left[\text{PreIncrement}\left[\text{PreIncrement}\left[\text{Increment}\left[\text{Increment}\left[a\right]\right]\right]\right], 2\right]\right]`
 
 

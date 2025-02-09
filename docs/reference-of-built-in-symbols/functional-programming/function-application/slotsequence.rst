@@ -16,20 +16,20 @@ SlotSequence
 
 
 >>> Plus[##]& [1, 2, 3]
-    =
 
+    =
 :math:`6`
 
 
 >>> Plus[##2]& [1, 2, 3]
-    =
 
+    =
 :math:`5`
 
 
 >>> FullForm[##]
-    =
 
+    =
 :math:`\text{SlotSequence}\left[1\right]`
 
 

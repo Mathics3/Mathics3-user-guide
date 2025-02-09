@@ -10,5 +10,8 @@ HTML`ImageLinksImport
 
 
 >>> Import["ExampleData/PrimeMeridian.html", "ImageLinks"][[6]]
-    = //upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Prime_meridian.jpg/180px-Prime_meridian.jpg`
+
+    =
+:math:`\text{//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Prime\_meridian.jpg/180px-Prime\_meridian.jpg}`
+
 

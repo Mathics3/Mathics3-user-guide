@@ -12,14 +12,14 @@ SquareUnion
 
 
 >>> SquareUnion[x, y, z]
-    =
 
+    =
 :math:`x \sqcup y \sqcup z`
 
 
 >>> a \[SquareUnion] b
-    =
 
+    =
 :math:`a \sqcup b`
 
 

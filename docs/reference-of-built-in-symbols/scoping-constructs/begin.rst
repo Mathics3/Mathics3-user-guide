@@ -12,22 +12,22 @@ Begin
 
 
 >>> Begin["test`"]
-    =
 
+    =
 :math:`\text{test\`{}}`
 
 
 >>> End[]
-    =
 
+    =
 :math:`\text{test\`{}}`
 
 
 >>> End[]
 
     End::noctx No previous context defined.
-    =
 
+    =
 :math:`\text{Global\`{}}`
 
 

@@ -12,14 +12,14 @@ NotSucceedsTilde
 
 
 >>> NotSucceedsTilde[x, y, z]
-    =
 
+    =
 :math:`x \not{\succsim} y \not{\succsim} z`
 
 
 >>> a \[NotSucceedsTilde] b
-    =
 
+    =
 :math:`a \not{\succsim} b`
 
 

@@ -12,14 +12,14 @@ LeftTriangleBar
 
 
 >>> LeftTriangleBar[x, y, z]
-    =
 
+    =
 :math:`x \triangleleft | y \triangleleft | z`
 
 
 >>> a \[LeftTriangleBar] b
-    =
 
+    =
 :math:`a \triangleleft | b`
 
 

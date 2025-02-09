@@ -17,8 +17,8 @@ The elements of an :code:`Orderless`  function are automatically sorted:
 
 
 >>> f[c, a, b, a + b, 3, 1.0]
-    =
 
+    =
 :math:`f\left[1.,3,a,b,c,a+b\right]`
 
 
@@ -26,8 +26,8 @@ The elements of an :code:`Orderless`  function are automatically sorted:
 A symbol with the :code:`Orderless`  attribute represents a commutative     mathematical operation.
 
 >>> f[a, b] == f[b, a]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -38,8 +38,8 @@ A symbol with the :code:`Orderless`  attribute represents a commutative     math
 
 
 >>> f[a, b, c] /. f[a, c] -> d
-    =
 
+    =
 :math:`f\left[b,d\right]`
 
 

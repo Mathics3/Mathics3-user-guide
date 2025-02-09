@@ -12,8 +12,8 @@ CentralMoment
 
 
 >>> CentralMoment[{1.1, 1.2, 1.4, 2.1, 2.4}, 4]
-    =
 
+    =
 :math:`0.100845`
 
 

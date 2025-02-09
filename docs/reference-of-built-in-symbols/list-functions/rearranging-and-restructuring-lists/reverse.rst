@@ -18,32 +18,32 @@ Reverse
 
 
 >>> Reverse[{1, 2, 3}]
-    =
 
+    =
 :math:`\left\{3,2,1\right\}`
 
 
 >>> Reverse[x[a, b, c]]
-    =
 
+    =
 :math:`x\left[c,b,a\right]`
 
 
 >>> Reverse[{{1, 2}, {3, 4}}, 1]
-    =
 
+    =
 :math:`\left\{\left\{3,4\right\},\left\{1,2\right\}\right\}`
 
 
 >>> Reverse[{{1, 2}, {3, 4}}, 2]
-    =
 
+    =
 :math:`\left\{\left\{2,1\right\},\left\{4,3\right\}\right\}`
 
 
 >>> Reverse[{{1, 2}, {3, 4}}, {1, 2}]
-    =
 
+    =
 :math:`\left\{\left\{4,3\right\},\left\{2,1\right\}\right\}`
 
 

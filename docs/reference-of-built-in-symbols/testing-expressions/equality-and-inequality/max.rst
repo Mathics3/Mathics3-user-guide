@@ -14,14 +14,14 @@ Max
 Maximum of a series of values:
 
 >>> Max[4, -8, 1]
-    =
 
+    =
 :math:`4`
 
 
 >>> Max[E - Pi, Pi, E + Pi, 2 E]
-    =
 
+    =
 :math:`E+ \pi`
 
 
@@ -29,8 +29,8 @@ Maximum of a series of values:
 :code:`Max`  flattens lists in its arguments:
 
 >>> Max[{1,2},3,{-3,3.5,-Infinity},{{1/2}}]
-    =
 
+    =
 :math:`3.5`
 
 
@@ -38,14 +38,14 @@ Maximum of a series of values:
 :code:`Max`  with symbolic arguments remains in symbolic form:
 
 >>> Max[x, y]
-    =
 
+    =
 :math:`\text{Max}\left[x,y\right]`
 
 
 >>> Max[5, x, -3, y, 40]
-    =
 
+    =
 :math:`\text{Max}\left[40,x,y\right]`
 
 
@@ -53,8 +53,8 @@ Maximum of a series of values:
 With no arguments, :code:`Max`  gives :code:`-Infinity` :
 
 >>> Max[]
-    =
 
+    =
 :math:`-\infty`
 
 
@@ -62,8 +62,8 @@ With no arguments, :code:`Max`  gives :code:`-Infinity` :
 :code:`Max`  does not compare strings or symbols:
 
 >>> Max[-1.37, 2, "a", b]
-    =
 
+    =
 :math:`\text{Max}\left[2,\text{a},b\right]`
 
 

@@ -56,6 +56,4 @@ html_theme = "alabaster"
 smartquotes = True
 
 latex_engine = 'xelatex'
-latex_elements = {
-    'input_enc': r'\usepackage[utf8]{inputenc}',
-}
+

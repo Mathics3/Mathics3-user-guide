@@ -12,8 +12,8 @@ YuleDissimilarity
 
 
 >>> YuleDissimilarity[{1, 0, 1, 1, 0, 1, 1}, {0, 1, 1, 0, 0, 0, 1}]
-    =
 
+    =
 :math:`\frac{6}{5}`
 
 

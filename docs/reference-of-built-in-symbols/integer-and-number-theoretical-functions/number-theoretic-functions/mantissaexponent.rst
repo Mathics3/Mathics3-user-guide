@@ -15,26 +15,26 @@ MantissaExponent
 
 
 >>> MantissaExponent[2.5*10^20]
-    =
 
+    =
 :math:`\left\{0.25,21\right\}`
 
 
 >>> MantissaExponent[125.24]
-    =
 
+    =
 :math:`\left\{0.12524,3\right\}`
 
 
 >>> MantissaExponent[125., 2]
-    =
 
+    =
 :math:`\left\{0.976563,7\right\}`
 
 
 >>> MantissaExponent[10, b]
-    =
 
+    =
 :math:`\text{MantissaExponent}\left[10,b\right]`
 
 

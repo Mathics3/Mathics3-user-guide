@@ -11,14 +11,14 @@ RemoveDiacritics
 
 
 >>> RemoveDiacritics["en prononçant pêcher et pécher"]
-    =
 
+    =
 :math:`\text{en prononcant pecher et pecher}`
 
 
 >>> RemoveDiacritics["piñata"]
-    =
 
+    =
 :math:`\text{pinata}`
 
 

@@ -12,14 +12,14 @@ DownLeftVectorBar
 
 
 >>> DownLeftVectorBar[x, y, z]
-    =
 
+    =
 :math:`x |\leftharpoondown y |\leftharpoondown z`
 
 
 >>> a \[DownLeftVectorBar] b
-    =
 
+    =
 :math:`a |\leftharpoondown b`
 
 

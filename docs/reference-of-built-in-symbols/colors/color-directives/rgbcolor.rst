@@ -18,9 +18,9 @@ RGBColor
 A swatch of color green:
 
 >>> RGBColor[0, 1, 0]
-    =
 
-.. image:: tmp4zj703jf.png
+    =
+.. image:: tmp3rs93v4q.png
     :align: center
 
 
@@ -29,8 +29,8 @@ A swatch of color green:
 Let's show what goes on in the process of boxing the above to make this display:
 
 >>> RGBColor[0, 1, 0] // ToBoxes
-    =
 
+    =
 :math:`\text{StyleBox}\left[\text{GraphicsBox}\left[\left\{\text{EdgeForm}\left[\text{RGBColor}\left[0,0,0\right]\right],\text{RGBColor}\left[0,1,0\right],\text{RectangleBox}\left[\left\{0,0\right\}\right]\right\},\text{AspectRatio}->\text{Automatic},\text{Axes}->\text{False},\text{AxesStyle}->\left\{\right\},\text{Background}->\text{Automatic},\text{ImageSize}->16,\text{LabelStyle}->\left\{\right\},\text{PlotRange}->\text{Automatic},\text{PlotRangePadding}->\text{Automatic},\text{TicksStyle}->\left\{\right\}\right],\text{ImageSizeMultipliers}->\left\{1,1\right\},\text{ShowStringCharacters}->\text{True}\right]`
 
 
@@ -38,9 +38,9 @@ Let's show what goes on in the process of boxing the above to make this display:
 A swatch of color green which is 1/8 opaque:
 
 >>> RGBColor[0, 1, 0, 0.125]
-    =
 
-.. image:: tmpwuksxf0x.png
+    =
+.. image:: tmpsp4hmav9.png
     :align: center
 
 
@@ -49,9 +49,9 @@ A swatch of color green which is 1/8 opaque:
 A series of small disks of the primary colors:
 
 >>> Graphics[MapIndexed[{RGBColor @@ #1, Disk[2*#2 ~Join~ {0}]} &, IdentityMatrix[3]], ImageSize->Small]
-    =
 
-.. image:: tmp_vpq_o5n.png
+    =
+.. image:: tmpiak25d53.png
     :align: center
 
 

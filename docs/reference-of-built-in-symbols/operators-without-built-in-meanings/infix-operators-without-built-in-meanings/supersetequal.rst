@@ -12,14 +12,14 @@ SupersetEqual
 
 
 >>> SupersetEqual[x, y, z]
-    =
 
+    =
 :math:`x \supseteq y \supseteq z`
 
 
 >>> a \[SupersetEqual] b
-    =
 
+    =
 :math:`a \supseteq b`
 
 

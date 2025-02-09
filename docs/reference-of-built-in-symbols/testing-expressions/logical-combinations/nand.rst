@@ -15,8 +15,8 @@ Nand
 
 
 >>> Nand[True, False]
-    =
 
+    =
 :math:`\text{True}`
 
 

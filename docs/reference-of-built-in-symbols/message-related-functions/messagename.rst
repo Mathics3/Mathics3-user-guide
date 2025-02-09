@@ -17,8 +17,8 @@ MessageName
 :code:`MessageName`  is the head of message IDs of the form :code:`symbol::tag` .
 
 >>> FullForm[a::b]
-    =
 
+    =
 :math:`\text{MessageName}\left[a, \text{\`{}\`{}b''}\right]`
 
 
@@ -26,8 +26,8 @@ MessageName
 The second parameter :code:`tag`  is interpreted as a string.
 
 >>> FullForm[a::"b"]
-    =
 
+    =
 :math:`\text{MessageName}\left[a, \text{\`{}\`{}b''}\right]`
 
 

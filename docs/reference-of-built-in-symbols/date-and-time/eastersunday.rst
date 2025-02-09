@@ -12,14 +12,14 @@ EasterSunday
 
 
 >>> EasterSunday[2000]
-    =
 
+    =
 :math:`\left\{2000,4,23\right\}`
 
 
 >>> EasterSunday[2030]
-    =
 
+    =
 :math:`\left\{2030,4,21\right\}`
 
 

@@ -12,26 +12,26 @@ SetStreamPosition
 
 
 >>> stream = StringToStream["Mathics is cool!"]
-    =
 
+    =
 :math:`\text{InputStream}\left[\text{String},33\right]`
 
 
 >>> SetStreamPosition[stream, 8]
-    =
 
+    =
 :math:`8`
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{is}`
 
 
 >>> SetStreamPosition[stream, Infinity]
-    =
 
+    =
 :math:`16`
 
 

@@ -12,8 +12,8 @@ BoxMatrix
 
 
 >>> BoxMatrix[3]
-    =
 
+    =
 :math:`\left\{\left\{1,1,1,1,1,1,1\right\},\left\{1,1,1,1,1,1,1\right\},\left\{1,1,1,1,1,1,1\right\},\left\{1,1,1,1,1,1,1\right\},\left\{1,1,1,1,1,1,1\right\},\left\{1,1,1,1,1,1,1\right\},\left\{1,1,1,1,1,1,1\right\}\right\}`
 
 

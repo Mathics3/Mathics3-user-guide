@@ -12,14 +12,14 @@ Cup
 
 
 >>> Cup[x, y, z]
-    =
 
+    =
 :math:`x \cup y \cup z`
 
 
 >>> a \[Cup] b
-    =
 
+    =
 :math:`a \cup b`
 
 

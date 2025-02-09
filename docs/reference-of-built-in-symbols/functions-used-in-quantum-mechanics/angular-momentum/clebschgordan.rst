@@ -12,8 +12,8 @@ ClebschGordan
 
 
 >>> ClebschGordan[{3 / 2, 3 / 2}, {1 / 2, -1 / 2}, {1, 1}]
-    =
 
+    =
 :math:`\frac{\sqrt{3}}{2}`
 
 
@@ -21,14 +21,14 @@ ClebschGordan
 :code:`ClebschGordan`  works with integer and half‐integer arguments:
 
 >>> ClebschGordan[{1/2, -1/2}, {1/2, -1/2}, {1, -1}]
-    =
 
+    =
 :math:`1`
 
 
 >>> ClebschGordan[{1/2, -1/2}, {1, 0}, {1/2, -1/2}]
-    =
 
+    =
 :math:`-\frac{\sqrt{3}}{3}`
 
 
@@ -36,8 +36,8 @@ ClebschGordan
 Compare with WMA example:
 
 >>> ClebschGordan[{5, 0}, {4, 0}, {1, 0}] == Sqrt[5 / 33]
-    =
 
+    =
 :math:`\text{True}`
 
 

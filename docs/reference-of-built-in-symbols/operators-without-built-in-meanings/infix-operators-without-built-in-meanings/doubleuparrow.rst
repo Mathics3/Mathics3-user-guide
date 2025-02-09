@@ -12,14 +12,14 @@ DoubleUpArrow
 
 
 >>> DoubleUpArrow[x, y, z]
-    =
 
+    =
 :math:`x \Uparrow y \Uparrow z`
 
 
 >>> a \[DoubleUpArrow] b
-    =
 
+    =
 :math:`a \Uparrow b`
 
 

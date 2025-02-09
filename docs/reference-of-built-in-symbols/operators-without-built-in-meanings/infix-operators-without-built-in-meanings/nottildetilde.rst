@@ -12,14 +12,14 @@ NotTildeTilde
 
 
 >>> NotTildeTilde[x, y, z]
-    =
 
+    =
 :math:`x \not{\approx} y \not{\approx} z`
 
 
 >>> a \[NotTildeTilde] b
-    =
 
+    =
 :math:`a \not{\approx} b`
 
 

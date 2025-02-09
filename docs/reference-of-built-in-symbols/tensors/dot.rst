@@ -17,8 +17,8 @@ Dot
 Scalar product of vectors:
 
 >>> {a, b, c} . {x, y, z}
-    =
 
+    =
 :math:`a x+b y+c z`
 
 
@@ -26,8 +26,8 @@ Scalar product of vectors:
 Product of matrices and vectors:
 
 >>> {{a, b}, {c, d}} . {x, y}
-    =
 
+    =
 :math:`\left\{a x+b y,c x+d y\right\}`
 
 
@@ -35,14 +35,14 @@ Product of matrices and vectors:
 Matrix product:
 
 >>> {{a, b}, {c, d}} . {{r, s}, {t, u}}
-    =
 
+    =
 :math:`\left\{\left\{a r+b t,a s+b u\right\},\left\{c r+d t,c s+d u\right\}\right\}`
 
 
 >>> a . b
-    =
 
+    =
 :math:`a.b`
 
 

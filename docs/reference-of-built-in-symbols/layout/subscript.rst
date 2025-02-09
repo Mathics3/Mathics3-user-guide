@@ -12,8 +12,8 @@ Subscript
 
 
 >>> Subscript[x,1,2,3] // TeXForm
-    =
 
+    =
 :math:`\text{x\_\{1,2,3\}}`
 
 

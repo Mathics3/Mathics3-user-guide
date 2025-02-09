@@ -12,8 +12,8 @@ AiryAiZero
 
 
 >>> N[AiryAiZero[1]]
-    =
 
+    =
 :math:`-2.33811`
 
 

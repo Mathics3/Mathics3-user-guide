@@ -14,14 +14,14 @@ StringRepeat
 
 
 >>> StringRepeat["abc", 3]
-    =
 
+    =
 :math:`\text{abcabcabc}`
 
 
 >>> StringRepeat["abc", 10, 7]
-    =
 
+    =
 :math:`\text{abcabca}`
 
 

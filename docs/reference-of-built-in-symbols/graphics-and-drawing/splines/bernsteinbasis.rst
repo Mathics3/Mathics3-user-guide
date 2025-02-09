@@ -16,8 +16,8 @@ With the advent of computer graphics, Bernstein polynomials, restricted to the i
 
 
 >>> BernsteinBasis[4, 3, 0.5]
-    =
 
+    =
 :math:`0.25`
 
 

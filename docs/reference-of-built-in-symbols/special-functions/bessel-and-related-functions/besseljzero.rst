@@ -12,14 +12,14 @@ BesselJZero
 
 
 >>> N[BesselJZero[0, 1]]
-    =
 
+    =
 :math:`2.40483`
 
 
 >>> N[BesselJZero[0, 1], 10]
-    =
 
+    =
 :math:`2.404825558`
 
 

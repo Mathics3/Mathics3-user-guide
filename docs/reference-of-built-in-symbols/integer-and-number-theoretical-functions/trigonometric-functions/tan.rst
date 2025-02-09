@@ -12,14 +12,14 @@ Tan
 
 
 >>> Tan[0]
-    =
 
+    =
 :math:`0`
 
 
 >>> Tan[Pi / 2]
-    =
 
+    =
 :math:`\text{ComplexInfinity}`
 
 

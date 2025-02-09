@@ -12,8 +12,8 @@ $MachinePrecision
 
 
 >>> $MachinePrecision
-    =
 
+    =
 :math:`15.9546`
 
 

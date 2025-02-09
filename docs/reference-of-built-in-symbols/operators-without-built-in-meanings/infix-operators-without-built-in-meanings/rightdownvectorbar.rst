@@ -12,14 +12,14 @@ RightDownVectorBar
 
 
 >>> RightDownVectorBar[x, y, z]
-    =
 
+    =
 :math:`x \backslash\text{[RightDownVectorBar]} y \backslash\text{[RightDownVectorBar]} z`
 
 
 >>> a \[RightDownVectorBar] b
-    =
 
+    =
 :math:`a \backslash\text{[RightDownVectorBar]} b`
 
 

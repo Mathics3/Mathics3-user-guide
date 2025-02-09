@@ -14,8 +14,8 @@ AiryBi
 Exact values:
 
 >>> AiryBi[0]
-    =
 
+    =
 :math:`\frac{3^{\frac{5}{6}}}{3 \text{Gamma}\left[\frac{2}{3}\right]}`
 
 
@@ -23,21 +23,21 @@ Exact values:
 Numeric evaluation:
 
 >>> AiryBi[0.5]
-    =
 
+    =
 :math:`0.854277`
 
 
 >>> AiryBi[0.5 + I]
-    =
 
+    =
 :math:`0.688145+0.370815 I`
 
 
 >>> Plot[AiryBi[x], {x, -10, 2}]
-    =
 
-.. image:: tmpo3i0fx_h.png
+    =
+.. image:: tmp8rb_d5pd.png
     :align: center
 
 

@@ -17,8 +17,8 @@ OwnValues
 
 
 >>> OwnValues[x]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[x\right]\text{:>}2\right\}`
 
 
@@ -26,8 +26,8 @@ OwnValues
 
 
 >>> OwnValues[x]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[x\right]\text{:>}y\right\}`
 
 
@@ -35,20 +35,20 @@ OwnValues
 
 
 >>> OwnValues[x]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[x\right]\text{:>}y\right\}`
 
 
 >>> Hold[x] /. OwnValues[x]
-    =
 
+    =
 :math:`\text{Hold}\left[y\right]`
 
 
 >>> Hold[x] /. OwnValues[x] // ReleaseHold
-    =
 
+    =
 :math:`5`
 
 

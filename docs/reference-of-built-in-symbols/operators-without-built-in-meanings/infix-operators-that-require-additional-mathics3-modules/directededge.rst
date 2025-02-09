@@ -16,14 +16,14 @@ DirectedEdge
 
 
 >>> DirectedEdge[x, y, z]
-    =
 
+    =
 :math:`x \rightarrow y \rightarrow z`
 
 
 >>> a \[DirectedEdge] b
-    =
 
+    =
 :math:`a \rightarrow b`
 
 

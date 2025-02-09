@@ -15,26 +15,26 @@ Subtract
 
 
 >>> 5 - 3
-    =
 
+    =
 :math:`2`
 
 
 >>> a - b // FullForm
-    =
 
+    =
 :math:`\text{Plus}\left[a, \text{Times}\left[-1, b\right]\right]`
 
 
 >>> a - b - c
-    =
 
+    =
 :math:`a-b-c`
 
 
 >>> a - (b - c)
-    =
 
+    =
 :math:`a-b+c`
 
 

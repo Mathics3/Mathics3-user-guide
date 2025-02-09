@@ -13,26 +13,26 @@ System`Convert`B64Dump`B64Encode
 
 
 >>> System`Convert`B64Dump`B64Encode["Hello world"]
-    =
 
+    =
 :math:`\text{SGVsbG8gd29ybGQ=}`
 
 
 >>> System`Convert`B64Dump`B64Decode[%]
-    =
 
+    =
 :math:`\text{Hello world}`
 
 
 >>> System`Convert`B64Dump`B64Encode[Integrate[f[x],{x,0,2}]]
-    =
 
+    =
 :math:`\text{SW50ZWdyYXRlW2ZbeF0sIHt4LCAwLCAyfV0=}`
 
 
 >>> System`Convert`B64Dump`B64Decode[%]
-    =
 
+    =
 :math:`\text{Integrate[f[x], \{x, 0, 2\}]}`
 
 

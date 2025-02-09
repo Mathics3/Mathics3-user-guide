@@ -27,8 +27,8 @@ Arg
 
 
 >>> Arg[-3]
-    =
 
+    =
 :math:`\pi`
 
 
@@ -36,14 +36,14 @@ Arg
 Same as above, but using SymPy's method:
 
 >>> Arg[-3, Method->"sympy"]
-    =
 
+    =
 :math:`\pi`
 
 
 >>> Arg[1-I]
-    =
 
+    =
 :math:`-\frac{ \pi }{4}`
 
 
@@ -51,14 +51,14 @@ Same as above, but using SymPy's method:
 :code:`Arg`  evaluates the direction of :code:`DirectedInfinity`  quantities by     the :code:`Arg`  of its arguments:
 
 >>> Arg[DirectedInfinity[1+I]]
-    =
 
+    =
 :math:`\frac{ \pi }{4}`
 
 
 >>> Arg[DirectedInfinity[]]
-    =
 
+    =
 :math:`1`
 
 
@@ -66,8 +66,8 @@ Same as above, but using SymPy's method:
 Arg for 0 is assumed to be 0:
 
 >>> Arg[0]
-    =
 
+    =
 :math:`0`
 
 

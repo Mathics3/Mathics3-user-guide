@@ -14,8 +14,8 @@ SetOptions
 One way to find the default options for a symbol is to use     :code:`SetOptions`  passing no association pairs:
 
 >>> SetOptions[Plot]
-    =
 
+    =
 :math:`\left\{\text{AspectRatio}->\frac{1}{\text{GoldenRatio}},\text{Axes}->\text{True},\text{AxesStyle}->\left\{\right\},\text{Background}->\text{Automatic},\text{Exclusions}->\text{Automatic},\text{ImageSize}->\text{Automatic},\text{LabelStyle}->\left\{\right\},\text{MaxRecursion}->\text{Automatic},\text{Mesh}->\text{None},\text{PlotPoints}->\text{None},\text{PlotRange}->\text{Automatic},\text{PlotRangePadding}->\text{Automatic},\text{TicksStyle}->\left\{\right\}\right\}`
 
 

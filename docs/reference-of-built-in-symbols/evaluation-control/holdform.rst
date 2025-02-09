@@ -12,8 +12,8 @@ HoldForm
 
 
 >>> HoldForm[1 + 2 + 3]
-    =
 
+    =
 :math:`1+2+3`
 
 
@@ -21,8 +21,8 @@ HoldForm
 :code:`HoldForm`  has attribute :code:`HoldAll` :
 
 >>> Attributes[HoldForm]
-    =
 
+    =
 :math:`\left\{\text{HoldAll},\text{Protected}\right\}`
 
 

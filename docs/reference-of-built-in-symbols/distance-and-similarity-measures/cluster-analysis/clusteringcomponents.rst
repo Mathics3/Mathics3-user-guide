@@ -21,14 +21,14 @@ ClusteringComponents
 For more detailed documentation regarding options and behavior, see FindClusters[].
 
 >>> ClusteringComponents[{1, 2, 3, 1, 2, 10, 100}]
-    =
 
+    =
 :math:`\left\{1,1,1,1,1,1,2\right\}`
 
 
 >>> ClusteringComponents[{10, 100, 20}, Method -> "KMeans"]
-    =
 
+    =
 :math:`\left\{1,0,1\right\}`
 
 

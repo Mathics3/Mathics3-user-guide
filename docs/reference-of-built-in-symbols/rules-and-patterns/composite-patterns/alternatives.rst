@@ -15,8 +15,8 @@ Alternatives
 
 
 >>> a+b+c+d/.(a|b)->t
-    =
 
+    =
 :math:`c+d+2 t`
 
 
@@ -24,8 +24,8 @@ Alternatives
 Alternatives can also be used for string expressions:
 
 >>> StringReplace["0123 3210", "1" | "2" -> "X"]
-    =
 
+    =
 :math:`\text{0XX3 3XX0}`
 
 

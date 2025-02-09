@@ -17,20 +17,20 @@ PreIncrement
 :code:`++` :math:`a` is equivalent to :math:`a` :code:`=`  :math:`a` :code:`+ 1` :
 
 >>> a = 2
-    =
 
+    =
 :math:`2`
 
 
 >>> ++a
-    =
 
+    =
 :math:`3`
 
 
 >>> a
-    =
 
+    =
 :math:`3`
 
 
@@ -38,8 +38,8 @@ PreIncrement
 PreIncrement a numeric value:
 
 >>> a + 1.6
-    =
 
+    =
 :math:`4.6`
 
 
@@ -50,14 +50,14 @@ PreIncrement a symbolic value:
     = `
 
 >>> y = x; ++y
-    =
 
+    =
 :math:`1+x`
 
 
 >>> y
-    =
 
+    =
 :math:`1+x`
 
 

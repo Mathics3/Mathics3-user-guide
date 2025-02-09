@@ -11,8 +11,14 @@ Identity
 
 
 >>> Identity[x]
-    = x`
+
+    =
+:math:`x`
+
 
 >>> Identity[x, y]
-    = Identity[x, y]`
+
+    =
+:math:`\text{Identity}\left[x,y\right]`
+
 

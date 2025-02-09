@@ -15,32 +15,32 @@ Fibonacci
 
 
 >>> Fibonacci[0]
-    =
 
+    =
 :math:`0`
 
 
 >>> Fibonacci[1]
-    =
 
+    =
 :math:`1`
 
 
 >>> Fibonacci[10]
-    =
 
+    =
 :math:`55`
 
 
 >>> Fibonacci[200]
-    =
 
+    =
 :math:`280571172992510140037611932413038677189525`
 
 
 >>> Fibonacci[7, x]
-    =
 
+    =
 :math:`1+6 x^2+5 x^4+x^6`
 
 

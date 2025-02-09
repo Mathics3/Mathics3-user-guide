@@ -19,26 +19,26 @@ The sets :math:`all`, :math:`e_1`, etc can have any head, which must all match.
 The returned expression has the same head as the input     expressions. The expression will be sorted and each element will     only occur once.
 
 >>> Complement[{a, b, c}, {a, c}]
-    =
 
+    =
 :math:`\left\{b\right\}`
 
 
 >>> Complement[{a, b, c}, {a, c}, {b}]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
 >>> Complement[f[z, y, x, w], f[x], f[x, z]]
-    =
 
+    =
 :math:`f\left[w,y\right]`
 
 
 >>> Complement[{c, b, a}]
-    =
 
+    =
 :math:`\left\{a,b,c\right\}`
 
 

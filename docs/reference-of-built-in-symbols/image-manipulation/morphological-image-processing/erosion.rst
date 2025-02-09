@@ -12,8 +12,13 @@ Erosion
 
 
 >>> ein = Import["ExampleData/Einstein.jpg"];
-    = `
+
 
 >>> Erosion[ein, 2.5]
-    = -Image-`
+
+    =
+.. image:: tmphchn7ane.png
+    :align: center
+
+
 

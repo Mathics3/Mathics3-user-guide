@@ -24,8 +24,8 @@ Here is how to use :code:`mathics.disabled_breakpoint` :
 
 
 >>> Breakpoint[]
-    =
 
+    =
 :math:`\text{Breakpoint}\left[\right]`
 
 

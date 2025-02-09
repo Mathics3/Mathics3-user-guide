@@ -12,26 +12,26 @@ Sqrt
 
 
 >>> Sqrt[4]
-    =
 
+    =
 :math:`2`
 
 
 >>> Sqrt[5]
-    =
 
+    =
 :math:`\sqrt{5}`
 
 
 >>> Sqrt[5] // N
-    =
 
+    =
 :math:`2.23607`
 
 
 >>> Sqrt[a]^2
-    =
 
+    =
 :math:`a`
 
 
@@ -39,21 +39,21 @@ Sqrt
 Complex numbers:
 
 >>> Sqrt[-4]
-    =
 
+    =
 :math:`2 I`
 
 
 >>> I == Sqrt[-1]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> Plot[Sqrt[a^2], {a, -2, 2}]
-    =
 
-.. image:: tmpe6k68f1p.png
+    =
+.. image:: tmpclcln5e9.png
     :align: center
 
 

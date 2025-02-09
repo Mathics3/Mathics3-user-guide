@@ -13,5 +13,8 @@ $UserName
 
 
 >>> $UserName
-    = ...`
+
+    =
+:math:`\text{mauricio}`
+
 

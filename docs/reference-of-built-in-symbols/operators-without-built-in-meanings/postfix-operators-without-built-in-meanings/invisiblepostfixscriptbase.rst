@@ -12,14 +12,14 @@ InvisiblePostfixScriptBase
 
 
 >>> InvisiblePostfixScriptBase[x]
-    =
 
+    =
 :math:`x`
 
 
 >>> x \[InvisiblePostfixScriptBase]
-    =
 
+    =
 :math:`x`
 
 

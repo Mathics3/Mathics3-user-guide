@@ -19,26 +19,26 @@ ArrayQ
 
 
 >>> ArrayQ[a]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> ArrayQ[{a}]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> ArrayQ[{{{a}},{{b,c}}}]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> ArrayQ[{{a, b}, {c, d}}, 2, SymbolQ]
-    =
 
+    =
 :math:`\text{True}`
 
 

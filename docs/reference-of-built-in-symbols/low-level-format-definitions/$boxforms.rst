@@ -12,8 +12,8 @@ $BoxForms
 
 
 >>> $BoxForms
-    =
 
+    =
 :math:`\left\{\text{StandardForm},\text{TraditionalForm}\right\}`
 
 

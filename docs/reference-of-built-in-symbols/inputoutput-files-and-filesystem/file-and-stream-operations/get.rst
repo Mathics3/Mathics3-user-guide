@@ -23,8 +23,8 @@ Get
 
 
 >>> Get[filename]
-    =
 
+    =
 :math:`x+y`
 
 
@@ -35,8 +35,8 @@ Get
 
 
 >>> Get[filename]
-    =
 
+    =
 :math:`\text{Cos}\left[x\right]+I \text{Sin}\left[x\right]`
 
 

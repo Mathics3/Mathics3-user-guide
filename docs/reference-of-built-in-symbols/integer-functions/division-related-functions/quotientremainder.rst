@@ -12,8 +12,8 @@ QuotientRemainder
 
 
 >>> QuotientRemainder[23, 7]
-    =
 
+    =
 :math:`\left\{3,2\right\}`
 
 

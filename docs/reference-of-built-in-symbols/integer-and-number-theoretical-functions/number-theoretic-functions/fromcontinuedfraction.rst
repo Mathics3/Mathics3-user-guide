@@ -12,14 +12,14 @@ FromContinuedFraction
 
 
 >>> FromContinuedFraction[{3, 7, 15, 1, 292, 1, 1, 1, 2, 1}]
-    =
 
+    =
 :math:`\frac{1146408}{364913}`
 
 
 >>> FromContinuedFraction[Range[5]]
-    =
 
+    =
 :math:`\frac{225}{157}`
 
 

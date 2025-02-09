@@ -12,8 +12,8 @@ StringToStream
 
 
 >>> strm = StringToStream["abc 123"]
-    =
 
+    =
 :math:`\text{InputStream}\left[\text{String},37\right]`
 
 

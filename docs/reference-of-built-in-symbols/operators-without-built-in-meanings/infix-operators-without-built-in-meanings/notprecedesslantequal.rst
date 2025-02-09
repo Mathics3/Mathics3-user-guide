@@ -12,14 +12,14 @@ NotPrecedesSlantEqual
 
 
 >>> NotPrecedesSlantEqual[x, y, z]
-    =
 
+    =
 :math:`x \not{\preccurlyeq} y \not{\preccurlyeq} z`
 
 
 >>> a \[NotPrecedesSlantEqual] b
-    =
 
+    =
 :math:`a \not{\preccurlyeq} b`
 
 

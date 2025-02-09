@@ -15,15 +15,15 @@ LambertW
 
 
 >>> LambertW[k, z]
-    =
 
+    =
 :math:`\text{ProductLog}\left[k,z\right]`
 
 
 >>> Plot[LambertW[x], {x, -1/E, E}]
-    =
 
-.. image:: tmpfc95_gse.png
+    =
+.. image:: tmp_1khqild.png
     :align: center
 
 

@@ -14,8 +14,8 @@ NumericFunction
 Mathematical functions like :code:`Sqrt`  have attribute :code:`NumericFunction` :
 
 >>> Attributes[Sqrt]
-    =
 
+    =
 :math:`\left\{\text{Listable},\text{NumericFunction},\text{Protected}\right\}`
 
 
@@ -23,20 +23,20 @@ Mathematical functions like :code:`Sqrt`  have attribute :code:`NumericFunction`
 Expressions with a head having this attribute, and with all the elements     being numeric expressions, are considered numeric expressions:
 
 >>> NumericQ[Sqrt[1]]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> NumericQ[a]=True; NumericQ[Sqrt[a]]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> NumericQ[a]=False; NumericQ[Sqrt[a]]
-    =
 
+    =
 :math:`\text{False}`
 
 

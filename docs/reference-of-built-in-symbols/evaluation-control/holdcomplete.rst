@@ -12,8 +12,8 @@ HoldComplete
 
 
 >>> Attributes[HoldComplete]
-    =
 
+    =
 :math:`\left\{\text{HoldAllComplete},\text{Protected}\right\}`
 
 

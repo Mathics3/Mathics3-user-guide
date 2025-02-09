@@ -21,17 +21,17 @@ RegularPolygon
 
 
 >>> Graphics[RegularPolygon[5]]
-    =
 
-.. image:: tmp47kui82_.png
+    =
+.. image:: tmphfb4sdyh.png
     :align: center
 
 
 
 >>> Graphics[{Yellow, Rectangle[], Orange, RegularPolygon[{1, 1}, {0.25, 0}, 3]}]
-    =
 
-.. image:: tmpv07jtjvo.png
+    =
+.. image:: tmpbp1ymn7g.png
     :align: center
 
 

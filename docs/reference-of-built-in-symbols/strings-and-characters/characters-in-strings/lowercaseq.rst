@@ -12,8 +12,8 @@ LowerCaseQ
 
 
 >>> LowerCaseQ["abc"]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -21,8 +21,8 @@ LowerCaseQ
 An empty string returns True.
 
 >>> LowerCaseQ[""]
-    =
 
+    =
 :math:`\text{True}`
 
 

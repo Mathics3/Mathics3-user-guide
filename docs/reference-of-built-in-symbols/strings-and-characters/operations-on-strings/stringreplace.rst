@@ -25,8 +25,8 @@ StringReplace
 StringReplace replaces all occurrences of one substring with another:
 
 >>> StringReplace["xyxyxyyyxxxyyxy", "xy" -> "A"]
-    =
 
+    =
 :math:`\text{AAAyyxxAyA}`
 
 
@@ -34,8 +34,8 @@ StringReplace replaces all occurrences of one substring with another:
 Multiple replacements can be supplied:
 
 >>> StringReplace["xyzwxyzwxxyzxyzw", {"xyz" -> "A", "w" -> "BCD"}]
-    =
 
+    =
 :math:`\text{ABCDABCDxAABCD}`
 
 
@@ -43,8 +43,8 @@ Multiple replacements can be supplied:
 Only replace the first 2 occurrences:
 
 >>> StringReplace["xyxyxyyyxxxyyxy", "xy" -> "A", 2]
-    =
 
+    =
 :math:`\text{AAxyyyxxxyyxy}`
 
 
@@ -52,8 +52,8 @@ Only replace the first 2 occurrences:
 Also works for multiple rules:
 
 >>> StringReplace["abba", {"a" -> "A", "b" -> "B"}, 2]
-    =
 
+    =
 :math:`\text{ABba}`
 
 
@@ -61,8 +61,8 @@ Also works for multiple rules:
 StringReplace acts on lists of strings too:
 
 >>> StringReplace[{"xyxyxxy", "yxyxyxxxyyxy"}, "xy" -> "A"]
-    =
 
+    =
 :math:`\left\{\text{AAxA},\text{yAAxxAyA}\right\}`
 
 
@@ -70,8 +70,8 @@ StringReplace acts on lists of strings too:
 StringReplace also can be used as an operator:
 
 >>> StringReplace["y" -> "ies"]["city"]
-    =
 
+    =
 :math:`\text{cities}`
 
 

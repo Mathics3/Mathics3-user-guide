@@ -14,5 +14,8 @@ $InputFileName
 While in interactive mode, :code:`$InputFileName`  is "".
 
 >>> $InputFileName
-    = `
+
+    =
+:math:`\text{/home/mauricio/Projects/Mathics3-user-guide}`
+
 

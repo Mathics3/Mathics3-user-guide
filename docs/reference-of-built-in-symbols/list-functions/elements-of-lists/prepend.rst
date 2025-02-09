@@ -18,8 +18,8 @@ Prepend
 of :math:`expr`:
 
 >>> Prepend[{2, 3, 4}, 1]
-    =
 
+    =
 :math:`\left\{1,2,3,4\right\}`
 
 
@@ -27,8 +27,8 @@ of :math:`expr`:
 :code:`Prepend`  works on expressions with heads other than :code:`List` :
 
 >>> Prepend[f[b, c], a]
-    =
 
+    =
 :math:`f\left[a,b,c\right]`
 
 
@@ -36,8 +36,8 @@ of :math:`expr`:
 Unlike :code:`Join` , :code:`Prepend`  does not flatten lists in :math:`item`:
 
 >>> Prepend[{c, d}, {a, b}]
-    =
 
+    =
 :math:`\left\{\left\{a,b\right\},c,d\right\}`
 
 

@@ -12,14 +12,14 @@ DirectoryName
 
 
 >>> DirectoryName["a/b/c"]
-    =
 
+    =
 :math:`\text{a/b}`
 
 
 >>> DirectoryName["a/b/c", 2]
-    =
 
+    =
 :math:`\text{a}`
 
 

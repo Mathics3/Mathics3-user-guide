@@ -12,8 +12,8 @@ Integer
 
 
 >>> Head[5]
-    =
 
+    =
 :math:`\text{Integer}`
 
 

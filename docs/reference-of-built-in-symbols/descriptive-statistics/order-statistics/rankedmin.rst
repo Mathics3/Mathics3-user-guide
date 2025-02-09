@@ -12,8 +12,8 @@ RankedMin
 
 
 >>> RankedMin[{482, 17, 181, -12}, 2]
-    =
 
+    =
 :math:`17`
 
 

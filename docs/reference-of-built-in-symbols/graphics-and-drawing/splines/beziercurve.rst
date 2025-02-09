@@ -31,9 +31,9 @@ Set up some points to form a simple zig-zag...
 =
 
 >>> Graphics[{Line[pts], Red, Point[pts]}]
-    =
 
-.. image:: tmpb3puhfw7.png
+    =
+.. image:: tmpvswc73ng.png
     :align: center
 
 
@@ -42,9 +42,9 @@ Set up some points to form a simple zig-zag...
 A composite Bézier curve, shown in blue, smooths the zig zag. Control points are shown in red:
 
 >>> Graphics[{BezierCurve[pts], Blue, Line[pts], Red, Point[pts]}]
-    =
 
-.. image:: tmpoup6lhyh.png
+    =
+.. image:: tmpz77lsu4f.png
     :align: center
 
 
@@ -61,9 +61,9 @@ Extend points...
 A longer composite Bézier curve and its control points:
 
 >>> Graphics[{BezierCurve[pts], Blue, Line[pts], Red, Point[pts]}]
-    =
 
-.. image:: tmpgh6y4qp3.png
+    =
+.. image:: tmpkz0ap1m3.png
     :align: center
 
 

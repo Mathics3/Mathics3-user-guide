@@ -14,14 +14,14 @@ Indeterminate
 >>> 0^0
 
     Power::indet Indeterminate expression 0 ^ 0 encountered.
-    =
 
+    =
 :math:`\text{Indeterminate}`
 
 
 >>> Tan[Indeterminate]
-    =
 
+    =
 :math:`\text{Indeterminate}`
 
 

@@ -17,20 +17,20 @@ ToExpression
 
 
 >>> ToExpression["1 + 2"]
-    =
 
+    =
 :math:`3`
 
 
 >>> ToExpression["{2, 3, 1}", InputForm, Max]
-    =
 
+    =
 :math:`3`
 
 
 >>> ToExpression["2 3", InputForm]
-    =
 
+    =
 :math:`6`
 
 
@@ -38,8 +38,8 @@ ToExpression
 Note that newlines are like semicolons, not blanks. So so the return value is the second-line value.
 
 >>> ToExpression["2\[NewLine]3"]
-    =
 
+    =
 :math:`3`
 
 

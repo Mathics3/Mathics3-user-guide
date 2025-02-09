@@ -12,14 +12,14 @@ TildeFullEqual
 
 
 >>> TildeFullEqual[x, y, z]
-    =
 
+    =
 :math:`x \cong y \cong z`
 
 
 >>> a \[TildeFullEqual] b
-    =
 
+    =
 :math:`a \cong b`
 
 

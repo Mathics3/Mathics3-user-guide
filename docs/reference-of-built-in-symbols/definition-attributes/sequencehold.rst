@@ -14,8 +14,8 @@ SequenceHold
 Normally, :code:`Sequence`  will be spliced into a function:
 
 >>> f[Sequence[a, b]]
-    =
 
+    =
 :math:`f\left[a,b\right]`
 
 
@@ -26,8 +26,8 @@ It does not for :code:`SequenceHold`  functions:
 
 
 >>> f[Sequence[a, b]]
-    =
 
+    =
 :math:`f\left[\text{Sequence}\left[a,b\right]\right]`
 
 
@@ -38,14 +38,14 @@ E.g., :code:`Set`  has attribute :code:`SequenceHold`  to allow assignment of se
 
 
 >>> s
-    =
 
+    =
 :math:`\text{Sequence}\left[a,b\right]`
 
 
 >>> Plus[s]
-    =
 
+    =
 :math:`a+b`
 
 

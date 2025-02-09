@@ -12,8 +12,8 @@ ContainsOnly
 
 
 >>> ContainsOnly[{b, a, a}, {a, b, c}]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -21,14 +21,14 @@ ContainsOnly
 The first list contains elements not present in the second list:
 
 >>> ContainsOnly[{b, a, d}, {a, b, c}]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> ContainsOnly[{}, {a, b, c}]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -36,8 +36,8 @@ The first list contains elements not present in the second list:
 Use Equal as the comparison function to have numerical tolerance:
 
 >>> ContainsOnly[{a, 1.0}, {1, a, b}, {SameTest -> Equal}]
-    =
 
+    =
 :math:`\text{True}`
 
 

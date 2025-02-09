@@ -17,8 +17,8 @@ SeriesCoefficient
 First we list 5 terms of a series:
 
 >>> Series[Exp[Sin[x]], {x, 0, 5}]
-    =
 
+    =
 :math:`1+x+\frac{1}{2} x^2+\left(-\frac{1}{8}\right) x^4+\left(-\frac{1}{15}\right) x^5+O\left[x\right]^6`
 
 
@@ -26,8 +26,8 @@ First we list 5 terms of a series:
 Now get the :math:`x`^4 coefficient:
 
 >>> SeriesCoefficient[%, 4]
-    =
 
+    =
 :math:`-\frac{1}{8}`
 
 
@@ -35,32 +35,32 @@ Now get the :math:`x`^4 coefficient:
 Do the same thing, but without calling :code:`Series`  first:
 
 >>> SeriesCoefficient[Exp[Sin[x]], {x, 0, 4}]
-    =
 
+    =
 :math:`-\frac{1}{8}`
 
 
 >>> SeriesCoefficient[2x, {x, 0, 2}]
-    =
 
+    =
 :math:`0`
 
 
 >>> SeriesCoefficient[SeriesData[x, c, Table[i^2, {i, 10}], 7, 17, 3], 14/3]
-    =
 
+    =
 :math:`64`
 
 
 >>> SeriesCoefficient[SeriesData[x, c, Table[i^2, {i, 10}], 7, 17, 3], 6/3]
-    =
 
+    =
 :math:`0`
 
 
 >>> SeriesCoefficient[SeriesData[x, c, Table[i^2, {i, 10}], 7, 17, 3], 17/3]
-    =
 
+    =
 :math:`\text{Indeterminate}`
 
 

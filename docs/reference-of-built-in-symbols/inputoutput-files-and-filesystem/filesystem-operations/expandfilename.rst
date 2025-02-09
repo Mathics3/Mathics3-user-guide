@@ -12,8 +12,8 @@ ExpandFileName
 
 
 >>> ExpandFileName["ExampleData/sunflowers.jpg"]
-    =
 
+    =
 :math:`\text{/home/mauricio/ExampleData/sunflowers.jpg}`
 
 

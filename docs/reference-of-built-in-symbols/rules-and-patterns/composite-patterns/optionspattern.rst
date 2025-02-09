@@ -20,14 +20,14 @@ The option values can be accessed using :code:`OptionValue` .
 
 
 >>> f[x]
-    =
 
+    =
 :math:`x^2`
 
 
 >>> f[x, n->3]
-    =
 
+    =
 :math:`x^3`
 
 
@@ -35,8 +35,8 @@ The option values can be accessed using :code:`OptionValue` .
 Delayed rules as options:
 
 >>> e = f[x, n:>a]
-    =
 
+    =
 :math:`x^a`
 
 
@@ -44,8 +44,8 @@ Delayed rules as options:
 
 
 >>> e
-    =
 
+    =
 :math:`x^5`
 
 
@@ -53,8 +53,8 @@ Delayed rules as options:
 Options might be given in nested lists:
 
 >>> f[x, {{{n->4}}}]
-    =
 
+    =
 :math:`x^4`
 
 

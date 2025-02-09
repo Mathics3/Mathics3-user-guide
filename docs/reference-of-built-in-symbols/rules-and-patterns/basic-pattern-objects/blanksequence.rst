@@ -23,14 +23,14 @@ BlankSequence
 Use a :code:`BlankSequence`  pattern to stand for a non-empty sequence of     arguments:
 
 >>> MatchQ[f[1, 2, 3], f[__]]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> MatchQ[f[], f[__]]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -38,14 +38,14 @@ Use a :code:`BlankSequence`  pattern to stand for a non-empty sequence of     ar
 :code:`__` :math:`h` will match only if all elements have head :math:`h`:
 
 >>> MatchQ[f[1, 2, 3], f[__Integer]]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> MatchQ[f[1, 2.0, 3], f[__Integer]]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -53,8 +53,8 @@ Use a :code:`BlankSequence`  pattern to stand for a non-empty sequence of     ar
 The value captured by a named :code:`BlankSequence`  pattern is a     :code:`Sequence`  object:
 
 >>> f[1, 2, 3] /. f[x__] -> x
-    =
 
+    =
 :math:`\text{Sequence}\left[1,2,3\right]`
 
 

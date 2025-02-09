@@ -11,8 +11,8 @@ ValueQ
 
 
 >>> ValueQ[x]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -20,8 +20,8 @@ ValueQ
 
 
 >>> ValueQ[x]
-    =
 
+    =
 :math:`\text{True}`
 
 

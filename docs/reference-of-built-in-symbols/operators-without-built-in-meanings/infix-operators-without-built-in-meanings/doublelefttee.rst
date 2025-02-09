@@ -12,14 +12,14 @@ DoubleLeftTee
 
 
 >>> DoubleLeftTee[x, y, z]
-    =
 
+    =
 :math:`x =| y =| z`
 
 
 >>> a \[DoubleLeftTee] b
-    =
 
+    =
 :math:`a =| b`
 
 

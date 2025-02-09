@@ -14,8 +14,8 @@ Greater
 Symbolic constants are compared numerically:
 
 >>> E > 1
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -23,14 +23,14 @@ Symbolic constants are compared numerically:
 Greater operator can be chained:
 
 >>> a > b > c //FullForm
-    =
 
+    =
 :math:`\text{Greater}\left[a, b, c\right]`
 
 
 >>> 3 > 2 > 1
-    =
 
+    =
 :math:`\text{True}`
 
 

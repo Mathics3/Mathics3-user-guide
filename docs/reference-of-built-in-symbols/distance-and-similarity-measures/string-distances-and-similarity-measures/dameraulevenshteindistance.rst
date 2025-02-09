@@ -15,26 +15,26 @@ DamerauLevenshteinDistance
 
 
 >>> DamerauLevenshteinDistance["kitten", "kitchen"]
-    =
 
+    =
 :math:`2`
 
 
 >>> DamerauLevenshteinDistance["abc", "ac"]
-    =
 
+    =
 :math:`1`
 
 
 >>> DamerauLevenshteinDistance["abc", "acb"]
-    =
 
+    =
 :math:`1`
 
 
 >>> DamerauLevenshteinDistance["azbc", "abxyc"]
-    =
 
+    =
 :math:`3`
 
 
@@ -42,14 +42,14 @@ DamerauLevenshteinDistance
 The IgnoreCase option makes DamerauLevenshteinDistance ignore the case of letters:
 
 >>> DamerauLevenshteinDistance["time", "Thyme"]
-    =
 
+    =
 :math:`3`
 
 
 >>> DamerauLevenshteinDistance["time", "Thyme", IgnoreCase -> True]
-    =
 
+    =
 :math:`2`
 
 
@@ -57,8 +57,8 @@ The IgnoreCase option makes DamerauLevenshteinDistance ignore the case of letter
 DamerauLevenshteinDistance also works on lists:
 
 >>> DamerauLevenshteinDistance[{1, E, 2, Pi}, {1, E, Pi, 2}]
-    =
 
+    =
 :math:`1`
 
 

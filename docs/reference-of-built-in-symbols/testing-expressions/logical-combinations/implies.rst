@@ -15,14 +15,14 @@ Implies
 
 
 >>> Implies[False, a]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> Implies[True, a]
-    =
 
+    =
 :math:`a`
 
 
@@ -31,8 +31,8 @@ If an expression does not evaluate to :code:`True`  or :code:`False` , :code:`Im
 returns a result in symbolic form:
 
 >>> Implies[a, Implies[b, Implies[True, c]]]
-    =
 
+    =
 :math:`a\text{Implies}b\text{Implies}c`
 
 

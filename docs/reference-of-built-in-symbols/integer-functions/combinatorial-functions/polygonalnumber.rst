@@ -14,8 +14,8 @@ PolygonalNumber
 
 
 >>> Table[PolygonalNumber[n], {n, 10}]
-    =
 
+    =
 :math:`\left\{1,3,6,10,15,21,28,36,45,55\right\}`
 
 
@@ -23,8 +23,8 @@ PolygonalNumber
 The sum of two consecutive Polygonal numbers is the square of the larger number:
 
 >>> Table[PolygonalNumber[n-1] + PolygonalNumber[n], {n, 10}]
-    =
 
+    =
 :math:`\left\{1,4,9,16,25,36,49,64,81,100\right\}`
 
 
@@ -34,8 +34,8 @@ The sum of two consecutive Polygonal numbers is the square of the larger number:
 List the tenth :math:`r`-gonal number of regular polygons from 3 to 8:
 
 >>> Table[PolygonalNumber[r, 10], {r, 3, 8}]
-    =
 
+    =
 :math:`\left\{55,100,145,190,235,280\right\}`
 
 

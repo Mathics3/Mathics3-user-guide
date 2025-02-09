@@ -17,8 +17,8 @@ Curl
 Two-dimensional :code:`Curl` :
 
 >>> Curl[{y, -x}, {x, y}]
-    =
 
+    =
 :math:`-2`
 
 
@@ -26,8 +26,8 @@ Two-dimensional :code:`Curl` :
 
 
 >>> Curl[v[x, y], {x, y}]
-    =
 
+    =
 :math:`0`
 
 
@@ -35,8 +35,8 @@ Two-dimensional :code:`Curl` :
 Three-dimensional :code:`Curl` :
 
 >>> Curl[{y, -x, 2 z}, {x, y, z}]
-    =
 
+    =
 :math:`\left\{0,0,-2\right\}`
 
 

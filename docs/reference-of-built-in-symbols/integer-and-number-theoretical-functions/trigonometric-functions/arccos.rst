@@ -12,20 +12,20 @@ Inverse cosine, `arccosine <https://en.wikipedia.org/wiki/Inverse_trigonometric_
 
 
 >>> ArcCos[1]
-    =
 
+    =
 :math:`0`
 
 
 >>> ArcCos[0]
-    =
 
+    =
 :math:`\frac{ \pi }{2}`
 
 
 >>> Integrate[ArcCos[x], {x, -1, 1}]
-    =
 
+    =
 :math:`\pi`
 
 

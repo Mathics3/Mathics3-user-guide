@@ -15,14 +15,14 @@ Real
 
 
 >>> InputForm[x]
-    =
 
+    =
 :math:`2.8679719907924413\text{*${}^{\wedge}$}-10`
 
 
 >>> Head[x]
-    =
 
+    =
 :math:`\text{Real}`
 
 

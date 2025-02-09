@@ -12,8 +12,8 @@ $Machine
 
 
 >>> $Machine
-    =
 
+    =
 :math:`\text{linux}`
 
 

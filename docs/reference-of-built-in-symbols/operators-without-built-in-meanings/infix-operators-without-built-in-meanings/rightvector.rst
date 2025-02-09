@@ -12,14 +12,14 @@ RightVector
 
 
 >>> RightVector[x, y, z]
-    =
 
+    =
 :math:`x \rightharpoonup y \rightharpoonup z`
 
 
 >>> a \[RightVector] b
-    =
 
+    =
 :math:`a \rightharpoonup b`
 
 

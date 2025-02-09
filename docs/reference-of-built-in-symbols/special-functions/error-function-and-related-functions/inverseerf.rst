@@ -12,15 +12,15 @@ InverseErf
 
 
 >>> InverseErf /@ {-1, 0, 1}
-    =
 
+    =
 :math:`\left\{-\infty ,0,\infty \right\}`
 
 
 >>> Plot[InverseErf[x], {x, -1, 1}]
-    =
 
-.. image:: tmpzet1tyrd.png
+    =
+.. image:: tmpuhromfvt.png
     :align: center
 
 
@@ -29,8 +29,8 @@ InverseErf
 :code:`InverseErf[:math:`z`]`  only returns numeric values for :code:`-1 <= :math:`z` <= 1` :
 
 >>> InverseErf /@ {0.9, 1.0, 1.1}
-    =
 
+    =
 :math:`\left\{1.16309,\infty ,\text{InverseErf}\left[1.1\right]\right\}`
 
 

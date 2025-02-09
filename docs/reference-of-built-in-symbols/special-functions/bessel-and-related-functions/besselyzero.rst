@@ -12,14 +12,14 @@ BesselYZero
 
 
 >>> N[BesselYZero[0, 1]]
-    =
 
+    =
 :math:`0.893577`
 
 
 >>> N[BesselYZero[0, 1], 10]
-    =
 
+    =
 :math:`0.8935769663`
 
 

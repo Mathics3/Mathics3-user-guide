@@ -20,26 +20,26 @@ FileHash
 
 
 >>> FileHash["ExampleData/sunflowers.jpg"]
-    =
 
+    =
 :math:`109937059621979839952736809235486742106`
 
 
 >>> FileHash["ExampleData/sunflowers.jpg", "MD5"]
-    =
 
+    =
 :math:`109937059621979839952736809235486742106`
 
 
 >>> FileHash["ExampleData/sunflowers.jpg", "Adler32"]
-    =
 
+    =
 :math:`1607049478`
 
 
 >>> FileHash["ExampleData/sunflowers.jpg", "SHA256"]
-    =
 
+    =
 :math:`111619807552579450300684600241129773909359865098672286468229443390003894913065`
 
 

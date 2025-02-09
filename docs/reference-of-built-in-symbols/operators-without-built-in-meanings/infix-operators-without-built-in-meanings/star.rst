@@ -12,14 +12,14 @@ Star
 
 
 >>> Star[x, y, z]
-    =
 
+    =
 :math:`x \star y \star z`
 
 
 >>> a \[Star] b
-    =
 
+    =
 :math:`a \star b`
 
 

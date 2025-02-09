@@ -12,8 +12,8 @@ $BaseDirectory
 
 
 >>> $BaseDirectory
-    =
 
+    =
 :math:`\text{/home/mauricio/Projects/mathics-core/mathics}`
 
 

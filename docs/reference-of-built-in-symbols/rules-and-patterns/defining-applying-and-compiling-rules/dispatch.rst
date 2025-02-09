@@ -15,20 +15,20 @@ Dispatch
 
 
 >>> F[2] /. rules
-    =
 
+    =
 :math:`4`
 
 
 >>> dispatchrules = Dispatch[rules]
-    =
 
+    =
 :math:`\text{Dispatch}\left[\text{<3>}\right]`
 
 
 >>> F[2] /. dispatchrules
-    =
 
+    =
 :math:`4`
 
 

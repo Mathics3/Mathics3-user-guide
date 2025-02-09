@@ -12,14 +12,14 @@ Square
 
 
 >>> Square[x]
-    =
 
+    =
 :math:`\square x`
 
 
 >>> \[Square]x
-    =
 
+    =
 :math:`\square x`
 
 

@@ -15,14 +15,14 @@ TakeLargestBy
 For details on how to use the ExcludedForms option, see TakeLargest[].
 
 >>> TakeLargestBy[{{1, -1}, {10, 100}, {23, 7, 8}, {5, 1}}, Total, 2]
-    =
 
+    =
 :math:`\left\{\left\{10,100\right\},\left\{23,7,8\right\}\right\}`
 
 
 >>> TakeLargestBy[{"abc", "ab", "x"}, StringLength, 1]
-    =
 
+    =
 :math:`\left\{\text{abc}\right\}`
 
 

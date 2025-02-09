@@ -12,8 +12,8 @@ MatchingDissimilarity
 
 
 >>> MatchingDissimilarity[{1, 0, 1, 1, 0, 1, 1}, {0, 1, 1, 0, 0, 0, 1}]
-    =
 
+    =
 :math:`\frac{4}{7}`
 
 

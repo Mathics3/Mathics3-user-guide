@@ -12,20 +12,20 @@ Log10
 
 
 >>> Log10[1000]
-    =
 
+    =
 :math:`3`
 
 
 >>> Log10[{2., 5.}]
-    =
 
+    =
 :math:`\left\{0.30103,0.69897\right\}`
 
 
 >>> Log10[E ^ 3]
-    =
 
+    =
 :math:`\frac{3}{\text{Log}\left[10\right]}`
 
 

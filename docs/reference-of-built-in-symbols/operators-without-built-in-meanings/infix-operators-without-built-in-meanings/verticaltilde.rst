@@ -12,14 +12,14 @@ VerticalTilde
 
 
 >>> VerticalTilde[x, y, z]
-    =
 
+    =
 :math:`x \wr y \wr z`
 
 
 >>> a \[VerticalTilde] b
-    =
 
+    =
 :math:`a \wr b`
 
 

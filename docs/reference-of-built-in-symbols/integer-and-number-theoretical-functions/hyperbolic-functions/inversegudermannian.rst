@@ -11,8 +11,8 @@ InverseGudermannian
 
 
 >>> InverseGudermannian[.5]
-    =
 
+    =
 :math:`0.522238`
 
 
@@ -20,8 +20,8 @@ InverseGudermannian
 :code:`InverseGudermannian[-:math:`z`]`  == -:code:`InversGudermannian[:math:`z`]` :
 
 >>> InverseGudermannian[-.5] ==  -InverseGudermannian[.5]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -30,9 +30,9 @@ InverseGudermannian is 0 at multiples of 8 Pi:
 = 0
 
 >>> Plot[InverseGudermannian[x], {x, -2 Pi, 2 Pi}]
-    =
 
-.. image:: tmpul7ntnse.png
+    =
+.. image:: tmp2f3h6g8u.png
     :align: center
 
 

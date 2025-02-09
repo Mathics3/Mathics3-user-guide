@@ -23,8 +23,8 @@ RealDigits
 Return the list of digits and exponent:
 
 >>> RealDigits[123.55555]
-    =
 
+    =
 :math:`\left\{\left\{1,2,3,5,5,5,5,5,0,0,0,0,0,0,0,0\right\},3\right\}`
 
 
@@ -32,8 +32,8 @@ Return the list of digits and exponent:
 Return an explicit recurring decimal form:
 
 >>> RealDigits[19 / 7]
-    =
 
+    =
 :math:`\left\{\left\{2,\left\{\text{7},\text{1},\text{4},\text{2},\text{8},\text{5}\right\}\right\},1\right\}`
 
 
@@ -41,8 +41,8 @@ Return an explicit recurring decimal form:
 The 500th digit of Pi is 2:
 
 >>> RealDigits[Pi, 10, 1, -500]
-    =
 
+    =
 :math:`\left\{\left\{2\right\},-499\right\}`
 
 
@@ -50,8 +50,8 @@ The 500th digit of Pi is 2:
 11 digits starting with the coefficient of 10^-3:
 
 >>> RealDigits[Pi, 10, 11, -3]
-    =
 
+    =
 :math:`\left\{\left\{1,5,9,2,6,5,3,5,8,9,7\right\},-2\right\}`
 
 
@@ -59,8 +59,8 @@ The 500th digit of Pi is 2:
 RealDigits gives Indeterminate if more digits than the precision are requested:
 
 >>> RealDigits[123.45, 10, 18]
-    =
 
+    =
 :math:`\left\{\left\{1,2,3,4,5,0,0,0,0,0,0,0,0,0,0,0,\text{Indeterminate},\text{Indeterminate}\right\},3\right\}`
 
 
@@ -68,14 +68,14 @@ RealDigits gives Indeterminate if more digits than the precision are requested:
 Return 25 digits of in base 10:
 
 >>> RealDigits[Pi, 10, 25]
-    =
 
+    =
 :math:`\left\{\left\{3,1,4,1,5,9,2,6,5,3,5,8,9,7,9,3,2,3,8,4,6,2,6,4,3\right\},1\right\}`
 
 
 >>> RealDigits[10]
-    =
 
+    =
 :math:`\left\{\left\{1,0\right\},2\right\}`
 
 

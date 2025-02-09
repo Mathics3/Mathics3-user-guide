@@ -12,14 +12,14 @@ PolyLog
 
 
 >>> PolyLog[s, 1]
-    =
 
+    =
 :math:`\text{Zeta}\left[s\right]`
 
 
 >>> PolyLog[-7, I] //Chop
-    =
 
+    =
 :math:`136.`
 
 

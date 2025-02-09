@@ -15,17 +15,17 @@ Rectangle
 
 
 >>> Graphics[Rectangle[]]
-    =
 
-.. image:: tmpsx98tdhc.png
+    =
+.. image:: tmp_qd9bbvs.png
     :align: center
 
 
 
 >>> Graphics[{Blue, Rectangle[{0.5, 0}], Orange, Rectangle[{0, 0.5}]}]
-    =
 
-.. image:: tmp_k883fku.png
+    =
+.. image:: tmpoyhckrbm.png
     :align: center
 
 

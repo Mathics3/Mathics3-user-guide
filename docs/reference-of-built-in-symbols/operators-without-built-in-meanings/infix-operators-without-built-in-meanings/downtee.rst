@@ -12,14 +12,14 @@ DownTee
 
 
 >>> DownTee[x, y, z]
-    =
 
+    =
 :math:`x \top y \top z`
 
 
 >>> a \[DownTee] b
-    =
 
+    =
 :math:`a \top b`
 
 

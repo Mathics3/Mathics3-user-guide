@@ -15,8 +15,8 @@ RuleDelayed
 
 
 >>> Attributes[RuleDelayed]
-    =
 
+    =
 :math:`\left\{\text{HoldRest},\text{Protected},\text{SequenceHold}\right\}`
 
 

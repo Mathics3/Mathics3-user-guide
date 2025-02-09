@@ -18,14 +18,14 @@ SubtractFrom
 
 
 >>> a -= 2
-    =
 
+    =
 :math:`8`
 
 
 >>> a
-    =
 
+    =
 :math:`8`
 
 

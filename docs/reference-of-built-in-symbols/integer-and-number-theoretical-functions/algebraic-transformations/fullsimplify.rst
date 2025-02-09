@@ -17,8 +17,8 @@ FullSimplify
 TODO: implement the extension. By now, this does the same than Simplify...
 
 >>> FullSimplify[2*Sin[x]^2 + 2*Cos[x]^2]
-    =
 
+    =
 :math:`2`
 
 

@@ -15,9 +15,9 @@ MinFilter
 
 
 >>> MinFilter[hedy, 5]
-    =
 
-.. image:: tmpk1s14f7u.png
+    =
+.. image:: tmpvsm68i5z.png
     :align: center
 
 

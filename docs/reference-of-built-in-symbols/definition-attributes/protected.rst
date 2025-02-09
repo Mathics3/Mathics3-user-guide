@@ -39,8 +39,8 @@ However, attributes might still be set:
 
 
 >>> Attributes[p]
-    =
 
+    =
 :math:`\left\{\text{Flat},\text{Protected}\right\}`
 
 
@@ -51,8 +51,8 @@ Thus, you can easily remove the attribute :code:`Protected` :
 
 
 >>> p = 2
-    =
 
+    =
 :math:`2`
 
 
@@ -63,8 +63,8 @@ You can also use :code:`Protect`  or :code:`Unprotect` , resp.
 
 
 >>> Attributes[p]
-    =
 
+    =
 :math:`\left\{\text{Protected}\right\}`
 
 
@@ -80,8 +80,8 @@ If a symbol is :code:`Protected`  and :code:`Locked` , it can never be changed a
 >>> p = 2
 
     Set::wrsym Symbol p is Protected.
-    =
 
+    =
 :math:`2`
 
 

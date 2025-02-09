@@ -19,9 +19,9 @@ ListPlot
 The frequency of Primes:
 
 >>> ListPlot[Prime[Range[30]]]
-    =
 
-.. image:: tmpuv5b2xqf.png
+    =
+.. image:: tmpadieaf3j.png
     :align: center
 
 
@@ -30,9 +30,9 @@ The frequency of Primes:
 seems very roughly to fit a table of quadradic numbers:
 
 >>> ListPlot[Table[n ^ 2 / 8, {n, 30}]]
-    =
 
-.. image:: tmpd7htmn1d.png
+    =
+.. image:: tmp1nx4r6cs.png
     :align: center
 
 
@@ -41,9 +41,9 @@ seems very roughly to fit a table of quadradic numbers:
 ListPlot accepts some Graphics options:
 
 >>> ListPlot[Table[n ^ 2, {n, 30}], Joined->True]
-    =
 
-.. image:: tmpvufe__y8.png
+    =
+.. image:: tmpw6bq6grk.png
     :align: center
 
 
@@ -52,9 +52,9 @@ ListPlot accepts some Graphics options:
 Compare with `:code:`Plot`  </doc/reference-of-built-in-symbols/graphics-and-drawing/plotting-data/plot/>`_.
 
 >>> ListPlot[Table[n ^ 2, {n, 30}], Filling->Axis]
-    =
 
-.. image:: tmpzwse41nj.png
+    =
+.. image:: tmp_c9gpeok.png
     :align: center
 
 

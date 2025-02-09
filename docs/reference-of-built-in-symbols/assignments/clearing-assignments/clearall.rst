@@ -19,8 +19,8 @@ ClearAll
 
 
 >>> x
-    =
 
+    =
 :math:`x`
 
 
@@ -31,8 +31,8 @@ ClearAll
 
 
 >>> Attributes[r]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 

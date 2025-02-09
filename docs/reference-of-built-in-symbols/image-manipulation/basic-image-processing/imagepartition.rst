@@ -18,8 +18,8 @@ ImagePartition
 
 
 >>> ImageDimensions[hedy]
-    =
 
+    =
 :math:`\left\{646,800\right\}`
 
 

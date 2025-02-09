@@ -12,8 +12,8 @@ $PathnameSeparator
 
 
 >>> $PathnameSeparator
-    =
 
+    =
 :math:`\text{/}`
 
 

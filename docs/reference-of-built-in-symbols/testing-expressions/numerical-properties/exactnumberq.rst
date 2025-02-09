@@ -13,8 +13,8 @@ ExactNumberQ
 
 
 >>> ExactNumberQ[10]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -22,8 +22,8 @@ ExactNumberQ
 :code:`ExactNumber[]`  of a Real or MachineReal is :code:`False` 
 
 >>> ExactNumberQ[10.0]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -31,14 +31,14 @@ ExactNumberQ
 :code:`ExactNumberQ`  for complex numbers:
 
 >>> ExactNumberQ[I]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> ExactNumberQ[1 + I]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -46,8 +46,8 @@ ExactNumberQ
 but not when composed with a Real:
 
 >>> ExactNumberQ[1. + I]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -55,14 +55,14 @@ but not when composed with a Real:
 :code:`ExactNumber[]`  is :code:`True`  for Rational numbers:
 
 >>> ExactNumberQ[5/6]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> ExactNumberQ[4 * I + 5/6]
-    =
 
+    =
 :math:`\text{True}`
 
 

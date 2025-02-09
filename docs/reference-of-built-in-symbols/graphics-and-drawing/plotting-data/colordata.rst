@@ -19,15 +19,5 @@ Define a user-defined color function:
 Compare it to the default color function, :code:`LakeColors` :
 
 >>> {DensityPlot[x + y, {x, -1, 1}, {y, -1, 1}], DensityPlot[x + y, {x, -1, 1}, {y, -1, 1}, ColorFunction->"test"]}
-    =
-
-
-.. math::
-    \left\{
-    \includegraphics[]{/tmp/tmpo5tqo71_.png}
-    ,
-    \includegraphics[]{/tmp/tmpaa7wvaln.png}
-    \right\}
-
-
+    = {-Graphics-, -Graphics-}`
 

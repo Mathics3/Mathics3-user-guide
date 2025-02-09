@@ -12,21 +12,21 @@ BesselY
 
 
 >>> BesselY[1.5, 4]
-    =
 
+    =
 :math:`0.367112`
 
 
 >>> BesselY[0., 0.]
-    =
 
+    =
 :math:`-\infty`
 
 
 >>> Plot[BesselY[0, x], {x, 0, 10}]
-    =
 
-.. image:: tmpxs_qrioo.png
+    =
+.. image:: tmplzmaoi_3.png
     :align: center
 
 
@@ -35,14 +35,14 @@ BesselY
 The special case of half-integer index is expanded using Rayleigh's formulas:
 
 >>> BesselY[-3/2, x]
-    =
 
+    =
 :math:`\frac{\sqrt{2} \sqrt{x} \left(-\frac{\text{Sin}\left[x\right]}{x^2}+\frac{\text{Cos}\left[x\right]}{x}\right)}{\sqrt{ \pi }}`
 
 
 >>> BesselY[0, 0]
-    =
 
+    =
 :math:`-\infty`
 
 

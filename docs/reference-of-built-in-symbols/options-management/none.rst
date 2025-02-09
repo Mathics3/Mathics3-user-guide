@@ -15,9 +15,9 @@ Plot3D shows the mesh grid between computed points by default. This the `Mesh </
 However, you hide the mesh by setting the :code:`Mesh`  option value to :code:`None` :
 
 >>> Plot3D[{x^2 + y^2, -x^2 - y^2}, {x, -2, 2}, {y, -2, 2}, BoxRatios-> Automatic, Mesh->None]
-    =
 
-.. image:: tmpgk4jtgx9.png
+    =
+.. image:: tmptb54_jgi.png
     :align: center
 
 

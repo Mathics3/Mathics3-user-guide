@@ -12,14 +12,14 @@ FresnelS
 
 
 >>> FresnelS[{0, Infinity}]
-    =
 
+    =
 :math:`\left\{0,\frac{1}{2}\right\}`
 
 
 >>> Integrate[Sin[x^2 Pi/2], {x, 0, z}]
-    =
 
+    =
 :math:`\text{FresnelS}\left[z\right]`
 
 

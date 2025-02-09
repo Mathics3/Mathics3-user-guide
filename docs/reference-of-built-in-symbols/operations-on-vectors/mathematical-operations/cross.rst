@@ -14,8 +14,8 @@ Cross
 Three-dimensional cross product:
 
 >>> Cross[{x1, y1, z1}, {x2, y2, z2}]
-    =
 
+    =
 :math:`\left\{\text{y1} \text{z2}-\text{y2} \text{z1},-\text{x1} \text{z2}+\text{x2} \text{z1},\text{x1} \text{y2}-\text{x2} \text{y1}\right\}`
 
 
@@ -23,8 +23,8 @@ Three-dimensional cross product:
 :code:`Cross`  is antisymmetric, so:
 
 >>> Cross[{x, y}]
-    =
 
+    =
 :math:`\left\{-y,x\right\}`
 
 
@@ -32,8 +32,8 @@ Three-dimensional cross product:
 Graph two-Dimensional cross product:
 
 >>> v1 = {1, Sqrt[3]}; v2 = Cross[v1]
-    =
 
+    =
 :math:`\left\{-\sqrt{3},1\right\}`
 
 
@@ -41,9 +41,9 @@ Graph two-Dimensional cross product:
 Visualize this:
 
 >>> Graphics[{Arrow[{{0, 0}, v1}], Red, Arrow[{{0, 0}, v2}]}, Axes -> True]
-    =
 
-.. image:: tmp8cmv0d4_.png
+    =
+.. image:: tmpwbuewhnj.png
     :align: center
 
 
@@ -54,8 +54,8 @@ Visualize this:
 >>> Cross[{1, 2}, {3, 4, 5}]
 
     Cross::nonn1 The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
-    =
 
+    =
 :math:`\text{Cross}\left[\left\{1,2\right\},\left\{3,4,5\right\}\right]`
 
 

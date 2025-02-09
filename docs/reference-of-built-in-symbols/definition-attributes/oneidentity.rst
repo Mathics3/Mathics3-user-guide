@@ -12,8 +12,8 @@ OneIdentity
 
 
 >>> a /. f[x_:0, u_] -> {u}
-    =
 
+    =
 :math:`a`
 
 
@@ -24,8 +24,8 @@ Here is how :code:`OneIdentity`  changes the pattern matched above :
 
 
 >>> a /. f[x_:0, u_] -> {u}
-    =
 
+    =
 :math:`\left\{a\right\}`
 
 
@@ -33,8 +33,8 @@ Here is how :code:`OneIdentity`  changes the pattern matched above :
 However, without a default argument, the pattern does not match:
 
 >>> a /. f[u_] -> {u}
-    =
 
+    =
 :math:`a`
 
 
@@ -42,8 +42,8 @@ However, without a default argument, the pattern does not match:
 :code:`OneIdentity`  does not change evaluation:
 
 >>> f[a]
-    =
 
+    =
 :math:`f\left[a\right]`
 
 

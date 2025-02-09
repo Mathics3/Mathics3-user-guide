@@ -15,8 +15,8 @@ Off
 
 
 >>> 1 / 0
-    =
 
+    =
 :math:`\text{ComplexInfinity}`
 
 
@@ -24,8 +24,8 @@ Off
 
 
 >>> {0 ^ 0,}
-    =
 
+    =
 :math:`\left\{\text{Indeterminate},\text{Null}\right\}`
 
 

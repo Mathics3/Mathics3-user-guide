@@ -12,14 +12,14 @@ Undefined symbol/value (`WMA <https://reference.wolfram.com/language/ref/Undefin
 
 
 >>> ConditionalExpression[a, False]
-    =
 
+    =
 :math:`\text{Undefined}`
 
 
 >>> Attributes[Undefined]
-    =
 
+    =
 :math:`\left\{\text{Protected}\right\}`
 
 

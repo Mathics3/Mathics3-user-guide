@@ -17,20 +17,20 @@ Association
 :code:`Association`  is the head of associations:
 
 >>> Head[<|a -> x, b -> y, c -> z|>]
-    =
 
+    =
 :math:`\text{Association}`
 
 
 >>> <|a -> x, b -> y|>
-    =
 
+    =
 :math:`\text{<$\vert$}a->x,b->y\text{$\vert$>}`
 
 
 >>> Association[{a -> x, b -> y}]
-    =
 
+    =
 :math:`\text{<$\vert$}a->x,b->y\text{$\vert$>}`
 
 
@@ -38,8 +38,8 @@ Association
 Associations can be nested:
 
 >>> <|a -> x, b -> y, <|a -> z, d -> t|>|>
-    =
 
+    =
 :math:`\text{<$\vert$}a->z,b->y,d->t\text{$\vert$>}`
 
 

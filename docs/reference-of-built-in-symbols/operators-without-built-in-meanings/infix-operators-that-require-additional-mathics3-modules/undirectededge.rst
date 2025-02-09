@@ -16,14 +16,14 @@ UndirectedEdge
 
 
 >>> UndirectedEdge[x, y, z]
-    =
 
+    =
 :math:`x \leftrightarrow y \leftrightarrow z`
 
 
 >>> a <-> b
-    =
 
+    =
 :math:`a \leftrightarrow b`
 
 

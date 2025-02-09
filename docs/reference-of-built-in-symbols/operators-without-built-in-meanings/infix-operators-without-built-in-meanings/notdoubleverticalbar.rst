@@ -12,14 +12,14 @@ NotDoubleVerticalBar
 
 
 >>> NotDoubleVerticalBar[x, y, z]
-    =
 
+    =
 :math:`x \nparallel y \nparallel z`
 
 
 >>> a \[NotDoubleVerticalBar] b
-    =
 
+    =
 :math:`a \nparallel b`
 
 

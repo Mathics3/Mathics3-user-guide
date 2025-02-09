@@ -12,8 +12,8 @@ ExpIntegralE
 
 
 >>> ExpIntegralE[2.0, 2.0]
-    =
 
+    =
 :math:`0.0375343`
 
 

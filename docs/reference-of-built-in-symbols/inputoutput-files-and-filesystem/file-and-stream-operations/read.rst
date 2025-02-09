@@ -48,14 +48,14 @@ Read
 
 
 >>> Read[stream, String]
-    =
 
+    =
 :math:`\text{abc123}`
 
 
 >>> Read[stream, String]
-    =
 
+    =
 :math:`\text{EndOfFile}`
 
 
@@ -66,20 +66,20 @@ Read
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{abc}`
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{123}`
 
 
 >>> Read[stream, Word]
-    =
 
+    =
 :math:`\text{EndOfFile}`
 
 
@@ -90,20 +90,20 @@ Read
 
 
 >>> Read[stream, Number]
-    =
 
+    =
 :math:`123`
 
 
 >>> Read[stream, Number]
-    =
 
+    =
 :math:`4`
 
 
 >>> Read[stream, Number]
-    =
 
+    =
 :math:`\text{EndOfFile}`
 
 
@@ -117,14 +117,14 @@ Read
 :code:`Read`  with a :code:`Hold[Expression]`  returns the expression it reads unevaluated so it can be later inspected and evaluated:
 
 >>> Read[stream, Hold[Expression]]
-    =
 
+    =
 :math:`\text{Hold}\left[2+2\right]`
 
 
 >>> Read[stream, Expression]
-    =
 
+    =
 :math:`5`
 
 
@@ -138,8 +138,8 @@ Reading a comment, a non-expression, will return :code:`Hold[Null]`
 
 
 >>> Read[stream, Hold[Expression]]
-    =
 
+    =
 :math:`\text{Hold}\left[\text{Null}\right]`
 
 
@@ -150,14 +150,14 @@ Reading a comment, a non-expression, will return :code:`Hold[Null]`
 
 
 >>> Read[stream, {Number, Word}]
-    =
 
+    =
 :math:`\left\{123,\text{abc}\right\}`
 
 
 >>> Read[stream, {Number, Word}]
-    =
 
+    =
 :math:`\text{EndOfFile}`
 
 
@@ -168,8 +168,8 @@ Reading a comment, a non-expression, will return :code:`Hold[Null]`
 Multiple lines:
 
 >>> stream = StringToStream["\"Tengo una\nvaca lechera.\""]; Read[stream]
-    =
 
+    =
 
 .. math::
     \text{Tengo una\newline

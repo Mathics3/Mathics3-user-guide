@@ -12,14 +12,14 @@ NotLessTilde
 
 
 >>> NotLessTilde[x, y, z]
-    =
 
+    =
 :math:`x \not{\lesssim} y \not{\lesssim} z`
 
 
 >>> a \[NotLessTilde] b
-    =
 
+    =
 :math:`a \not{\lesssim} b`
 
 

@@ -14,8 +14,8 @@ Subfactorial
 Here are the first few derangements:
 
 >>> Subfactorial[{0, 1, 2, 3}]
-    =
 
+    =
 :math:`\left\{1,0,1,2\right\}`
 
 
@@ -23,8 +23,8 @@ Here are the first few derangements:
 We can handle :code:`MachineReal`  numbers:
 
 >>> Subfactorial[6.0]
-    =
 
+    =
 :math:`265`
 
 
@@ -32,9 +32,9 @@ We can handle :code:`MachineReal`  numbers:
 Here is how the exponential, :code:`Factorial` , and :code:`Subfactoral`  grow in comparison:
 
 >>> LogPlot[{10^x, Factorial[x], Subfactorial[x]}, {x, 0, 25}, PlotPoints->26]
-    =
 
-.. image:: tmpprvznfcf.png
+    =
+.. image:: tmphczy7f8u.png
     :align: center
 
 

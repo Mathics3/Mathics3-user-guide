@@ -12,15 +12,15 @@ Im
 
 
 >>> Im[3+4I]
-    =
 
+    =
 :math:`4`
 
 
 >>> Plot[{Sin[a], Im[E^(I a)]}, {a, 0, 2 Pi}]
-    =
 
-.. image:: tmp_lafln4x.png
+    =
+.. image:: tmp3kruxu6i.png
     :align: center
 
 

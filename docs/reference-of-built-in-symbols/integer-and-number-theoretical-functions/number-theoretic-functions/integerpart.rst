@@ -12,14 +12,14 @@ IntegerPart
 
 
 >>> IntegerPart[4.1]
-    =
 
+    =
 :math:`4`
 
 
 >>> IntegerPart[-5.25]
-    =
 
+    =
 :math:`-5`
 
 

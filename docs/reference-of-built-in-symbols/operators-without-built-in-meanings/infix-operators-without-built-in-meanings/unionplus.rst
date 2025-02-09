@@ -12,14 +12,14 @@ UnionPlus
 
 
 >>> UnionPlus[x, y, z]
-    =
 
+    =
 :math:`x \uplus y \uplus z`
 
 
 >>> a \[UnionPlus] b
-    =
 
+    =
 :math:`a \uplus b`
 
 

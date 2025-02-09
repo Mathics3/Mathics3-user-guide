@@ -20,14 +20,14 @@ Create an upvalue without using :code:`UpSet` :
 
 
 >>> DownValues[square]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
 >>> UpValues[square]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[\text{area}\left[\text{square}\left[\text{s\_}\right]\right]\right]\text{:>}s^2\right\}`
 
 
@@ -43,8 +43,8 @@ The symbol :math:`f` must appear as the ultimate head of :math:`lhs` or as the h
 
 
 >>> f[g[x]]
-    =
 
+    =
 :math:`3`
 
 

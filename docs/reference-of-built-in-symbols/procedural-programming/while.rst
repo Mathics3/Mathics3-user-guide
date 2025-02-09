@@ -23,8 +23,8 @@ Compute the GCD of two numbers:
 
 
 >>> a
-    =
 
+    =
 :math:`3`
 
 

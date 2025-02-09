@@ -12,8 +12,8 @@ $Packages
 
 
 >>> $Packages
-    =
 
+    =
 :math:`\left\{\text{ImportExport\`{}},\text{XML\`{}},\text{Internal\`{}},\text{System\`{}},\text{Global\`{}}\right\}`
 
 

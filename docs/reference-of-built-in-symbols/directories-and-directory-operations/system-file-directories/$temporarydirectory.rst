@@ -12,8 +12,8 @@ $TemporaryDirectory
 
 
 >>> $TemporaryDirectory
-    =
 
+    =
 :math:`\text{/tmp}`
 
 

@@ -31,8 +31,8 @@ RandomSample
 
 
 >>> RandomSample[{a, b, c, d}]
-    =
 
+    =
 :math:`\left\{b,d,a,c\right\}`
 
 
@@ -40,8 +40,8 @@ RandomSample
 
 
 >>> RandomSample[{a, b, c, d, e, f, g, h}, 7]
-    =
 
+    =
 :math:`\left\{b,f,a,h,c,e,d\right\}`
 
 
@@ -49,8 +49,8 @@ RandomSample
 
 
 >>> RandomSample[{"a", {1, 2}, x, {}}, 3]
-    =
 
+    =
 :math:`\left\{\left\{1,2\right\},\left\{\right\},\text{a}\right\}`
 
 
@@ -58,8 +58,8 @@ RandomSample
 
 
 >>> RandomSample[Range[10]]
-    =
 
+    =
 :math:`\left\{9,2,6,1,8,3,10,5,4,7\right\}`
 
 
@@ -67,8 +67,8 @@ RandomSample
 
 
 >>> RandomSample[Range[100], {2, 3}]
-    =
 
+    =
 :math:`\left\{\left\{84,54,71\right\},\left\{46,45,40\right\}\right\}`
 
 
@@ -76,8 +76,8 @@ RandomSample
 
 
 >>> RandomSample[Range[100] -> Range[100], 5]
-    =
 
+    =
 :math:`\left\{62,98,86,78,40\right\}`
 
 

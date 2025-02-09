@@ -14,8 +14,8 @@ Smallest normalizable machine number (`WMA <https://reference.wolfram.com/langua
 :code:`MachinePrecision`  minus the :code:`Log`  base 10 of this number is the :code:`Accuracy`  of 0`:
 
 >>> MachinePrecision -Log[10., $MinMachineNumber]==Accuracy[0`]
-    =
 
+    =
 :math:`\text{True}`
 
 

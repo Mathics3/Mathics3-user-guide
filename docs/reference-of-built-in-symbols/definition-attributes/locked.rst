@@ -29,14 +29,14 @@ The attributes of :code:`Locked`  symbols cannot be modified:
 >>> Attributes[lock] = {}
 
     Attributes::locked Symbol lock is locked.
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
 >>> Attributes[lock]
-    =
 
+    =
 :math:`\left\{\text{Flat},\text{Locked}\right\}`
 
 
@@ -44,8 +44,8 @@ The attributes of :code:`Locked`  symbols cannot be modified:
 However, their values might be modified (as long as they are not :code:`Protected`  too):
 
 >>> lock = 3
-    =
 
+    =
 :math:`3`
 
 

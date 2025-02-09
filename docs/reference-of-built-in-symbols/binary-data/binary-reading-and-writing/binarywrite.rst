@@ -27,41 +27,41 @@ BinaryWrite
 
 
 >>> strm = OpenWrite[BinaryFormat -> True]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmpf23idhyk},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpjt6628bg},3\right]`
 
 
 >>> BinaryWrite[strm, {39, 4, 122}]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmpf23idhyk},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpjt6628bg},3\right]`
 
 
 >>> Close[strm];
 
 
 >>> strm = OpenRead[%, BinaryFormat -> True]
-    =
 
-:math:`\text{InputStream}\left[\text{/tmp/tmpf23idhyk},3\right]`
+    =
+:math:`\text{InputStream}\left[\text{/tmp/tmpjt6628bg},3\right]`
 
 
 >>> BinaryRead[strm]
-    =
 
+    =
 :math:`39`
 
 
 >>> BinaryRead[strm, "Byte"]
-    =
 
+    =
 :math:`4`
 
 
 >>> BinaryRead[strm, "Character8"]
-    =
 
+    =
 :math:`\text{z}`
 
 
@@ -72,56 +72,56 @@ BinaryWrite
 Write a String
 
 >>> strm = OpenWrite[BinaryFormat -> True]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmphrw4dhl9},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpssqmr49c},3\right]`
 
 
 >>> BinaryWrite[strm, "abc123"]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmphrw4dhl9},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpssqmr49c},3\right]`
 
 
 >>> pathname = Close[%]
-    =
 
-:math:`\text{/tmp/tmphrw4dhl9}`
+    =
+:math:`\text{/tmp/tmpssqmr49c}`
 
 
 
 Read as Bytes
 
 >>> strm = OpenRead[%, BinaryFormat -> True]
-    =
 
-:math:`\text{InputStream}\left[\text{/tmp/tmphrw4dhl9},3\right]`
+    =
+:math:`\text{InputStream}\left[\text{/tmp/tmpssqmr49c},3\right]`
 
 
 >>> BinaryRead[strm, {"Character8", "Character8", "Character8", "Character8", "Character8", "Character8", "Character8"}]
-    =
 
+    =
 :math:`\left\{\text{a},\text{b},\text{c},\text{1},\text{2},\text{3},\text{EndOfFile}\right\}`
 
 
 >>> pathname = Close[strm]
-    =
 
-:math:`\text{/tmp/tmphrw4dhl9}`
+    =
+:math:`\text{/tmp/tmpssqmr49c}`
 
 
 
 Read as Characters
 
 >>> strm = OpenRead[%, BinaryFormat -> True]
-    =
 
-:math:`\text{InputStream}\left[\text{/tmp/tmphrw4dhl9},3\right]`
+    =
+:math:`\text{InputStream}\left[\text{/tmp/tmpssqmr49c},3\right]`
 
 
 >>> BinaryRead[strm, {"Byte", "Byte", "Byte", "Byte", "Byte", "Byte", "Byte"}]
-    =
 
+    =
 :math:`\left\{97,98,99,49,50,51,\text{EndOfFile}\right\}`
 
 
@@ -132,21 +132,21 @@ Read as Characters
 Write Type
 
 >>> strm = OpenWrite[BinaryFormat -> True]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmpumr63nh7},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpxiuzr0jm},3\right]`
 
 
 >>> BinaryWrite[strm, 97, "Byte"]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmpumr63nh7},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpxiuzr0jm},3\right]`
 
 
 >>> BinaryWrite[strm, {97, 98, 99}, {"Byte", "Byte", "Byte"}]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmpumr63nh7},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpxiuzr0jm},3\right]`
 
 
 >>> DeleteFile[Close[%]];

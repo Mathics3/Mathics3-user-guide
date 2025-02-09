@@ -12,8 +12,8 @@ EndOfLine
 
 
 >>> StringReplace["aba\nbba\na\nab", "a" ~~ EndOfLine -> "c"]
-    =
 
+    =
 
 .. math::
     \text{abc\newline
@@ -24,8 +24,8 @@ EndOfLine
 
 
 >>> StringSplit["abc\ndef\nhij", EndOfLine]
-    =
 
+    =
 
 .. math::
     \left\{\text{abc},\text{\newline

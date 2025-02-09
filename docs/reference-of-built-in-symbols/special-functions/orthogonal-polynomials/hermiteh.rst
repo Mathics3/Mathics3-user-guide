@@ -11,20 +11,20 @@ HermiteH
 
 
 >>> HermiteH[8, x]
-    =
 
+    =
 :math:`1680-13440 x^2+13440 x^4-3584 x^6+256 x^8`
 
 
 >>> HermiteH[3, 1 + I]
-    =
 
+    =
 :math:`-28+4 I`
 
 
 >>> HermiteH[4.2, 2]
-    =
 
+    =
 :math:`77.5291`
 
 

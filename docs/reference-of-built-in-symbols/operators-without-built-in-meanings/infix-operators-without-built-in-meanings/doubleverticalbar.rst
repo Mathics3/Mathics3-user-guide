@@ -12,14 +12,14 @@ DoubleVerticalBar
 
 
 >>> DoubleVerticalBar[x, y, z]
-    =
 
+    =
 :math:`x \parallel y \parallel z`
 
 
 >>> a \[DoubleVerticalBar] b
-    =
 
+    =
 :math:`a \parallel b`
 
 

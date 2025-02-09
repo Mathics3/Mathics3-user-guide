@@ -12,14 +12,14 @@ LessLess
 
 
 >>> LessLess[x, y, z]
-    =
 
+    =
 :math:`x \ll y \ll z`
 
 
 >>> a \[LessLess] b
-    =
 
+    =
 :math:`a \ll b`
 
 

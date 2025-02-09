@@ -15,9 +15,9 @@ MaxFilter
 
 
 >>> MaxFilter[hedy, 5]
-    =
 
-.. image:: tmpso49is7t.png
+    =
+.. image:: tmpknz9i_y4.png
     :align: center
 
 

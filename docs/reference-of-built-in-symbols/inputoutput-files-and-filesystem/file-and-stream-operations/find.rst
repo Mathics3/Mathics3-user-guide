@@ -15,14 +15,14 @@ Find
 
 
 >>> Find[stream, "uranium"]
-    =
 
+    =
 :math:`\text{in manuscript, leads me to expect that the element uranium may be turned into}`
 
 
 >>> Find[stream, "uranium"]
-    =
 
+    =
 :math:`\text{become possible to set up a nuclear chain reaction in a large mass of uranium,}`
 
 
@@ -33,14 +33,14 @@ Find
 
 
 >>> Find[stream, {"energy", "power"} ]
-    =
 
+    =
 :math:`\text{a new and important source of energy in the immediate future. Certain aspects}`
 
 
 >>> Find[stream, {"energy", "power"} ]
-    =
 
+    =
 :math:`\text{by which vast amounts of power and large quantities of new radium-like}`
 
 

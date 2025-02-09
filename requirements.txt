@@ -1,2 +1,4 @@
+asymptote
 sphinx
 mathics3
+matplotlib

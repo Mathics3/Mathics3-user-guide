@@ -12,14 +12,14 @@ NotPrecedesTilde
 
 
 >>> NotPrecedesTilde[x, y, z]
-    =
 
+    =
 :math:`x \not{\precsim} y \not{\precsim} z`
 
 
 >>> a \[NotPrecedesTilde] b
-    =
 
+    =
 :math:`a \not{\precsim} b`
 
 

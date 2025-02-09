@@ -12,14 +12,14 @@ LeftUpTeeVector
 
 
 >>> LeftUpTeeVector[x, y, z]
-    =
 
+    =
 :math:`x \underline{\upharpoonleft} y \underline{\upharpoonleft} z`
 
 
 >>> a \[LeftUpTeeVector] b
-    =
 
+    =
 :math:`a \underline{\upharpoonleft} b`
 
 

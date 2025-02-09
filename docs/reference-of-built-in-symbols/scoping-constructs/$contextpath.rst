@@ -12,5 +12,8 @@ $ContextPath
 
 
 >>> $ContextPath // InputForm
-    = `
+
+    =
+:math:`\left\{\text{\`{}\`{}System\`{}''}, \text{\`{}\`{}Global\`{}''}\right\}`
+
 

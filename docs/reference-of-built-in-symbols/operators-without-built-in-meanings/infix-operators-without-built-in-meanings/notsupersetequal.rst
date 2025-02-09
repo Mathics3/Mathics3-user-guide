@@ -12,14 +12,14 @@ NotSupersetEqual
 
 
 >>> NotSupersetEqual[x, y, z]
-    =
 
+    =
 :math:`x \nsupseteq y \nsupseteq z`
 
 
 >>> a \[NotSupersetEqual] b
-    =
 
+    =
 :math:`a \nsupseteq b`
 
 

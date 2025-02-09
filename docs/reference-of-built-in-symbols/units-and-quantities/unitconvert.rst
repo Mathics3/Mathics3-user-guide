@@ -17,8 +17,8 @@ UnitConvert
 Convert from miles to kilometers:
 
 >>> UnitConvert[Quantity[5.2, "miles"], "kilometers"]
-    =
 
+    =
 :math:`8.36859\text{ }\text{kilometer}`
 
 
@@ -26,8 +26,8 @@ Convert from miles to kilometers:
 Convert a Quantity object to the appropriate SI base units:
 
 >>> UnitConvert[Quantity[3.8, "Pounds"]]
-    =
 
+    =
 :math:`1.72365\text{ }\text{kilogram}`
 
 

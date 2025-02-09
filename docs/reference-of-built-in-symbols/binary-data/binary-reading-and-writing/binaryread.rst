@@ -18,29 +18,29 @@ BinaryRead
 
 
 >>> strm = OpenWrite[BinaryFormat -> True]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmp\_\_5cpb0y},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpr\_gu7\_2h},3\right]`
 
 
 >>> BinaryWrite[strm, {97, 98, 99}]
-    =
 
-:math:`\text{OutputStream}\left[\text{/tmp/tmp\_\_5cpb0y},3\right]`
+    =
+:math:`\text{OutputStream}\left[\text{/tmp/tmpr\_gu7\_2h},3\right]`
 
 
 >>> Close[strm];
 
 
 >>> strm = OpenRead[%, BinaryFormat -> True]
-    =
 
-:math:`\text{InputStream}\left[\text{/tmp/tmp\_\_5cpb0y},3\right]`
+    =
+:math:`\text{InputStream}\left[\text{/tmp/tmpr\_gu7\_2h},3\right]`
 
 
 >>> BinaryRead[strm, {"Character8", "Character8", "Character8"}]
-    =
 
+    =
 :math:`\left\{\text{a},\text{b},\text{c}\right\}`
 
 

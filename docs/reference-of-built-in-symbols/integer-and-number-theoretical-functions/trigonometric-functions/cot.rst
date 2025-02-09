@@ -12,14 +12,14 @@ Cot
 
 
 >>> Cot[0]
-    =
 
+    =
 :math:`\text{ComplexInfinity}`
 
 
 >>> Cot[1.]
-    =
 
+    =
 :math:`0.642093`
 
 

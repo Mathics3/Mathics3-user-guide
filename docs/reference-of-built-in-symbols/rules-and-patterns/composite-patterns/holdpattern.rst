@@ -12,14 +12,14 @@ HoldPattern
 
 
 >>> HoldPattern[x + x]
-    =
 
+    =
 :math:`\text{HoldPattern}\left[x+x\right]`
 
 
 >>> x /. HoldPattern[x] -> t
-    =
 
+    =
 :math:`t`
 
 
@@ -27,8 +27,8 @@ HoldPattern
 :code:`HoldPattern`  has attribute :code:`HoldAll` :
 
 >>> Attributes[HoldPattern]
-    =
 
+    =
 :math:`\left\{\text{HoldAll},\text{Protected}\right\}`
 
 

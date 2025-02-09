@@ -12,14 +12,14 @@ PowerExpand
 
 
 >>> PowerExpand[(a ^ b) ^ c]
-    =
 
+    =
 :math:`a^{b c}`
 
 
 >>> PowerExpand[(a * b) ^ c]
-    =
 
+    =
 :math:`a^c b^c`
 
 
@@ -27,8 +27,8 @@ PowerExpand
 :code:`PowerExpand`  is not correct without certain assumptions:
 
 >>> PowerExpand[(x ^ 2) ^ (1/2)]
-    =
 
+    =
 :math:`x`
 
 

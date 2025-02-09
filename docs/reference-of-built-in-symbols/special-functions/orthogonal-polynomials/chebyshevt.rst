@@ -12,14 +12,14 @@ ChebyshevT
 
 
 >>> ChebyshevT[8, x]
-    =
 
+    =
 :math:`1-32 x^2+160 x^4-256 x^6+128 x^8`
 
 
 >>> ChebyshevT[1 - I, 0.5]
-    =
 
+    =
 :math:`0.800143+1.08198 I`
 
 

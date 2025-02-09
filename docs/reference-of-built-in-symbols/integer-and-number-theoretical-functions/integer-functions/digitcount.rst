@@ -18,26 +18,26 @@ DigitCount
 
 
 >>> DigitCount[1022]
-    =
 
+    =
 :math:`\left\{1,2,0,0,0,0,0,0,0,1\right\}`
 
 
 >>> DigitCount[Floor[Pi * 10^100]]
-    =
 
+    =
 :math:`\left\{8,12,12,10,8,9,8,12,14,8\right\}`
 
 
 >>> DigitCount[1022, 2]
-    =
 
+    =
 :math:`\left\{9,1\right\}`
 
 
 >>> DigitCount[1022, 2, 1]
-    =
 
+    =
 :math:`9`
 
 

@@ -14,8 +14,8 @@ FormatValues
 
 
 >>> FormatValues[F]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[\text{Format}\left[F\left[\text{x\_}\right],\text{OutputForm}\right]\right]\text{:>}x_F\right\}`
 
 

@@ -12,27 +12,27 @@ BesselJ
 
 
 >>> BesselJ[0, 5.2]
-    =
 
+    =
 :math:`-0.11029`
 
 
 >>> D[BesselJ[n, z], z]
-    =
 
+    =
 :math:`-\frac{\text{BesselJ}\left[1+n,z\right]}{2}+\frac{\text{BesselJ}\left[-1+n,z\right]}{2}`
 
 
 >>> BesselJ[0., 0.]
-    =
 
+    =
 :math:`1.`
 
 
 >>> Plot[BesselJ[0, x], {x, 0, 10}]
-    =
 
-.. image:: tmp9k8d2gn6.png
+    =
+.. image:: tmpd0rjf6lo.png
     :align: center
 
 
@@ -41,8 +41,8 @@ BesselJ
 The special case of half-integer index is expanded using Rayleigh's formulas:
 
 >>> BesselJ[1/2, x]
-    =
 
+    =
 :math:`\frac{\sqrt{2} \text{Sin}\left[x\right]}{\sqrt{x} \sqrt{ \pi }}`
 
 
@@ -50,8 +50,8 @@ The special case of half-integer index is expanded using Rayleigh's formulas:
 Some integrals can be expressed in terms of Bessel functions:
 
 >>> Integrate[Cos[3 Sin[w]], {w, 0, Pi}]
-    =
 
+    =
 :math:`\pi  \text{BesselJ}\left[0,3\right]`
 
 

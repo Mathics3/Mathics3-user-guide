@@ -21,17 +21,17 @@ Hue
 
 
 >>> Graphics[Table[{EdgeForm[Gray], Hue[h, s], Disk[{12h, 8s}]}, {h, 0, 1, 1/6}, {s, 0, 1, 1/4}]]
-    =
 
-.. image:: tmpy43i566g.png
+    =
+.. image:: tmp4wumz90e.png
     :align: center
 
 
 
 >>> Graphics[Table[{EdgeForm[{GrayLevel[0, 0.5]}], Hue[(-11+q+10r)/72, 1, 1, 0.6], Disk[(8-r) {Cos[2Pi q/12], Sin[2Pi q/12]}, (8-r)/3]}, {r, 6}, {q, 12}]]
-    =
 
-.. image:: tmp8e9pnlin.png
+    =
+.. image:: tmppo047_06.png
     :align: center
 
 

@@ -12,8 +12,8 @@ SixJSymbol
 
 
 >>> SixJSymbol[{1, 2, 3}, {1, 2, 3}]
-    =
 
+    =
 :math:`\frac{1}{105}`
 
 
@@ -21,14 +21,14 @@ SixJSymbol
 :code:`SixJSymbol`  is symmetric under permutations:
 
 >>> % == SixJSymbol[{3, 2, 1}, {3, 2, 1}]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> SixJSymbol[{1, 2, 3}, {1, 2, 3}] == SixJSymbol[{2, 1, 3}, {2, 1, 3}]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -36,8 +36,8 @@ SixJSymbol
 :code:`SixJSymbol`  works with integer and half-integer arguments:
 
 >>> SixJSymbol[{1/2, 1/2, 1}, {5/2, 7/2, 3}]
-    =
 
+    =
 :math:`-\frac{\sqrt{21}}{21}`
 
 
@@ -45,8 +45,8 @@ SixJSymbol
 Compare with WMA example:
 
 >>> SixJSymbol[{1, 2, 3}, {2, 1, 2}] == 1 / (5 Sqrt[21])
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -54,8 +54,8 @@ Compare with WMA example:
 Result 0 returned for unphysical cases:
 
 >>> SixJSymbol[{1, 2, 3}, {4, 5, 12}]
-    =
 
+    =
 :math:`0`
 
 
@@ -65,8 +65,8 @@ Arguments must be integer or half integer values:
 >>> SixJSymbol[{0.5, 0.5, 1.1},{0.5, 0.5, 1.1}]
 
     SixJSymbol::6jsymbol_value SixJSymbol values {0.5, 0.5, 1.1} {0.5, 0.5, 1.1} must be integer or half integer and fulfill the triangle relation
-    =
 
+    =
 :math:`\text{SixJSymbol}\left[\left\{0.5,0.5,1.1\right\},\left\{0.5,0.5,1.1\right\}\right]`
 
 

@@ -12,8 +12,8 @@ SetDirectory
 
 
 >>> SetDirectory[]
-    =
 
+    =
 :math:`\text{/home/mauricio}`
 
 

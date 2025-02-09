@@ -12,28 +12,28 @@ Switch
 
 
 >>> Switch[2, 1, x, 2, y, 3, z]
-    =
 
+    =
 :math:`y`
 
 
 >>> Switch[5, 1, x, 2, y]
-    =
 
+    =
 :math:`\text{Switch}\left[5,1,x,2,y\right]`
 
 
 >>> Switch[5, 1, x, 2, a, _, b]
-    =
 
+    =
 :math:`b`
 
 
 >>> Switch[2, 1]
 
     Switch::argct Switch called with 2 arguments. Switch must be called with an odd number of arguments.
-    =
 
+    =
 :math:`\text{Switch}\left[2,1\right]`
 
 
@@ -46,8 +46,8 @@ Notice that :code:`Switch`  evaluates each pattern before it against     :math:`
 >>> Switch[p,a,1,b,2]
 
     a->p
-    =
 
+    =
 :math:`1`
 
 

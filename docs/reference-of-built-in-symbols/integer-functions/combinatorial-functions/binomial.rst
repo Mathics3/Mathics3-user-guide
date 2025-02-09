@@ -12,8 +12,8 @@ Binomial
 
 
 >>> Binomial[5, 3]
-    =
 
+    =
 :math:`10`
 
 
@@ -21,8 +21,8 @@ Binomial
 :code:`Binomial`  supports inexact numbers:
 
 >>> Binomial[10.5,3.2]
-    =
 
+    =
 :math:`165.286`
 
 
@@ -30,14 +30,14 @@ Binomial
 Some special cases:
 
 >>> Binomial[10, -2]
-    =
 
+    =
 :math:`0`
 
 
 >>> Binomial[-10.5, -3.5]
-    =
 
+    =
 :math:`0.`
 
 

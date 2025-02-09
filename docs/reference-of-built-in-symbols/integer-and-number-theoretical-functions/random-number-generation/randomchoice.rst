@@ -33,8 +33,8 @@ Note: :code:`SeedRandom`  is used below so we get repeatable "random" numbers th
 
 
 >>> RandomChoice[{a, b, c}]
-    =
 
+    =
 :math:`\left\{c\right\}`
 
 
@@ -42,8 +42,8 @@ Note: :code:`SeedRandom`  is used below so we get repeatable "random" numbers th
 
 
 >>> RandomChoice[{a, b, c}, 20]
-    =
 
+    =
 :math:`\left\{c,a,c,c,a,a,c,b,c,c,c,c,a,c,b,a,b,b,b,b\right\}`
 
 
@@ -51,8 +51,8 @@ Note: :code:`SeedRandom`  is used below so we get repeatable "random" numbers th
 
 
 >>> RandomChoice[{"a", {1, 2}, x, {}}, 10]
-    =
 
+    =
 :math:`\left\{x,\left\{\right\},\text{a},x,x,\left\{\right\},\text{a},\text{a},x,\left\{1,2\right\}\right\}`
 
 
@@ -60,8 +60,8 @@ Note: :code:`SeedRandom`  is used below so we get repeatable "random" numbers th
 
 
 >>> RandomChoice[{a, b, c}, {5, 2}]
-    =
 
+    =
 :math:`\left\{\left\{c,a\right\},\left\{c,c\right\},\left\{a,a\right\},\left\{c,b\right\},\left\{c,c\right\}\right\}`
 
 
@@ -69,8 +69,8 @@ Note: :code:`SeedRandom`  is used below so we get repeatable "random" numbers th
 
 
 >>> RandomChoice[{1, 100, 5} -> {a, b, c}, 20]
-    =
 
+    =
 :math:`\left\{b,b,b,b,b,b,b,b,b,b,b,c,b,b,b,b,b,b,b,b\right\}`
 
 

@@ -20,8 +20,8 @@ Values associated with :code:`ReadProtected`  symbols cannot be seen in     :cod
 
 
 >>> Definition[p]
-    =
 
+    =
 :math:`\begin{array}{l} p=3\end{array}`
 
 
@@ -29,8 +29,8 @@ Values associated with :code:`ReadProtected`  symbols cannot be seen in     :cod
 
 
 >>> Definition[p]
-    =
 
+    =
 :math:`\begin{array}{l} \text{Attributes}\left[p\right]=\left\{\text{ReadProtected}\right\}\end{array}`
 
 

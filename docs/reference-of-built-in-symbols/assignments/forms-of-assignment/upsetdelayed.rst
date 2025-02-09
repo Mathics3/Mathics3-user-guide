@@ -21,14 +21,14 @@ UpSetDelayed
 
 
 >>> a[b]
-    =
 
+    =
 :math:`2`
 
 
 >>> UpValues[b]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[a\left[b\right]\right]\text{:>}x\right\}`
 
 

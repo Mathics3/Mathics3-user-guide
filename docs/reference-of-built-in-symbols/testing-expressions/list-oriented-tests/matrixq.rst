@@ -15,8 +15,8 @@ MatrixQ
 
 
 >>> MatrixQ[{{1, 3}, {4.0, 3/2}}, NumberQ]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -24,14 +24,14 @@ MatrixQ
 These are not matrices:
 
 >>> MatrixQ[{{1}, {1, 2}}] (* first row should have length two *)
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> MatrixQ[Array[a, {1, 1, 2}]]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -39,14 +39,14 @@ These are not matrices:
 Supply a test function parameter to generalize and specialize:
 
 >>> MatrixQ[{{1, 2}, {3, 4 + 5}}, Positive]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> MatrixQ[{{1, 2 I}, {3, 4 + 5}}, Positive]
-    =
 
+    =
 :math:`\text{False}`
 
 

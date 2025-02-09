@@ -20,14 +20,14 @@ Set
 :code:`Set`  can be used to give a symbol a value:
 
 >>> a = 3
-    =
 
+    =
 :math:`3`
 
 
 >>> a
-    =
 
+    =
 :math:`3`
 
 
@@ -35,8 +35,8 @@ Set
 An assignment like this creates an ownvalue:
 
 >>> OwnValues[a]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[a\right]\text{:>}3\right\}`
 
 
@@ -44,20 +44,20 @@ An assignment like this creates an ownvalue:
 You can set multiple values at once using lists:
 
 >>> {a, b, c} = {10, 2, 3}
-    =
 
+    =
 :math:`\left\{10,2,3\right\}`
 
 
 >>> {a, b, {c, {d}}} = {1, 2, {{c1, c2}, {a}}}
-    =
 
+    =
 :math:`\left\{1,2,\left\{\left\{\text{c1},\text{c2}\right\},\left\{10\right\}\right\}\right\}`
 
 
 >>> d
-    =
 
+    =
 :math:`10`
 
 
@@ -66,26 +66,26 @@ You can set multiple values at once using lists:
 the left-hand side:
 
 >>> a
-    =
 
+    =
 :math:`1`
 
 
 >>> x = a
-    =
 
+    =
 :math:`1`
 
 
 >>> a = 2
-    =
 
+    =
 :math:`2`
 
 
 >>> x
-    =
 
+    =
 :math:`1`
 
 
@@ -97,8 +97,8 @@ in an assignment:
 
 
 >>> a == b == c == 2
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -109,26 +109,26 @@ in an assignment:
 
 
 >>> A[[1, 2]] = 5
-    =
 
+    =
 :math:`5`
 
 
 >>> A
-    =
 
+    =
 :math:`\left\{\left\{1,5\right\},\left\{3,4\right\}\right\}`
 
 
 >>> A[[;;, 2]] = {6, 7}
-    =
 
+    =
 :math:`\left\{6,7\right\}`
 
 
 >>> A
-    =
 
+    =
 :math:`\left\{\left\{1,6\right\},\left\{3,7\right\}\right\}`
 
 
@@ -142,8 +142,8 @@ Set a submatrix:
 
 
 >>> B
-    =
 
+    =
 :math:`\left\{\left\{1,t,u\right\},\left\{4,y,z\right\},\left\{7,8,9\right\}\right\}`
 
 

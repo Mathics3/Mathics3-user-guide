@@ -12,14 +12,14 @@ PrecedesSlantEqual
 
 
 >>> PrecedesSlantEqual[x, y, z]
-    =
 
+    =
 :math:`x \preccurlyeq y \preccurlyeq z`
 
 
 >>> a \[PrecedesSlantEqual] b
-    =
 
+    =
 :math:`a \preccurlyeq b`
 
 

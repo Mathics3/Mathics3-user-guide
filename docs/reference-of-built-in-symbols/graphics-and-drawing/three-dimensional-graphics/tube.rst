@@ -15,17 +15,17 @@ Tube
 
 
 >>> Graphics3D[Tube[{{0,0,0}, {1,1,1}}]]
-    =
 
-.. image:: tmp5awekdsj.png
+    =
+.. image:: tmpt4boh4ok.png
     :align: center
 
 
 
 >>> Graphics3D[Tube[{{0,0,0}, {1,1,1}, {0, 0, 1}}, 0.1]]
-    =
 
-.. image:: tmps8ljibp_.png
+    =
+.. image:: tmpy6l9gioo.png
     :align: center
 
 

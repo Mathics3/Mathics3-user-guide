@@ -14,8 +14,8 @@ CatalanNumber
 A list of the first five Catalan numbers:
 
 >>> Table[CatalanNumber[n], {n, 1, 5}]
-    =
 
+    =
 :math:`\left\{1,2,5,14,42\right\}`
 
 

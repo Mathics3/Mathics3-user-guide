@@ -12,15 +12,15 @@ WeberE
 
 
 >>> WeberE[1.5, 3.5]
-    =
 
+    =
 :math:`-0.397256`
 
 
 >>> Plot[WeberE[1, x], {x, -10, 10}]
-    =
 
-.. image:: tmppou512u6.png
+    =
+.. image:: tmp6hqf6240.png
     :align: center
 
 

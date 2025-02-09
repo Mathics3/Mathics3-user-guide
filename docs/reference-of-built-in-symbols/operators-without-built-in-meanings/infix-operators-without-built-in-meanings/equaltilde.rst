@@ -12,14 +12,14 @@ EqualTilde
 
 
 >>> EqualTilde[x, y, z]
-    =
 
+    =
 :math:`x \eqsim y \eqsim z`
 
 
 >>> a \[EqualTilde] b
-    =
 
+    =
 :math:`a \eqsim b`
 
 

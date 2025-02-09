@@ -12,15 +12,15 @@ StruveH
 
 
 >>> StruveH[1.5, 3.5]
-    =
 
+    =
 :math:`1.13192`
 
 
 >>> Plot[StruveH[0, x], {x, 0, 10}]
-    =
 
-.. image:: tmpvgkss2xx.png
+    =
+.. image:: tmpkr359h9v.png
     :align: center
 
 

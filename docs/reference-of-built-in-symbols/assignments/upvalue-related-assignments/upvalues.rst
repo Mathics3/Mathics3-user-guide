@@ -11,20 +11,20 @@ UpValues
 
 
 >>> a + b ^= 2
-    =
 
+    =
 :math:`2`
 
 
 >>> UpValues[a]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[a+b\right]\text{:>}2\right\}`
 
 
 >>> UpValues[b]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[a+b\right]\text{:>}2\right\}`
 
 
@@ -35,8 +35,8 @@ You can assign values to :code:`UpValues` :
 
 
 >>> Sin[pi]
-    =
 
+    =
 :math:`0`
 
 

@@ -16,8 +16,8 @@ Accuracy
 :code:`Accuracy`  of a real number is estimated from its value and its precision:
 
 >>> Accuracy[3.1416`2]
-    =
 
+    =
 :math:`1.50298`
 
 
@@ -27,14 +27,14 @@ Notice that the value is not exactly equal to the obtained in WMA:     This is d
 Accuracy for exact atoms is :code:`Infinity` :
 
 >>> Accuracy[1]
-    =
 
+    =
 :math:`\infty`
 
 
 >>> Accuracy[A]
-    =
 
+    =
 :math:`\infty`
 
 
@@ -46,8 +46,8 @@ of the square root of the squares of the errors on the real and complex parts:
 
 
 >>> Accuracy[z] == -Log[10, Sqrt[10^(-2 Accuracy[Re[z]]) + 10^(-2 Accuracy[Im[z]])]]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -55,14 +55,14 @@ of the square root of the squares of the errors on the real and complex parts:
 Accuracy of expressions is given by the minimum accuracy of its elements:
 
 >>> Accuracy[F[1, Pi, A]]
-    =
 
+    =
 :math:`\infty`
 
 
 >>> Accuracy[F[1.3, Pi, A]]
-    =
 
+    =
 :math:`15.8406`
 
 
@@ -70,14 +70,14 @@ Accuracy of expressions is given by the minimum accuracy of its elements:
 :code:`Accuracy`  for the value 0 is a fixed-precision Real number:
 
 >>> 0``2
-    =
 
+    =
 :math:`0.00`
 
 
 >>> Accuracy[0.``2]
-    =
 
+    =
 :math:`2.`
 
 
@@ -85,8 +85,8 @@ Accuracy of expressions is given by the minimum accuracy of its elements:
 For 0.`, the accuracy satisfies:
 
 >>> Accuracy[0.`] == $MachinePrecision - Log[10, $MinMachineNumber]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -95,8 +95,8 @@ In compound expressions, the :code:`Accuracy`  is fixed by the number with
 the lowest :code:`Accuracy` :
 
 >>> Accuracy[{{1, 1.`},{1.``5, 1.``10}}]
-    =
 
+    =
 :math:`5.`
 
 

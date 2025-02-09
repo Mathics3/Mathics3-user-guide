@@ -12,20 +12,20 @@ Head
 
 
 >>> Head[a * b]
-    =
 
+    =
 :math:`\text{Times}`
 
 
 >>> Head[6]
-    =
 
+    =
 :math:`\text{Integer}`
 
 
 >>> Head[x]
-    =
 
+    =
 :math:`\text{Symbol}`
 
 

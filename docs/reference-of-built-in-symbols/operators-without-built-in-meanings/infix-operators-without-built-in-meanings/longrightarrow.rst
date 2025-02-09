@@ -12,14 +12,14 @@ LongRightArrow
 
 
 >>> LongRightArrow[x, y, z]
-    =
 
+    =
 :math:`x \longrightarrow y \longrightarrow z`
 
 
 >>> a \[LongRightArrow] b
-    =
 
+    =
 :math:`a \longrightarrow b`
 
 

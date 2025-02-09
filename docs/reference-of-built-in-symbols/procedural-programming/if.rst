@@ -19,8 +19,8 @@ If
 
 
 >>> If[1<2, a, b]
-    =
 
+    =
 :math:`a`
 
 
@@ -28,14 +28,14 @@ If
 If the second branch is not specified, :code:`Null`  is taken:
 
 >>> If[1<2, a]
-    =
 
+    =
 :math:`a`
 
 
 >>> If[False, a] //FullForm
-    =
 
+    =
 :math:`\text{Null}`
 
 

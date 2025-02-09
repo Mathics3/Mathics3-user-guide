@@ -15,14 +15,14 @@ Rational
 
 
 >>> Head[1/2]
-    =
 
+    =
 :math:`\text{Rational}`
 
 
 >>> Rational[1, 2]
-    =
 
+    =
 :math:`\frac{1}{2}`
 
 

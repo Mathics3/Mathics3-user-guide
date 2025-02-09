@@ -10,8 +10,8 @@ XML`Parser`XMLGetString
 
 
 >>> Head[XML`Parser`XMLGetString["<a></a>"]]
-    =
 
+    =
 :math:`\text{XMLObject}\left[\text{Document}\right]`
 
 

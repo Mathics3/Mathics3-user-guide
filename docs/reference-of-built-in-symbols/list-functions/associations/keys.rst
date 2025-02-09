@@ -15,14 +15,14 @@ Keys
 
 
 >>> Keys[<|a -> x, b -> y|>]
-    =
 
+    =
 :math:`\left\{a,b\right\}`
 
 
 >>> Keys[{a -> x, b -> y}]
-    =
 
+    =
 :math:`\left\{a,b\right\}`
 
 
@@ -30,8 +30,8 @@ Keys
 Keys automatically threads over lists:
 
 >>> Keys[{<|a -> x, b -> y|>, {w -> z, {}}}]
-    =
 
+    =
 :math:`\left\{\left\{a,b\right\},\left\{w,\left\{\right\}\right\}\right\}`
 
 
@@ -39,8 +39,8 @@ Keys automatically threads over lists:
 Keys are listed in the order of their appearance:
 
 >>> Keys[{c -> z, b -> y, a -> x}]
-    =
 
+    =
 :math:`\left\{c,b,a\right\}`
 
 

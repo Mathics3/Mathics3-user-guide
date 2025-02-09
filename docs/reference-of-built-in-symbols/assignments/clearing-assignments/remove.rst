@@ -15,8 +15,8 @@ Remove
 
 
 >>> Names["Global`a"]
-    =
 
+    =
 :math:`\left\{\text{a}\right\}`
 
 
@@ -24,8 +24,8 @@ Remove
 
 
 >>> Names["Global`a"]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 

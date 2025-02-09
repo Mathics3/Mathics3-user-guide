@@ -12,14 +12,14 @@ Congruent
 
 
 >>> Congruent[x, y, z]
-    =
 
+    =
 :math:`x \equiv y \equiv z`
 
 
 >>> a \[Congruent] b
-    =
 
+    =
 :math:`a \equiv b`
 
 

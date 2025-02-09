@@ -12,20 +12,20 @@ FileFormat
 
 
 >>> FileFormat["ExampleData/sunflowers.jpg"]
-    =
 
+    =
 :math:`\text{JPEG}`
 
 
 >>> FileFormat["ExampleData/EinsteinSzilLetter.txt"]
-    =
 
+    =
 :math:`\text{Text}`
 
 
 >>> FileFormat["ExampleData/hedy.tif"]
-    =
 
+    =
 :math:`\text{TIFF}`
 
 

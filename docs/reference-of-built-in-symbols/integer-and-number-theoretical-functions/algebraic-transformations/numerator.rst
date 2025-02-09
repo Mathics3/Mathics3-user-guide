@@ -12,20 +12,20 @@ Numerator
 
 
 >>> Numerator[a / b]
-    =
 
+    =
 :math:`a`
 
 
 >>> Numerator[2 / 3]
-    =
 
+    =
 :math:`2`
 
 
 >>> Numerator[a + b]
-    =
 
+    =
 :math:`a+b`
 
 

@@ -15,8 +15,8 @@ ImageColorSpace
 
 
 >>> ImageColorSpace[img]
-    =
 
+    =
 :math:`\text{Grayscale}`
 
 
@@ -24,8 +24,8 @@ ImageColorSpace
 
 
 >>> ImageColorSpace[img]
-    =
 
+    =
 :math:`\text{RGB}`
 
 

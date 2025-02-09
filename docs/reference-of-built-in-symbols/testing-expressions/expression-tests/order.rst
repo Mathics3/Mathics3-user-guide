@@ -12,26 +12,26 @@ Order
 
 
 >>> Order[7, 11]
-    =
 
+    =
 :math:`1`
 
 
 >>> Order[100, 10]
-    =
 
+    =
 :math:`-1`
 
 
 >>> Order[x, z]
-    =
 
+    =
 :math:`1`
 
 
 >>> Order[x, x]
-    =
 
+    =
 :math:`0`
 
 

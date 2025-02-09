@@ -15,8 +15,8 @@ ClearAttributes
 
 
 >>> Attributes[f]
-    =
 
+    =
 :math:`\left\{\text{Flat}\right\}`
 
 
@@ -24,8 +24,8 @@ ClearAttributes
 
 
 >>> Attributes[f]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
@@ -36,8 +36,8 @@ Attributes that are not even set are simply ignored:
 
 
 >>> Attributes[f]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 

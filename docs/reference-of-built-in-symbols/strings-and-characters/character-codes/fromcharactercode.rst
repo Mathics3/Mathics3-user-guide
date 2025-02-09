@@ -18,38 +18,38 @@ FromCharacterCode
 
 
 >>> FromCharacterCode[100]
-    =
 
+    =
 :math:`\text{d}`
 
 
 >>> FromCharacterCode[228, "ISO8859-1"]
-    =
 
+    =
 :math:`\text{ä}`
 
 
 >>> FromCharacterCode[{100, 101, 102}]
-    =
 
+    =
 :math:`\text{def}`
 
 
 >>> ToCharacterCode[%]
-    =
 
+    =
 :math:`\left\{100,101,102\right\}`
 
 
 >>> FromCharacterCode[{{97, 98, 99}, {100, 101, 102}}]
-    =
 
+    =
 :math:`\left\{\text{abc},\text{def}\right\}`
 
 
 >>> ToCharacterCode["abc 123"] // FromCharacterCode
-    =
 
+    =
 :math:`\text{abc 123}`
 
 

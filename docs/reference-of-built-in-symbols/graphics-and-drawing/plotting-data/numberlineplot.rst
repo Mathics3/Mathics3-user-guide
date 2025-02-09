@@ -11,9 +11,9 @@ NumberLinePlot
 
 
 >>> NumberLinePlot[Prime[Range[10]]]
-    =
 
-.. image:: tmp7dfl55nl.png
+    =
+.. image:: tmpk0g7q8oy.png
     :align: center
 
 
@@ -22,9 +22,9 @@ NumberLinePlot
 Compare with:
 
 >>> NumberLinePlot[Table[x^2, {x, 10}]]
-    =
 
-.. image:: tmpg1yj32nc.png
+    =
+.. image:: tmpf1nidwlp.png
     :align: center
 
 

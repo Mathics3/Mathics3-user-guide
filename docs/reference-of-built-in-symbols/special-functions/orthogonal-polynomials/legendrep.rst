@@ -14,26 +14,26 @@ LegendreP
 
 
 >>> LegendreP[4, x]
-    =
 
+    =
 :math:`\frac{3}{8}-\frac{15 x^2}{4}+\frac{35 x^4}{8}`
 
 
 >>> LegendreP[5/2, 1.5]
-    =
 
+    =
 :math:`4.17762`
 
 
 >>> LegendreP[1.75, 1.4, 0.53]
-    =
 
+    =
 :math:`-1.32619`
 
 
 >>> LegendreP[1.6, 3.1, 1.5]
-    =
 
+    =
 :math:`-0.303998-1.91937 I`
 
 
@@ -41,9 +41,9 @@ LegendreP
 :code:`LegendreP`  can be used to draw generalized Lissajous figures:
 
 >>> ParametricPlot[ {LegendreP[7, x], LegendreP[5, x]}, {x, -1, 1}]
-    =
 
-.. image:: tmp5pz9m4g8.png
+    =
+.. image:: tmp17pb0v6o.png
     :align: center
 
 

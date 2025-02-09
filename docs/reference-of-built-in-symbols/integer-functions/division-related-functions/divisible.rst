@@ -18,8 +18,8 @@ Divisible
 Test whether the number 10 is divisible by 2
 
 >>> Divisible[10, 2]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -27,8 +27,8 @@ Test whether the number 10 is divisible by 2
 But the other way around is False: 2 is not divisible by 10:
 
 >>> Divisible[2, 10]
-    =
 
+    =
 :math:`\text{False}`
 
 

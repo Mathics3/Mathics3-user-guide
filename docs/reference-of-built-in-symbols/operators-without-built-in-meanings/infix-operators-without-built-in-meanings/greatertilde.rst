@@ -12,14 +12,14 @@ GreaterTilde
 
 
 >>> GreaterTilde[x, y, z]
-    =
 
+    =
 :math:`x \gtrsim y \gtrsim z`
 
 
 >>> a \[GreaterTilde] b
-    =
 
+    =
 :math:`a \gtrsim b`
 
 

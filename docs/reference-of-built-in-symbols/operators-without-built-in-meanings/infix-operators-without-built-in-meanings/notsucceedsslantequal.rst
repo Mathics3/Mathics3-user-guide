@@ -12,14 +12,14 @@ NotSucceedsSlantEqual
 
 
 >>> NotSucceedsSlantEqual[x, y, z]
-    =
 
+    =
 :math:`x \not{\succeq} y \not{\succeq} z`
 
 
 >>> a \[NotSucceedsSlantEqual] b
-    =
 
+    =
 :math:`a \not{\succeq} b`
 
 

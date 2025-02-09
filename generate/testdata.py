@@ -6,6 +6,8 @@ import subprocess
 import tempfile
 from typing import Dict, Optional, Union
 
+import matplotlib
+import matplotlib.pyplot as plt
 
 from mathics import __version__, settings, version_info, version_string
 from mathics import settings
@@ -13,7 +15,7 @@ from mathics.doc.utils import load_doctest_data
 from doc2rst import DOCTEST_RST_DATA_PCL
 
 ASY_LATEX_BLOCK = re.compile(r'\\begin{asy}([\s\S]+?)\\end{asy}')
-IMAGE_LATEX_ENTRY = re.compile(r'\\includegraphics\[(.*?)\]{(.*?)}')
+IMAGE_LATEX_ENTRY = re.compile(r'(?m)\\includegraphics\[(.*?)\]{(.*?)}')
 
 DOC_DIR = settings.DOC_DIR
 
@@ -29,6 +31,27 @@ def get_tmp_filename(suffix=""):
     fp.close()
     return path
 
+
+def latex_to_img(tex, fn):
+    """
+    produce a picture from LaTeX code.
+    Borrowed from 
+    https://stackoverflow.com/questions/1381741/converting-latex-code-to-images-or-other-displayble-format-with-python
+    """
+    white = (255, 255, 255, 255)
+    matplotlib.rcParams['text.latex.preamble'] = (
+    '\\usepackage{amsmath}\n'
+    '\\usepackage{amssymb}\n'
+    '\\usepackage{graphicx}\n'
+    )
+    # buf = io.BytesIO()
+    plt.rc('text', usetex=True)
+    plt.rc('font', family='serif')
+    plt.axis('off')
+    tex = tex.replace("\n", " ")
+    plt.text(0.05, 0.5, f'{tex}', size=40)
+    plt.savefig(fn, format='png', backend='pgf')
+    plt.close()
 
 
 def read_doctest_data(quiet=False) -> Optional[Dict[tuple, dict]]:
@@ -62,7 +85,13 @@ def convert_test_data_to_rst(latex_test_data):
 
 
 def compile_latex_to_png(content):
-    return "/tmp/generate_me.png %"+content+"\n"
+    tmp_filename = get_tmp_filename(".png")
+    try:
+        latex_to_img(f'${content}$', tmp_filename)
+    except ValueError:
+        print(f'${content}$', "could not be processed as LaTeX")
+        raise
+    return tmp_filename
     
 def process_asy(content:str):
     """Convert asy code into a png picture.
@@ -82,7 +111,8 @@ def process_asy(content:str):
         
 
 def mathics_latex_to_RsT(
-        out_latex:Optional[Union[str, dict]])->Optional[Union[str, dict]]:
+        out_latex:Optional[Union[str, dict]]
+)->Optional[Union[str, dict]]:
     if out_latex is None:
         return None
     # If out_latex is a dict, returns without changes.
@@ -98,7 +128,7 @@ def mathics_latex_to_RsT(
         parms = img_match.group(1)
         filename = img_match.group(2)
         return f".. image:: {filename}\n    :align: center\n\n"
-    if IMAGE_LATEX_ENTRY.match(out_latex):
+    if IMAGE_LATEX_ENTRY.findall(out_latex):
         # Compile LaTeX a produce a png picture.
         filename = compile_latex_to_png(out_latex)
         return f".. image:: {filename}\n    :align: center\n\n"
@@ -111,7 +141,6 @@ def mathics_latex_to_RsT(
     return f":math:`{out_latex}`\n"
 
 def convert_result_to_rst(result_dict):
-
     converted_result = {
         "line":result_dict["line"],
         "form":"RsT",
@@ -129,11 +158,15 @@ def convert_output_to_rst(test_data):
     to RsT format.
     """
     # print(test_data["query"])
-    converted_data = {"query":test_data["query"],
+    try:
+        converted_data = {"query":test_data["query"],
                       "results": [
                           convert_result_to_rst(item) for item in
                           test_data["results"]
                       ]}
+    except ValueError:
+        print("Result from ", test_data["query"], "could not be converted.")
+        return None
     return converted_data
     
 

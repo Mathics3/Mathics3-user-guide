@@ -15,27 +15,27 @@ KelvinKei
 
 
 >>> KelvinKei[0.5]
-    =
 
+    =
 :math:`-0.671582`
 
 
 >>> KelvinKei[1.5 + I]
-    =
 
+    =
 :math:`-0.248994+0.303326 I`
 
 
 >>> KelvinKei[0.5, 0.25]
-    =
 
+    =
 :math:`-2.0517`
 
 
 >>> Plot[KelvinKei[x], {x, 0, 10}]
-    =
 
-.. image:: tmpj785t7w9.png
+    =
+.. image:: tmp6a5ujyuh.png
     :align: center
 
 

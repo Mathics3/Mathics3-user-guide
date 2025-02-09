@@ -16,14 +16,14 @@ Decrement
 
 
 >>> a = 5; a--
-    =
 
+    =
 :math:`5`
 
 
 >>> a
-    =
 
+    =
 :math:`4`
 
 
@@ -31,8 +31,8 @@ Decrement
 Decrement a numerical value:
 
 >>> a = 1.6; a--; a
-    =
 
+    =
 :math:`0.6`
 
 
@@ -40,14 +40,14 @@ Decrement a numerical value:
 Decrement all values in a list:
 
 >>> a = {1, 3, 5}
-    =
 
+    =
 :math:`\left\{1,3,5\right\}`
 
 
 >>> a--; a
-    =
 
+    =
 :math:`\left\{0,2,4\right\}`
 
 

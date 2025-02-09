@@ -15,8 +15,8 @@ VectorQ
 
 
 >>> VectorQ[{a, b, c}]
-    =
 
+    =
 :math:`\text{True}`
 
 

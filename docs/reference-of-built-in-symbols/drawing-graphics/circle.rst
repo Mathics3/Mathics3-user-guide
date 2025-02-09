@@ -21,17 +21,17 @@ Circle
 
 
 >>> Graphics[{Red, Circle[{0, 0}, {2, 1}]}]
-    =
 
-.. image:: tmpbp0e1o0b.png
+    =
+.. image:: tmpmwxqymy5.png
     :align: center
 
 
 
 >>> Graphics[{Circle[], Disk[{0, 0}, {1, 1}, {0, 2.1}]}]
-    =
 
-.. image:: tmpsi2yuf05.png
+    =
+.. image:: tmpgpz884jk.png
     :align: center
 
 
@@ -40,9 +40,9 @@ Circle
 Target practice:
 
 >>> Graphics[Circle[], Axes-> True]
-    =
 
-.. image:: tmpt8m_1xps.png
+    =
+.. image:: tmp80etc2yp.png
     :align: center
 
 

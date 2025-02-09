@@ -15,25 +15,25 @@ Lighter
 
 
 >>> Lighter[Orange, 1/4]
-    =
 
-.. image:: tmprdykjkle.png
+    =
+.. image:: tmphacv2_v8.png
     :align: center
 
 
 
 >>> Graphics[{Lighter[Orange, 1/4], Disk[]}]
-    =
 
-.. image:: tmpg0nss0vw.png
+    =
+.. image:: tmpqw3s4iys.png
     :align: center
 
 
 
 >>> Graphics[Table[{Lighter[Orange, x], Disk[{12x, 0}]}, {x, 0, 1, 1/6}]]
-    =
 
-.. image:: tmpfgm5fokf.png
+    =
+.. image:: tmp_yrjuyt0.png
     :align: center
 
 

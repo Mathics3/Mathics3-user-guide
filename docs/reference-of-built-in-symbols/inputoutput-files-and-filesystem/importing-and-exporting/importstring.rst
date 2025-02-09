@@ -21,14 +21,14 @@ ImportString
 
 
 >>> ImportString[str, "Elements"]
-    =
 
+    =
 :math:`\left\{\text{Data},\text{Lines},\text{Plaintext},\text{String},\text{Words}\right\}`
 
 
 >>> ImportString[str, "Lines"]
-    =
 
+    =
 :math:`\left\{\text{Hello!},\text{    This is a testing text}\right\}`
 
 

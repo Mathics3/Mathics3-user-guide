@@ -18,14 +18,17 @@ Slot
 
 
 >>> #
-    = #1`
+
+    =
+:math:`\text{\#1}`
+
 
 
 Unused arguments are simply ignored:
 
 >>> {#1, #2, #3}&[1, 2, 3, 4, 5]
-    =
 
+    =
 :math:`\left\{1,2,3\right\}`
 
 
@@ -33,8 +36,8 @@ Unused arguments are simply ignored:
 Recursive pure functions can be written using :code:`#0` :
 
 >>> If[#1<=1, 1, #1 #0[#1-1]]& [10]
-    =
 
+    =
 :math:`3628800`
 
 

@@ -12,8 +12,8 @@ MoebiusMu
 
 
 >>> Array[MoebiusMu, 10]
-    =
 
+    =
 :math:`\left\{1,-1,-1,0,-1,1,-1,0,0,1\right\}`
 
 

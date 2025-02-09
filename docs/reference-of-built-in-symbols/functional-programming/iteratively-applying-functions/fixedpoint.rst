@@ -15,14 +15,14 @@ FixedPoint
 
 
 >>> FixedPoint[Cos, 1.0]
-    =
 
+    =
 :math:`0.739085`
 
 
 >>> FixedPoint[#+1 &, 1, 20]
-    =
 
+    =
 :math:`21`
 
 

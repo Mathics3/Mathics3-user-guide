@@ -12,8 +12,8 @@ FileByteCount
 
 
 >>> FileByteCount["ExampleData/sunflowers.jpg"]
-    =
 
+    =
 :math:`142286`
 
 

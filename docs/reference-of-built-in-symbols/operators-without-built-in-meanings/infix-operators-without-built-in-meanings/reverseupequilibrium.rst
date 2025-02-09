@@ -12,14 +12,14 @@ ReverseUpEquilibrium
 
 
 >>> ReverseUpEquilibrium[x, y, z]
-    =
 
+    =
 :math:`x \downharpoonleft\upharpoonright y \downharpoonleft\upharpoonright z`
 
 
 >>> a \[ReverseUpEquilibrium] b
-    =
 
+    =
 :math:`a \downharpoonleft\upharpoonright b`
 
 

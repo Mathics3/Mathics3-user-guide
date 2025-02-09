@@ -12,14 +12,14 @@ SquaredEuclideanDistance
 
 
 >>> SquaredEuclideanDistance[-7, 5]
-    =
 
+    =
 :math:`144`
 
 
 >>> SquaredEuclideanDistance[{-1, -1}, {1, 1}]
-    =
 
+    =
 :math:`8`
 
 

@@ -16,8 +16,8 @@ DownValues
 
 
 >>> DownValues[f]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[f\left[\text{x\_}\right]\right]\text{:>}x^2\right\}`
 
 
@@ -31,26 +31,26 @@ Mathics will sort the rules you assign to a symbol according to     their specif
 
 
 >>> DownValues[f]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[f\left[\text{x\_Real}\right]\right]\text{:>}3,\text{HoldPattern}\left[f\left[\text{x\_Integer}\right]\right]\text{:>}2,\text{HoldPattern}\left[f\left[\text{x\_}\right]\right]\text{:>}x^2\right\}`
 
 
 >>> f[3]
-    =
 
+    =
 :math:`2`
 
 
 >>> f[3.]
-    =
 
+    =
 :math:`3`
 
 
 >>> f[a]
-    =
 
+    =
 :math:`a^2`
 
 
@@ -58,8 +58,8 @@ Mathics will sort the rules you assign to a symbol according to     their specif
 The default order of patterns can be computed using :code:`Sort`  with     :code:`PatternsOrderedQ` :
 
 >>> Sort[{x_, x_Integer}, PatternsOrderedQ]
-    =
 
+    =
 :math:`\left\{\text{x\_Integer},\text{x\_}\right\}`
 
 
@@ -70,8 +70,8 @@ By assigning values to :code:`DownValues` , you can override the default     ord
 
 
 >>> g[2]
-    =
 
+    =
 :math:`4`
 
 
@@ -82,8 +82,8 @@ Fibonacci numbers:
 
 
 >>> fib[5]
-    =
 
+    =
 :math:`5`
 
 

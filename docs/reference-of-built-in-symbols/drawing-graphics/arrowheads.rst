@@ -26,9 +26,9 @@ Arrowheads
 Arrows on both ends can be achieved using negative sizes:
 
 >>> Graphics[{Circle[],Arrowheads[{-0.04, 0.04}], Arrow[{{0, 0}, {2, 2}}, {1,1}]}]
-    =
 
-.. image:: tmpup3evowo.png
+    =
+.. image:: tmpdla0g017.png
     :align: center
 
 
@@ -37,17 +37,17 @@ Arrows on both ends can be achieved using negative sizes:
 You may also specify our own arrow shapes:
 
 >>> Graphics[{Circle[], Arrowheads[{{0.04, 1, Graphics[{Red, Disk[]}]}}], Arrow[{{0, 0}, {Cos[Pi/3],Sin[Pi/3]}}]}]
-    =
 
-.. image:: tmpd737q8t9.png
+    =
+.. image:: tmpx46i4nur.png
     :align: center
 
 
 
 >>> Graphics[{Arrowheads[Table[{0.04, i/10, Graphics[Disk[]]},{i,1,10}]], Arrow[{{0, 0}, {6, 5}, {1, -3}, {-2, 2}}]}]
-    =
 
-.. image:: tmpxpbggt8z.png
+    =
+.. image:: tmp5oagdhqb.png
     :align: center
 
 

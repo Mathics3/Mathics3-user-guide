@@ -14,8 +14,8 @@ $IterationLimit
 Calculations terminated by :code:`$IterationLimit`  return :code:`$Aborted` :
 
 >>> $IterationLimit
-    =
 
+    =
 :math:`1000`
 
 

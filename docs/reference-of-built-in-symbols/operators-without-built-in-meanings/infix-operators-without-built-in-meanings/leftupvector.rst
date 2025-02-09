@@ -12,14 +12,14 @@ LeftUpVector
 
 
 >>> LeftUpVector[x, y, z]
-    =
 
+    =
 :math:`x \upharpoonleft y \upharpoonleft z`
 
 
 >>> a \[LeftUpVector] b
-    =
 
+    =
 :math:`a \upharpoonleft b`
 
 

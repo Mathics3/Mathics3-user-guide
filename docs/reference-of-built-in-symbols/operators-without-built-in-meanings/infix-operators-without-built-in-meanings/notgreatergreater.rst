@@ -12,14 +12,14 @@ NotGreaterGreater
 
 
 >>> NotGreaterGreater[x, y, z]
-    =
 
+    =
 :math:`x \not{\gg} y \not{\gg} z`
 
 
 >>> a \[NotGreaterGreater] b
-    =
 
+    =
 :math:`a \not{\gg} b`
 
 

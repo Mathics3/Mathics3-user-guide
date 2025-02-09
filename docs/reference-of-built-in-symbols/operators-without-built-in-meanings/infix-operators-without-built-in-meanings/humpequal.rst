@@ -12,14 +12,14 @@ HumpEqual
 
 
 >>> HumpEqual[x, y, z]
-    =
 
+    =
 :math:`x \bumpeq y \bumpeq z`
 
 
 >>> a \[HumpEqual] b
-    =
 
+    =
 :math:`a \bumpeq b`
 
 

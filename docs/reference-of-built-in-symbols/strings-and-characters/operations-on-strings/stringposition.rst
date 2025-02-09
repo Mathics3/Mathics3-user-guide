@@ -21,14 +21,14 @@ StringPosition
 
 
 >>> StringPosition["123ABCxyABCzzzABCABC", "ABC"]
-    =
 
+    =
 :math:`\left\{\left\{4,6\right\},\left\{9,11\right\},\left\{15,17\right\},\left\{18,20\right\}\right\}`
 
 
 >>> StringPosition["123ABCxyABCzzzABCABC", "ABC", 2]
-    =
 
+    =
 :math:`\left\{\left\{4,6\right\},\left\{9,11\right\}\right\}`
 
 
@@ -39,8 +39,8 @@ StringPosition
 
 
 >>> StringPosition[data, "uranium"]
-    =
 
+    =
 :math:`\left\{\left\{299,305\right\},\left\{870,876\right\},\left\{1538,1544\right\},\left\{1671,1677\right\},\left\{2300,2306\right\},\left\{2784,2790\right\},\left\{3093,3099\right\}\right\}`
 
 

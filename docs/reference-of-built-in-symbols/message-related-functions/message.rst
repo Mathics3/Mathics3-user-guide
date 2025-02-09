@@ -13,8 +13,8 @@ Message
 
 
 >>> a::b = "Hello world!"
-    =
 
+    =
 :math:`\text{Hello world!}`
 
 

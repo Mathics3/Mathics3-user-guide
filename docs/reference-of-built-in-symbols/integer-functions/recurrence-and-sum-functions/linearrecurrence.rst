@@ -20,8 +20,8 @@ LinearRecurrence
 Generate first 10 items of the Fibonacci Sequence, :code:`F` [0]=1, :code:`F` [1]=1:
 
 >>> LinearRecurrence[{1, 1}, {1, 1}, 10]
-    =
 
+    =
 :math:`\left\{1,1,2,3,5,8,13,21,34,55\right\}`
 
 
@@ -29,8 +29,8 @@ Generate first 10 items of the Fibonacci Sequence, :code:`F` [0]=1, :code:`F` [1
 Extract the 3rd to 5th elements:
 
 >>> LinearRecurrence[{1, 1}, {1, 1}, {3, 5}]
-    =
 
+    =
 :math:`\left\{2,3,5\right\}`
 
 
@@ -38,8 +38,8 @@ Extract the 3rd to 5th elements:
 Now just the 6th element:
 
 >>> LinearRecurrence[{1, 1}, {1, 1}, {6}]
-    =
 
+    =
 :math:`8`
 
 

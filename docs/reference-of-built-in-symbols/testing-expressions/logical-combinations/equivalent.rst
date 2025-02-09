@@ -16,8 +16,8 @@ Equivalent
 
 
 >>> Equivalent[True, True, False]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -25,8 +25,8 @@ Equivalent
 If all expressions do not evaluate to :code:`True`  or :code:`False` , :code:`Equivalent`      returns a result in symbolic form:
 
 >>> Equivalent[a, b, c]
-    =
 
+    =
 :math:`a\text{$\backslash$[Equivalent]}b\text{$\backslash$[Equivalent]}c`
 
 
@@ -34,8 +34,8 @@ If all expressions do not evaluate to :code:`True`  or :code:`False` , :code:`Eq
 Otherwise, :code:`Equivalent`  returns a result in DNF
 
 >>> Equivalent[a, b, True, c]
-    =
 
+    =
 :math:`a\text{\&\&}b\text{\&\&}c`
 
 

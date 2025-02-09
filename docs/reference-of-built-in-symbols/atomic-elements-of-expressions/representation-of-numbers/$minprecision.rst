@@ -12,8 +12,8 @@ $MinPrecision
 
 
 >>> $MinPrecision
-    =
 
+    =
 :math:`0`
 
 
@@ -23,8 +23,8 @@ $MinPrecision
 >>> N[Pi, 9]
 
     N::precsm Requested precision 9 is smaller than $MinPrecision. Using current $MinPrecision of 10. instead.
-    =
 
+    =
 :math:`3.141592654`
 
 

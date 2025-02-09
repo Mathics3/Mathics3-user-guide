@@ -12,14 +12,14 @@ RightUpTeeVector
 
 
 >>> RightUpTeeVector[x, y, z]
-    =
 
+    =
 :math:`x \underline{\upharpoonright} y \underline{\upharpoonright} z`
 
 
 >>> a \[RightUpTeeVector] b
-    =
 
+    =
 :math:`a \underline{\upharpoonright} b`
 
 

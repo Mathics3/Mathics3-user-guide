@@ -15,8 +15,8 @@ SetAttributes
 
 
 >>> Attributes[f]
-    =
 
+    =
 :math:`\left\{\text{Flat}\right\}`
 
 
@@ -27,8 +27,8 @@ Multiple attributes can be set at the same time using lists:
 
 
 >>> Attributes[g]
-    =
 
+    =
 :math:`\left\{\text{Flat},\text{Orderless}\right\}`
 
 

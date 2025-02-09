@@ -12,8 +12,8 @@ Together
 
 
 >>> Together[a / c + b / c]
-    =
 
+    =
 :math:`\frac{a+b}{c}`
 
 
@@ -21,8 +21,8 @@ Together
 :code:`Together`  operates on lists:
 
 >>> Together[{x / (y+1) + x / (y+1)^2}]
-    =
 
+    =
 :math:`\left\{\frac{x \left(2+y\right)}{\left(1+y\right)^2}\right\}`
 
 
@@ -30,8 +30,8 @@ Together
 But it does not touch other functions:
 
 >>> Together[f[a / c + b / c]]
-    =
 
+    =
 :math:`f\left[\frac{a}{c}+\frac{b}{c}\right]`
 
 

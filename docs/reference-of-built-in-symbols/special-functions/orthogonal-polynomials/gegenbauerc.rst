@@ -12,14 +12,14 @@ GegenbauerC
 
 
 >>> GegenbauerC[6, 1, x]
-    =
 
+    =
 :math:`-1+24 x^2-80 x^4+64 x^6`
 
 
 >>> GegenbauerC[4 - I, 1 + 2 I, 0.7]
-    =
 
+    =
 :math:`-3.2621-24.9739 I`
 
 

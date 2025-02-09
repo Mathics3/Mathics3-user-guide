@@ -12,14 +12,14 @@ NotTilde
 
 
 >>> NotTilde[x, y, z]
-    =
 
+    =
 :math:`x \not{\sim} y \not{\sim} z`
 
 
 >>> a \[NotTilde] b
-    =
 
+    =
 :math:`a \not{\sim} b`
 
 

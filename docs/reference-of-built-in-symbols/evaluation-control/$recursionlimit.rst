@@ -16,14 +16,14 @@ Calculations terminated by :code:`$RecursionLimit`  return :code:`$Aborted` :
 >>> a = a + a
 
     $RecursionLimit::reclim Recursion depth of 200 exceeded.
-    =
 
+    =
 :math:`\text{\$Aborted}`
 
 
 >>> $RecursionLimit
-    =
 
+    =
 :math:`200`
 
 
@@ -33,16 +33,16 @@ Calculations terminated by :code:`$RecursionLimit`  return :code:`$Aborted` :
 
 
 >>> $RecursionLimit = 512
-    =
 
+    =
 :math:`512`
 
 
 >>> a = a + a
 
     $RecursionLimit::reclim Recursion depth of 512 exceeded.
-    =
 
+    =
 :math:`\text{\$Aborted}`
 
 

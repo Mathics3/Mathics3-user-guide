@@ -15,8 +15,8 @@ Rationalize
 
 
 >>> Rationalize[2.2]
-    =
 
+    =
 :math:`\frac{11}{5}`
 
 
@@ -24,8 +24,8 @@ Rationalize
 For negative :math:`x`, :code:`-Rationalize[-:math:`x`] == Rationalize[:math:`x`]`  which     gives symmetric results:
 
 >>> Rationalize[-11.5, 1]
-    =
 
+    =
 :math:`-11`
 
 
@@ -33,8 +33,8 @@ For negative :math:`x`, :code:`-Rationalize[-:math:`x`] == Rationalize[:math:`x`
 Not all numbers can be well approximated.
 
 >>> Rationalize[N[Pi]]
-    =
 
+    =
 :math:`3.14159`
 
 
@@ -42,8 +42,8 @@ Not all numbers can be well approximated.
 Find the exact rational representation of :code:`N[Pi]` 
 
 >>> Rationalize[N[Pi], 0]
-    =
 
+    =
 :math:`\frac{245850922}{78256779}`
 
 

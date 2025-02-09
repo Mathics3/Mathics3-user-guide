@@ -12,17 +12,17 @@ DeleteDirectory
 
 
 >>> dir = CreateDirectory[]
-    =
 
-:math:`\text{/tmp/mva6xkff0}`
+    =
+:math:`\text{/tmp/mbx4k8w\_h}`
 
 
 >>> DeleteDirectory[dir]
 
 
 >>> DirectoryQ[dir]
-    =
 
+    =
 :math:`\text{False}`
 
 

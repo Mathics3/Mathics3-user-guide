@@ -12,8 +12,8 @@ EllipticF
 
 
 >>> EllipticF[0.3, 0.8]
-    =
 
+    =
 :math:`0.303652`
 
 
@@ -21,8 +21,8 @@ EllipticF
 EllipticF is zero when the first argument is zero:
 
 >>> EllipticF[0, 0.8]
-    =
 
+    =
 :math:`0`
 
 

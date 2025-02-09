@@ -12,14 +12,14 @@ CircleTimes
 
 
 >>> CircleTimes[x, y, z]
-    =
 
+    =
 :math:`x \otimes y \otimes z`
 
 
 >>> a \[CircleTimes] b
-    =
 
+    =
 :math:`a \otimes b`
 
 

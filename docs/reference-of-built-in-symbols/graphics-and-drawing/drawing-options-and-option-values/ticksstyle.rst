@@ -23,9 +23,9 @@ TicksStyle
 
 
 >>> Graphics[Circle[], Axes-> True, TicksStyle -> {Blue, Red}]
-    =
 
-.. image:: tmpw2m0mp6a.png
+    =
+.. image:: tmp7wty2dse.png
     :align: center
 
 

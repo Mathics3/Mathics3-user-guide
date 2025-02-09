@@ -12,8 +12,8 @@ ResetDirectory
 
 
 >>> ResetDirectory[]
-    =
 
+    =
 :math:`\text{/home/mauricio/Projects/mathics-core/mathics/autoload}`
 
 

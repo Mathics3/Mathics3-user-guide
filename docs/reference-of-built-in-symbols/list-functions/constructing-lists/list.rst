@@ -17,8 +17,8 @@ List
 :code:`List`  is the head of lists:
 
 >>> Head[{1, 2, 3}]
-    =
 
+    =
 :math:`\text{List}`
 
 
@@ -26,8 +26,8 @@ List
 Lists can be nested:
 
 >>> {{a, b, {c, d}}}
-    =
 
+    =
 :math:`\left\{\left\{a,b,\left\{c,d\right\}\right\}\right\}`
 
 

@@ -12,14 +12,14 @@ Coproduct
 
 
 >>> Coproduct[x, y, z]
-    =
 
+    =
 :math:`x \coprod y \coprod z`
 
 
 >>> a \[Coproduct] b
-    =
 
+    =
 :math:`a \coprod b`
 
 

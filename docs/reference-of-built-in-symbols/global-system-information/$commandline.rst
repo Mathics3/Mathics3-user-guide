@@ -11,8 +11,8 @@ $CommandLine
 
 
 >>> $CommandLine
-    =
 
-:math:`\left\{\text{mathics/docpipeline.py},\text{--output},\text{--keep-going},\text{--load-module},\text{pymathics.graph,pymathics.natlang}\right\}`
+    =
+:math:`\left\{\text{/home/mauricio/Projects/mathics-core/mathics/docpipeline.py},\text{--output},\text{--load-module},\text{pymathics.trepan,pymathics.graph,pymathics.natlang}\right\}`
 
 

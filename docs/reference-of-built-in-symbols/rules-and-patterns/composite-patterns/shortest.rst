@@ -12,14 +12,14 @@ Shortest
 
 
 >>> StringCases["aabaaab", Shortest["a" ~~ __ ~~ "b"]]
-    =
 
+    =
 :math:`\left\{\text{aab},\text{aaab}\right\}`
 
 
 >>> StringCases["aabaaab", Shortest[RegularExpression["a+b"]]]
-    =
 
+    =
 :math:`\left\{\text{aab},\text{aaab}\right\}`
 
 

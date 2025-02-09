@@ -12,14 +12,29 @@ EdgeDetect
 
 
 >>> hedy = Import["ExampleData/hedy.tif"];
-    = `
+
 
 >>> EdgeDetect[hedy]
-    = -Image-`
+
+    =
+.. image:: tmpc1543oqz.png
+    :align: center
+
+
 
 >>> EdgeDetect[hedy, 5]
-    = -Image-`
+
+    =
+.. image:: tmphy16b_0j.png
+    :align: center
+
+
 
 >>> EdgeDetect[hedy, 4, 0.5]
-    = -Image-`
+
+    =
+.. image:: tmpxo91dr6g.png
+    :align: center
+
+
 

@@ -19,14 +19,14 @@ Apply
 
 
 >>> f @@ {1, 2, 3}
-    =
 
+    =
 :math:`f\left[1,2,3\right]`
 
 
 >>> Plus @@ {1, 2, 3}
-    =
 
+    =
 :math:`6`
 
 
@@ -34,8 +34,8 @@ Apply
 The head of :math:`expr` need not be :code:`List` :
 
 >>> f @@ (a + b + c)
-    =
 
+    =
 :math:`f\left[a,b,c\right]`
 
 
@@ -43,8 +43,8 @@ The head of :math:`expr` need not be :code:`List` :
 Apply on level 1:
 
 >>> Apply[f, {a + b, g[c, d, e * f], 3}, {1}]
-    =
 
+    =
 :math:`\left\{f\left[a,b\right],f\left[c,d,e f\right],3\right\}`
 
 
@@ -52,8 +52,8 @@ Apply on level 1:
 The default level is 0:
 
 >>> Apply[f, {a, b, c}, {0}]
-    =
 
+    =
 :math:`f\left[a,b,c\right]`
 
 
@@ -61,8 +61,8 @@ The default level is 0:
 Range of levels, including negative level (counting from bottom):
 
 >>> Apply[f, {{{{{a}}}}}, {2, -3}]
-    =
 
+    =
 :math:`\left\{\left\{f\left[f\left[\left\{a\right\}\right]\right]\right\}\right\}`
 
 
@@ -70,8 +70,8 @@ Range of levels, including negative level (counting from bottom):
 Convert all operations to lists:
 
 >>> Apply[List, a + b * c ^ e * f[g], {0, Infinity}]
-    =
 
+    =
 :math:`\left\{a,\left\{b,\left\{g\right\},\left\{c,e\right\}\right\}\right\}`
 
 

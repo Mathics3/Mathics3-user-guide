@@ -12,8 +12,8 @@ FactorInteger
 
 
 >>> factors = FactorInteger[2010]
-    =
 
+    =
 :math:`\left\{\left\{2,1\right\},\left\{3,1\right\},\left\{5,1\right\},\left\{67,1\right\}\right\}`
 
 
@@ -21,8 +21,8 @@ FactorInteger
 To get back the original number:
 
 >>> Times @@ Power @@@ factors
-    =
 
+    =
 :math:`2010`
 
 
@@ -30,8 +30,8 @@ To get back the original number:
 :code:`FactorInteger`  factors rationals using negative exponents:
 
 >>> FactorInteger[2010 / 2011]
-    =
 
+    =
 :math:`\left\{\left\{2,1\right\},\left\{3,1\right\},\left\{5,1\right\},\left\{67,1\right\},\left\{2011,-1\right\}\right\}`
 
 

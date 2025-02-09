@@ -31,20 +31,20 @@ Both scoping constructs shield inner variables from affecting outer ones:
 
 
 >>> Module[{t}, t = 2]
-    =
 
+    =
 :math:`2`
 
 
 >>> Block[{t}, t = 2]
-    =
 
+    =
 :math:`2`
 
 
 >>> t
-    =
 
+    =
 :math:`3`
 
 
@@ -55,8 +55,8 @@ Both scoping constructs shield inner variables from affecting outer ones:
 
 
 >>> Module[{x = 2}, x * y]
-    =
 
+    =
 :math:`2 x^3`
 
 
@@ -64,8 +64,8 @@ Both scoping constructs shield inner variables from affecting outer ones:
 :code:`Block`  does not:
 
 >>> Block[{x = 2}, x * y]
-    =
 
+    =
 :math:`16`
 
 
@@ -76,14 +76,14 @@ Thus, :code:`Block`  can be used to temporarily assign a value to a variable:
 
 
 >>> Block[{x = 3}, expr]
-    =
 
+    =
 :math:`12`
 
 
 >>> x
-    =
 
+    =
 :math:`x`
 
 
@@ -93,16 +93,16 @@ Thus, :code:`Block`  can be used to temporarily assign a value to a variable:
 >>> Block[{$RecursionLimit = 30}, x = 2 x]
 
     $RecursionLimit::reclim Recursion depth of 30 exceeded.
-    =
 
+    =
 :math:`\text{\$Aborted}`
 
 
 >>> f[x_] := f[x + 1]; Block[{$IterationLimit = 30}, f[1]]
 
     $IterationLimit::itlim Iteration limit of 30 exceeded.
-    =
 
+    =
 :math:`\text{\$Aborted}`
 
 
@@ -113,14 +113,14 @@ It is common to use scoping constructs for function definitions with local varia
 
 
 >>> fac[10]
-    =
 
+    =
 :math:`3628800`
 
 
 >>> 10!
-    =
 
+    =
 :math:`3628800`
 
 

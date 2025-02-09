@@ -15,14 +15,14 @@ Normalize
 
 
 >>> Normalize[{1, 1, 1, 1}]
-    =
 
+    =
 :math:`\left\{\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2}\right\}`
 
 
 >>> Normalize[1 + I]
-    =
 
+    =
 :math:`\left(\frac{1}{2}+\frac{I}{2}\right) \sqrt{2}`
 
 

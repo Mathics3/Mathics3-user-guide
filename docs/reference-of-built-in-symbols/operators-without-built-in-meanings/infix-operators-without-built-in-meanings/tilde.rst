@@ -12,14 +12,14 @@ Tilde
 
 
 >>> Tilde[x, y, z]
-    =
 
+    =
 :math:`x \sim y \sim z`
 
 
 >>> a \[Tilde] b
-    =
 
+    =
 :math:`a \sim b`
 
 

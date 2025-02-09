@@ -18,14 +18,14 @@ NoneTrue
 
 
 >>> NoneTrue[{1, 3, 5}, EvenQ]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> NoneTrue[{1, 4, 5}, EvenQ]
-    =
 
+    =
 :math:`\text{False}`
 
 

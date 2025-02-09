@@ -15,27 +15,27 @@ KelvinKer
 
 
 >>> KelvinKer[0.5]
-    =
 
+    =
 :math:`0.855906`
 
 
 >>> KelvinKer[1.5 + I]
-    =
 
+    =
 :math:`-0.167162-0.184404 I`
 
 
 >>> KelvinKer[0.5, 0.25]
-    =
 
+    =
 :math:`0.450023`
 
 
 >>> Plot[KelvinKer[x], {x, 0, 10}]
-    =
 
-.. image:: tmp12ipxsh_.png
+    =
+.. image:: tmppv6x8aw_.png
     :align: center
 
 

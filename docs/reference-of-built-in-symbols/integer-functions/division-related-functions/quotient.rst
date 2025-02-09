@@ -12,8 +12,8 @@ Quotient
 
 
 >>> Quotient[23, 7]
-    =
 
+    =
 :math:`3`
 
 

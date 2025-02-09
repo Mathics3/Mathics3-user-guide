@@ -10,8 +10,8 @@ $OutputForms
 
 
 >>> $OutputForms
-    =
 
-:math:`\left\{\text{FullForm},\text{PythonForm},\text{TraditionalForm},\text{TableForm},\text{InputForm},\text{TeXForm},\text{MathMLForm},\text{MatrixForm},\text{StandardForm},\text{SympyForm},\text{BaseForm},\text{OutputForm},\text{MyForm}\right\}`
+    =
+:math:`\left\{\text{MathMLForm},\text{MatrixForm},\text{SympyForm},\text{BaseForm},\text{TraditionalForm},\text{TableForm},\text{InputForm},\text{PythonForm},\text{FullForm},\text{StandardForm},\text{TeXForm},\text{OutputForm},\text{MyForm}\right\}`
 
 

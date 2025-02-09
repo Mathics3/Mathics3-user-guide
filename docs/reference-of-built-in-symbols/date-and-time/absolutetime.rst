@@ -21,32 +21,32 @@ AbsoluteTime
 
 
 >>> AbsoluteTime[]
-    =
 
-:math:`3.94802\text{*${}^{\wedge}$}9`
+    =
+:math:`3.94805\text{*${}^{\wedge}$}9`
 
 
 >>> AbsoluteTime[{2000}]
-    =
 
+    =
 :math:`3155673600`
 
 
 >>> AbsoluteTime[{"01/02/03", {"Day", "Month", "YearShort"}}]
-    =
 
+    =
 :math:`3253046400`
 
 
 >>> AbsoluteTime["6 June 1991"]
-    =
 
+    =
 :math:`2885155200`
 
 
 >>> AbsoluteTime[{"6-6-91", {"Day", "Month", "YearShort"}}]
-    =
 
+    =
 :math:`2885155200`
 
 

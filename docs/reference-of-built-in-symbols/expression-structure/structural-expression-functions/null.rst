@@ -12,8 +12,8 @@ Null
 
 
 >>> FullForm[a:=b]
-    =
 
+    =
 :math:`\text{Null}`
 
 
@@ -27,8 +27,8 @@ It is not displayed in StandardForm,
 in contrast to the empty string:
 
 >>> ""
-    =
 
+    =
 :math:`\text{}`
 
 

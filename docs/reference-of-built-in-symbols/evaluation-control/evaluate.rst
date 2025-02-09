@@ -18,8 +18,8 @@ Create a function :math:`f` with a held argument:
 
 
 >>> f[1 + 2]
-    =
 
+    =
 :math:`f\left[1+2\right]`
 
 
@@ -28,26 +28,26 @@ Create a function :math:`f` with a held argument:
 the :code:`HoldAll`  attribute:
 
 >>> f[Evaluate[1 + 2]]
-    =
 
+    =
 :math:`f\left[3\right]`
 
 
 >>> Hold[Evaluate[1 + 2]]
-    =
 
+    =
 :math:`\text{Hold}\left[3\right]`
 
 
 >>> HoldComplete[Evaluate[1 + 2]]
-    =
 
+    =
 :math:`\text{HoldComplete}\left[\text{Evaluate}\left[1+2\right]\right]`
 
 
 >>> Evaluate[Sequence[1, 2]]
-    =
 
+    =
 :math:`\text{Sequence}\left[1,2\right]`
 
 

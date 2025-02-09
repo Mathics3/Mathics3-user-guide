@@ -12,14 +12,14 @@ GCD
 
 
 >>> GCD[20, 30]
-    =
 
+    =
 :math:`10`
 
 
 >>> GCD[10, y]
-    =
 
+    =
 :math:`\text{GCD}\left[10,y\right]`
 
 
@@ -27,8 +27,8 @@ GCD
 :code:`GCD`  is :code:`Listable` :
 
 >>> GCD[4, {10, 11, 12, 13, 14}]
-    =
 
+    =
 :math:`\left\{2,1,4,1,2\right\}`
 
 

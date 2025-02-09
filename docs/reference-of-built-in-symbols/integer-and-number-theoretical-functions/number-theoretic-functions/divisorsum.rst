@@ -12,14 +12,14 @@ DivisorSum
 
 
 >>> DivisorSum[20, # &]
-    =
 
+    =
 :math:`42`
 
 
 >>> DivisorSum[20, #^2 &]
-    =
 
+    =
 :math:`546`
 
 

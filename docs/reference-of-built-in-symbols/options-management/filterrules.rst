@@ -15,14 +15,14 @@ FilterRules
 
 
 >>> FilterRules[{x -> 100, y -> 1000}, x]
-    =
 
+    =
 :math:`\left\{x->100\right\}`
 
 
 >>> FilterRules[{x -> 100, y -> 1000, z -> 10000}, {a, b, x, z}]
-    =
 
+    =
 :math:`\left\{x->100,z->10000\right\}`
 
 

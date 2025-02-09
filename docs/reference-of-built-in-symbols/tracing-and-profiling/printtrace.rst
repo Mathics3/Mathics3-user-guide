@@ -32,8 +32,8 @@ list.
 
 
 >>> $TraceBuiltins = True
-    =
 
+    =
 :math:`\text{True}`
 
 

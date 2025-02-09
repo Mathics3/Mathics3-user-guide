@@ -12,8 +12,8 @@ FileNameSplit
 
 
 >>> FileNameSplit["example/path/file.txt"]
-    =
 
+    =
 :math:`\left\{\text{example},\text{path},\text{file.txt}\right\}`
 
 

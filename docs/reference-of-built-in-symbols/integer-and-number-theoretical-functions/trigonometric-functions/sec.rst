@@ -12,20 +12,20 @@ Sec
 
 
 >>> Sec[0]
-    =
 
+    =
 :math:`1`
 
 
 >>> Sec[1] (* Sec[1] in Mathematica *)
-    =
 
+    =
 :math:`\frac{1}{\text{Cos}\left[1\right]}`
 
 
 >>> Sec[1.]
-    =
 
+    =
 :math:`1.85082`
 
 

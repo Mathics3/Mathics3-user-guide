@@ -13,20 +13,20 @@ InexactNumberQ
 
 
 >>> InexactNumberQ[a]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> InexactNumberQ[3.0]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> InexactNumberQ[2/3]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -34,8 +34,8 @@ InexactNumberQ
 :code:`InexactNumberQ`  is :code:`True`  for complex numbers:
 
 >>> InexactNumberQ[4.0+I]
-    =
 
+    =
 :math:`\text{True}`
 
 

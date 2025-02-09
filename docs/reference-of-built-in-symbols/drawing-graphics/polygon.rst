@@ -17,9 +17,9 @@ Polygon
 A Right Triangle:
 
 >>> Graphics[Polygon[{{1,0},{0,0},{0,1}}]]
-    =
 
-.. image:: tmpqg122081.png
+    =
+.. image:: tmp3rbq3lr7.png
     :align: center
 
 
@@ -30,17 +30,17 @@ Notice that there is a line connecting from the last point to the first one.
 A point is an element of the polygon if a ray from the point in any direction in     the plane crosses the boundary line segments an odd number of times.
 
 >>> Graphics[Polygon[{{150,0},{121,90},{198,35},{102,35},{179,90}}]]
-    =
 
-.. image:: tmpi_apmr1u.png
+    =
+.. image:: tmpultl_57p.png
     :align: center
 
 
 
 >>> Graphics3D[Polygon[{{0,0,0},{0,1,1},{1,0,0}}]]
-    =
 
-.. image:: tmp50wor60b.png
+    =
+.. image:: tmpobzt1s3_.png
     :align: center
 
 

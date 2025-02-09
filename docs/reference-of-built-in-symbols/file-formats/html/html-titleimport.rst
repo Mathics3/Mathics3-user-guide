@@ -10,5 +10,8 @@ HTML`TitleImport
 
 
 >>> Import["ExampleData/PrimeMeridian.html", "Title"]
-    = Prime meridian - Wikipedia`
+
+    =
+:math:`\text{Prime meridian - Wikipedia}`
+
 

@@ -12,14 +12,14 @@ ConstantArray
 
 
 >>> ConstantArray[a, 3]
-    =
 
+    =
 :math:`\left\{a,a,a\right\}`
 
 
 >>> ConstantArray[a, {2, 3}]
-    =
 
+    =
 :math:`\left\{\left\{a,a,a\right\},\left\{a,a,a\right\}\right\}`
 
 

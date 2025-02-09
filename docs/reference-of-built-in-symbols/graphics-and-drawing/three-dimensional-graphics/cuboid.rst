@@ -23,25 +23,25 @@ Cuboid also known as interval, rectangle, square, cube, rectangular parallelepip
 
 
 >>> Graphics3D[Cuboid[{0, 0, 1}]]
-    =
 
-.. image:: tmplvyhnfdp.png
+    =
+.. image:: tmp05uch5nk.png
     :align: center
 
 
 
 >>> Graphics3D[{Red, Cuboid[{{0, 0, 0}, {1, 1, 0.5}}], Blue, Cuboid[{{0.25, 0.25, 0.5}, {0.75, 0.75, 1}}]}]
-    =
 
-.. image:: tmpl5yl_mks.png
+    =
+.. image:: tmpl9jg275j.png
     :align: center
 
 
 
 >>> Graphics[Cuboid[{0, 0}]]
-    =
 
-.. image:: tmpcmp6gluz.png
+    =
+.. image:: tmpskqh0ecl.png
     :align: center
 
 

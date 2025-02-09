@@ -11,8 +11,8 @@ JacobiSymbol
 
 
 >>> Table[JacobiSymbol[n, m], {n, 0, 10}, {m, 1, n, 2}]
-    =
 
+    =
 :math:`\left\{\left\{\right\},\left\{1\right\},\left\{1\right\},\left\{1,0\right\},\left\{1,1\right\},\left\{1,-1,0\right\},\left\{1,0,1\right\},\left\{1,1,-1,0\right\},\left\{1,-1,-1,1\right\},\left\{1,0,1,1,0\right\},\left\{1,1,0,-1,1\right\}\right\}`
 
 

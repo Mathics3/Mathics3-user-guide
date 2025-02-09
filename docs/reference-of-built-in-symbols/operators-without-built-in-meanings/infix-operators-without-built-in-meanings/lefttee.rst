@@ -12,14 +12,14 @@ LeftTee
 
 
 >>> LeftTee[x, y, z]
-    =
 
+    =
 :math:`x \dashv y \dashv z`
 
 
 >>> a \[LeftTee] b
-    =
 
+    =
 :math:`a \dashv b`
 
 

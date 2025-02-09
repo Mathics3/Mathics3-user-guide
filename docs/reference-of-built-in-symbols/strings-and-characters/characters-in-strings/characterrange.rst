@@ -12,14 +12,14 @@ CharacterRange
 
 
 >>> CharacterRange["a", "e"]
-    =
 
+    =
 :math:`\left\{\text{a},\text{b},\text{c},\text{d},\text{e}\right\}`
 
 
 >>> CharacterRange["b", "a"]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 

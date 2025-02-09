@@ -17,14 +17,14 @@ UpSet
 
 
 >>> DownValues[a]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
 >>> UpValues[b]
-    =
 
+    =
 :math:`\left\{\text{HoldPattern}\left[a\left[b\right]\right]\text{:>}3\right\}`
 
 
@@ -36,14 +36,14 @@ However, these values will not be saved in :code:`UpValues` :
 
 
 >>> r
-    =
 
+    =
 :math:`\text{custom}`
 
 
 >>> UpValues[r]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 

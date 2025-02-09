@@ -14,8 +14,8 @@ O
 
 
 >>> Series[1/(1-x),{x,0,2}]
-    =
 
+    =
 :math:`1+x+x^2+O\left[x\right]^3`
 
 
@@ -23,8 +23,8 @@ O
 When called alone, a `SeriesData` expression is built:
 
 >>> O[x] // FullForm
-    =
 
+    =
 :math:`\text{SeriesData}\left[x, 0, \left\{\right\}, 1, 1, 1\right]`
 
 

@@ -12,20 +12,20 @@ StandardForm
 
 
 >>> StandardForm[a + b * c]
-    =
 
+    =
 :math:`a+b c`
 
 
 >>> StandardForm["A string"]
-    =
 
+    =
 :math:`\text{A string}`
 
 
 >>> f'[x]
-    =
 
+    =
 :math:`f'\left[x\right]`
 
 

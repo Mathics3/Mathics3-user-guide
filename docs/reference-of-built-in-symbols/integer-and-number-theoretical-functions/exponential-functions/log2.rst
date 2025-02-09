@@ -12,20 +12,20 @@ Log2
 
 
 >>> Log2[4 ^ 8]
-    =
 
+    =
 :math:`16`
 
 
 >>> Log2[5.6]
-    =
 
+    =
 :math:`2.48543`
 
 
 >>> Log2[E ^ 2]
-    =
 
+    =
 :math:`\frac{2}{\text{Log}\left[2\right]}`
 
 

@@ -17,14 +17,14 @@ DeleteDuplicates
 
 
 >>> DeleteDuplicates[{1, 7, 8, 4, 3, 4, 1, 9, 9, 2, 1}]
-    =
 
+    =
 :math:`\left\{1,7,8,4,3,9,2\right\}`
 
 
 >>> DeleteDuplicates[{3,2,1,2,3,4}, Less]
-    =
 
+    =
 :math:`\left\{3,2,1\right\}`
 
 

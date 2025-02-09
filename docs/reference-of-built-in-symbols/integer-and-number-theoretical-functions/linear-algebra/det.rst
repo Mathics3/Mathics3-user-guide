@@ -12,8 +12,8 @@ Det
 
 
 >>> Det[{{1, 1, 0}, {1, 0, 1}, {0, 1, 1}}]
-    =
 
+    =
 :math:`-2`
 
 
@@ -21,8 +21,8 @@ Det
 Symbolic determinant:
 
 >>> Det[{{a, b, c}, {d, e, f}, {g, h, i}}]
-    =
 
+    =
 :math:`a e i-a f h-b d i+b f g+c d h-c e g`
 
 

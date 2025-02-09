@@ -14,8 +14,8 @@ Largest normalizable machine number (`WMA <https://reference.wolfram.com/languag
 The product of :code:`$MaxMachineNumber`  and  :code:`$MinMachineNumber`  is a constant:
 
 >>> $MaxMachineNumber * $MinMachineNumber
-    =
 
+    =
 :math:`4.`
 
 

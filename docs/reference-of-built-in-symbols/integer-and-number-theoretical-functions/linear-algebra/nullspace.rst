@@ -12,8 +12,8 @@ NullSpace
 
 
 >>> NullSpace[{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}]
-    =
 
+    =
 :math:`\left\{\left\{1,-2,1\right\}\right\}`
 
 
@@ -21,14 +21,14 @@ NullSpace
 
 
 >>> NullSpace[A]
-    =
 
+    =
 :math:`\left\{\right\}`
 
 
 >>> MatrixRank[A]
-    =
 
+    =
 :math:`3`
 
 

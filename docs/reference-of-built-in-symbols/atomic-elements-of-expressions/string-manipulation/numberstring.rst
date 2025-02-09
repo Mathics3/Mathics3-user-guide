@@ -11,20 +11,20 @@ NumberString
 
 
 >>> StringMatchQ["1234", NumberString]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> StringMatchQ["1234.5", NumberString]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> StringMatchQ["1.2`20", NumberString]
-    =
 
+    =
 :math:`\text{False}`
 
 

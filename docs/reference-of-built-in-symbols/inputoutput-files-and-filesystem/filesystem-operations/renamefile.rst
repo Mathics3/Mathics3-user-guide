@@ -12,14 +12,14 @@ RenameFile
 
 
 >>> CopyFile["ExampleData/sunflowers.jpg", "MathicsSunflowers.jpg"]
-    =
 
+    =
 :math:`\text{MathicsSunflowers.jpg}`
 
 
 >>> RenameFile["MathicsSunflowers.jpg", "MathicsSunnyFlowers.jpg"]
-    =
 
+    =
 :math:`\text{MathicsSunnyFlowers.jpg}`
 
 

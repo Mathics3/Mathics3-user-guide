@@ -17,8 +17,8 @@ Show symbolically how the Kronecker product works on two two-dimensional arrays:
 
 
 >>> KroneckerProduct[a, b]
-    =
 
+    =
 :math:`\left\{\left\{\text{a11} \text{b11},\text{a11} \text{b12},\text{a12} \text{b11},\text{a12} \text{b12}\right\},\left\{\text{a11} \text{b21},\text{a11} \text{b22},\text{a12} \text{b21},\text{a12} \text{b22}\right\},\left\{\text{a21} \text{b11},\text{a21} \text{b12},\text{a22} \text{b11},\text{a22} \text{b12}\right\},\left\{\text{a21} \text{b21},\text{a21} \text{b22},\text{a22} \text{b21},\text{a22} \text{b22}\right\}\right\}`
 
 
@@ -29,8 +29,8 @@ Now do the same with discrete values:
 
 
 >>> KroneckerProduct[a, b] // MatrixForm
-    =
 
+    =
 :math:`\left(\begin{array}{cccc} 0 & 0 & 1 & 2\\ 0 & 0 & 3 & 4\\ -1 & -2 & 0 & 0\\ -3 & -4 & 0 & 0\end{array}\right)`
 
 

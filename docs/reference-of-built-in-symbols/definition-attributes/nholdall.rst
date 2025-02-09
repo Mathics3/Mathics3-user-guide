@@ -12,8 +12,8 @@ NHoldAll
 
 
 >>> N[f[2, 3]]
-    =
 
+    =
 :math:`f\left[2.,3.\right]`
 
 
@@ -21,8 +21,8 @@ NHoldAll
 
 
 >>> N[f[2, 3]]
-    =
 
+    =
 :math:`f\left[2,3\right]`
 
 

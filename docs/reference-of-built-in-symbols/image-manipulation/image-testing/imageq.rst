@@ -12,17 +12,32 @@ ImageQ
 
 
 >>> ImageQ[Image[{{0, 1}, {1, 0}}]]
-    = True`
+
+    =
+:math:`\text{True}`
+
 
 >>> ImageQ[Image[{{{0, 0, 0}, {0, 1, 0}}, {{0, 1, 0}, {0, 1, 1}}}]]
-    = True`
+
+    =
+:math:`\text{True}`
+
 
 >>> ImageQ[Image[{{{0, 0, 0}, {0, 1}}, {{0, 1, 0}, {0, 1, 1}}}]]
-    = False`
+
+    =
+:math:`\text{False}`
+
 
 >>> ImageQ[Image[{1, 0, 1}]]
-    = False`
+
+    =
+:math:`\text{False}`
+
 
 >>> ImageQ["abc"]
-    = False`
+
+    =
+:math:`\text{False}`
+
 

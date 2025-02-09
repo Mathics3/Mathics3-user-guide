@@ -12,14 +12,14 @@ UpTee
 
 
 >>> UpTee[x, y, z]
-    =
 
+    =
 :math:`x \bot y \bot z`
 
 
 >>> a \[UpTee] b
-    =
 
+    =
 :math:`a \bot b`
 
 

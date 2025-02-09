@@ -12,20 +12,20 @@ FileType
 
 
 >>> FileType["ExampleData/sunflowers.jpg"]
-    =
 
+    =
 :math:`\text{File}`
 
 
 >>> FileType["ExampleData"]
-    =
 
+    =
 :math:`\text{Directory}`
 
 
 >>> FileType["ExampleData/nonexistent"]
-    =
 
+    =
 :math:`\text{None}`
 
 

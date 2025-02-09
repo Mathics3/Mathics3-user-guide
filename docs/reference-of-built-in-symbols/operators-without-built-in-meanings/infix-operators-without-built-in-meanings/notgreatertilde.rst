@@ -12,14 +12,14 @@ NotGreaterTilde
 
 
 >>> NotGreaterTilde[x, y, z]
-    =
 
+    =
 :math:`x \not{\gtrsim} y \not{\gtrsim} z`
 
 
 >>> a \[NotGreaterTilde] b
-    =
 
+    =
 :math:`a \not{\gtrsim} b`
 
 

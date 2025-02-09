@@ -12,8 +12,8 @@ ToLowerCase
 
 
 >>> ToLowerCase["New York"]
-    =
 
+    =
 :math:`\text{new york}`
 
 

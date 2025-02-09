@@ -14,8 +14,8 @@ DivisorSigma
 For reference, let us first get the integer divisors of 20:
 
 >>> Divisors[20]
-    =
 
+    =
 :math:`\left\{1,2,4,5,10,20\right\}`
 
 
@@ -23,8 +23,8 @@ For reference, let us first get the integer divisors of 20:
 The DivisorSigma function counts this sum:
 
 >>> DivisorSigma[1, 20]
-    =
 
+    =
 :math:`42`
 
 
@@ -32,8 +32,8 @@ The DivisorSigma function counts this sum:
 This is the same thing as:
 
 >>> DivisorSum[20, # &]
-    =
 
+    =
 :math:`42`
 
 
@@ -41,8 +41,8 @@ This is the same thing as:
 To get a sum of the second power of the factors of 20:
 
 >>> DivisorSigma[2, 20]
-    =
 
+    =
 :math:`546`
 
 
@@ -50,8 +50,8 @@ To get a sum of the second power of the factors of 20:
 Doing this with :code:`DivisorSum`  instead:
 
 >>> DivisorSum[20, #^2 &]
-    =
 
+    =
 :math:`546`
 
 

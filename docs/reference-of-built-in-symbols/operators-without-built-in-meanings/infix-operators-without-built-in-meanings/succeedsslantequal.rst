@@ -12,14 +12,14 @@ SucceedsSlantEqual
 
 
 >>> SucceedsSlantEqual[x, y, z]
-    =
 
+    =
 :math:`x \succeq y \succeq z`
 
 
 >>> a \[SucceedsSlantEqual] b
-    =
 
+    =
 :math:`a \succeq b`
 
 

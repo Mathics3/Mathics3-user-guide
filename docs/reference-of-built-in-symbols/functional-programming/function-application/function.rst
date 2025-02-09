@@ -24,20 +24,29 @@ Function
 
 
 >>> f[3]
-    = 9`
+
+    =
+:math:`9`
+
 
 >>> #^3& /@ {1, 2, 3}
-    = {1, 8, 27}`
+
+    =
+:math:`\left\{1,8,27\right\}`
+
 
 >>> #1+#2&[4, 5]
-    = 9`
+
+    =
+:math:`9`
+
 
 
 You can use :code:`Function`  with named parameters:
 
 >>> Function[{x, y}, x * y][2, 3]
-    =
 
+    =
 :math:`6`
 
 
@@ -45,26 +54,26 @@ You can use :code:`Function`  with named parameters:
 Parameters are renamed, when necessary, to avoid confusion:
 
 >>> Function[{x}, Function[{y}, f[x, y]]][y]
-    =
 
+    =
 :math:`\text{Function}\left[\left\{\text{y\$}\right\},f\left[y,\text{y\$}\right]\right]`
 
 
 >>> Function[{y}, f[x, y]] /. x->y
-    =
 
+    =
 :math:`\text{Function}\left[\left\{y\right\},f\left[y,y\right]\right]`
 
 
 >>> Function[y, Function[x, y^x]][x][y]
-    =
 
+    =
 :math:`x^y`
 
 
 >>> Function[x, Function[y, x^y]][x][y]
-    =
 
+    =
 :math:`x^y`
 
 
@@ -72,8 +81,8 @@ Parameters are renamed, when necessary, to avoid confusion:
 Slots in inner functions are not affected by outer function application:
 
 >>> g[#] & [h[#]] & [5]
-    =
 
+    =
 :math:`g\left[h\left[5\right]\right]`
 
 
@@ -88,8 +97,8 @@ or:
 
 
 >>> h[1 + 1]
-    =
 
+    =
 :math:`\text{Hold}\left[1+2\right]`
 
 
@@ -100,8 +109,8 @@ Notice that :math:`Hold` in the body prevents the evaluation of :math:`1+x`, but
 
 
 >>> h[1+1]
-    =
 
+    =
 :math:`\text{Hold}\left[1+\left(1+1\right)\right]`
 
 

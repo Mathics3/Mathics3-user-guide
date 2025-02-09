@@ -27,14 +27,14 @@ Compute the factorial of 10 using :code:`For` :
 
 
 >>> n
-    =
 
+    =
 :math:`3628800`
 
 
 >>> n == 10!
-    =
 
+    =
 :math:`\text{True}`
 
 

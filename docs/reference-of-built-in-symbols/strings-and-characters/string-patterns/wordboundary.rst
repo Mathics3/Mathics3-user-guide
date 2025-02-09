@@ -12,8 +12,8 @@ WordBoundary
 
 
 >>> StringReplace["apple banana orange artichoke", "e" ~~ WordBoundary -> "E"]
-    =
 
+    =
 :math:`\text{applE banana orangE artichokE}`
 
 

@@ -12,14 +12,14 @@ CenterDot
 
 
 >>> CenterDot[x, y, z]
-    =
 
+    =
 :math:`x \cdot y \cdot z`
 
 
 >>> a \[CenterDot] b
-    =
 
+    =
 :math:`a \cdot b`
 
 

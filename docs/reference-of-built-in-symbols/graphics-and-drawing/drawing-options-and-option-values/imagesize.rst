@@ -24,9 +24,9 @@ Tiny, Small, Medium, Large
 
 
 >>> Plot[Sin[x], {x, 0, 10}, ImageSize -> Small]
-    =
 
-.. image:: tmp8_5xr71u.png
+    =
+.. image:: tmpamk8cy3r.png
     :align: center
 
 

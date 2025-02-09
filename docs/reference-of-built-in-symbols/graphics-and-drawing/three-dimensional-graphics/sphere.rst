@@ -18,17 +18,17 @@ Sphere
 
 
 >>> Graphics3D[Sphere[{0, 0, 0}, 1]]
-    =
 
-.. image:: tmpdsnstykp.png
+    =
+.. image:: tmps5gtl42n.png
     :align: center
 
 
 
 >>> Graphics3D[{Yellow, Sphere[{{-1, 0, 0}, {1, 0, 0}, {0, 0, Sqrt[3.]}}, 1]}]
-    =
 
-.. image:: tmpn4lllxka.png
+    =
+.. image:: tmpyza_yq8j.png
     :align: center
 
 

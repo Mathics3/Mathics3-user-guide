@@ -12,14 +12,14 @@ OutputForm
 
 
 >>> OutputForm[f'[x]]
-    =
 
+    =
 :math:`f'\left[x\right]`
 
 
 >>> OutputForm[Derivative[1, 0][f][x]]
-    =
 
+    =
 :math:`\text{Derivative}\left[1, 0\right]\left[f\right]\left[x\right]`
 
 
@@ -27,21 +27,21 @@ OutputForm
 :code:`OutputForm`  is used by default:
 
 >>> OutputForm[{"A string", a + b}]
-    =
 
+    =
 :math:`\left\{\text{A string}, a\text{ + }b\right\}`
 
 
 >>> {"A string", a + b}
-    =
 
+    =
 :math:`\left\{\text{A string},a+b\right\}`
 
 
 >>> OutputForm[Graphics[Rectangle[]]]
-    =
 
-.. image:: tmpw_qu414_.png
+    =
+.. image:: tmpkxjrl95x.png
     :align: center
 
 

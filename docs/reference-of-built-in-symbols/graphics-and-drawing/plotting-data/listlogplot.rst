@@ -19,9 +19,9 @@ ListLogPlot
 Plotting table of Fibonacci numbers:
 
 >>> ListLogPlot[Table[Fibonacci[n], {n, 10}]]
-    =
 
-.. image:: tmp0v_82n78.png
+    =
+.. image:: tmp_e6iy2tc.png
     :align: center
 
 
@@ -30,9 +30,9 @@ Plotting table of Fibonacci numbers:
 we see that Fibonacci numbers grow exponentially. So when     plotted using on a log scale the result fits     points of a sloped line.
 
 >>> ListLogPlot[Table[n!, {n, 10}], Joined -> True]
-    =
 
-.. image:: tmpud43eh00.png
+    =
+.. image:: tmpgrnt9ccm.png
     :align: center
 
 

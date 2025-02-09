@@ -16,20 +16,20 @@ ReleaseHold
 
 
 >>> Hold[x]
-    =
 
+    =
 :math:`\text{Hold}\left[x\right]`
 
 
 >>> ReleaseHold[Hold[x]]
-    =
 
+    =
 :math:`3`
 
 
 >>> ReleaseHold[y]
-    =
 
+    =
 :math:`y`
 
 

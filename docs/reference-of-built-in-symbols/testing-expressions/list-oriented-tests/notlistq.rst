@@ -20,8 +20,8 @@ Consider this definition for taking the deriviate :code:`Sin`  of a function:
 We use "MyD" above to distinguish it from the Builtin :code:`D` . Now let's try it:
 
 >>> MyD[Sin[2 x], x]
-    =
 
+    =
 :math:`2 \text{Cos}\left[2 x\right]`
 
 
@@ -29,8 +29,8 @@ We use "MyD" above to distinguish it from the Builtin :code:`D` . Now let's try 
 And compare it with the Builtin deriviative function :code:`D` :
 
 >>> D[Sin[2 x], x]
-    =
 
+    =
 :math:`2 \text{Cos}\left[2 x\right]`
 
 
@@ -38,8 +38,8 @@ And compare it with the Builtin deriviative function :code:`D` :
 Note however the pattern only matches if the :math:`x` parameter is not a list:
 
 >>> MyD[{Sin[2], Sin[4]}, {1, 2}]
-    =
 
+    =
 :math:`\text{MyD}\left[\left\{\text{Sin}\left[2\right],\text{Sin}\left[4\right]\right\},\left\{1,2\right\}\right]`
 
 

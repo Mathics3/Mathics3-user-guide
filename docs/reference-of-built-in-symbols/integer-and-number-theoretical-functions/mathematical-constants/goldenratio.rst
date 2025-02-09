@@ -12,14 +12,14 @@ GoldenRatio
 
 
 >>> GoldenRatio // N
-    =
 
+    =
 :math:`1.61803`
 
 
 >>> N[GoldenRatio, 40]
-    =
 
+    =
 :math:`1.618033988749894848204586834365638117720`
 
 

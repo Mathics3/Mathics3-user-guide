@@ -18,44 +18,44 @@ user-defined infix notation:
 
 
 >>> g[a, g[b, c]]
-    =
 
+    =
 :math:`a\#\left(b\#c\right)`
 
 
 >>> g[g[a, b], c]
-    =
 
+    =
 :math:`a\#b\#c`
 
 
 >>> g[a + b, c]
-    =
 
+    =
 :math:`\left(a+b\right)\#c`
 
 
 >>> g[a * b, c]
-    =
 
+    =
 :math:`a b\#c`
 
 
 >>> g[a, b] + c
-    =
 
+    =
 :math:`c+a\#b`
 
 
 >>> g[a, b] * c
-    =
 
+    =
 :math:`c \left(a\#b\right)`
 
 
 >>> Infix[{a, b, c}, {"+", "-"}]
-    =
 
+    =
 :math:`a+b-c`
 
 

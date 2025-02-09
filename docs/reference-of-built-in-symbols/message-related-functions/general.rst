@@ -12,8 +12,8 @@ General
 
 
 >>> General::argr
-    =
 
+    =
 :math:`\text{\`{}1\`{} called with 1 argument; \`{}2\`{} arguments are expected.}`
 
 

@@ -15,8 +15,8 @@ FixedPointList
 
 
 >>> FixedPointList[Cos, 1.0, 4]
-    =
 
+    =
 :math:`\left\{1.,0.540302,0.857553,0.65429,0.79348\right\}`
 
 
@@ -27,8 +27,8 @@ Observe the convergence of Newton's method for approximating square roots:
 
 
 >>> newton[9]
-    =
 
+    =
 :math:`\left\{1.,5.,3.4,3.02353,3.00009,3.,3.,3.\right\}`
 
 
@@ -45,8 +45,8 @@ Compute the `Hailstone Number <https://mathworld.wolfram.com/HailstoneNumber.htm
 
 
 >>> list = FixedPointList[collatz, 14]
-    =
 
+    =
 :math:`\left\{14,7,22,11,34,17,52,26,13,40,20,10,5,16,8,4,2,1,1\right\}`
 
 
@@ -54,9 +54,9 @@ Compute the `Hailstone Number <https://mathworld.wolfram.com/HailstoneNumber.htm
 Plot this:
 
 >>> ListLinePlot[list]
-    =
 
-.. image:: tmp_bw7ni5x.png
+    =
+.. image:: tmp72odza95.png
     :align: center
 
 

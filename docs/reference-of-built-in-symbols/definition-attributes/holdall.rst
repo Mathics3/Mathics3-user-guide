@@ -12,8 +12,8 @@ HoldAll
 
 
 >>> Attributes[Function]
-    =
 
+    =
 :math:`\left\{\text{HoldAll},\text{Protected}\right\}`
 
 

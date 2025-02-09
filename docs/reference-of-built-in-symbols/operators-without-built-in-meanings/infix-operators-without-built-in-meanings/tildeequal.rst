@@ -12,14 +12,14 @@ TildeEqual
 
 
 >>> TildeEqual[x, y, z]
-    =
 
+    =
 :math:`x \simeq y \simeq z`
 
 
 >>> a \[TildeEqual] b
-    =
 
+    =
 :math:`a \simeq b`
 
 

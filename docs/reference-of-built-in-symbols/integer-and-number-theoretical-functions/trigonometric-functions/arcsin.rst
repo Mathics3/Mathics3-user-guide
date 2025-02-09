@@ -12,14 +12,14 @@ Inverse sine, `arcsine <https://en.wikipedia.org/wiki/Inverse_trigonometric_func
 
 
 >>> ArcSin[0]
-    =
 
+    =
 :math:`0`
 
 
 >>> ArcSin[1]
-    =
 
+    =
 :math:`\frac{ \pi }{2}`
 
 

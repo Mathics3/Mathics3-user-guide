@@ -12,8 +12,8 @@ $ScriptCommandLine
 
 
 >>> $ScriptCommandLine
-    =
 
+    =
 :math:`\left\{\right\}`
 
 

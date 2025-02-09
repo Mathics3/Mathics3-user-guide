@@ -14,9 +14,9 @@ Graphics3D
 
 
 >>> Graphics3D[Polygon[{{0,0,0}, {0,1,1}, {1,0,0}}]]
-    =
 
-.. image:: tmpvfoz435o.png
+    =
+.. image:: tmp7z87k5tf.png
     :align: center
 
 
@@ -25,9 +25,9 @@ Graphics3D
 The :code:`Background`  option allows to set the color of the background:
 
 >>> Graphics3D[Sphere[], Background->RGBColor[.6, .7, 1.]]
-    =
 
-.. image:: tmphezv00g7.png
+    =
+.. image:: tmp2ry8nri5.png
     :align: center
 
 
@@ -36,8 +36,8 @@ The :code:`Background`  option allows to set the color of the background:
 In :code:`TeXForm` , :code:`Graphics3D`  creates Asymptote figures:
 
 >>> Graphics3D[Sphere[]] // TeXForm
-    =
 
+    =
 
 .. math::
     \text{\newline

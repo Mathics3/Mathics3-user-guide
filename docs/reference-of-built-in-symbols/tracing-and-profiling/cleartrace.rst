@@ -12,8 +12,8 @@ ClearTrace
 First, set up Builtin-function tracing:
 
 >>> $TraceBuiltins = True
-    =
 
+    =
 :math:`\text{True}`
 
 

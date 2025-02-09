@@ -12,14 +12,14 @@ DoubleDownArrow
 
 
 >>> DoubleDownArrow[x, y, z]
-    =
 
+    =
 :math:`x \Downarrow y \Downarrow z`
 
 
 >>> a \[DoubleDownArrow] b
-    =
 
+    =
 :math:`a \Downarrow b`
 
 

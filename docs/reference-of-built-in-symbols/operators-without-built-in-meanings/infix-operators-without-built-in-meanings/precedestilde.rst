@@ -12,14 +12,14 @@ PrecedesTilde
 
 
 >>> PrecedesTilde[x, y, z]
-    =
 
+    =
 :math:`x \precsim y \precsim z`
 
 
 >>> a \[PrecedesTilde] b
-    =
 
+    =
 :math:`a \precsim b`
 
 

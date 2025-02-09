@@ -12,14 +12,14 @@ NotLess
 
 
 >>> NotLess[x, y, z]
-    =
 
+    =
 :math:`x \nless y \nless z`
 
 
 >>> a \[NotLess] b
-    =
 
+    =
 :math:`a \nless b`
 
 

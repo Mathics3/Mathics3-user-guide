@@ -15,8 +15,8 @@ MapIndexed
 
 
 >>> MapIndexed[f, {a, b, c}]
-    =
 
+    =
 :math:`\left\{f\left[a,\left\{1\right\}\right],f\left[b,\left\{2\right\}\right],f\left[c,\left\{3\right\}\right]\right\}`
 
 
@@ -24,8 +24,8 @@ MapIndexed
 Include heads (index 0):
 
 >>> MapIndexed[f, {a, b, c}, Heads->True]
-    =
 
+    =
 :math:`f\left[\text{List},\left\{0\right\}\right]\left[f\left[a,\left\{1\right\}\right],f\left[b,\left\{2\right\}\right],f\left[c,\left\{3\right\}\right]\right]`
 
 
@@ -33,8 +33,8 @@ Include heads (index 0):
 Map on levels 0 through 1 (outer expression gets index :code:`{}` ):
 
 >>> MapIndexed[f, a + b + c * d, {0, 1}]
-    =
 
+    =
 :math:`f\left[f\left[a,\left\{1\right\}\right]+f\left[b,\left\{2\right\}\right]+f\left[c d,\left\{3\right\}\right],\left\{\right\}\right]`
 
 
@@ -49,8 +49,8 @@ to disable :code:`Listable`  functions):
 
 
 >>> MapIndexed[#2 &, listified, {-1}]
-    =
 
+    =
 :math:`\left\{\left\{1\right\},\left\{\left\{2,1\right\},\left\{\left\{2,2,1\right\}\right\},\left\{\left\{2,3,1\right\},\left\{2,3,2\right\}\right\}\right\}\right\}`
 
 
@@ -58,8 +58,8 @@ to disable :code:`Listable`  functions):
 Replace the heads with their positions, too:
 
 >>> MapIndexed[#2 &, listified, {-1}, Heads -> True]
-    =
 
+    =
 :math:`\left\{0\right\}\left[\left\{1\right\},\left\{2,0\right\}\left[\left\{2,1\right\},\left\{2,2,0\right\}\left[\left\{2,2,1\right\}\right],\left\{2,3,0\right\}\left[\left\{2,3,1\right\},\left\{2,3,2\right\}\right]\right]\right]`
 
 
@@ -68,8 +68,8 @@ The positions are given in the same format as used by :code:`Extract` .
 Thus, mapping :code:`Extract`  on the indices given by :code:`MapIndexed`  re-constructs the original expression:
 
 >>> MapIndexed[Extract[expr, #2] &, listified, {-1}, Heads -> True]
-    =
 
+    =
 :math:`a+b f\left[g\right] c^e`
 
 

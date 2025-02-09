@@ -20,16 +20,16 @@ Compilation is performed using llvmlite , or Python's builtin
 >>> cf = Compile[{x, y}, x + 2 y]
 
 >>> cf[2.5, 4.3]
-    =
 
+    =
 :math:`11.1`
 
 
 >>> cf = Compile[{{x, _Real}}, Sin[x]]
 
 >>> cf[1.4]
-    =
 
+    =
 :math:`0.98545`
 
 
@@ -39,8 +39,8 @@ Compile supports basic flow control:
 >>> cf = Compile[{{x, _Real}, {y, _Integer}}, If[x == 0.0 && y <= 0, 0.0, Sin[x ^ y] + 1 / Min[x, 0.5]] + 0.5]
 
 >>> cf[3.5, 2]
-    =
 
+    =
 :math:`2.18888`
 
 

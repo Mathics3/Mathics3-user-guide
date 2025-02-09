@@ -15,20 +15,20 @@ Thread
 
 
 >>> Thread[f[{a, b, c}]]
-    =
 
+    =
 :math:`\left\{f\left[a\right],f\left[b\right],f\left[c\right]\right\}`
 
 
 >>> Thread[f[{a, b, c}, t]]
-    =
 
+    =
 :math:`\left\{f\left[a,t\right],f\left[b,t\right],f\left[c,t\right]\right\}`
 
 
 >>> Thread[f[a + b + c], Plus]
-    =
 
+    =
 :math:`f\left[a\right]+f\left[b\right]+f\left[c\right]`
 
 
@@ -36,8 +36,8 @@ Thread
 Functions with attribute :code:`Listable`  are automatically threaded over lists:
 
 >>> {a, b, c} + {d, e, f} + g
-    =
 
+    =
 :math:`\left\{a+d+g,b+e+g,c+f+g\right\}`
 
 

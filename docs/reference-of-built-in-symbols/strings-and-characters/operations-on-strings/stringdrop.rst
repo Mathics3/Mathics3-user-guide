@@ -21,38 +21,38 @@ StringDrop
 
 
 >>> StringDrop["abcde", 2]
-    =
 
+    =
 :math:`\text{cde}`
 
 
 >>> StringDrop["abcde", -2]
-    =
 
+    =
 :math:`\text{abc}`
 
 
 >>> StringDrop["abcde", {2}]
-    =
 
+    =
 :math:`\text{acde}`
 
 
 >>> StringDrop["abcde", {2,3}]
-    =
 
+    =
 :math:`\text{ade}`
 
 
 >>> StringDrop["abcd",{3,2}]
-    =
 
+    =
 :math:`\text{abcd}`
 
 
 >>> StringDrop["abcd",0]
-    =
 
+    =
 :math:`\text{abcd}`
 
 

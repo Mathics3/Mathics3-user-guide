@@ -23,8 +23,8 @@ Set a single environment variable:
 See that the environment variable has changed:
 
 >>> GetEnvironment["FOO"]
-    =
 
+    =
 :math:`\text{FOO}->\text{bar}`
 
 
@@ -32,8 +32,8 @@ See that the environment variable has changed:
 Set two environment variables:
 
 >>> SetEnvironment[{"FOO" -> "baz", "A" -> "B"}]
-    =
 
+    =
 :math:`\text{SetEnvironment}\left[\left\{\text{FOO}->\text{baz},\text{A}->\text{B}\right\}\right]`
 
 
@@ -41,8 +41,8 @@ Set two environment variables:
 See that the environment variable has changed:
 
 >>> GetEnvironment["FOO"]
-    =
 
+    =
 :math:`\text{FOO}->\text{baz}`
 
 
@@ -52,14 +52,14 @@ Environment values must be strings:
 >>> SetEnvironment["FOO" -> 5]
 
     SetEnvironment::value 5 must be a string or None.
-    =
 
+    =
 :math:`\text{\$Failed}`
 
 
 >>> GetEnvironment["FOO"]
-    =
 
+    =
 :math:`\text{FOO}->\text{baz}`
 
 

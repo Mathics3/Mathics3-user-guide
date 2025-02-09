@@ -12,8 +12,8 @@ ImageChannels
 
 
 >>> ImageChannels[Image[{{0, 1}, {1, 0}}]]
-    =
 
+    =
 :math:`1`
 
 
@@ -21,8 +21,8 @@ ImageChannels
 
 
 >>> ImageChannels[img]
-    =
 
+    =
 :math:`3`
 
 

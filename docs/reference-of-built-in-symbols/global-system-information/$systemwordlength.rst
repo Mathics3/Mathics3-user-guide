@@ -12,5 +12,8 @@ $SystemWordLength
 
 
 >>> $SystemWordLength
-    = 64`
+
+    =
+:math:`64`
+
 

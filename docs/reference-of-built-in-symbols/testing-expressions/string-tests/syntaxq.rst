@@ -11,14 +11,14 @@ SyntaxQ
 
 
 >>> SyntaxQ["a[b"]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> SyntaxQ["a[b]"]
-    =
 
+    =
 :math:`\text{True}`
 
 

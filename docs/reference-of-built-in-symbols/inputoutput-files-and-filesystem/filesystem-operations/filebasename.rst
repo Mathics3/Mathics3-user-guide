@@ -12,14 +12,14 @@ FileBaseName
 
 
 >>> FileBaseName["file.txt"]
-    =
 
+    =
 :math:`\text{file}`
 
 
 >>> FileBaseName["file.tar.gz"]
-    =
 
+    =
 :math:`\text{file.tar}`
 
 

@@ -15,22 +15,22 @@ Rule
 
 
 >>> a+b+c /. c->d
-    =
 
+    =
 :math:`a+b+d`
 
 
 >>> {x,x^2,y} /. x->3
-    =
 
+    =
 :math:`\left\{3,9,y\right\}`
 
 
 >>> a /. Rule[1, 2, 3] -> t
 
     Rule::argrx Rule called with 3 arguments; 2 arguments are expected.
-    =
 
+    =
 :math:`a`
 
 

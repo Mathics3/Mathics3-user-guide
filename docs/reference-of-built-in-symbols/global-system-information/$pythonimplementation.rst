@@ -10,8 +10,8 @@ $PythonImplementation
 
 
 >>> $PythonImplementation
-    =
 
-:math:`\text{CPython 3.12.7.final.0}`
+    =
+:math:`\text{CPython 3.12.8.final.0}`
 
 

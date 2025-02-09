@@ -12,8 +12,8 @@ SphericalHankelH1
 
 
 >>> SphericalHankelH1[3, 1.5]
-    =
 
+    =
 :math:`0.0283246-3.78927 I`
 
 

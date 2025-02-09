@@ -12,14 +12,14 @@ LeftUpVectorBar
 
 
 >>> LeftUpVectorBar[x, y, z]
-    =
 
+    =
 :math:`x \bar{\upharpoonleft} y \bar{\upharpoonleft} z`
 
 
 >>> a \[LeftUpVectorBar] b
-    =
 
+    =
 :math:`a \bar{\upharpoonleft} b`
 
 

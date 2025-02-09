@@ -17,14 +17,14 @@ FoldList
 
 
 >>> FoldList[f, x, {1, 2, 3}]
-    =
 
+    =
 :math:`\left\{x,f\left[x,1\right],f\left[f\left[x,1\right],2\right],f\left[f\left[f\left[x,1\right],2\right],3\right]\right\}`
 
 
 >>> FoldList[Times, {1, 2, 3}]
-    =
 
+    =
 :math:`\left\{1,2,6\right\}`
 
 

@@ -13,14 +13,14 @@ ChebyshevU
 
 
 >>> ChebyshevU[8, x]
-    =
 
+    =
 :math:`1-40 x^2+240 x^4-448 x^6+256 x^8`
 
 
 >>> ChebyshevU[1 - I, 0.5]
-    =
 
+    =
 :math:`1.60029+0.721322 I`
 
 

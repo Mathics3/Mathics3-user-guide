@@ -37,9 +37,9 @@ Options include:
 
 
 >>> Graphics[{Blue, Line[{{0,0}, {1,1}}]}]
-    =
 
-.. image:: tmpnzkb_qpz.png
+    =
+.. image:: tmpyyrza4_5.png
     :align: center
 
 
@@ -48,17 +48,17 @@ Options include:
 :code:`Graphics`  supports :code:`PlotRange` :
 
 >>> Graphics[{Rectangle[{1, 1}]}, Axes -> True, PlotRange -> {{-2, 1.5}, {-1, 1.5}}]
-    =
 
-.. image:: tmpi8am_sm5.png
+    =
+.. image:: tmppd8yiakr.png
     :align: center
 
 
 
 >>> Graphics[{Rectangle[],Red,Disk[{1,0}]},PlotRange->{{0,1},{0,1}}]
-    =
 
-.. image:: tmp3hh91l7t.png
+    =
+.. image:: tmp1uqswsu9.png
     :align: center
 
 
@@ -67,8 +67,8 @@ Options include:
 :code:`Graphics`  produces :code:`GraphicsBox`  boxes:
 
 >>> Graphics[Rectangle[]] // ToBoxes // Head
-    =
 
+    =
 :math:`\text{GraphicsBox}`
 
 
@@ -76,9 +76,9 @@ Options include:
 The :code:`Background`  option allows to set the color of the background:
 
 >>> Graphics[{Green, Disk[]}, Background->RGBColor[.6, .7, 1.]]
-    =
 
-.. image:: tmplq699h7n.png
+    =
+.. image:: tmp43qc9txe.png
     :align: center
 
 
@@ -87,8 +87,8 @@ The :code:`Background`  option allows to set the color of the background:
 In :code:`TeXForm` , :code:`Graphics`  produces Asymptote figures:
 
 >>> Graphics[Circle[]] // TeXForm
-    =
 
+    =
 
 .. math::
     \text{\newline

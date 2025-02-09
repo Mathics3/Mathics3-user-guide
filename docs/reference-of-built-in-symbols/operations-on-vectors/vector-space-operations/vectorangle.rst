@@ -12,20 +12,20 @@ VectorAngle
 
 
 >>> VectorAngle[{1, 0}, {0, 1}]
-    =
 
+    =
 :math:`\frac{ \pi }{2}`
 
 
 >>> VectorAngle[{1, 2}, {3, 1}]
-    =
 
+    =
 :math:`\frac{ \pi }{4}`
 
 
 >>> VectorAngle[{1, 1, 0}, {1, 0, 1}]
-    =
 
+    =
 :math:`\frac{ \pi }{3}`
 
 

@@ -15,17 +15,17 @@ Line
 
 
 >>> Graphics[Line[{{0,1},{0,0},{1,0},{1,1}}]]
-    =
 
-.. image:: tmpx_2w5cbg.png
+    =
+.. image:: tmp0h50uxya.png
     :align: center
 
 
 
 >>> Graphics3D[Line[{{0,0,0},{0,1,1},{1,0,0}}]]
-    =
 
-.. image:: tmp9ms8j_7n.png
+    =
+.. image:: tmpcum2vk1b.png
     :align: center
 
 

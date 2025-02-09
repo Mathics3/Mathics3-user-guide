@@ -12,14 +12,14 @@ LessFullEqual
 
 
 >>> LessFullEqual[x, y, z]
-    =
 
+    =
 :math:`x \leqq y \leqq z`
 
 
 >>> a \[LessFullEqual] b
-    =
 
+    =
 :math:`a \leqq b`
 
 

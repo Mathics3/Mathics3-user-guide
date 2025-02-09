@@ -12,14 +12,14 @@ Precedes
 
 
 >>> Precedes[x, y, z]
-    =
 
+    =
 :math:`x \prec y \prec z`
 
 
 >>> a \[Precedes] b
-    =
 
+    =
 :math:`a \prec b`
 
 

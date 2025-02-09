@@ -12,20 +12,20 @@ Csc
 
 
 >>> Csc[0]
-    =
 
+    =
 :math:`\text{ComplexInfinity}`
 
 
 >>> Csc[1] (* Csc[1] in Mathematica *)
-    =
 
+    =
 :math:`\frac{1}{\text{Sin}\left[1\right]}`
 
 
 >>> Csc[1.]
-    =
 
+    =
 :math:`1.1884`
 
 

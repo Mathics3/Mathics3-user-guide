@@ -12,14 +12,14 @@ AbsoluteTiming
 
 
 >>> AbsoluteTiming[50!]
-    =
 
-:math:`\left\{0.000107288,30414093201713378043612608166064768844377641568960512000000000000\right\}`
+    =
+:math:`\left\{0.000104666,30414093201713378043612608166064768844377641568960512000000000000\right\}`
 
 
 >>> Attributes[AbsoluteTiming]
-    =
 
+    =
 :math:`\left\{\text{HoldAll},\text{Protected}\right\}`
 
 

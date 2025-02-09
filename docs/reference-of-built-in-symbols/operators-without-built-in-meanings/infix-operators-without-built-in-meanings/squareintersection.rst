@@ -12,14 +12,14 @@ SquareIntersection
 
 
 >>> SquareIntersection[x, y, z]
-    =
 
+    =
 :math:`x \sqcap y \sqcap z`
 
 
 >>> a \[SquareIntersection] b
-    =
 
+    =
 :math:`a \sqcap b`
 
 

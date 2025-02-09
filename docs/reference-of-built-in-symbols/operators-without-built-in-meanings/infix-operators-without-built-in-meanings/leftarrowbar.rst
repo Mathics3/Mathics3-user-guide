@@ -12,14 +12,14 @@ LeftArrowBar
 
 
 >>> LeftArrowBar[x, y, z]
-    =
 
+    =
 :math:`x |\leftarrow y |\leftarrow z`
 
 
 >>> a \[LeftArrowBar] b
-    =
 
+    =
 :math:`a |\leftarrow b`
 
 

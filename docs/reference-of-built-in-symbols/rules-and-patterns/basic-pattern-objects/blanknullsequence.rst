@@ -17,8 +17,8 @@ BlankNullSequence
 :code:`BlankNullSequence`  is like :code:`BlankSequence` , except it can match an     empty sequence:
 
 >>> MatchQ[f[], f[___]]
-    =
 
+    =
 :math:`\text{True}`
 
 

@@ -18,28 +18,28 @@ RandomPrime
 
 
 >>> RandomPrime[{14, 17}]
-    =
 
+    =
 :math:`17`
 
 
 >>> RandomPrime[{14, 16}, 1]
 
     RandomPrime::noprime There are no primes in the specified interval.
-    =
 
+    =
 :math:`\text{RandomPrime}\left[\left\{14,16\right\},1\right]`
 
 
 >>> RandomPrime[{8,12}, 3]
-    =
 
+    =
 :math:`\left\{11,11,11\right\}`
 
 
 >>> RandomPrime[{10,30}, {2,5}]
-    =
 
-:math:`\left\{\left\{11,11,11,11,11\right\},\left\{11,11,11,11,11\right\}\right\}`
+    =
+:math:`\left\{\left\{19,19,19,19,19\right\},\left\{19,19,19,19,19\right\}\right\}`
 
 

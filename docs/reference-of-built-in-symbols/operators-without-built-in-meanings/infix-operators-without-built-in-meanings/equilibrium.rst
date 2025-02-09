@@ -12,14 +12,14 @@ Equilibrium
 
 
 >>> Equilibrium[x, y, z]
-    =
 
+    =
 :math:`x \rightleftharpoons y \rightleftharpoons z`
 
 
 >>> a \[Equilibrium] b
-    =
 
+    =
 :math:`a \rightleftharpoons b`
 
 

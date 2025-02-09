@@ -21,8 +21,8 @@ PolynomialQ
 :code:`PolynomialQ`  with no explicit variable mentioned:
 
 >>> PolynomialQ[x^2]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -30,8 +30,8 @@ PolynomialQ
 A number is a degenerate kind of polynomial:
 
 >>> PolynomialQ[2]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -39,8 +39,8 @@ A number is a degenerate kind of polynomial:
 The following is not a polynomial because :math:`y` is raised to     the power -1:
 
 >>> PolynomialQ[x^2 + x/y]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -48,8 +48,8 @@ The following is not a polynomial because :math:`y` is raised to     the power -
 :code:`PolynomialQ`  using an expression and a single variable:
 
 >>> PolynomialQ[x^3 - 2 x/y + 3xz, x]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -57,14 +57,14 @@ The following is not a polynomial because :math:`y` is raised to     the power -
 In the above, there were no negative powers for :math:`x`.     In the below when we check with respect to :math:`y`,     we *do* find :math:`y` is raised to a negative power:
 
 >>> PolynomialQ[x^3 - 2 x/y^2 + 3xz, y]
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> PolynomialQ[f[a] + f[a]^2, f[a]]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -72,14 +72,14 @@ In the above, there were no negative powers for :math:`x`.     In the below when
 :code:`PolynomialQ`  using an expression and a list of variables:
 
 >>> PolynomialQ[x^2 + axy^2 - bSin[c], {x, y}]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> PolynomialQ[x^2 + axy^2 - bSin[c], {a, b, c}]
-    =
 
+    =
 :math:`\text{False}`
 
 

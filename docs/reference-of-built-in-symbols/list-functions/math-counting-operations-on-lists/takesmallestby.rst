@@ -15,14 +15,14 @@ TakeSmallestBy
 For details on how to use the ExcludedForms option, see TakeLargest[].
 
 >>> TakeSmallestBy[{{1, -1}, {10, 100}, {23, 7, 8}, {5, 1}}, Total, 2]
-    =
 
+    =
 :math:`\left\{\left\{1,-1\right\},\left\{5,1\right\}\right\}`
 
 
 >>> TakeSmallestBy[{"abc", "ab", "x"}, StringLength, 1]
-    =
 
+    =
 :math:`\left\{\text{x}\right\}`
 
 

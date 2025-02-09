@@ -18,17 +18,17 @@ Sharpen
 
 
 >>> Sharpen[hedy]
-    =
 
-.. image:: tmpf2qoff09.png
+    =
+.. image:: tmponms0ikn.png
     :align: center
 
 
 
 >>> Sharpen[hedy, 5]
-    =
 
-.. image:: tmph14xyes9.png
+    =
+.. image:: tmp0r9i2tux.png
     :align: center
 
 

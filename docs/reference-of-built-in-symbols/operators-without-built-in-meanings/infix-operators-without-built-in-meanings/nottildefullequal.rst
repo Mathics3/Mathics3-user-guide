@@ -12,14 +12,14 @@ NotTildeFullEqual
 
 
 >>> NotTildeFullEqual[x, y, z]
-    =
 
+    =
 :math:`x \ncong y \ncong z`
 
 
 >>> a \[NotTildeFullEqual] b
-    =
 
+    =
 :math:`a \ncong b`
 
 

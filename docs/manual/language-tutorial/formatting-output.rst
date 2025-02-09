@@ -24,8 +24,8 @@ You can specify how a symbol shall be formatted by assigning values to :code:`Fo
 
 
 >>> x
-    =
 
+    =
 :math:`\text{y}`
 
 
@@ -33,8 +33,8 @@ You can specify how a symbol shall be formatted by assigning values to :code:`Fo
 This will apply to :code:`MathMLForm` , :code:`OutputForm` , :code:`StandardForm` , :code:`TeXForm` , and :code:`TraditionalForm` .
 
 >>> x // InputForm
-    =
 
+    =
 :math:`x`
 
 
@@ -45,8 +45,8 @@ You can specify a specific form in the assignment to :code:`Format` :
 
 
 >>> x // TeXForm
-    =
 
+    =
 :math:`\text{$\backslash$text\{z\}}`
 
 
@@ -57,8 +57,8 @@ Special formats might not be very relevant for individual symbols, but rather fo
 
 
 >>> r[1, 2, 3]
-    =
 
+    =
 :math:`\text{<an r object>}`
 
 
@@ -85,14 +85,14 @@ You can use several helper functions to format expressions:
 
 
 >>> r[1, 2, 3]
-    =
 
+    =
 :math:`1\sim{}2\sim{}3`
 
 
 >>> StringForm["`1` and `2`", n, m]
-    =
 
+    =
 :math:`n\text{ and }m`
 
 
@@ -116,14 +116,14 @@ There are several methods to display expressions in 2-D:
 
 
 >>> Grid[{{a, b}, {c, d}}]
-    =
 
+    =
 :math:`\begin{array}{cc} a & b\\ c & d\end{array}`
 
 
 >>> Subscript[a, 1, 2] // TeXForm
-    =
 
+    =
 :math:`\text{a\_\{1,2\}}`
 
 
@@ -134,8 +134,8 @@ If you want even more low-level control over expression display, override :code:
 
 
 >>> b
-    =
 
+    =
 :math:`c`
 
 
@@ -143,8 +143,8 @@ If you want even more low-level control over expression display, override :code:
 This will even apply to :code:`TeXForm` , because :code:`TeXForm`  implies :code:`StandardForm` :
 
 >>> b // TeXForm
-    =
 
+    =
 :math:`c`
 
 
@@ -152,8 +152,8 @@ This will even apply to :code:`TeXForm` , because :code:`TeXForm`  implies :code
 Except some other form is applied first:
 
 >>> b // OutputForm // TeXForm
-    =
 
+    =
 :math:`b`
 
 
@@ -164,8 +164,8 @@ Except some other form is applied first:
 
 
 >>> b // TeXForm
-    =
 
+    =
 :math:`d`
 
 
@@ -176,8 +176,8 @@ You can cause a much bigger mess by overriding :code:`MakeBoxes`  than by sticki
 
 
 >>> c // MathMLForm
-    =
 
+    =
 :math:`\text{<not closed}`
 
 
@@ -185,8 +185,8 @@ You can cause a much bigger mess by overriding :code:`MakeBoxes`  than by sticki
 However, this will not affect formatting of expressions involving :code:`c` :
 
 >>> c + 1 // MathMLForm
-    =
 
+    =
 :math:`\text{<math display="block"><mrow><mn>1</mn> <mo>+</mo> <mi>c</mi></mrow></math>}`
 
 
@@ -198,14 +198,14 @@ That's because :code:`MathMLForm`  will, when not overridden for a special case,
 
 
 >>> d // MathMLForm
-    =
 
+    =
 :math:`\text{<math display="block"><mtext>\&lt;not\&nbsp;closed</mtext></math>}`
 
 
 >>> d + 1 // MathMLForm
-    =
 
+    =
 :math:`\text{<math display="block"><mrow><mn>1</mn> <mo>+</mo> <mtext>\&lt;not\&nbsp;closed</mtext></mrow></math>}`
 
 
@@ -216,8 +216,8 @@ For instance, you can override :code:`MakeBoxes`  to format lists in a different
 
 
 >>> {1, 2, 3}
-    =
 
+    =
 :math:`\left[1 2 3\right]`
 
 
@@ -239,8 +239,8 @@ However, this will not be accepted as input to \Mathics anymore:
 By the way, :code:`MakeBoxes`  is the only built-in symbol that is not protected by default:
 
 >>> Attributes[MakeBoxes]
-    =
 
+    =
 :math:`\left\{\text{HoldAllComplete}\right\}`
 
 
@@ -253,7 +253,6 @@ By the way, :code:`MakeBoxes`  is the only built-in symbol that is not protected
 >>> squared[1, 2]
 
 >>> squared[1, 2] // TeXForm
-    = `
 
 
 =
@@ -264,8 +263,8 @@ The desired effect can be achieved in the following way:
 
 
 >>> squared[1, 2]
-    =
 
+    =
 :math:`\text{squared}\left[1,2\right]^2`
 
 
@@ -276,8 +275,8 @@ The desired effect can be achieved in the following way:
 You can view the box structure of a formatted expression using :code:`ToBoxes` :
 
 >>> ToBoxes[m + n]
-    =
 
+    =
 :math:`\text{RowBox}\left[\left\{\text{m},\text{+},\text{n}\right\}\right]`
 
 
@@ -285,8 +284,8 @@ You can view the box structure of a formatted expression using :code:`ToBoxes` :
 The list elements in this :code:`RowBox`  are strings, though string delimiters are not shown in the default output form:
 
 >>> InputForm[%]
-    =
 
+    =
 :math:`\text{RowBox}\left[\left\{\text{\`{}\`{}m''}, \text{\`{}\`{}+''}, \text{\`{}\`{}n''}\right\}\right]`
 
 

@@ -12,14 +12,14 @@ Wedge
 
 
 >>> Wedge[x, y, z]
-    =
 
+    =
 :math:`x \wedge y \wedge z`
 
 
 >>> a \[Wedge] b
-    =
 
+    =
 :math:`a \wedge b`
 
 

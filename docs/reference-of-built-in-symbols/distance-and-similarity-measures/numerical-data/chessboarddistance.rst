@@ -12,14 +12,14 @@ ChessboardDistance
 
 
 >>> ChessboardDistance[-7, 5]
-    =
 
+    =
 :math:`12`
 
 
 >>> ChessboardDistance[{-1, -1}, {1, 1}]
-    =
 
+    =
 :math:`2`
 
 

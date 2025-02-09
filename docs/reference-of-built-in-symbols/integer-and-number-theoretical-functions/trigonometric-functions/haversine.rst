@@ -12,14 +12,14 @@ Haversine
 
 
 >>> Haversine[1.5]
-    =
 
+    =
 :math:`0.464631`
 
 
 >>> Haversine[0.5 + 2I]
-    =
 
+    =
 :math:`-1.15082+0.869405 I`
 
 

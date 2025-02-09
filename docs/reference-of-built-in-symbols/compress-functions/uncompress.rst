@@ -12,14 +12,14 @@ Uncompress
 
 
 >>> Compress["Mathics is cool"]
-    =
 
+    =
 :math:`\text{eJxT8k0sychMLlbILFZIzs/PUQIANFwF1w==}`
 
 
 >>> Uncompress[%]
-    =
 
+    =
 :math:`\text{Mathics is cool}`
 
 
@@ -30,8 +30,8 @@ Uncompress
 
 
 >>> Uncompress[b]
-    =
 
+    =
 :math:`x^2+y \text{Sin}\left[x\right]+10 \text{Log}\left[15\right]`
 
 

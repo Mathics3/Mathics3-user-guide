@@ -10,14 +10,14 @@ $TraceEvaluation
 
 
 >>> $TraceEvaluation = True
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> a + a
-    =
 
+    =
 :math:`2 a`
 
 
@@ -25,20 +25,20 @@ $TraceEvaluation
 Setting it to :code:`False`  again recovers the normal behaviour:
 
 >>> $TraceEvaluation = False
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> $TraceEvaluation
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> a + a
-    =
 
+    =
 :math:`2 a`
 
 
@@ -48,8 +48,8 @@ Setting it to :code:`False`  again recovers the normal behaviour:
 >>> $TraceEvaluation = x
 
     $TraceEvaluation::bool x should be True or False.
-    =
 
+    =
 :math:`x`
 
 

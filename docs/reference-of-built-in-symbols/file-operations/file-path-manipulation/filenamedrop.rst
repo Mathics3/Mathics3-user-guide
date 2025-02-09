@@ -21,14 +21,14 @@ FileNameDrop
 
 
 >>> path = FileNameJoin[{"a","b","c"}]
-    =
 
+    =
 :math:`\text{a/b/c}`
 
 
 >>> FileNameDrop[path, -1]
-    =
 
+    =
 :math:`\text{a/b}`
 
 
@@ -36,8 +36,8 @@ FileNameDrop
 A shorthand for the above:
 
 >>> FileNameDrop[path]
-    =
 
+    =
 :math:`\text{a/b}`
 
 

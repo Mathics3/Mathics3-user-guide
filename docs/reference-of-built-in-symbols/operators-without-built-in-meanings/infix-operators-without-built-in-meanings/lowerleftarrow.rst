@@ -12,14 +12,14 @@ LowerLeftArrow
 
 
 >>> LowerLeftArrow[x, y, z]
-    =
 
+    =
 :math:`x \swarrow y \swarrow z`
 
 
 >>> a \[LowerLeftArrow] b
-    =
 
+    =
 :math:`a \swarrow b`
 
 

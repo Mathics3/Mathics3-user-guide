@@ -14,14 +14,14 @@ InputStream
 :code:`StringToStream`  opens an input stream:
 
 >>> stream = StringToStream["Mathics is cool!"]
-    =
 
+    =
 :math:`\text{InputStream}\left[\text{String},17\right]`
 
 
 >>> Close[stream]
-    =
 
+    =
 :math:`\text{String}`
 
 

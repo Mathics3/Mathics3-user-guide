@@ -12,8 +12,8 @@ ExpandDenominator
 
 
 >>> ExpandDenominator[(a + b) ^ 2 / ((c + d)^2 (e + f))]
-    =
 
+    =
 :math:`\frac{\left(a+b\right)^2}{c^2 e+c^2 f+2 c d e+2 c d f+d^2 e+d^2 f}`
 
 

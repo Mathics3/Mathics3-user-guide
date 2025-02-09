@@ -12,14 +12,14 @@ DownRightVector
 
 
 >>> DownRightVector[x, y, z]
-    =
 
+    =
 :math:`x \rightharpoondown y \rightharpoondown z`
 
 
 >>> a \[DownRightVector] b
-    =
 
+    =
 :math:`a \rightharpoondown b`
 
 

@@ -21,32 +21,32 @@ Array
 
 
 >>> Array[f, 4]
-    =
 
+    =
 :math:`\left\{f\left[1\right],f\left[2\right],f\left[3\right],f\left[4\right]\right\}`
 
 
 >>> Array[f, {2, 3}]
-    =
 
+    =
 :math:`\left\{\left\{f\left[1,1\right],f\left[1,2\right],f\left[1,3\right]\right\},\left\{f\left[2,1\right],f\left[2,2\right],f\left[2,3\right]\right\}\right\}`
 
 
 >>> Array[f, {2, 3}, 3]
-    =
 
+    =
 :math:`\left\{\left\{f\left[3,3\right],f\left[3,4\right],f\left[3,5\right]\right\},\left\{f\left[4,3\right],f\left[4,4\right],f\left[4,5\right]\right\}\right\}`
 
 
 >>> Array[f, {2, 3}, {4, 6}]
-    =
 
+    =
 :math:`\left\{\left\{f\left[4,6\right],f\left[4,7\right],f\left[4,8\right]\right\},\left\{f\left[5,6\right],f\left[5,7\right],f\left[5,8\right]\right\}\right\}`
 
 
 >>> Array[f, {2, 3}, 1, Plus]
-    =
 
+    =
 :math:`f\left[1,1\right]+f\left[1,2\right]+f\left[1,3\right]+f\left[2,1\right]+f\left[2,2\right]+f\left[2,3\right]`
 
 

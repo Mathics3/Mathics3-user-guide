@@ -12,14 +12,14 @@ CirclePlus
 
 
 >>> CirclePlus[x, y, z]
-    =
 
+    =
 :math:`x  \oplus y  \oplus z`
 
 
 >>> a \[CirclePlus] b
-    =
 
+    =
 :math:`a  \oplus b`
 
 

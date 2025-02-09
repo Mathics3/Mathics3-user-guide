@@ -28,41 +28,41 @@ AnglePath
 
 
 >>> AnglePath[{90 Degree, 90 Degree, 90 Degree, 90 Degree}]
-    =
 
+    =
 :math:`\left\{\left\{0,0\right\},\left\{0,1\right\},\left\{-1,1\right\},\left\{-1,0\right\},\left\{0,0\right\}\right\}`
 
 
 >>> AnglePath[{{1, 1}, 90 Degree}, {{1, 90 Degree}, {2, 90 Degree}, {1, 90 Degree}, {2, 90 Degree}}]
-    =
 
+    =
 :math:`\left\{\left\{1,1\right\},\left\{0,1\right\},\left\{0,-1\right\},\left\{1,-1\right\},\left\{1,1\right\}\right\}`
 
 
 >>> AnglePath[{a, b}]
-    =
 
+    =
 :math:`\left\{\left\{0,0\right\},\left\{\text{Cos}\left[a\right],\text{Sin}\left[a\right]\right\},\left\{\text{Cos}\left[a\right]+\text{Cos}\left[a+b\right],\text{Sin}\left[a\right]+\text{Sin}\left[a+b\right]\right\}\right\}`
 
 
 >>> Precision[Part[AnglePath[{N[1/3, 100], N[2/3, 100]}], 2, 1]]
-    =
 
+    =
 :math:`100.`
 
 
 >>> Graphics[Line[AnglePath[Table[1.7, {50}]]]]
-    =
 
-.. image:: tmplshpdmax.png
+    =
+.. image:: tmpj_nw7ugr.png
     :align: center
 
 
 
 >>> Graphics[Line[AnglePath[RandomReal[{-1, 1}, {100}]]]]
-    =
 
-.. image:: tmppdho7v9o.png
+    =
+.. image:: tmpgjuyas5a.png
     :align: center
 
 

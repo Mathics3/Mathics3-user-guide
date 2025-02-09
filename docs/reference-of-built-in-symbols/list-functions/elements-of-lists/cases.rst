@@ -18,14 +18,14 @@ Cases
 
 
 >>> Cases[{a, 1, 2.5, "string"}, _Integer|_Real]
-    =
 
+    =
 :math:`\left\{1,2.5\right\}`
 
 
 >>> Cases[_Complex][{1, 2I, 3, 4-I, 5}]
-    =
 
+    =
 :math:`\left\{2 I,4-I\right\}`
 
 
@@ -33,8 +33,8 @@ Cases
 Find symbols among the elements of an expression:
 
 >>> Cases[{b, 6, \[Pi]}, _Symbol]
-    =
 
+    =
 :math:`\left\{b, \pi \right\}`
 
 
@@ -42,8 +42,8 @@ Find symbols among the elements of an expression:
 Also include the head of the expression in the previous search:
 
 >>> Cases[{b, 6, \[Pi]}, _Symbol, Heads -> True]
-    =
 
+    =
 :math:`\left\{\text{List},b, \pi \right\}`
 
 

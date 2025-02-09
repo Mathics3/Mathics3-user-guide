@@ -12,8 +12,8 @@ Characters
 
 
 >>> Characters["abc"]
-    =
 
+    =
 :math:`\left\{\text{a},\text{b},\text{c}\right\}`
 
 

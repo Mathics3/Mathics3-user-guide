@@ -12,8 +12,8 @@ EllipticK
 
 
 >>> EllipticK[0.5]
-    =
 
+    =
 :math:`1.85407`
 
 
@@ -21,8 +21,8 @@ EllipticK
 Elliptic curves give Pi / 2 when evaluated at zero:
 
 >>> EllipticK[0]
-    =
 
+    =
 :math:`\frac{ \pi }{2}`
 
 
@@ -30,9 +30,9 @@ Elliptic curves give Pi / 2 when evaluated at zero:
 Plot over a reals around 0:
 
 >>> Plot[EllipticK[n], {n, -1, 1}]
-    =
 
-.. image:: tmpwzv23a8a.png
+    =
+.. image:: tmpdm0llx68.png
     :align: center
 
 

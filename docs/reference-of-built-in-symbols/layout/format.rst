@@ -18,14 +18,14 @@ should be formatted when printed to the user.
 
 
 >>> f[1, 2, 3]
-    =
 
+    =
 :math:`1\sim{}2\sim{}3`
 
 
 >>> f[1]
-    =
 
+    =
 :math:`1`
 
 

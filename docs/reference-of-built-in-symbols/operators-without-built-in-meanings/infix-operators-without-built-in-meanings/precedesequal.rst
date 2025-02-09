@@ -12,14 +12,14 @@ PrecedesEqual
 
 
 >>> PrecedesEqual[x, y, z]
-    =
 
+    =
 :math:`x \preceq y \preceq z`
 
 
 >>> a \[PrecedesEqual] b
-    =
 
+    =
 :math:`a \preceq b`
 
 

@@ -33,14 +33,14 @@ Like most programming languages, \Mathics has common program-flow control statem
 
 
 >>> If[2 < 3, a, b]
-    =
 
+    =
 :math:`a`
 
 
 >>> x = 3; Which[x < 2, a, x > 4, b, x < 5, c]
-    =
 
+    =
 :math:`c`
 
 
@@ -48,8 +48,8 @@ Like most programming languages, \Mathics has common program-flow control statem
 Compound statements can be entered with :code:`;` . The result of a compound expression is its last part or :code:`Null`  if it ends with a :code:`;` .
 
 >>> 1; 2; 3
-    =
 
+    =
 :math:`3`
 
 

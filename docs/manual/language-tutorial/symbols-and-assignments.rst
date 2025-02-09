@@ -4,8 +4,8 @@ Symbols and Assignments
 Symbols need not be declared in \Mathics, they can just be entered and remain variable:
 
 >>> x
-    =
 
+    =
 :math:`x`
 
 
@@ -13,8 +13,8 @@ Symbols need not be declared in \Mathics, they can just be entered and remain va
 Basic simplifications are performed:
 
 >>> x + 2 x
-    =
 
+    =
 :math:`3 x`
 
 
@@ -22,8 +22,8 @@ Basic simplifications are performed:
 Symbols can have any name that consists of characters and digits:
 
 >>> iAm1Symbol ^ 2
-    =
 
+    =
 :math:`\text{iAm1Symbol}^2`
 
 
@@ -31,26 +31,26 @@ Symbols can have any name that consists of characters and digits:
 You can assign values to symbols:
 
 >>> a = 2
-    =
 
+    =
 :math:`2`
 
 
 >>> a ^ 3
-    =
 
+    =
 :math:`8`
 
 
 >>> a = 4
-    =
 
+    =
 :math:`4`
 
 
 >>> a ^ 3
-    =
 
+    =
 :math:`64`
 
 
@@ -73,8 +73,8 @@ Now changing :code:`a`  does not affect :code:`b` :
 
 
 >>> b
-    =
 
+    =
 :math:`4`
 
 
@@ -85,8 +85,8 @@ Such a dependency can be achieved by using "delayed assignment" with the :code:`
 
 
 >>> b
-    =
 
+    =
 :math:`9`
 
 
@@ -94,8 +94,8 @@ Such a dependency can be achieved by using "delayed assignment" with the :code:`
 
 
 >>> b
-    =
 
+    =
 :math:`25`
 
 

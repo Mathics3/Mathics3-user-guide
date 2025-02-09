@@ -12,14 +12,14 @@ FractionalPart
 
 
 >>> FractionalPart[4.1]
-    =
 
+    =
 :math:`0.1`
 
 
 >>> FractionalPart[-5.25]
-    =
 
+    =
 :math:`-0.25`
 
 

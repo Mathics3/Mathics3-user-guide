@@ -10,26 +10,26 @@ LevelQ
 
 
 >>> LevelQ[2]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> LevelQ[{2, 4}]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> LevelQ[Infinity]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> LevelQ[a + b]
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -40,14 +40,14 @@ We will define MyMap with the "level" parameter as a synonym for the     Builtin
 
 
 >>> MyMap[f, {{a, b}, {c, d}}, {2}]
-    =
 
+    =
 :math:`\left\{\left\{f\left[a\right],f\left[b\right]\right\},\left\{f\left[c\right],f\left[d\right]\right\}\right\}`
 
 
 >>> Map[f, {{a, b}, {c, d}}, {2}]
-    =
 
+    =
 :math:`\left\{\left\{f\left[a\right],f\left[b\right]\right\},\left\{f\left[c\right],f\left[d\right]\right\}\right\}`
 
 
@@ -57,14 +57,14 @@ But notice that when we pass an invalid level specification, MyMap     does not 
 >>> Map[f, {{a, b}, {c, d}}, x]
 
     Map::level Level specification x is not of the form n, {n}, or {m, n}.
-    =
 
+    =
 :math:`\text{Map}\left[f,\left\{\left\{a,b\right\},\left\{c,d\right\}\right\},x\right]`
 
 
 >>> MyMap[f, {{a, b}, {c, d}}, {1, 2, 3}]
-    =
 
+    =
 :math:`\text{MyMap}\left[f,\left\{\left\{a,b\right\},\left\{c,d\right\}\right\},\left\{1,2,3\right\}\right]`
 
 

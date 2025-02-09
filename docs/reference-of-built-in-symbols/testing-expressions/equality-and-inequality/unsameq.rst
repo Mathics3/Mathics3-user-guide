@@ -16,14 +16,14 @@ UnsameQ
 
 
 >>> a =!= a
-    =
 
+    =
 :math:`\text{False}`
 
 
 >>> 1 =!= 1.
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -32,8 +32,8 @@ UnsameQ accepts any number of arguments and returns True if all expressions
 are structurally distinct:
 
 >>> 1 =!= 2 =!= 3 =!= 4
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -41,8 +41,8 @@ are structurally distinct:
 UnsameQ returns False if any expression is identical to another:
 
 >>> 1 =!= 2 =!= 1 =!= 4
-    =
 
+    =
 :math:`\text{False}`
 
 
@@ -50,14 +50,14 @@ UnsameQ returns False if any expression is identical to another:
 UnsameQ[] and UnsameQ[expr] return True:
 
 >>> UnsameQ[]
-    =
 
+    =
 :math:`\text{True}`
 
 
 >>> UnsameQ[expr]
-    =
 
+    =
 :math:`\text{True}`
 
 

@@ -17,8 +17,8 @@ A symbol with the :code:`Flat`  attribute represents an associative     mathemat
 
 
 >>> f[a, f[b, c]]
-    =
 
+    =
 :math:`f\left[a,b,c\right]`
 
 
@@ -26,8 +26,8 @@ A symbol with the :code:`Flat`  attribute represents an associative     mathemat
 :code:`Flat`  is taken into account in pattern matching:
 
 >>> f[a, b, c] /. f[a, b] -> d
-    =
 
+    =
 :math:`f\left[d,c\right]`
 
 

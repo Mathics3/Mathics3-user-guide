@@ -24,8 +24,8 @@ Nearest
 
 
 >>> Nearest[{5, 2.5, 10, 11, 15, 8.5, 14}, 12]
-    =
 
+    =
 :math:`\left\{11\right\}`
 
 
@@ -33,20 +33,20 @@ Nearest
 Return all items within a distance of 5:
 
 >>> Nearest[{5, 2.5, 10, 11, 15, 8.5, 14}, 12, {All, 5}]
-    =
 
+    =
 :math:`\left\{11,10,14\right\}`
 
 
 >>> Nearest[{Blue -> "blue", White -> "white", Red -> "red", Green -> "green"}, {Orange, Gray}]
-    =
 
+    =
 :math:`\left\{\left\{\text{red}\right\},\left\{\text{white}\right\}\right\}`
 
 
 >>> Nearest[{{0, 1}, {1, 2}, {2, 3}} -> {a, b, c}, {1.1, 2}]
-    =
 
+    =
 :math:`\left\{b\right\}`
 
 

@@ -12,32 +12,32 @@ ConditionalExpression
 
 
 >>> ConditionalExpression[x^2, True]
-    =
 
+    =
 :math:`x^2`
 
 
 >>> ConditionalExpression[x^2, False]
-    =
 
+    =
 :math:`\text{Undefined}`
 
 
 >>> f = ConditionalExpression[x^2, x>0]
-    =
 
+    =
 :math:`\text{ConditionalExpression}\left[x^2,x>0\right]`
 
 
 >>> f /. x -> 2
-    =
 
+    =
 :math:`4`
 
 
 >>> f /. x -> -2
-    =
 
+    =
 :math:`\text{Undefined}`
 
 
@@ -48,8 +48,8 @@ ConditionalExpression
 
 
 >>> ConditionalExpression[x ^ 2, x>0]//Simplify
-    =
 
+    =
 :math:`x^2`
 
 

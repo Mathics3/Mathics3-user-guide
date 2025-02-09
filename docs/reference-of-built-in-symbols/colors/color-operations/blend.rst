@@ -20,41 +20,41 @@ Blend
 
 
 >>> Blend[{Red, Blue}]
-    =
 
-.. image:: tmpwxtflw4z.png
+    =
+.. image:: tmpkowmx39v.png
     :align: center
 
 
 
 >>> Blend[{Red, Blue}, 0.3]
-    =
 
-.. image:: tmpdvpx374o.png
+    =
+.. image:: tmpyvjqmxl3.png
     :align: center
 
 
 
 >>> Blend[{Red, Blue, Green}, 0.75]
-    =
 
-.. image:: tmpjlv5l5o_.png
+    =
+.. image:: tmpij5m3fy4.png
     :align: center
 
 
 
 >>> Graphics[Table[{Blend[{Red, Green, Blue}, x], Rectangle[{10 x, 0}]}, {x, 0, 1, 1/10}]]
-    =
 
-.. image:: tmpvc3wt_kw.png
+    =
+.. image:: tmpkib2u59v.png
     :align: center
 
 
 
 >>> Graphics[Table[{Blend[{RGBColor[1, 0.5, 0, 0.5], RGBColor[0, 0, 1, 0.5]}, x], Disk[{5x, 0}]}, {x, 0, 1, 1/10}]]
-    =
 
-.. image:: tmpxn__a5gb.png
+    =
+.. image:: tmpivx_8nf9.png
     :align: center
 
 

@@ -10,17 +10,17 @@ $PrintForms
 
 
 >>> $PrintForms
-    =
 
-:math:`\left\{\text{FullForm},\text{PythonForm},\text{TraditionalForm},\text{InputForm},\text{TeXForm},\text{MathMLForm},\text{StandardForm},\text{SympyForm},\text{OutputForm},\text{MyForm}\right\}`
+    =
+:math:`\left\{\text{MathMLForm},\text{SympyForm},\text{TraditionalForm},\text{InputForm},\text{PythonForm},\text{FullForm},\text{StandardForm},\text{TeXForm},\text{OutputForm},\text{MyForm}\right\}`
 
 
 
 Suppose now that we want to add a new format :code:`MyForm` . Initially, it does not belong to :code:`$PrintForms` :
 
 >>> MemberQ[$PrintForms, MyForm]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -34,8 +34,8 @@ Now, let's define a format rule:
 Now, the new format belongs to the :code:`$PrintForms`  list
 
 >>> MemberQ[$PrintForms, MyForm]
-    =
 
+    =
 :math:`\text{True}`
 
 

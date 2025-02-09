@@ -16,14 +16,14 @@ Fold
 
 
 >>> Fold[Plus, 5, {1, 1, 1}]
-    =
 
+    =
 :math:`8`
 
 
 >>> Fold[f, 5, {1, 2, 3}]
-    =
 
+    =
 :math:`f\left[f\left[f\left[5,1\right],2\right],3\right]`
 
 

@@ -18,9 +18,9 @@ Octahedron
 
 
 >>> Graphics3D[{Red, Octahedron[]}]
-    =
 
-.. image:: tmpj25h56g7.png
+    =
+.. image:: tmpbsmww3d8.png
     :align: center
 
 

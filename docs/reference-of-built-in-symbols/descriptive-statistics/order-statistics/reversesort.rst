@@ -15,8 +15,8 @@ ReverseSort
 
 
 >>> ReverseSort[{c, b, d, a}]
-    =
 
+    =
 :math:`\left\{d,c,b,a\right\}`
 
 
@@ -24,8 +24,8 @@ ReverseSort
 You can specify a binary comparison function:
 
 >>> ReverseSort[{1, 2, 0, 3}, Less]
-    =
 
+    =
 :math:`\left\{3,2,1,0\right\}`
 
 
@@ -33,8 +33,8 @@ You can specify a binary comparison function:
 Using :code:`Greater`  for the above, reverses the reverse sort:
 
 >>> ReverseSort[{1, 2, 0, 3}, Greater]
-    =
 
+    =
 :math:`\left\{0,1,2,3\right\}`
 
 

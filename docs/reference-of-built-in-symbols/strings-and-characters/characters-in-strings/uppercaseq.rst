@@ -12,8 +12,8 @@ UpperCaseQ
 
 
 >>> UpperCaseQ["ABC"]
-    =
 
+    =
 :math:`\text{True}`
 
 
@@ -21,8 +21,8 @@ UpperCaseQ
 An empty string returns True.
 
 >>> UpperCaseQ[""]
-    =
 
+    =
 :math:`\text{True}`
 
 

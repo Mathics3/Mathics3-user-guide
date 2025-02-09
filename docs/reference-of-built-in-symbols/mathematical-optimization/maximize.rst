@@ -12,8 +12,8 @@ Maximize
 
 
 >>> Maximize[-2 x^2 - 3 x + 5, x]
-    =
 
+    =
 :math:`\left\{\left\{\frac{49}{8},\left\{x->-\frac{3}{4}\right\}\right\}\right\}`
 
 

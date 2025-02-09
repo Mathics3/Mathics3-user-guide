@@ -12,8 +12,8 @@ ExpIntegralEi
 
 
 >>> ExpIntegralEi[2.0]
-    =
 
+    =
 :math:`4.95423`
 
 

@@ -12,21 +12,21 @@ BesselI
 
 
 >>> BesselI[0, 0]
-    =
 
+    =
 :math:`1`
 
 
 >>> BesselI[1.5, 4]
-    =
 
+    =
 :math:`8.17263`
 
 
 >>> Plot[BesselI[0, x], {x, 0, 5}]
-    =
 
-.. image:: tmppt8qatm7.png
+    =
+.. image:: tmpzcb4yrbh.png
     :align: center
 
 
@@ -35,8 +35,8 @@ BesselI
 The special case of half-integer index is expanded using Rayleigh's formulas:
 
 >>> BesselI[3/2, x]
-    =
 
+    =
 :math:`\frac{\sqrt{2} \sqrt{x} \left(-\frac{\text{Sinh}\left[x\right]}{x^2}+\frac{\text{Cosh}\left[x\right]}{x}\right)}{\sqrt{ \pi }}`
 
 

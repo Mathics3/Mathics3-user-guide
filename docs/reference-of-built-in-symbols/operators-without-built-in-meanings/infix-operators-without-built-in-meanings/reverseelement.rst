@@ -12,14 +12,14 @@ ReverseElement
 
 
 >>> ReverseElement[x, y, z]
-    =
 
+    =
 :math:`x \ni y \ni z`
 
 
 >>> a \[ReverseElement] b
-    =
 
+    =
 :math:`a \ni b`
 
 

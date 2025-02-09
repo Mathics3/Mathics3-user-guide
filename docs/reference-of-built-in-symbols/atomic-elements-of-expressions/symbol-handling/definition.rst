@@ -18,8 +18,8 @@ Definition
 
 
 >>> Definition[a]
-    =
 
+    =
 :math:`\begin{array}{l} a=2\end{array}`
 
 
@@ -30,8 +30,8 @@ Definition
 
 
 >>> Definition[f]
-    =
 
+    =
 :math:`\begin{array}{l} f\left[\text{x\_}\right]=x^2\\ g\left[f\right]\text{${}^{\wedge}$=}2\end{array}`
 
 
@@ -63,26 +63,26 @@ Definition of a rather evolved (though meaningless) symbol:
 Some usage:
 
 >>> r[z, x, y]
-    =
 
+    =
 :math:`x\sim{}y\sim{}z`
 
 
 >>> N[r]
-    =
 
+    =
 :math:`3.5`
 
 
 >>> r[]
-    =
 
+    =
 :math:`\left\{2,3\right\}`
 
 
 >>> r[5, Opt->7]
-    =
 
+    =
 :math:`\left\{5,7\right\}`
 
 
@@ -90,8 +90,8 @@ Some usage:
 Its definition:
 
 >>> Definition[r]
-    =
 
+    =
 :math:`\begin{array}{l} \text{Attributes}\left[r\right]=\left\{\text{Orderless}\right\}\\ \text{arg\_.}\sim{}\text{OptionsPattern}\left[r\right]=\left\{\text{arg},\text{OptionValue}\left[\text{Opt}\right]\right\}\\ N\left[r,\text{MachinePrecision}\right]=3.5\\ \text{Format}\left[\text{args\_\_\_},\text{MathMLForm}\right]=\text{Infix}\left[\left\{\text{args}\right\}, \text{\`{}\`{}$\sim$''}\right]\\ \text{Format}\left[\text{args\_\_\_},\text{OutputForm}\right]=\text{Infix}\left[\left\{\text{args}\right\}, \text{\`{}\`{}$\sim$''}\right]\\ \text{Format}\left[\text{args\_\_\_},\text{StandardForm}\right]=\text{Infix}\left[\left\{\text{args}\right\}, \text{\`{}\`{}$\sim$''}\right]\\ \text{Format}\left[\text{args\_\_\_},\text{TeXForm}\right]=\text{Infix}\left[\left\{\text{args}\right\}, \text{\`{}\`{}$\sim$''}\right]\\ \text{Format}\left[\text{args\_\_\_},\text{TraditionalForm}\right]=\text{Infix}\left[\left\{\text{args}\right\}, \text{\`{}\`{}$\sim$''}\right]\\ \text{Default}\left[r,1\right]=2\\ \text{Options}\left[r\right]=\left\{\text{Opt}->3\right\}\end{array}`
 
 
@@ -102,8 +102,8 @@ For :code:`ReadProtected`  symbols, :code:`Definition`  just prints attributes, 
 
 
 >>> Definition[r]
-    =
 
+    =
 :math:`\begin{array}{l} \text{Attributes}\left[r\right]=\left\{\text{Orderless},\text{ReadProtected}\right\}\\ \text{Default}\left[r,1\right]=2\\ \text{Options}\left[r\right]=\left\{\text{Opt}->3\right\}\end{array}`
 
 
@@ -111,14 +111,14 @@ For :code:`ReadProtected`  symbols, :code:`Definition`  just prints attributes, 
 This is the same for built-in symbols:
 
 >>> Definition[Plus]
-    =
 
+    =
 :math:`\begin{array}{l} \text{Attributes}\left[\text{Plus}\right]=\left\{\text{Flat},\text{Listable},\text{NumericFunction},\text{OneIdentity},\text{Orderless},\text{Protected}\right\}\\ \text{Default}\left[\text{Plus}\right]=0\end{array}`
 
 
 >>> Definition[Level]
-    =
 
+    =
 :math:`\begin{array}{l} \text{Attributes}\left[\text{Level}\right]=\left\{\text{Protected}\right\}\\ \text{Options}\left[\text{Level}\right]=\left\{\text{Heads}->\text{False}\right\}\end{array}`
 
 
@@ -135,8 +135,8 @@ This is the same for built-in symbols:
 
 
 >>> Definition[r]
-    =
 
+    =
 :math:`\begin{array}{l} \text{Attributes}\left[r\right]=\left\{\text{Orderless}\right\}\\ \text{Default}\left[r,1\right]=2\\ \text{Options}\left[r\right]=\left\{\text{Opt}->3\right\}\end{array}`
 
 
@@ -147,8 +147,8 @@ This is the same for built-in symbols:
 
 
 >>> Definition[r]
-    =
 
+    =
 :math:`\text{Null}`
 
 
@@ -156,8 +156,8 @@ This is the same for built-in symbols:
 If a symbol is not defined at all, :code:`Null`  is printed:
 
 >>> Definition[x]
-    =
 
+    =
 :math:`\text{Null}`
 
 
