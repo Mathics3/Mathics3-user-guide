@@ -14,7 +14,7 @@ EdgeForm
 >>> Graphics[{EdgeForm[{Thick, Green}], Disk[]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_EdgeForm_3t7m5dpj.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_EdgeForm_fxz28ooj.png
     :align: center
 
 
@@ -22,7 +22,7 @@ EdgeForm
 >>> Graphics[{Style[Disk[],EdgeForm[{Thick,Red}]], Circle[{1,1}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_EdgeForm_o2pr97_l.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_EdgeForm_v1caxljb.png
     :align: center
 
 

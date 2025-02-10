@@ -17,7 +17,7 @@ ImageSubtract
 >>> ImageSubtract[i, 0.2]
 
     =
-.. image:: tmp3051n56y.png
+.. image:: tmpwc_3vs56.png
     :align: center
 
 
@@ -25,7 +25,7 @@ ImageSubtract
 >>> ImageSubtract[i, i]
 
     =
-.. image:: tmpkz9gx4n8.png
+.. image:: tmp1mrvyyit.png
     :align: center
 
 

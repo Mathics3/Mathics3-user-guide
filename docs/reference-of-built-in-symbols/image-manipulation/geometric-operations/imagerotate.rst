@@ -20,7 +20,7 @@ ImageRotate
 >>> ImageRotate[ein]
 
     =
-.. image:: tmpd20dzmah.png
+.. image:: tmpxp852mdv.png
     :align: center
 
 
@@ -28,7 +28,7 @@ ImageRotate
 >>> ImageRotate[ein, 45 Degree]
 
     =
-.. image:: tmphbrh15po.png
+.. image:: tmpv5eyfn15.png
     :align: center
 
 
@@ -36,7 +36,7 @@ ImageRotate
 >>> ImageRotate[ein, Pi / 4]
 
     =
-.. image:: tmpy5_grm5x.png
+.. image:: tmp282ub01i.png
     :align: center
 
 

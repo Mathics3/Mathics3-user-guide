@@ -14,7 +14,7 @@ Opacity
 >>> Graphics[{Blue, Disk[{.5, 1}, 1], Opacity[.4], Red, Disk[], Opacity[.2], Green, Disk[{-.5, 1}, 1]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Opacity_itihnzpp.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Opacity_ng___3ao.png
     :align: center
 
 
@@ -22,7 +22,7 @@ Opacity
 >>> Graphics3D[{Blue, Sphere[], Opacity[.4], Red, Cuboid[]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Opacity_9_1o9aom.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Opacity_uc0ga20d.png
     :align: center
 
 
@@ -33,7 +33,7 @@ Notice that :code:`Opacity`  does not overwrite the value of the alpha channel i
 >>> Graphics[{Blue, Disk[], RGBColor[1,0,0,1],Opacity[.2], Rectangle[{0,0},{1,1}]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Opacity_3c_t655c.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Opacity_emxj5i8m.png
     :align: center
 
 

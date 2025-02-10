@@ -26,7 +26,7 @@ ImageAdjust
 >>> ImageAdjust[hedy]
 
     =
-.. image:: tmpx5eluk8x.png
+.. image:: tmpu0qc3r3n.png
     :align: center
 
 

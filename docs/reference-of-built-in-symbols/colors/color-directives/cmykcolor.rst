@@ -14,7 +14,7 @@ CMYKColor
 >>> Graphics[MapIndexed[{CMYKColor @@ #1, Disk[2*#2 ~Join~ {0}]} &, IdentityMatrix[4]], ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_CMYKColor_41rdgj_5.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_CMYKColor_0uda6whi.png
     :align: center
 
 

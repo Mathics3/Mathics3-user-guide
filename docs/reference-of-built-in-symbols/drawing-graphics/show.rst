@@ -14,7 +14,7 @@ Show
 >>> Show[{Plot[x, {x, 0, 10}], ListPlot[{1,2,3}]}]
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Drawing_Graphics_Show_cesu0jqu.png
+.. image:: eq_Reference_of_Built-in_Symbols_Drawing_Graphics_Show_7l462x2t.png
     :align: center
 
 

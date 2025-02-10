@@ -31,7 +31,7 @@ A list of the first five Lucas numbers:
 >>> Plot[LucasL[1/2, x], {x, -5, 5}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Integer_Functions_LucasL_lqza3jz8.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_Functions_LucasL_5yhtv5by.png
     :align: center
 
 

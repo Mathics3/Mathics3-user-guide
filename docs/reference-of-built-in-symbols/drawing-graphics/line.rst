@@ -17,7 +17,7 @@ Line
 >>> Graphics[Line[{{0,1},{0,0},{1,0},{1,1}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Line_0k9r_h3t.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Line_03wpk9r7.png
     :align: center
 
 
@@ -25,7 +25,7 @@ Line
 >>> Graphics3D[Line[{{0,0,0},{0,1,1},{1,0,0}}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Line_jtqabwhv.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Line_lolyrgzs.png
     :align: center
 
 

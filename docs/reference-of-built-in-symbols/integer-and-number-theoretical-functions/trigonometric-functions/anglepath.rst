@@ -54,7 +54,7 @@ AnglePath
 >>> Graphics[Line[AnglePath[Table[1.7, {50}]]]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_AnglePath_z0lhr_o4.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_AnglePath_5ydpapau.png
     :align: center
 
 
@@ -62,7 +62,7 @@ AnglePath
 >>> Graphics[Line[AnglePath[RandomReal[{-1, 1}, {100}]]]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_AnglePath_ur0va3uq.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_AnglePath_t0bccwm8.png
     :align: center
 
 

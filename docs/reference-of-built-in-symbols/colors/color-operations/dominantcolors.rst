@@ -38,7 +38,7 @@ The option "MinColorDistance" specifies the distance (in LAB color space) up    
 >>> img = Import["ExampleData/hedy.tif"]
 
     =
-.. image:: tmpa98rbqf4.png
+.. image:: tmpw86mlwom.png
     :align: center
 
 
@@ -46,7 +46,7 @@ The option "MinColorDistance" specifies the distance (in LAB color space) up    
 >>> DominantColors[img]
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_79vzvv42.png
+.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_6daswery.png
     :align: center
 
 
@@ -54,7 +54,7 @@ The option "MinColorDistance" specifies the distance (in LAB color space) up    
 >>> DominantColors[img, 3]
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_edeca2jw.png
+.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_xk5yoept.png
     :align: center
 
 
@@ -76,7 +76,7 @@ The option "MinColorDistance" specifies the distance (in LAB color space) up    
 >>> DominantColors[img, 2, "LABColor"]
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_qnx5luik.png
+.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_d13rnb0k.png
     :align: center
 
 
@@ -84,7 +84,7 @@ The option "MinColorDistance" specifies the distance (in LAB color space) up    
 >>> DominantColors[img, MinColorDistance -> 0.5]
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_h9by3mso.png
+.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_9dpf0fyg.png
     :align: center
 
 
@@ -92,7 +92,7 @@ The option "MinColorDistance" specifies the distance (in LAB color space) up    
 >>> DominantColors[img, ColorCoverage -> 0.15]
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_nwc478il.png
+.. image:: eq_Reference_of_Built-in_Symbols_Colors_DominantColors_exzbtpb5.png
     :align: center
 
 

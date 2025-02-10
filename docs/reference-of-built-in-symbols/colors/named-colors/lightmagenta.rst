@@ -13,7 +13,7 @@ LightMagenta
 >>> Graphics[{EdgeForm[Black], LightMagenta, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightMagenta_v2qno447.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightMagenta_b4tjv0fv.png
     :align: center
 
 

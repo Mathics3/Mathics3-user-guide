@@ -20,7 +20,7 @@ Cone
 >>> Graphics3D[Cone[]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cone_vw0mtosx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cone_r2079637.png
     :align: center
 
 
@@ -28,7 +28,7 @@ Cone
 >>> Graphics3D[Cone[{{0, 0, 0}, {1, 1, 1}}, 1]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cone_5orq5isa.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cone_srs9lzgw.png
     :align: center
 
 
@@ -36,7 +36,7 @@ Cone
 >>> Graphics3D[{Yellow, Cone[{{-1, 0, 0}, {1, 0, 0}, {0, 0, Sqrt[3]}, {1, 1, Sqrt[3]}}, 1]}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cone_pyujkqic.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Cone_mixaxfof.png
     :align: center
 
 

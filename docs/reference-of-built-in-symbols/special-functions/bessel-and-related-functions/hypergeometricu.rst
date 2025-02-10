@@ -22,7 +22,7 @@ Plot :code:`U` [3, 2, x] from 0 to 2 in steps of 0.5:
 >>> Plot[HypergeometricU[3, 2, x], {x, 0.5, 2}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_HypergeometricU_p_0agdua.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_HypergeometricU_w8umria4.png
     :align: center
 
 

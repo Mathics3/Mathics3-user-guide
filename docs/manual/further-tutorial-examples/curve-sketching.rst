@@ -84,7 +84,7 @@ Finally, let's plot :code:`f` :
 >>> Plot[f[x], {x, -8, 6}]
 
     =
-.. image:: asy_Manual_Further_Tutorial_Examples_Curve_Sketching_3clg1xkv.png
+.. image:: asy_Manual_Further_Tutorial_Examples_Curve_Sketching_ulbgp1fw.png
     :align: center
 
 

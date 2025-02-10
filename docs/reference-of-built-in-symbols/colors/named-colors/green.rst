@@ -13,7 +13,7 @@ Green
 >>> Graphics[{EdgeForm[Black], Green, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Green_3losxcf0.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Green_csm2peqk.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Green
 >>> Green
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Green_8252qprr.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Green_985uoxwd.png
     :align: center
 
 

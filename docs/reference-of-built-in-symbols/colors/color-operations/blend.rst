@@ -22,7 +22,7 @@ Blend
 >>> Blend[{Red, Blue}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_acp9blyp.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_w_yuqygi.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Blend
 >>> Blend[{Red, Blue}, 0.3]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_7811l1g_.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_v_u_5q3b.png
     :align: center
 
 
@@ -38,7 +38,7 @@ Blend
 >>> Blend[{Red, Blue, Green}, 0.75]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend__ydetjh9.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_ryxfm64w.png
     :align: center
 
 
@@ -46,7 +46,7 @@ Blend
 >>> Graphics[Table[{Blend[{Red, Green, Blue}, x], Rectangle[{10 x, 0}]}, {x, 0, 1, 1/10}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_bsijs0j9.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_jcbqhubk.png
     :align: center
 
 
@@ -54,7 +54,7 @@ Blend
 >>> Graphics[Table[{Blend[{RGBColor[1, 0.5, 0, 0.5], RGBColor[0, 0, 1, 0.5]}, x], Disk[{5x, 0}]}, {x, 0, 1, 1/10}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_ngef319c.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blend_ohjmx4z9.png
     :align: center
 
 

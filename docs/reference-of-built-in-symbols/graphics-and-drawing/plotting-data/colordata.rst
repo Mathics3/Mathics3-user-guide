@@ -21,7 +21,7 @@ Compare it to the default color function, :code:`LakeColors` :
 >>> {DensityPlot[x + y, {x, -1, 1}, {y, -1, 1}], DensityPlot[x + y, {x, -1, 1}, {y, -1, 1}, ColorFunction->"test"]}
 
     =
-.. image:: eq_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ColorData_og472q77.png
+.. image:: eq_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ColorData_wlrokp_4.png
     :align: center
 
 

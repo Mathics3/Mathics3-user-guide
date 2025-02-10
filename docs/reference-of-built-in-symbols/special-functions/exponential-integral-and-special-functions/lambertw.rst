@@ -23,7 +23,7 @@ LambertW
 >>> Plot[LambertW[x], {x, -1/E, E}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_LambertW_x9ee329d.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_LambertW_r3l9hwtv.png
     :align: center
 
 

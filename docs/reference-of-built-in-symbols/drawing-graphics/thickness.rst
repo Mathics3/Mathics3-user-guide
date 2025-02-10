@@ -14,7 +14,7 @@ Thickness
 >>> Graphics[{Thickness[0.2], Line[{{0, 0}, {0, 5}}]}, Axes->True, PlotRange->{{-5, 5}, {-5, 5}}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Thickness_b1m52rhe.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_Thickness_04akmywt.png
     :align: center
 
 

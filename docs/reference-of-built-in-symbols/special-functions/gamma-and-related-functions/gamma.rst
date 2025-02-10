@@ -75,7 +75,7 @@ Both :code:`Gamma`  and :code:`Factorial`  functions are continuous:
 >>> Plot[{Gamma[x], x!}, {x, 0, 4}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_Gamma_hrmsqmtx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_Gamma_1i_6g0ol.png
     :align: center
 
 

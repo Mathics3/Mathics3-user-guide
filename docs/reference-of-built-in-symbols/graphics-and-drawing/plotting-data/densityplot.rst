@@ -13,7 +13,7 @@ DensityPlot
 >>> DensityPlot[x ^ 2 + 1 / y, {x, -1, 1}, {y, 1, 4}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_ngxmol9t.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_3dvsk9rw.png
     :align: center
 
 
@@ -21,7 +21,7 @@ DensityPlot
 >>> DensityPlot[1 / x, {x, 0, 1}, {y, 0, 1}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_mabcuisz.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_7ge5n1nb.png
     :align: center
 
 
@@ -29,7 +29,7 @@ DensityPlot
 >>> DensityPlot[Sqrt[x * y], {x, -1, 1}, {y, -1, 1}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_p_ehtr_u.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_9dnfw6qb.png
     :align: center
 
 
@@ -37,7 +37,7 @@ DensityPlot
 >>> DensityPlot[1/(x^2 + y^2 + 1), {x, -1, 1}, {y, -2,2}, Mesh->Full]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_mv9xpn93.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_0yyj6mgx.png
     :align: center
 
 
@@ -45,7 +45,7 @@ DensityPlot
 >>> DensityPlot[x^2 y, {x, -1, 1}, {y, -1, 1}, Mesh->All]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_lkc6gu5k.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DensityPlot_cz70jux7.png
     :align: center
 
 

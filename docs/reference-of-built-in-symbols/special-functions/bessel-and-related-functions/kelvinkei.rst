@@ -35,7 +35,7 @@ KelvinKei
 >>> Plot[KelvinKei[x], {x, 0, 10}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_KelvinKei_khozd7_o.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_KelvinKei_4w8u_51q.png
     :align: center
 
 

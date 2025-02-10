@@ -17,7 +17,7 @@ MedianFilter
 >>> MedianFilter[hedy, 5]
 
     =
-.. image:: tmp1bg8467f.png
+.. image:: tmpjvq4dnq7.png
     :align: center
 
 

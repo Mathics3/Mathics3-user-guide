@@ -13,7 +13,7 @@ LightBrown
 >>> Graphics[{EdgeForm[Black], LightBrown, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightBrown_4kz3da18.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightBrown_bnxs45vs.png
     :align: center
 
 

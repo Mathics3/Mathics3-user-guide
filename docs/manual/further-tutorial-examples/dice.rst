@@ -30,7 +30,7 @@ A dice object shall be displayed as a rectangle with the given number of points 
 >>> Dice[1]
 
     =
-.. image:: asy_Manual_Further_Tutorial_Examples_Dice_falirv9n.png
+.. image:: asy_Manual_Further_Tutorial_Examples_Dice_r_p7t6vz.png
     :align: center
 
 
@@ -57,7 +57,7 @@ The empty series of dice shall be displayed as an empty dice:
 >>> Dice[]
 
     =
-.. image:: asy_Manual_Further_Tutorial_Examples_Dice_aeohbq0n.png
+.. image:: asy_Manual_Further_Tutorial_Examples_Dice_m1qs20ux.png
     :align: center
 
 
@@ -71,7 +71,7 @@ Any non-empty series of dice shall be displayed as a row of individual dice:
 >>> Dice[1, 6, 4, 4]
 
     =
-.. image:: eq_Manual_Further_Tutorial_Examples_Dice_g2c_gxxt.png
+.. image:: eq_Manual_Further_Tutorial_Examples_Dice_4cnon8mo.png
     :align: center
 
 
@@ -111,7 +111,7 @@ We can now combine dice:
 >>> Dice[1, 5] + Dice[3, 2] + Dice[4]
 
     =
-.. image:: eq_Manual_Further_Tutorial_Examples_Dice_xbql_vb5.png
+.. image:: eq_Manual_Further_Tutorial_Examples_Dice_ehttve1p.png
     :align: center
 
 
@@ -137,7 +137,7 @@ And now let's put some dice into a table:
 >>> Table[{Dice[Sequence @@ d], DiceSum @ Dice[Sequence @@ d]}, {d, {{1, 2}, {2, 2}, {2, 6}}}] // TableForm
 
     =
-.. image:: eq_Manual_Further_Tutorial_Examples_Dice_f0ph1t0b.png
+.. image:: eq_Manual_Further_Tutorial_Examples_Dice_cjdkbzcr.png
     :align: center
 
 

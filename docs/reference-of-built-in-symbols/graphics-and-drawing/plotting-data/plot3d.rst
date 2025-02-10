@@ -15,7 +15,7 @@ Plot3D
 >>> Plot3D[x ^ 2 + 1 / y, {x, -1, 1}, {y, 1, 4}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_ecgyr3jq.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_6d_j8tx3.png
     :align: center
 
 
@@ -23,7 +23,7 @@ Plot3D
 >>> Plot3D[Sin[y + Sin[3 x]], {x, -2, 2}, {y, -2, 2}, PlotPoints->20]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_30kvn0on.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_wkafx2n7.png
     :align: center
 
 
@@ -31,7 +31,7 @@ Plot3D
 >>> Plot3D[x / (x ^ 2 + y ^ 2 + 1), {x, -2, 2}, {y, -2, 2}, Mesh->None]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_048st3rr.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_hl4ntagx.png
     :align: center
 
 
@@ -39,7 +39,7 @@ Plot3D
 >>> Plot3D[Sin[x y] /(x y), {x, -3, 3}, {y, -3, 3}, Mesh->All]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_kmx04m82.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_vaszim9g.png
     :align: center
 
 
@@ -47,7 +47,7 @@ Plot3D
 >>> Plot3D[Log[x + y^2], {x, -1, 1}, {y, -1, 1}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_8zdq0x0e.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Plot3D_e_ymlgmh.png
     :align: center
 
 

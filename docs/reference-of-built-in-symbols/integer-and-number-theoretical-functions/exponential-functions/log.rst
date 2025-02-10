@@ -26,7 +26,7 @@ Log
 >>> Plot[Log[x], {x, 0, 5}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_Log_25y1qqdt.png
+.. image:: asy_Reference_of_Built-in_Symbols_Integer_and_Number-Theoretical_Functions_Log_3b3p6a6m.png
     :align: center
 
 

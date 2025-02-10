@@ -20,7 +20,7 @@ A swatch of color green:
 >>> RGBColor[0, 1, 0]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_RGBColor_0yqwyp99.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_RGBColor_s6v7efmi.png
     :align: center
 
 
@@ -40,7 +40,7 @@ A swatch of color green which is 1/8 opaque:
 >>> RGBColor[0, 1, 0, 0.125]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_RGBColor_l9h0ym_m.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_RGBColor_ehon1ll8.png
     :align: center
 
 
@@ -51,7 +51,7 @@ A series of small disks of the primary colors:
 >>> Graphics[MapIndexed[{RGBColor @@ #1, Disk[2*#2 ~Join~ {0}]} &, IdentityMatrix[3]], ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_RGBColor_cpf3b1d1.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_RGBColor_0v_kr8hr.png
     :align: center
 
 

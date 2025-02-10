@@ -13,7 +13,7 @@ Pink
 >>> Graphics[{EdgeForm[Black], Pink, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Pink_bzk8x9sx.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Pink_vmz9v1gz.png
     :align: center
 
 

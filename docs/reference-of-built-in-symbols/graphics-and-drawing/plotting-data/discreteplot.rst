@@ -24,7 +24,7 @@ The number of primes for a number :math:`k`:
 >>> DiscretePlot[PrimePi[k], {k, 1, 100}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DiscretePlot_hpvqnx7b.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DiscretePlot_vc5pr884.png
     :align: center
 
 
@@ -35,7 +35,7 @@ is about the same as :code:`Sqrt[k] * 2.5` :
 >>> DiscretePlot[2.5 Sqrt[k], {k, 100}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DiscretePlot_220ks0kg.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DiscretePlot_4ama7fir.png
     :align: center
 
 
@@ -48,7 +48,7 @@ A plot can contain several functions, using the same parameter, here :math:`x`:
 >>> DiscretePlot[{Sin[Pi x/20], Cos[Pi x/20]}, {x, 0, 40}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DiscretePlot_4j9_784y.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_DiscretePlot_x938ytlg.png
     :align: center
 
 

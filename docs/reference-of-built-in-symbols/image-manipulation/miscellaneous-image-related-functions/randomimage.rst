@@ -20,7 +20,7 @@ RandomImage
 >>> RandomImage[1, {100, 100}]
 
     =
-.. image:: tmp30lh476h.png
+.. image:: tmpayrvqvui.png
     :align: center
 
 

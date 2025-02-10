@@ -13,7 +13,7 @@ White
 >>> Graphics[{EdgeForm[Black], White, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_White_hlm36o02.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_White_zlg23h8h.png
     :align: center
 
 
@@ -30,7 +30,7 @@ White
 >>> White
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_White_mwtx6j5l.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_White_fuvg19ib.png
     :align: center
 
 

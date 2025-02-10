@@ -29,7 +29,7 @@ PlotRange
 >>> Plot[Sin[Cos[x^2]],{x,-4,4}, PlotRange -> All]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PlotRange_0o0rhfsp.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PlotRange_qgc1_4cj.png
     :align: center
 
 
@@ -37,7 +37,7 @@ PlotRange
 >>> Graphics[Disk[], PlotRange -> {{-.5, .5}, {0, 1.5}}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PlotRange_699sqbpi.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_PlotRange_h19hk6vc.png
     :align: center
 
 

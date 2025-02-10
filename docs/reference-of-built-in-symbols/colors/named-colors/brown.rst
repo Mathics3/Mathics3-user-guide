@@ -13,7 +13,7 @@ Brown
 >>> Graphics[{EdgeForm[Black], Brown, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Brown_8ke8dza7.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Brown_4qsgir6s.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Brown
 >>> Brown
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Brown_my7ve65z.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Brown_18l18bm4.png
     :align: center
 
 

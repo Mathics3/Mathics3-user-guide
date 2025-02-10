@@ -25,7 +25,7 @@ Yellow is :code:`RGBColor[1.0, 1.0, 0.0]`  So when inverted or subtracted     fr
 >>> ColorNegate[Import["ExampleData/sunflowers.jpg"]]
 
     =
-.. image:: tmp8z_3raqm.png
+.. image:: tmpu3l78kw7.png
     :align: center
 
 

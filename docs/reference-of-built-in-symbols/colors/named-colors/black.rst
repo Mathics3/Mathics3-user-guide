@@ -13,7 +13,7 @@ Black
 >>> Graphics[{EdgeForm[Black], Black, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Black_5uy1l7uw.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Black_es3gb218.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Black
 >>> Black
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Black_749ol1w6.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Black_izq986fq.png
     :align: center
 
 

@@ -34,7 +34,7 @@ Here is how the exponential, :code:`Factorial` , and :code:`Subfactoral`  grow i
 >>> LogPlot[{10^x, Factorial[x], Subfactorial[x]}, {x, 0, 25}, PlotPoints->26]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_Subfactorial_wph964s8.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_Subfactorial_p_hcl20l.png
     :align: center
 
 

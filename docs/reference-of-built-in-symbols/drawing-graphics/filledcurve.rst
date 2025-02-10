@@ -14,7 +14,7 @@ FilledCurve
 >>> Graphics[FilledCurve[{Line[{{0, 0}, {1, 1}, {2, 0}}]}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_FilledCurve_ka733xiz.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_FilledCurve_e9kbshh0.png
     :align: center
 
 
@@ -22,7 +22,7 @@ FilledCurve
 >>> Graphics[FilledCurve[{BezierCurve[{{0, 0}, {1, 1}, {2, 0}}], Line[{{3, 0}, {0, 2}}]}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_FilledCurve_r0cszrmb.png
+.. image:: asy_Reference_of_Built-in_Symbols_Drawing_Graphics_FilledCurve_zx2__uwj.png
     :align: center
 
 

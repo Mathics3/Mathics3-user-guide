@@ -12,6 +12,6 @@ $OutputForms
 >>> $OutputForms
 
     =
-:math:`\left\{\text{InputForm},\text{TableForm},\text{PythonForm},\text{SympyForm},\text{TraditionalForm},\text{MathMLForm},\text{BaseForm},\text{TeXForm},\text{MatrixForm},\text{StandardForm},\text{FullForm},\text{OutputForm},\text{MyForm}\right\}`
+:math:`\left\{\text{PythonForm},\text{TeXForm},\text{MatrixForm},\text{TraditionalForm},\text{StandardForm},\text{BaseForm},\text{TableForm},\text{FullForm},\text{MathMLForm},\text{SympyForm},\text{InputForm},\text{OutputForm},\text{MyForm}\right\}`
 
 

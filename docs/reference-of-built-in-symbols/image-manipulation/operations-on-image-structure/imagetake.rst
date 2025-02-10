@@ -24,7 +24,7 @@ Crop to the include only the upper half (244 rows) of an image:
 >>> alice = Import["ExampleData/MadTeaParty.gif"]; ImageTake[alice, 244]
 
     =
-.. image:: tmp7_f0t0ga.png
+.. image:: tmphtbhz9q7.png
     :align: center
 
 
@@ -35,7 +35,7 @@ Now crop to the include the lower half of that image:
 >>> ImageTake[alice, -244]
 
     =
-.. image:: tmp2nzonprg.png
+.. image:: tmp1k06c8on.png
     :align: center
 
 
@@ -46,7 +46,7 @@ Just the text around the hat:
 >>> ImageTake[alice, {40, 150}, {500, 600}]
 
     =
-.. image:: tmpu1n922vm.png
+.. image:: tmpqz035et2.png
     :align: center
 
 

@@ -13,7 +13,7 @@ Blue
 >>> Graphics[{EdgeForm[Black], Blue, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blue_wnlpu9yo.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blue_blwhjzy9.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Blue
 >>> Blue
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blue_bnfyyeph.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Blue_48xi36g9.png
     :align: center
 
 

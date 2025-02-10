@@ -1,7 +1,7 @@
 Dispatch
 ========
 
-`WMA link <https://reference.wolfram.com/language/ref/DispatchAtom.html>`_
+`WMA link <https://reference.wolfram.com/language/ref/Dispatch.html>`_
 
 
 :code:`Dispatch` [:math:`rulelist`]

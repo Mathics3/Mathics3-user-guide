@@ -20,7 +20,7 @@ Abs
 >>> Plot[Abs[x], {x, -4, 4}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Numerical_Functions_Abs_z6k63l05.png
+.. image:: asy_Reference_of_Built-in_Symbols_Numerical_Functions_Abs_6qqag4zy.png
     :align: center
 
 

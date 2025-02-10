@@ -26,7 +26,7 @@ Tiny, Small, Medium, Large
 >>> Plot[Sin[x], {x, 0, 10}, ImageSize -> Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ImageSize_7q4tai5e.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ImageSize_tgc_samz.png
     :align: center
 
 

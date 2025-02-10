@@ -19,5 +19,5 @@ For implementation details, please refer to the `Developers Guide <https://mathi
     introduction/history.rst
     introduction/what-does-mathics-offer.rst
     introduction/what-is-missing.rst
-    introduction/why-try-to-recreate-wolfram-language.rst
+    introduction/why-recreate-wolfram-language.rst
 

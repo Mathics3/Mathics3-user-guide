@@ -17,9 +17,15 @@ LerchPhi
 :math:`19.3893-2.1346 I`
 
 
->>> LerchPhi[1, 2, 1/4]
+>>> LerchPhi[1, 2, 1/4] == 8 Catalan + Pi^2
 
     =
 :math:`17.1973`
 
+
+
+Plot between between -1 and 1:
+
+>>> Plot[LerchPhi[x, 1, 2], {x, -1, 1}]
+    = -Graphics-`
 

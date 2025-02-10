@@ -14,6 +14,6 @@ SessionTime
 >>> SessionTime[]
 
     =
-:math:`80.5598`
+:math:`80.241`
 
 

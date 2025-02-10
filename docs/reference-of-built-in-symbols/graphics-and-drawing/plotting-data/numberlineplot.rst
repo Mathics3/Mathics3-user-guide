@@ -13,7 +13,7 @@ NumberLinePlot
 >>> NumberLinePlot[Prime[Range[10]]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_NumberLinePlot_vcmh1phr.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_NumberLinePlot_u9vllfe_.png
     :align: center
 
 
@@ -24,7 +24,7 @@ Compare with:
 >>> NumberLinePlot[Table[x^2, {x, 10}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_NumberLinePlot_00qypxup.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_NumberLinePlot_okdfmn5m.png
     :align: center
 
 

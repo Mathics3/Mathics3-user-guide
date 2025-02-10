@@ -14,6 +14,6 @@ TimeUsed
 >>> TimeUsed[]
 
     =
-:math:`82.5076`
+:math:`82.1886`
 
 

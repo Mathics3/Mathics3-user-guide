@@ -19,7 +19,7 @@ ListLinePlot
 >>> ListLinePlot[Table[{n, n ^ 0.5}, {n, 10}]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListLinePlot_jy5qdkhq.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListLinePlot_remgfecf.png
     :align: center
 
 
@@ -30,7 +30,7 @@ ListPlot accepts a superset of the Graphics options.
 >>> ListLinePlot[{{-2, -1}, {-1, -1}, {1, 3}}, Filling->Axis]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListLinePlot_rmmayl_r.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_ListLinePlot_3md1wji2.png
     :align: center
 
 

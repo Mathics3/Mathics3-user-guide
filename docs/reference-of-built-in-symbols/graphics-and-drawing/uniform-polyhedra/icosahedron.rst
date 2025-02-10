@@ -20,7 +20,7 @@ Icosahedron
 >>> Graphics3D[Icosahedron[]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Icosahedron_nntcllve.png
+.. image:: asy_Reference_of_Built-in_Symbols_Graphics_and_Drawing_Icosahedron_etofua1b.png
     :align: center
 
 

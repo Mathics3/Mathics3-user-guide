@@ -53,7 +53,7 @@ Complex numbers:
 >>> Plot[Sqrt[a^2], {a, -2, 2}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Arithmetic_Functions_Sqrt__1ntrv9g.png
+.. image:: asy_Reference_of_Built-in_Symbols_Arithmetic_Functions_Sqrt_4nkdivu3.png
     :align: center
 
 

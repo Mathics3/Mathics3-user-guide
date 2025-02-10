@@ -23,3 +23,9 @@ PolyLog
 :math:`136.`
 
 
+
+Dilogarithm function :math:`Li_2(x)`:
+
+>>> Plot[PolyLog[2,x], {x, -20, 1}]
+    = -Graphics-`
+

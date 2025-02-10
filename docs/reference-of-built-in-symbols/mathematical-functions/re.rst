@@ -20,7 +20,7 @@ Re
 >>> Plot[{Cos[a], Re[E^(I a)]}, {a, 0, 2 Pi}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Mathematical_Functions_Re_e47defyh.png
+.. image:: asy_Reference_of_Built-in_Symbols_Mathematical_Functions_Re_4kg71noi.png
     :align: center
 
 

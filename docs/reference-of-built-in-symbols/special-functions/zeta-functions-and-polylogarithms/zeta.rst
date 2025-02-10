@@ -23,3 +23,6 @@ Zeta
 :math:`0.0235936+0.0014078 I`
 
 
+>>> Plot[Zeta[z], {z, -20, 10}]
+    = -Graphics-`
+

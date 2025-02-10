@@ -41,7 +41,7 @@ OutputForm
 >>> OutputForm[Graphics[Rectangle[]]]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Forms_of_Input_and_Output_OutputForm_qdtmy8es.png
+.. image:: asy_Reference_of_Built-in_Symbols_Forms_of_Input_and_Output_OutputForm_ti0r8na1.png
     :align: center
 
 

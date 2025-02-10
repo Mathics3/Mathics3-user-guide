@@ -32,7 +32,7 @@ Plot over a reals around 0:
 >>> Plot[EllipticK[n], {n, -1, 1}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_EllipticK_7vdxsyno.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_EllipticK_f_dr_sq3.png
     :align: center
 
 

@@ -15,9 +15,13 @@ Outside of the "core" \Mathics kernel (which has only a primitive command-line i
 
 - a `Django-based web server <https://pypi.org/project/Mathics-Django/>`_
 
+- a `A browser-based no-install online front-end <https://mathics3.github.io/Mathics3-live/>`_
+
 - a `Mathics3 module for Graphs <https://pypi.org/project/pymathics-graph/>`_ (via `NetworkX <https://networkx.org/>`_),
 
 - a `Mathics3 module for NLP <https://pypi.org/project/pymathics-natlang/>`_ (via `nltk <https://www.nltk.org/>`_, `spacy <https://spacy.io/>`_, and others)
+
+- a `Mathics3 Debugger Module <https://pypi.org/project/Mathics3-trepan/>`_ (experimental)
 
 - a `A docker container <https://hub.docker.com/r/mathicsorg/mathics>`_ which bundles all of the above
 

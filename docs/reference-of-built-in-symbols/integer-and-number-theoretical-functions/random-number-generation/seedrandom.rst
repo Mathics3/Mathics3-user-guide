@@ -67,6 +67,6 @@ number generator to a random state:
 >>> RandomInteger[100]
 
     =
-:math:`95`
+:math:`77`
 
 

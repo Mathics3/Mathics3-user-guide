@@ -13,7 +13,7 @@ LightRed
 >>> Graphics[{EdgeForm[Black], LightRed, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightRed_fkh0hq0g.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_LightRed_3ttjtsar.png
     :align: center
 
 

@@ -43,7 +43,7 @@ LegendreP
 >>> ParametricPlot[ {LegendreP[7, x], LegendreP[5, x]}, {x, -1, 1}]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_LegendreP_wvj0ndqn.png
+.. image:: asy_Reference_of_Built-in_Symbols_Special_Functions_LegendreP_lwi3z4wd.png
     :align: center
 
 

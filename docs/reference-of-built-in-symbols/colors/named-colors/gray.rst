@@ -13,7 +13,7 @@ Gray
 >>> Graphics[{EdgeForm[Black], Gray, Disk[]}, ImageSize->Small]
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Gray_1g0s7xbd.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Gray_xz93nthb.png
     :align: center
 
 
@@ -30,7 +30,7 @@ Gray
 >>> Gray
 
     =
-.. image:: asy_Reference_of_Built-in_Symbols_Colors_Gray_3glcjm9x.png
+.. image:: asy_Reference_of_Built-in_Symbols_Colors_Gray__r2ek82n.png
     :align: center
 
 

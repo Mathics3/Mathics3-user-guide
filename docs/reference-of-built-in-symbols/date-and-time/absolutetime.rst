@@ -23,7 +23,7 @@ AbsoluteTime
 >>> AbsoluteTime[]
 
     =
-:math:`3.94809\text{*${}^{\wedge}$}9`
+:math:`3.9481\text{*${}^{\wedge}$}9`
 
 
 >>> AbsoluteTime[{2000}]
