@@ -6,6 +6,7 @@ import tempfile
 from typing import Dict, Optional, Union
 
 import matplotlib
+matplotlib.use("pgf")
 import matplotlib.pyplot as plt
 from doc2rst import DOCTEST_RST_DATA_PCL
 from mathics import __version__, settings, version_info, version_string
@@ -33,10 +34,11 @@ def convert_asy_code(content: str, key=""):
     result = tmp_filename[:-4] + ".png"
     if not SKIP_ASY:
         subprocess.run(
-            ["asy", "-f", "png", "-render", "70", tmp_filename], cwd=tmp_path
+            ["asy", "-f", "png", "-render", "3", tmp_filename], cwd=tmp_path
         )
     result = osp.abspath(result)
     return r"\includegraphics[]{" + result + "}"
+    
 
 
 def convert_latex_to_png(content, key=""):
@@ -173,17 +175,23 @@ def latex_to_img(tex, fn):
     tex = tex.replace(r"\text{", r"\mbox{")
     tex = tex.replace("\n", " ")
     # TODO: adjust the size of the figure.
-    plt.figure(figsize=(3, 1))
+    fig = plt.figure(figsize=(2, .5))
     plt.rc("text", usetex=True)
     plt.rc("font", family="serif")
     plt.axis("off")
-    plt.text(0.05, 0.5, f"{tex}", size=12)
+    text = plt.text(0.05, 0., f"{tex}", size=12)
+    fig.canvas.draw()
+    bbox = text.get_window_extent(renderer=fig.canvas.get_renderer())
+    bbox = bbox.transformed(fig.dpi_scale_trans.inverted())
+    fig.set_size_inches(bbox.width, bbox.height)
+    plt.xlim(bbox.x0, bbox.x1)
+    plt.ylim(bbox.y0, bbox.y1)
     plt.savefig(
         fn,
         format="png",
         bbox_inches="tight",
         backend="pgf",
-        dpi=250,
+        dpi=200,
     )
     plt.close()
 
