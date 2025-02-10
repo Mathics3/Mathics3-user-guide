@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Mathics"
-copyright = "2020-2023 The Mathics3 Team"
+copyright = "2020-2024 The Mathics3 Team"
 author = "The Mathics3 Team"
 
 # The full version, including alpha/beta/rc tags
@@ -56,8 +56,3 @@ html_theme = "alabaster"
 smartquotes = True
 
 latex_engine = 'xelatex'
-
-
-mathjax2_config={
-    "preamble":r"\usepackage{multirow}",
-}
